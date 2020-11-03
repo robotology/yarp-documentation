@@ -1,0 +1,513 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+    - 'master'
+  repository_dispatch:
+    types: [build_documentation]
+  schedule:
+  - cron:  '0 2 * * *'
+
+jobs:
+  docs:
+    name: "Publish"
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Configure git and environment variables
+        run: |
+          # Configure the ssh key
+          mkdir -p ~/.ssh
+          echo "${{secrets.ACTIONS_DEPLOY_KEY}}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          # Configure git
+          git config --global push.default upstream
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin ssh://git@github.com/${{ github.repository }}.git
+
+          # Fetch the gh-pages branch on the yarp-documentation repository
+          git fetch origin gh-pages 2>/dev/null || true
+
+          # Checkout gh-pages branch on the yarp-documentation repository
+          git checkout --orphan gh-pages
+
+          yarp_checkout_dir="${PWD}/yarp"
+
+          # Must end with "/"
+          yarp_url="www.yarp.it/"
+          yarp_url_re="$(echo ${yarp_url} | sed 's|\.|\\\.|g' | sed 's|\/|\\\/|g')"
+          yarp_cname="$(echo ${yarp_url} | sed 's|/.*||g')"
+
+          # Set the variables so that they are available for the next steps
+          echo "YARP_CHECKOUT_DIR=${yarp_checkout_dir}" >> $GITHUB_ENV
+          echo "YARP_URL=${yarp_url}" >> $GITHUB_ENV
+          echo "YARP_URL_RE=${yarp_url_re}" >> $GITHUB_ENV
+          echo "YARP_CNAME=${yarp_cname}" >> $GITHUB_ENV
+
+      - name: Clone YARP repository and select branches and tags
+        run: |
+          # Clone YARP repository
+          git clone https://github.com/robotology/yarp.git ${YARP_CHECKOUT_DIR}
+
+          # Git branches.
+          # For now generate documentation just for the "master" branch.
+          branches="master"
+          echo -e "Selected branches:\n${branches}\n"
+
+          # Get all git tags and keep only the last tag for each series
+          all_tags=$(git -C ${YARP_CHECKOUT_DIR} for-each-ref --format="%(refname)" refs/tags/v* | grep -v "v1\|v2" | sed "s#refs/tags/##" | sort -V)
+          unset tags
+          unset cur_vmaj
+          unset cur_vmin
+          unset cur_tag
+          for tag in ${all_tags}; do
+              vmaj=$(echo ${tag} | sed 's/v//' | cut -d'.' -f1)
+              vmin=$(echo ${tag} | sed 's/v//' | cut -d'.' -f2)
+              if [ "${cur_vmaj}.${cur_vmin}" != "${vmaj}.${vmin}" ]; then
+                  if [ -n "${cur_tag}" ]; then
+                      tags="${tags}${cur_tag}"$'\n'
+                  fi
+              fi
+              cur_vmaj=${vmaj}
+              cur_vmin=${vmin}
+              cur_tag=${tag}
+          done
+          tags="${tags}${cur_tag}"
+          echo -e "Selected tags:\n${tags}\n"
+
+          # Set the variables so that they are available for the next steps
+          echo 'BRANCHES<<EOF' >> $GITHUB_ENV
+          echo ${branches} >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+
+          echo 'TAGS<<EOF' >> $GITHUB_ENV
+          echo ${tags} >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+
+      - name: Install dependencies
+        run: |
+          # Download and install latest doxygen version
+          wget http://doxygen.nl/files/doxygen-1.8.20.linux.bin.tar.gz -O doxygen.tar.gz
+          tar xzf doxygen.tar.gz
+          sudo mv doxygen-*/bin/* /usr/local/bin
+          rm -Rf doxygen.tar.gz doxygen-*
+
+          # Install doxygen-related tools
+          sudo apt update
+          sudo apt install -qq -y graphviz plantuml texlive-binaries libclang1-9
+
+          # Install CMake from Kitware repository
+          sudo apt-get install -qq -y apt-transport-https ca-certificates gnupg software-properties-common wget
+          wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | sudo apt-key add -
+          sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ focal main'
+          sudo apt-get update
+          sudo apt-get install kitware-archive-keyring
+          sudo apt-key --keyring /etc/apt/trusted.gpg del C1F34CDD40CD72DA
+          sudo apt-get install cmake
+
+          # Install Robotology dependencies¯ from robotology ppa
+          sudo apt-add-repository -y ppa:robotology/ppa
+          sudo apt-get install -qq -y ycm-cmake-modules \
+                                      librobottestingframework-dev
+
+          # Install lots of YARP dependencies
+          sudo apt-get install -qq -y libace-dev \
+                                      libsqlite3-dev \
+                                      libtinyxml-dev \
+                                      libedit-dev \
+                                      qtbase5-dev \
+                                      qtdeclarative5-dev \
+                                      qtmultimedia5-dev \
+                                      libqt5opengl5-dev \
+                                      libqcustomplot-dev \
+                                      libopencv-dev \
+                                      libeigen3-dev \
+                                      libjpeg-dev \
+                                      libpng-dev \
+                                      libgraphviz-dev \
+                                      libgstreamer1.0-dev \
+                                      libgstreamer-plugins-base1.0-dev \
+                                      libpng-dev \
+                                      libv4l-dev \
+                                      libavcodec-dev \
+                                      libavdevice-dev \
+                                      libavformat-dev \
+                                      libavutil-dev \
+                                      portaudio19-dev
+
+      - name: Checkout previously generated documentation
+        run: |
+          # For each tag, if the directory already exists in latest generation,
+          # recover it, and use it without re-generating it.
+          for ref in ${TAGS}; do
+            echo "-------------------------------------------------------------"
+            echo "Checking tag ${ref}:"
+            echo
+
+            ver=$(echo ${ref} | sed 's/v//')
+            vmaj=$(echo ${ver} | cut -d'.' -f1)
+            vmin=$(echo ${ver} | cut -d'.' -f2)
+            dir=$(echo ${ref} | sed 's/^\(v[0-9]\+\.[0-9]\+\).*$/\1/')
+
+            git checkout origin/gh-pages -- ${dir} 2>/dev/null || true
+            git reset -q
+
+            if [ -f ${dir}/index.html ]; then
+              cur_ver=$(grep VERSION ${dir}/index.html | sed "s/[^']\+'\([^']\+\).\+/\1/g")
+              if [ "${cur_ver}" != "${ver}" ]; then
+                # Same directory, but not the same tag. Must be deleted
+                echo Directory ${dir} was found, but tag is different. Found ${cur_ver}, expected "${ver}". Deleting folder.
+                rm -rf ${dir}
+              else
+                echo Reusing documentation for ref ${ref} in dir ${dir}
+              fi
+            else
+                echo
+                echo Documentation for tag ${ref} not found
+            fi
+          done
+
+      - name: Generate documentation
+        run: |
+          # Generate the documentation for all tags and branches (if the
+          # corresponding directory does not exist)
+          for ref in ${TAGS} ${BRANCHES}; do
+            if [[ ${ref} =~ ^v[0-9]+\.[0-9]+ ]]; then
+              dir=$(echo ${ref} | sed 's/^\(v[0-9]\+\.[0-9]\+\).*$/\1/')
+            else
+              dir="git-${ref}"
+            fi
+
+            if [ ! -d ${dir} ]; then
+              echo
+              echo "Generating documentation for ref ${ref} in dir ${dir}"
+              echo
+
+              git -C ${YARP_CHECKOUT_DIR} checkout ${ref}
+              binary_dir=yarp-${dir}-build
+
+              # Run CMake
+              mkdir -p ${binary_dir}
+              /usr/bin/cmake -Hyarp -B${binary_dir} -G"Unix Makefiles" \
+                -DYARP_DOXYGEN_HTML:BOOL=ON \
+                -DYARP_DOXYGEN_XML:BOOL=ON \
+                -DYARP_DOXYGEN_TAGFILE:BOOL=ON \
+                -DYARP_USE_SYSTEM_YCM:BOOL=OFF 2>&1 | tee ${binary_dir}/cmake.log
+
+              # Build the documentation
+              /usr/bin/cmake --build ${binary_dir} --target dox 2>&1 | tee ${binary_dir}/dox.log
+
+              # Move generated documentation in its final destination
+              mv ${binary_dir}/dox/html ${dir}
+
+              # Make available logs and doxygen.log, in case someone needs to
+              # fix something or wants to clean some doxygen warnings
+              mv ${binary_dir}/cmake.log ${dir}
+              mv ${binary_dir}/dox.log ${dir}
+              if [ -f ${binary_dir}/doc/doxygen.log ]; then
+                mv ${binary_dir}/doc/doxygen.log ${dir}
+              fi
+              if [ -f ${binary_dir}/doxygen.log ]; then
+                mv ${binary_dir}/doxygen.log ${dir}
+              fi
+
+              # Make the tag file available
+              mv ${binary_dir}/dox/YARP.tag ${dir}
+
+              # Hide doxygen banner and generation date
+              if [ -f ${dir}/yarp-doxygen-style.css ]; then
+                  echo "" >> ${dir}/yarp-doxygen-style.css
+                  echo "/* Hide doxygen banner and generation date */" >> ${dir}/yarp-doxygen-style.css
+                  echo ".navpath li.footer {" >> ${dir}/yarp-doxygen-style.css
+                  echo "    visibility: hidden;" >> ${dir}/yarp-doxygen-style.css
+                  echo "}" >> ${dir}/yarp-doxygen-style.css
+              fi
+            fi
+
+            git add ${dir}
+            git commit -m "Generate documentation for YARP ${ref}"
+
+            # Push every commit on a temporary branch to avoid
+            #   "remote: fatal: pack exceeds maximum allowed size"
+            # errors when we push everything at the end, and be sure to wait for
+            # the whole generation before pushing on the gh-pages branch.
+            git push --force origin HEAD:refs/heads/gh-pages-tmp
+          done
+
+          # Add symbolic link to the latest release
+          for ref in ${TAGS}; do
+            dir=$(echo ${ref} | sed 's/^\(v[0-9]\+\.[0-9]\+\).*$/\1/')
+          done
+          ln -s ${dir} latest
+          git add latest
+          git commit -m "Add link from ${dir} to latest"
+          git push --force origin HEAD:refs/heads/gh-pages-tmp
+
+      - name: Generate version_switch.js
+        run: |
+          unset all_tags_versions
+          unset all_versions
+          for ref in ${BRANCHES} ${TAGS}; do
+            if [[ ${ref} =~ ^v[0-9]+\.[0-9]+ ]]; then
+              dir=$(echo ${ref} | sed 's/^\(v[0-9]\+\.[0-9]\+\).*$/\1/')
+              all_tags_versions="${all_tags_versions}    '${dir}': '$(echo ${dir} | sed 's/v//')',"$'\n'
+            else
+              dir="git-${ref}"
+              all_versions="${all_versions}    '${dir}': '${dir}',"$'\n'
+            fi
+          done
+
+          all_tags_versions="$(echo "${all_tags_versions}" | sort -Vr)"
+          all_versions="${all_versions}    'latest': 'latest release',"$'\n'"${all_tags_versions}"
+
+          cat > version_switch.js << EOF
+          (function() {
+            'use strict';
+
+            var yarp_url = '${YARP_URL}';
+            var url_re = /${YARP_URL_RE}(git-master|latest|(v\d\.\d+))\//;
+            var all_versions = {
+          ${all_versions}
+            };
+
+            function build_select(current_version, current_release) {
+              var buf = ['<select>'];
+
+              \$.each(all_versions, function(version, title) {
+                buf.push('<option value="' + version + '"');
+                if (version == current_version) {
+                  buf.push(' selected="selected">');
+                  if (version[0] == 'v') {
+                    buf.push(current_release);
+                  } else {
+                    buf.push(title + ' (' + current_release + ')');
+                  }
+                } else {
+                  buf.push('>' + title);
+                }
+                buf.push('</option>');
+              });
+
+              buf.push('</select>');
+              return buf.join('');
+            }
+
+            function patch_url(url, new_version) {
+              return url.replace(url_re, yarp_url + new_version + '/');
+            }
+
+            function on_switch() {
+              var selected = \$(this).children('option:selected').attr('value');
+
+              var url = window.location.href,
+                  new_url = patch_url(url, selected);
+
+              if (new_url != url) {
+                // check beforehand if url exists, else redirect to version's start page
+                \$.ajax({
+                  url: new_url,
+                  success: function() {
+                     window.location.href = new_url;
+                  },
+                  error: function() {
+                     window.location.href = 'https://' + yarp_url + selected;
+                  }
+                });
+              }
+            }
+
+            \$(document).ready(function() {
+              var match = url_re.exec(window.location.href);
+              if (match) {
+                var release = DOCUMENTATION_OPTIONS.VERSION;
+                var version = match[1];
+                var select = build_select(version, release);
+                \$('.version_switch').html(select);
+                \$('.version_switch select').bind('change', on_switch);
+              }
+            });
+          })();
+          EOF
+
+          git add version_switch.js
+          git commit -m "Add version_switch.js"
+          git push --force origin HEAD:refs/heads/gh-pages-tmp
+
+      - name: Generate redirect from top directory to git-master
+        run: |
+          cat > redirect.js << EOF
+          (function() {
+            function patch_url(url) {
+              return url.replace(/${YARP_URL_RE}/, '${YARP_URL}git-master/');
+            }
+
+            function patch_missing_url(url) {
+              return url.replace(/${YARP_URL_RE}.+/, '${YARP_URL}git-master/');
+            }
+
+            \$(document).ready(function() {
+
+              var timeout = 3; // seconds
+              var url = window.location.href;
+              var new_url = patch_url(url);
+
+              // Disable timeout on the main page
+              file = window.location.href.split('/')[ window.location.href.split('/').length - 1 ];
+              if (file == "" || file.substring(0, 10) == "index.html") {
+                timeout = 0;
+              }
+
+              if (new_url != url) {
+                // check beforehand if url exists, else redirect to version's start page
+                \$.ajax({
+                  url: new_url,
+                  success: function() {
+                      \$('head').append( '<meta http-equiv="refresh" content="' + timeout + '; url=' + new_url + '" />' );
+                      \$('.textblock').html('<p>This page has moved.</p><p>If you are not redirected automatically within a few seconds, follow this link to the new address: <a href="'
+                          + new_url + '">' + new_url + "</a>.</p>");
+                      setTimeout(function () { window.location.href = new_url; }, timeout * 1000);
+                  },
+                  error: function() {
+                      new_url = patch_missing_url(url);
+                      \$('head').append( '<meta http-equiv="refresh" content="' + timeout + '; url=' + new_url + '" />' );
+                      \$('.textblock').html('<p>This page no longer exists.</p><p>If you are not redirected automatically within a few seconds, follow this link to the YARP documentation: <a href="'
+                          + new_url + '">' + new_url + "</a>.</p>");
+                      setTimeout(function () { window.location.href = new_url; }, timeout * 1000);
+                  }
+                });
+              } else {
+                // Either a local copy of the documentation, or on the wrong website.
+                path = window.location.href.substring(0, window.location.href.lastIndexOf("/"));
+                if (path != "") {
+                    path = path + "/";
+                }
+                new_url = path + "git-master/" + file;
+                \$('head').append( '<meta http-equiv="refresh" content="' + timeout + '; url=' + new_url + '" />' );
+                \$('.textblock').html('<p>This page has moved.</p><p>If you are not redirected automatically within a few seconds, follow this link to the new address: <a href="'
+                    + new_url + '">' + new_url + "</a>.</p>");
+                setTimeout(function () { window.location.href = new_url; }, timeout * 1000);
+              }
+            });
+          })();
+          EOF
+
+          cat > index.html << EOF
+          <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+          <html xmlns="http://www.w3.org/1999/xhtml">
+           <head>
+            <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <title>YARP: Page Redirection</title>
+            <link rel="shortcut icon" href="git-master/yarp-favicon.ico" type="image/x-icon" />
+            <link href="git-master/tabs.css" rel="stylesheet" type="text/css"/>
+            <link href="git-master/navtree.css" rel="stylesheet" type="text/css"/>
+            <link href="git-master/doxygen.css" rel="stylesheet" type="text/css" />
+            <link href="git-master/yarp-doxygen-style.css" rel="stylesheet" type="text/css"/>
+            <script type="text/javascript" src="git-master/jquery.js"></script>
+            <script type="text/javascript" src="git-master/dynsections.js"></script>
+            <script type="text/javascript" src="git-master/resize.js"></script>
+            <script type="text/javascript" src="git-master/navtreedata.js"></script>
+            <script type="text/javascript" src="git-master/navtree.js"></script>
+            <script type="text/javascript">
+              \$(document).ready(initResizable);
+            </script>
+
+            <script type="text/javascript" src="version_switch.js"></script>
+            <script type="text/javascript">
+              \$(document).ready(function() {
+                \$('#version-selector').load('some-local-path/menu.html');
+              });
+            </script>
+            <script type="text/javascript" src="redirect.js"></script>
+            </script>
+           </head>
+
+           <body>
+            <div id="top">
+             <div id="titlearea">
+              <table cellspacing="0" cellpadding="0">
+               <tbody>
+                <tr style="height: 56px;">
+                 <td id="projectlogo"><img alt="Logo" src="git-master/yarp-robot-64.png"/></td>
+                 <td id="projectalign" style="padding-left: 1.5em;">
+                  <div id="projectname">YARP</div>
+                  <div id="projectbrief">Yet Another Robot Platform</div>
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+             </div>
+            </div>
+
+            <div id="side-nav" class="ui-resizable side-nav-resizable">
+             <div id="nav-tree">
+              <div id="nav-tree-contents">
+               <div id="nav-sync" class="sync"> </div>
+              </div>
+             </div>
+             <div id="splitbar" style="-moz-user-select:none;" class="ui-resizable-handle"> </div>
+            </div>
+
+            <div id="doc-content">
+             <div class="header">
+              <div class="headertitle">
+               <div class="title">Page Moved</div>
+              </div>
+             </div>
+
+             <div class="contents">
+              <div class="textblock">
+              </div>
+             </div>
+            </div>
+
+            <div id="nav-path" class="navpath">
+             <ul>
+              <li><span id="projectname_footer">YARP</span></li>
+              <li><span id="projectnumber" class="version_switch">
+               <select>
+                <option value="git-master" selected="selected">git-master
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</option>
+               </select></span></li>
+              <li class="footer"></li>
+             </ul>
+            </div>
+
+           </body>
+          </html>
+          EOF
+
+          for file in $(find git-master/ -mindepth 1 -maxdepth 1 -name "*.html" | grep -v index.html); do
+            ln -sfn index.html $(echo $file | sed 's|git-master/||')
+          done
+
+          ln -sfn git-master/yarp-favicon.ico favicon.ico
+
+          git add redirect.js *.html favicon.ico
+          git commit -m "Add redirect from top directory to git-master"
+          git push --force origin HEAD:refs/heads/gh-pages-tmp
+
+      - name: Generate CNAME file
+        run: |
+          echo -n ${YARP_CNAME} > CNAME
+          git add CNAME
+          git commit -m "Add CNAME file"
+          git push --force origin HEAD:refs/heads/gh-pages-tmp
+
+      - name: Commit and push the gh-pages branch
+        run: |
+          commit_yarp=$(git -C ${YARP_CHECKOUT_DIR} rev-parse origin/master)
+          git commit -m "Generate documentation" --allow-empty -m "yarp:  ${commit_yarp}" -m "yarp-documentation:  ${GITHUB_SHA}"
+          git push --force origin gh-pages
+          # Delete the temporary branch
+          git push origin :gh-pages-tmp
