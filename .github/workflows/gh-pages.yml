@@ -31,11 +31,11 @@ jobs:
           git config --global user.email "actions@github.com"
           git remote set-url origin ssh://git@github.com/${{ github.repository }}.git
 
-          # Fetch the gh-pages branch on the yarp-documentation repository
-          git fetch origin gh-pages 2>/dev/null || true
+          # Fetch the yarp_it_pages branch on the yarp-documentation repository
+          git fetch origin yarp_it_pages 2>/dev/null || true
 
-          # Checkout gh-pages branch on the yarp-documentation repository
-          git checkout --orphan gh-pages
+          # Checkout yarp_it_pages branch on the yarp-documentation repository
+          git checkout --orphan yarp_it_pages
 
           yarp_checkout_dir="${PWD}/yarp"
 
@@ -155,7 +155,7 @@ jobs:
             vmin=$(echo ${ver} | cut -d'.' -f2)
             dir=$(echo ${ref} | sed 's/^\(v[0-9]\+\.[0-9]\+\).*$/\1/')
 
-            git checkout origin/gh-pages -- ${dir} 2>/dev/null || true
+            git checkout origin/yarp_it_pages -- ${dir} 2>/dev/null || true
             git reset -q
 
             if [ -f ${dir}/index.html ]; then
@@ -236,8 +236,8 @@ jobs:
             # Push every commit on a temporary branch to avoid
             #   "remote: fatal: pack exceeds maximum allowed size"
             # errors when we push everything at the end, and be sure to wait for
-            # the whole generation before pushing on the gh-pages branch.
-            git push --force origin HEAD:refs/heads/gh-pages-tmp
+            # the whole generation before pushing on the yarp_it_pages branch.
+            git push --force origin HEAD:refs/heads/yarp_it_pages-tmp
           done
 
           # Add symbolic link to the latest release
@@ -247,7 +247,7 @@ jobs:
           ln -s ${dir} latest
           git add latest
           git commit -m "Add link from ${dir} to latest"
-          git push --force origin HEAD:refs/heads/gh-pages-tmp
+          git push --force origin HEAD:refs/heads/yarp_it_pages-tmp
 
       - name: Generate version_switch.js
         run: |
@@ -337,7 +337,7 @@ jobs:
 
           git add version_switch.js
           git commit -m "Add version_switch.js"
-          git push --force origin HEAD:refs/heads/gh-pages-tmp
+          git push --force origin HEAD:refs/heads/yarp_it_pages-tmp
 
       - name: Generate redirect from top directory to git-master
         run: |
@@ -495,19 +495,19 @@ jobs:
 
           git add redirect.js *.html favicon.ico
           git commit -m "Add redirect from top directory to git-master"
-          git push --force origin HEAD:refs/heads/gh-pages-tmp
+          git push --force origin HEAD:refs/heads/yarp_it_pages-tmp
 
       - name: Generate CNAME file
         run: |
           echo -n ${YARP_CNAME} > CNAME
           git add CNAME
           git commit -m "Add CNAME file"
-          git push --force origin HEAD:refs/heads/gh-pages-tmp
+          git push --force origin HEAD:refs/heads/yarp_it_pages-tmp
 
-      - name: Commit and push the gh-pages branch
+      - name: Commit and push the yarp_it_pages branch
         run: |
           commit_yarp=$(git -C ${YARP_CHECKOUT_DIR} rev-parse origin/master)
           git commit -m "Generate documentation" --allow-empty -m "yarp:  ${commit_yarp}" -m "yarp-documentation:  ${GITHUB_SHA}"
-          git push --force origin gh-pages
+          git push --force origin yarp_it_pages
           # Delete the temporary branch
-          git push origin :gh-pages-tmp
+          git push origin :yarp_it_pages-tmp
