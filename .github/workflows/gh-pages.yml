@@ -41,7 +41,7 @@ jobs:
 
           # Must end with "/"
           yarp_url="www.yarp.it/"
-          yarp_url_re="$(echo ${yarp_url} | sed 's|\.|\\\.|g' | sed 's|\/|\\\/|g')"
+          yarp_url_re="$(echo ${yarp_url} | sed 's|www\.|(www\.)?|g' | sed 's|\.|\\\.|g' | sed 's|\/|\\\/|g')"
           yarp_cname="$(echo ${yarp_url} | sed 's|/.*||g')"
 
           # Set the variables so that they are available for the next steps
