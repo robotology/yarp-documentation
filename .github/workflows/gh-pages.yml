@@ -316,7 +316,7 @@ jobs:
                      window.location.href = new_url;
                   },
                   error: function() {
-                     window.location.href = 'https://' + yarp_url + selected;
+                     window.location.href = window.location.protocol + '//' + yarp_url + selected;
                   }
                 });
               }
