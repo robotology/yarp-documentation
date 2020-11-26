@@ -341,14 +341,15 @@ jobs:
 
       - name: Generate redirect from top directory to git-master
         run: |
+          _yarp_url=$(echo ${YARP_URL} | sed 's/www\./\$1/g')
           cat > redirect.js << EOF
           (function() {
             function patch_url(url) {
-              return url.replace(/${YARP_URL_RE}/, '${YARP_URL}git-master/');
+              return url.replace(/${YARP_URL_RE}/, '${_yarp_url}git-master/');
             }
 
             function patch_missing_url(url) {
-              return url.replace(/${YARP_URL_RE}.+/, '${YARP_URL}git-master/');
+              return url.replace(/${YARP_URL_RE}.+/, '${_yarp_url}git-master/');
             }
 
             \$(document).ready(function() {
