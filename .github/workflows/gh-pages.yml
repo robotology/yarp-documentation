@@ -93,14 +93,14 @@ jobs:
       - name: Install dependencies
         run: |
           # Download and install latest doxygen version
-          wget http://doxygen.nl/files/doxygen-1.8.20.linux.bin.tar.gz -O doxygen.tar.gz
+          wget http://doxygen.nl/files/doxygen-1.9.1.linux.bin.tar.gz -O doxygen.tar.gz
           tar xzf doxygen.tar.gz
           sudo mv doxygen-*/bin/* /usr/local/bin
           rm -Rf doxygen.tar.gz doxygen-*
 
           # Install doxygen-related tools
           sudo apt update
-          sudo apt install -qq -y graphviz plantuml texlive-binaries libclang1-9
+          sudo apt install -qq -y graphviz plantuml texlive-latex-base libclang1-9
 
           # Install CMake from Kitware repository
           sudo apt-get install -qq -y apt-transport-https ca-certificates gnupg software-properties-common wget
