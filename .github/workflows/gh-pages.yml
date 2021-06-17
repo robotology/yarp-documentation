@@ -339,17 +339,17 @@ jobs:
           git commit -m "Add version_switch.js"
           git push --force origin HEAD:refs/heads/yarp_it_pages-tmp
 
-      - name: Generate redirect from top directory to git-master
+      - name: Generate redirect from top directory to latest
         run: |
           _yarp_url=$(echo ${YARP_URL} | sed 's/www\./\$1/g')
           cat > redirect.js << EOF
           (function() {
             function patch_url(url) {
-              return url.replace(/${YARP_URL_RE}/, '${_yarp_url}git-master/');
+              return url.replace(/${YARP_URL_RE}/, '${_yarp_url}latest/');
             }
 
             function patch_missing_url(url) {
-              return url.replace(/${YARP_URL_RE}.+/, '${_yarp_url}git-master/');
+              return url.replace(/${YARP_URL_RE}.+/, '${_yarp_url}latest/');
             }
 
             \$(document).ready(function() {
@@ -382,7 +382,7 @@ jobs:
                 if (path != "") {
                     path = path + "/";
                 }
-                new_url = path + "git-master/" + file;
+                new_url = path + "latest/" + file;
                 \$('head').append( '<meta http-equiv="refresh" content="' + timeout + '; url=' + new_url + '" />' );
                 \$('.textblock').html('<p>This page has moved.</p><p>If you are not redirected automatically within a few seconds, follow this link to the new address: <a href="'
                     + new_url + '">' + new_url + "</a>.</p>");
@@ -400,16 +400,16 @@ jobs:
             <meta http-equiv="X-UA-Compatible" content="IE=9"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <title>YARP: Page Redirection</title>
-            <link rel="shortcut icon" href="git-master/yarp-favicon.ico" type="image/x-icon" />
-            <link href="git-master/tabs.css" rel="stylesheet" type="text/css"/>
-            <link href="git-master/navtree.css" rel="stylesheet" type="text/css"/>
-            <link href="git-master/doxygen.css" rel="stylesheet" type="text/css" />
-            <link href="git-master/yarp-doxygen-style.css" rel="stylesheet" type="text/css"/>
-            <script type="text/javascript" src="git-master/jquery.js"></script>
-            <script type="text/javascript" src="git-master/dynsections.js"></script>
-            <script type="text/javascript" src="git-master/resize.js"></script>
-            <script type="text/javascript" src="git-master/navtreedata.js"></script>
-            <script type="text/javascript" src="git-master/navtree.js"></script>
+            <link rel="shortcut icon" href="latest/yarp-favicon.ico" type="image/x-icon" />
+            <link href="latest/tabs.css" rel="stylesheet" type="text/css"/>
+            <link href="latest/navtree.css" rel="stylesheet" type="text/css"/>
+            <link href="latest/doxygen.css" rel="stylesheet" type="text/css" />
+            <link href="latest/yarp-doxygen-style.css" rel="stylesheet" type="text/css"/>
+            <script type="text/javascript" src="latest/jquery.js"></script>
+            <script type="text/javascript" src="latest/dynsections.js"></script>
+            <script type="text/javascript" src="latest/resize.js"></script>
+            <script type="text/javascript" src="latest/navtreedata.js"></script>
+            <script type="text/javascript" src="latest/navtree.js"></script>
             <script type="text/javascript">
               \$(document).ready(initResizable);
             </script>
@@ -430,7 +430,7 @@ jobs:
               <table cellspacing="0" cellpadding="0">
                <tbody>
                 <tr style="height: 56px;">
-                 <td id="projectlogo"><img alt="Logo" src="git-master/yarp-robot-64.png"/></td>
+                 <td id="projectlogo"><img alt="Logo" src="latest/yarp-robot-64.png"/></td>
                  <td id="projectalign" style="padding-left: 1.5em;">
                   <div id="projectname">YARP</div>
                   <div id="projectbrief">Yet Another Robot Platform</div>
@@ -468,7 +468,7 @@ jobs:
               <li><span id="projectname_footer">YARP</span></li>
               <li><span id="projectnumber" class="version_switch">
                <select>
-                <option value="git-master" selected="selected">git-master
+                <option value="latest" selected="selected">latest
                 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
                 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
                 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
@@ -482,14 +482,14 @@ jobs:
           </html>
           EOF
 
-          for file in $(find git-master/ -mindepth 1 -maxdepth 1 -name "*.html" | grep -v index.html); do
-            ln -sfn index.html $(echo $file | sed 's|git-master/||')
+          for file in $(find latest/ -mindepth 1 -maxdepth 1 -name "*.html" | grep -v index.html); do
+            ln -sfn index.html $(echo $file | sed 's|latest/||')
           done
 
-          ln -sfn git-master/yarp-favicon.ico favicon.ico
+          ln -sfn latest/yarp-favicon.ico favicon.ico
 
           git add redirect.js *.html favicon.ico
-          git commit -m "Add redirect from top directory to git-master"
+          git commit -m "Add redirect from top directory to latest"
           git push --force origin HEAD:refs/heads/yarp_it_pages-tmp
 
       - name: Generate CNAME file
