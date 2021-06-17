@@ -326,7 +326,7 @@ jobs:
               var match = url_re.exec(window.location.href);
               if (match) {
                 var release = DOCUMENTATION_OPTIONS.VERSION;
-                var version = match[1];
+                var version = match[2];
                 var select = build_select(version, release);
                 \$('.version_switch').html(select);
                 \$('.version_switch select').bind('change', on_switch);
