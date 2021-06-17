@@ -354,15 +354,9 @@ jobs:
 
             \$(document).ready(function() {
 
-              var timeout = 3; // seconds
+              var timeout = 0; // seconds
               var url = window.location.href;
               var new_url = patch_url(url);
-
-              // Disable timeout on the main page
-              file = window.location.href.split('/')[ window.location.href.split('/').length - 1 ];
-              if (file == "" || file.substring(0, 10) == "index.html") {
-                timeout = 0;
-              }
 
               if (new_url != url) {
                 // check beforehand if url exists, else redirect to version's start page
