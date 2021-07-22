@@ -1,0 +1,27 @@
+var classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples =
+[
+    [ "NameServiceOnTriples", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#ab220ad21d403f1450f43222adb360387", null ],
+    [ "announce", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#ae00071495d3e7a6006588434433719ca", null ],
+    [ "apply", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#ab998fc0f20c2f32cb1c45e7f43235e5b", null ],
+    [ "cmdCheck", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a2809740b6473d72ce79fa30a49715500", null ],
+    [ "cmdGc", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#ab38a3b865f86f28d3887b6871d3a0fd6", null ],
+    [ "cmdGet", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a33a6fbca776a01d85b3820479584f2c1", null ],
+    [ "cmdHelp", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#adb0f6b701f5a53df18e58685cdb6f74f", null ],
+    [ "cmdList", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a84e1c01891e721ef93179db953b312b9", null ],
+    [ "cmdListRunners", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a9e2e8291ca5a88ca1510efefa9e21a36", null ],
+    [ "cmdQuery", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a0f71d56f0467892e0f3f456aaf47ea81", null ],
+    [ "cmdRegister", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#ae950f933406f01bce822b6b0eea946ec", null ],
+    [ "cmdRoute", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a29ef590d77799a04a7d44b63e99f4520", null ],
+    [ "cmdSet", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a57c9cc4074bb0fca87a8ac996ff2c672", null ],
+    [ "cmdUnregister", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#aa200515bd06f8b6378757f75b3200da4", null ],
+    [ "getDelegate", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a0284808d8d5be570d9567e9f93363eec", null ],
+    [ "goPublic", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#add36ad0bb4d2290f317ed88c7e91d7e6", null ],
+    [ "lock", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a6e243f8fb4d1ff716b88662e11ed0a52", null ],
+    [ "open", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a8ce9a3c01866609a877cb97eb21a8d13", null ],
+    [ "query", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a575a90104298d9882c23f07329d04323", null ],
+    [ "query", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#af78f19ba60ac645beef9b14a8b819c6f", null ],
+    [ "setDelegate", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a271f841792f89b1508a5c6accdaa2bb6", null ],
+    [ "setSilent", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a31c02c681384c021cd085a04f85f55e4", null ],
+    [ "setSubscriber", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#ae00161a6dac7f647826ba5559a2e1088", null ],
+    [ "unlock", "classyarp_1_1serversql_1_1impl_1_1NameServiceOnTriples.html#a306580361f5e19833818f9189cdbb0b2", null ]
+];
