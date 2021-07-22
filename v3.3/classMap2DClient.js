@@ -1,0 +1,25 @@
+var classMap2DClient =
+[
+    [ "clearAllAreas", "classMap2DClient.html#ad84688e1c916e7a22305205254892e26", null ],
+    [ "clearAllLocations", "classMap2DClient.html#afbfcd772bd36763400465072cb36ffd1", null ],
+    [ "clearAllMaps", "classMap2DClient.html#ad708d077fb1c3715ccdd7beaeb5ddb6b", null ],
+    [ "close", "classMap2DClient.html#ac50daf5ed98dbb9da7a6919630205924", null ],
+    [ "deleteArea", "classMap2DClient.html#a188a0ef1c91ae0907ae1bf30e40b96ab", null ],
+    [ "deleteLocation", "classMap2DClient.html#aaa71bad1d79518040a12f06ef33b4cc6", null ],
+    [ "get_map", "classMap2DClient.html#afc32400c57c5d3d521eb1de6bd1998e7", null ],
+    [ "get_map_names", "classMap2DClient.html#aa954476296ffe6a9a259be56bf1783e5", null ],
+    [ "getArea", "classMap2DClient.html#a9336546ebb7f9b3190c29c0c661f1175", null ],
+    [ "getAreasList", "classMap2DClient.html#a0172d81995a1501a3ce6d4b077f9aa76", null ],
+    [ "getLocation", "classMap2DClient.html#a21a621b24b67d63e39cb7a05d20c6b78", null ],
+    [ "getLocationsList", "classMap2DClient.html#a8ab9b9b69301555a64acbd7462b0fa82", null ],
+    [ "open", "classMap2DClient.html#a3668eed4c01a8ff83c5f71be41c11605", null ],
+    [ "remove_map", "classMap2DClient.html#abcce9f432151214029c2b38534a1110f", null ],
+    [ "renameArea", "classMap2DClient.html#a538df9124c1a880f22c1cc996859df64", null ],
+    [ "renameLocation", "classMap2DClient.html#a1e3cd1553d83d8eeaf2d8741fcbdec90", null ],
+    [ "store_map", "classMap2DClient.html#a678580a2794d4621587f9d306983e3db", null ],
+    [ "storeArea", "classMap2DClient.html#a9d265565458cb3f8927f2a8e3218f17b", null ],
+    [ "storeLocation", "classMap2DClient.html#a106b7b4f47a3cb7c1461a22e9c66af3d", null ],
+    [ "m_local_name", "classMap2DClient.html#af89f5a45119efe8a4c0d8ae10881d76c", null ],
+    [ "m_map_server", "classMap2DClient.html#a608200007f65dc07e4ca270f24de4a60", null ],
+    [ "m_rpcPort_to_Map2DServer", "classMap2DClient.html#a895f17ab4531f3d0f0b2391caad3304f", null ]
+];
