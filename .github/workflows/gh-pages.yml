@@ -96,18 +96,16 @@ jobs:
 
           # Install doxygen-related tools
           sudo apt update
-          sudo apt install -qq -y graphviz plantuml texlive-latex-base libclang1-9 libclang-cpp9
+          sudo apt install -qq -y graphviz plantuml texlive-latex-base
 
-          # Install CMake from Kitware repository
+          #maybe useless?
+          #sudo apt install -qq -ylibclang1-9 libclang-cpp9
+
+          # Install CMake
           sudo apt-get install -qq -y apt-transport-https ca-certificates gnupg software-properties-common wget
-          wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | sudo apt-key add -
-          sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ focal main'
-          sudo apt-get update
-          sudo apt-get install kitware-archive-keyring
-          sudo apt-key --keyring /etc/apt/trusted.gpg del C1F34CDD40CD72DA
-          sudo apt-get install cmake
+          sudo apt-get install -qq -y cmake
 
-          # Install Robotology dependencies¯ from robotology ppa
+          # Install Robotology dependencies from robotology ppa
           sudo apt-add-repository -y ppa:robotology/ppa
           sudo apt-get install -qq -y ycm-cmake-modules \
                                       librobottestingframework-dev
