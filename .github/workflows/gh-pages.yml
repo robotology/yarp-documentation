@@ -98,20 +98,24 @@ jobs:
           sudo apt update
           sudo apt install -qq -y graphviz plantuml texlive-latex-base
 
-          #maybe useless?
-          #sudo apt install -qq -ylibclang1-9 libclang-cpp9
-
-          # Install CMake
+          # Install basics
           sudo apt-get install -qq -y apt-transport-https ca-certificates gnupg software-properties-common wget
           sudo apt-get install -qq -y cmake
 
-          # Install Robotology dependencies
+          # Install Robotology dependencies (icub-common to be checked)
+          #wget http://www.icub.org/ubuntu/pool/contrib/science/i/icub-common/icub-common_1.25.0-1~jammy_amd64.deb -O icub-common.deb
           wget http://www.icub.org/ubuntu/pool/contrib/science/y/ycm-cmake-modules/ycm-cmake-modules_0.14.1~jammy_amd64.deb -O ycm-cmake-modules.deb
+          #sudo dpkg -i icub-common.deb
           sudo dpkg -i ycm-cmake-modules.deb
+          #rm -f icub-common.deb
           rm -f ycm-cmake-modules.deb
 
-          # Install lots of YARP dependencies
-          sudo apt-get install -qq -y libace-dev \
+          #maybe useless?
+          #sudo apt install -qq -ylibclang1-9 libclang-cpp9
+          
+          # Install lots of YARP dependencies (some of them may be duplicated from icub-common)
+          sudo apt-get install -qq -y cmake \
+                                      libace-dev \
                                       libsqlite3-dev \
                                       libtinyxml-dev \
                                       libedit-dev \
@@ -125,8 +129,6 @@ jobs:
                                       libjpeg-dev \
                                       libpng-dev \
                                       libgraphviz-dev \
-                                      libgstreamer1.0-dev \
-                                      libgstreamer-plugins-base1.0-dev \
                                       libpng-dev \
                                       libv4l-dev \
                                       libavcodec-dev \
@@ -134,6 +136,10 @@ jobs:
                                       libavformat-dev \
                                       libavutil-dev \
                                       portaudio19-dev
+
+          # Not working on Ubuntu 22.04 (to be fixed?)
+          # sudo apt-get install -qq -y libgstreamer1.0-dev \
+          #                             libgstreamer-plugins-base1.0-dev \
 
       - name: Checkout previously generated documentation
         run: |
