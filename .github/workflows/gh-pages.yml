@@ -47,9 +47,16 @@ jobs:
           echo "YARP_CNAME=${yarp_cname}" >> $GITHUB_ENV
 
       - name: Clone YARP repository and select branches and tags
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Clone YARP repository
           git clone https://github.com/robotology/yarp.git ${YARP_CHECKOUT_DIR}
+
+          # Get list of all devices repositories
+          gh repo list robotology -L 1000 | grep yarp-device > yarp-device-list.txt
+          echo "Found the following devices repositories:"
+          cat yarp-device-list.txt
 
           # Clone external devices dirs
           git clone --sparse https://github.com/robotology/yarp-device-rpLidar.git ${YARP_CHECKOUT_DIR}/opt-modules/yarp-device-rpLidar
