@@ -54,13 +54,21 @@ jobs:
           git clone https://github.com/robotology/yarp.git ${YARP_CHECKOUT_DIR}
 
           # Get list of all devices repositories
-          gh repo list robotology -L 1000 | grep yarp-device > yarp-device-list.txt
+          gh repo list robotology -L 1000 | grep -E 'yarp-device-|yarp-devices-' | cut -f 1 > yarp-device-list.txt
           echo "Found the following devices repositories:"
           cat yarp-device-list.txt
 
           # Clone external devices dirs
-          git clone --sparse https://github.com/robotology/yarp-device-rpLidar.git ${YARP_CHECKOUT_DIR}/opt-modules/yarp-device-rpLidar
-          cd ${YARP_CHECKOUT_DIR}/opt-modules/yarp-device-rpLidar && git sparse-checkout set src/devices
+          yarpDeviceEntries=$(sed 's/.*\///' yarp-device-list.txt)
+          for yarpDeviceEntry in $yarpDeviceEntries
+          do
+            git clone --sparse https://github.com/robotology/${yarpDeviceEntry}.git ${YARP_CHECKOUT_DIR}/opt-modules/${yarpDeviceEntry}
+            cd ${YARP_CHECKOUT_DIR}/opt-modules/${yarpDeviceEntry} && git sparse-checkout set src/devices
+          done
+
+          # Clone external devices dirs
+          #git clone --sparse https://github.com/robotology/yarp-device-rpLidar.git ${YARP_CHECKOUT_DIR}/opt-modules/yarp-device-rpLidar
+          #cd ${YARP_CHECKOUT_DIR}/opt-modules/yarp-device-rpLidar && git sparse-checkout set src/devices
 
           # Git branches.
           # For now generate documentation just for the "master" branch.
