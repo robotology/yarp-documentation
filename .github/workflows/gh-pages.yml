@@ -66,9 +66,11 @@ jobs:
             cd ${YARP_CHECKOUT_DIR}/opt-modules/${yarpDeviceEntry} && git sparse-checkout set src/devices
           done
 
-          # Clone external devices dirs
-          #git clone --sparse https://github.com/robotology/yarp-device-rpLidar.git ${YARP_CHECKOUT_DIR}/opt-modules/yarp-device-rpLidar
-          #cd ${YARP_CHECKOUT_DIR}/opt-modules/yarp-device-rpLidar && git sparse-checkout set src/devices
+          #--- Beginning of robotology-playground repos
+              # Clone external devices dirs
+              git clone --sparse https://github.com/robotology-playground/yarp-devices-ros2.git ${YARP_CHECKOUT_DIR}/opt-modules/yarp-devices-ros2
+              cd ${YARP_CHECKOUT_DIR}/opt-modules/yarp-devices-ros2 && git sparse-checkout set src/devices
+          #--- End of robotology-playground repos
 
           # Git branches.
           # For now generate documentation just for the "master" branch.
