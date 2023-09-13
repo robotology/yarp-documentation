@@ -126,7 +126,8 @@ jobs:
 
           # Install Robotology dependencies (icub-common to be checked)
           #wget http://www.icub.org/ubuntu/pool/contrib/science/i/icub-common/icub-common_1.25.0-1~jammy_amd64.deb -O icub-common.deb
-          wget http://www.icub.org/ubuntu/pool/contrib/science/y/ycm-cmake-modules/ycm-cmake-modules_0.14.1~jammy_amd64.deb -O ycm-cmake-modules.deb
+          #wget http://www.icub.org/ubuntu/pool/contrib/science/y/ycm-cmake-modules/ycm-cmake-modules_0.14.1~jammy_amd64.deb -O ycm-cmake-modules.deb
+          wget https://github.com/robotology/ycm/releases/download/v0.15.3/ycm-cmake-modules-0.15.3-all.deb -O ycm-cmake-modules.deb
           #sudo dpkg -i icub-common.deb
           sudo dpkg -i ycm-cmake-modules.deb
           #rm -f icub-common.deb
