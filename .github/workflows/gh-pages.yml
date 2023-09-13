@@ -67,9 +67,9 @@ jobs:
           done
 
           #--- Beginning of robotology-playground repos
-              # Clone external devices dirs
-              git clone --sparse https://github.com/robotology-playground/yarp-devices-ros2.git ${YARP_CHECKOUT_DIR}/opt-modules/yarp-devices-ros2
-              cd ${YARP_CHECKOUT_DIR}/opt-modules/yarp-devices-ros2 && git sparse-checkout set src/devices
+          #    # Clone external devices dirs
+          #    git clone --sparse https://github.com/robotology-playground/yarp-devices-ros2.git ${YARP_CHECKOUT_DIR}/opt-modules/yarp-devices-ros2
+          #    cd ${YARP_CHECKOUT_DIR}/opt-modules/yarp-devices-ros2 && git sparse-checkout set src/devices
           #--- End of robotology-playground repos
 
           # Git branches.
