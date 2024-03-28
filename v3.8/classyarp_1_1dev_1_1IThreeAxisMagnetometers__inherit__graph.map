@@ -1,0 +1,11 @@
+<map id="yarp::dev::IThreeAxisMagnetometers" name="yarp::dev::IThreeAxisMagnetometers">
+<area shape="rect" id="Node000001" title="Device interface to one or multiple three axis magnetometers." alt="" coords="199,5,452,31"/>
+<area shape="rect" id="Node000002" href="$classBoschIMU.html" title="imuBosch_BNO055: This device will connect to the proper analogServer and read the data broadcasted ma..." alt="" coords="5,79,83,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,37,83,83,82,78,266,31"/>
+<area shape="rect" id="Node000003" href="$classMultipleAnalogSensorsClient.html" title="multipleanalogsensorsclient: The client side of a device exposing MultipleAnalogSensors interfaces." alt="" coords="107,79,307,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="296,40,227,81,225,76,293,35"/>
+<area shape="rect" id="Node000004" href="$classMultipleAnalogSensorsRemapper.html" title="multipleanalogsensorsremapper : device that takes a list of sensor from multiple analog sensors devic..." alt="" coords="331,79,560,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="358,35,427,76,424,81,355,40"/>
+<area shape="rect" id="Node000005" href="$classfakeIMU.html" title="fakeIMU : fake device implementing the device interface typically implemented by an Inertial Measurem..." alt="" coords="584,79,651,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="387,31,573,76,584,79,583,84,571,81,386,36"/>
+</map>
