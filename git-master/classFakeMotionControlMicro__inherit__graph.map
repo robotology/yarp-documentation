@@ -1,0 +1,39 @@
+<map id="FakeMotionControlMicro" name="FakeMotionControlMicro">
+<area shape="rect" id="Node000001" title="fakeMotionControlMicro: This device implements a minimal subset of mandatory interfaces to run with c..." alt="" coords="1048,255,1216,280"/>
+<area shape="rect" id="Node000002" href="$classyarp_1_1os_1_1PeriodicThread.html" title="An abstraction for a periodic thread." alt="" coords="5,174,173,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,199,186,204,430,230,673,247,1048,262,1047,267,673,252,430,235,185,209,154,205"/>
+<area shape="rect" id="Node000003" href="$classyarp_1_1dev_1_1DeviceDriver.html" title="Interface implemented by all device drivers." alt="" coords="197,174,363,199"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="346,199,375,204,563,226,750,242,1048,260,1047,265,749,247,562,231,374,209,345,205"/>
+<area shape="rect" id="Node000004" href="$classyarp_1_1dev_1_1IEncodersTimedRaw.html" title="Control board, extend encoder raw interface adding timestamps." alt="" coords="387,174,600,199"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="576,199,612,204,849,233,1048,255,1047,260,848,239,612,209,575,204"/>
+<area shape="rect" id="Node000005" href="$classyarp_1_1dev_1_1IEncodersRaw.html" title="Control board, encoder interface." alt="" coords="408,86,579,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="496,125,496,173,491,173,491,125"/>
+<area shape="rect" id="Node000006" href="$classyarp_1_1dev_1_1IMotorEncodersRaw.html" title="Control board, encoder interface." alt="" coords="624,174,832,199"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="801,199,1074,252,1073,257,800,205"/>
+<area shape="rect" id="Node000007" href="$classyarp_1_1dev_1_1IAxisInfoRaw.html" title="Interface for getting information about specific axes, if available." alt="" coords="856,174,1021,199"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="980,202,1105,252,1103,257,978,207"/>
+<area shape="rect" id="Node000008" href="$classyarp_1_1dev_1_1IJointFaultRaw.html" title="Interface for getting info about the fault which may occur on a robot." alt="" coords="1045,174,1219,199"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1135,213,1135,254,1129,254,1129,213"/>
+<area shape="rect" id="Node000009" href="$classyarp_1_1dev_1_1ImplementJointFault.html" title=" " alt="" coords="1243,167,1424,207"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1273,214,1163,257,1161,252,1272,209"/>
+<area shape="rect" id="Node000010" href="$classyarp_1_1dev_1_1IJointFault.html" title="Interface for getting info about the fault which may occur on a robot." alt="" coords="1261,86,1405,111"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1336,125,1336,166,1331,166,1331,125"/>
+<area shape="rect" id="Node000011" href="$classyarp_1_1dev_1_1ImplementAxisInfo.html" title=" " alt="" coords="1448,174,1653,199"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1477,204,1193,257,1192,252,1476,199"/>
+<area shape="rect" id="Node000012" href="$classyarp_1_1dev_1_1IAxisInfo.html" title="Interface for getting information about specific axes, if available." alt="" coords="1483,86,1619,111"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1553,125,1553,173,1548,173,1548,125"/>
+<area shape="rect" id="Node000013" href="$classyarp_1_1dev_1_1ImplementEncodersTimed.html" title=" " alt="" coords="1677,167,1888,207"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1664,209,1416,240,1216,261,1216,255,1416,234,1663,204"/>
+<area shape="rect" id="Node000014" href="$classyarp_1_1dev_1_1IEncodersTimed.html" title="Control board, extend encoder interface with timestamps." alt="" coords="1691,86,1875,111"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1785,125,1785,166,1780,166,1780,125"/>
+<area shape="rect" id="Node000015" href="$classyarp_1_1dev_1_1IEncoders.html" title="Control board, encoder interface." alt="" coords="1711,5,1855,31"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="1785,44,1785,86,1780,86,1780,44"/>
+<area shape="rect" id="Node000016" href="$classyarp_1_1dev_1_1ImplementMotorEncoders.html" title=" " alt="" coords="1912,167,2101,207"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1899,209,1704,230,1514,246,1217,265,1216,259,1513,241,1703,225,1898,204"/>
+<area shape="rect" id="Node000017" href="$classyarp_1_1dev_1_1IMotorEncoders.html" title="Control board, encoder interface." alt="" coords="1916,86,2097,111"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="2009,125,2009,166,2004,166,2004,125"/>
+<area shape="rect" id="Node000018" href="$classFakeMotionControlMicro__ParamsParser.html" title="This class is the parameters parser for class FakeMotionControlMicro." alt="" coords="2125,167,2293,207"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="2112,209,1853,236,1600,253,1380,263,1216,267,1216,262,1379,257,1600,248,1852,230,2111,204"/>
+<area shape="rect" id="Node000019" href="$classyarp_1_1dev_1_1IDeviceDriverParams.html" title="An interface for the management of the parameters of a DeviceDriver." alt="" coords="2125,79,2293,119"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="2212,133,2212,166,2207,166,2207,133"/>
+</map>
