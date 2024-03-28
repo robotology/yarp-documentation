@@ -1,0 +1,51 @@
+<map id="yarp::os::Portable" name="yarp::os::Portable">
+<area shape="rect" id="node1" title="This is a base class for objects that can be both read from and be written to the YARP network." alt="" coords="208,660,344,687"/>
+<area shape="rect" id="node4" href="$structJoyData.html" title=" " alt="" coords="472,5,545,32"/>
+<area shape="rect" id="node5" href="$classMultipleAnalogSensorsMetadata__getMetadata__helper.html" title=" " alt="" coords="392,57,625,98"/>
+<area shape="rect" id="node6" href="$classyarp_1_1math_1_1Vec2D.html" title=" " alt="" coords="432,122,585,163"/>
+<area shape="rect" id="node7" href="$classyarp_1_1dev_1_1Map2DArea.html" title=" " alt="" coords="425,188,592,215"/>
+<area shape="rect" id="node8" href="$classyarp_1_1dev_1_1MapGrid2D.html" title=" " alt="" coords="427,239,590,265"/>
+<area shape="rect" id="node9" href="$classyarp_1_1math_1_1Quaternion.html" title=" " alt="" coords="422,289,595,316"/>
+<area shape="rect" id="node10" href="$classyarp_1_1math_1_1Vec2D.html" title=" " alt="" coords="419,340,599,367"/>
+<area shape="rect" id="node11" href="$classyarp_1_1os_1_1BinPortable.html" title="Class for writing and reading simple binary structures." alt="" coords="411,391,606,417"/>
+<area shape="rect" id="node12" href="$classyarp_1_1os_1_1Bottle.html" title="A simple collection of objects that can be described and transmitted in a portable way." alt="" coords="448,441,569,468"/>
+<area shape="rect" id="node14" href="$classyarp_1_1os_1_1idl_1_1Unwrapped.html" title=" " alt="" coords="399,492,618,519"/>
+<area shape="rect" id="node15" href="$classyarp_1_1os_1_1idl_1_1UnwrappedView.html" title=" " alt="" coords="419,543,599,585"/>
+<area shape="rect" id="node16" href="$classyarp_1_1os_1_1idl_1_1WirePortable.html" title="A &quot;tamed&quot; Portable, that promises to serialize itself in an IDL&#45;friendly way." alt="" coords="413,609,604,636"/>
+<area shape="rect" id="node37" href="$classyarp_1_1os_1_1impl_1_1PortCommand.html" title="Simple Readable and Writable object representing a command to a YARP port." alt="" coords="403,660,615,687"/>
+<area shape="rect" id="node38" href="$classyarp_1_1os_1_1ManagedBytes.html" title="An abstraction for a block of bytes, with optional responsibility for allocating/destroying that bloc..." alt="" coords="419,711,598,737"/>
+<area shape="rect" id="node39" href="$classyarp_1_1os_1_1PortablePairBase.html" title=" " alt="" coords="413,761,605,788"/>
+<area shape="rect" id="node40" href="$classyarp_1_1os_1_1Property.html" title="A class for storing options and configuration information." alt="" coords="440,812,577,839"/>
+<area shape="rect" id="node41" href="$classyarp_1_1os_1_1Stamp.html" title="An abstraction for a time stamp and/or sequence number." alt="" coords="447,863,571,889"/>
+<area shape="rect" id="node42" href="$classyarp_1_1os_1_1SystemInfoSerializer.html" title="A helper class to pass the SystemInfo object around the YARP network." alt="" coords="400,913,617,940"/>
+<area shape="rect" id="node43" href="$classyarp_1_1os_1_1Value.html" title="A single value (typically within a Bottle)." alt="" coords="449,964,568,991"/>
+<area shape="rect" id="node44" href="$classyarp_1_1sig_1_1Image.html" title="Base class for storing images." alt="" coords="445,1015,572,1041"/>
+<area shape="rect" id="node45" href="$structyarp_1_1sig_1_1IntrinsicParams.html" title="The IntrinsicParams struct to handle the intrinsic parameter of cameras(RGB and RGBD either)." alt="" coords="415,1065,602,1092"/>
+<area shape="rect" id="node46" href="$classyarp_1_1sig_1_1Matrix.html" title="A class for a Matrix." alt="" coords="445,1116,573,1143"/>
+<area shape="rect" id="node47" href="$classyarp_1_1sig_1_1PointCloudBase.html" title="The PointCloudBase class." alt="" coords="415,1167,603,1193"/>
+<area shape="rect" id="node48" href="$classyarp_1_1sig_1_1Sound.html" title="Class for storing sounds." alt="" coords="445,1217,572,1244"/>
+<area shape="rect" id="node49" href="$classyarp_1_1sig_1_1VectorBase.html" title="A Base class for a VectorOf&lt;T&gt;, provide default implementation for read/write methods." alt="" coords="429,1268,588,1295"/>
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1PortReader.html" title="Interface implemented by all objects that can read themselves from the network, such as Bottle object..." alt="" coords="5,635,160,661"/>
+<area shape="rect" id="node3" href="$classyarp_1_1os_1_1PortWriter.html" title="Interface implemented by all objects that can write themselves to the network, such as Bottle objects..." alt="" coords="9,685,157,712"/>
+<area shape="rect" id="node13" href="$classNullBottle.html" title=" " alt="" coords="741,65,828,92"/>
+<area shape="rect" id="node17" href="$classSensorMeasurement.html" title=" " alt="" coords="707,116,863,143"/>
+<area shape="rect" id="node18" href="$classSensorMeasurements.html" title=" " alt="" coords="703,167,866,193"/>
+<area shape="rect" id="node19" href="$classSensorMetadata.html" title=" " alt="" coords="721,217,849,244"/>
+<area shape="rect" id="node20" href="$classSensorRPCData.html" title=" " alt="" coords="723,268,846,295"/>
+<area shape="rect" id="node21" href="$classSensorStreamingData.html" title=" " alt="" coords="703,319,867,345"/>
+<area shape="rect" id="node22" href="$classyarp_1_1dev_1_1audioBufferSizeData.html" title=" " alt="" coords="673,369,896,396"/>
+<area shape="rect" id="node23" href="$classyarp_1_1dev_1_1impl_1_1jointData.html" title=" " alt="" coords="691,420,878,447"/>
+<area shape="rect" id="node24" href="$classyarp_1_1rosmsg_1_1actionlib__msgs_1_1GoalID.html" title=" " alt="" coords="699,471,870,513"/>
+<area shape="rect" id="node25" href="$classyarp_1_1rosmsg_1_1actionlib__msgs_1_1GoalStatus.html" title=" " alt="" coords="699,537,870,578"/>
+<area shape="rect" id="node26" href="$classyarp_1_1rosmsg_1_1actionlib__msgs_1_1GoalStatusArray.html" title=" " alt="" coords="695,602,874,643"/>
+<area shape="rect" id="node27" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1AddDiagnostics.html" title=" " alt="" coords="693,667,876,709"/>
+<area shape="rect" id="node28" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1AddDiagnosticsReply.html" title=" " alt="" coords="679,733,890,774"/>
+<area shape="rect" id="node29" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1DiagnosticArray.html" title=" " alt="" coords="693,798,876,839"/>
+<area shape="rect" id="node30" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1DiagnosticStatus.html" title=" " alt="" coords="693,863,876,905"/>
+<area shape="rect" id="node31" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1KeyValue.html" title=" " alt="" coords="693,929,876,970"/>
+<area shape="rect" id="node32" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1SelfTest.html" title=" " alt="" coords="693,994,876,1035"/>
+<area shape="rect" id="node33" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1SelfTestReply.html" title=" " alt="" coords="693,1059,876,1101"/>
+<area shape="rect" id="node34" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Accel.html" title=" " alt="" coords="695,1125,874,1166"/>
+<area shape="rect" id="node35" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1AccelStamped.html" title=" " alt="" coords="695,1190,874,1231"/>
+<area shape="rect" id="node36" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1AccelWithCovariance.html" title=" " alt="" coords="679,1255,890,1297"/>
+</map>
