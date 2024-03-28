@@ -1,0 +1,1192 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classyarp_1_1manager_1_1Broker.html" title="Class Broker." alt="" coords="741,13871,908,13898"/>
+<area shape="rect" id="node2" href="$classyarp_1_1manager_1_1LocalBroker.html" title="Class LocalBroker." alt="" coords="1080,14167,1281,14194"/>
+<area shape="rect" id="node5" href="$classyarp_1_1manager_1_1YarpBroker.html" title="Class Broker." alt="" coords="1083,13087,1278,13114"/>
+<area shape="rect" id="node3" href="$classyarp_1_1manager_1_1ScriptLocalBroker.html" title=" " alt="" coords="1457,14631,1653,14672"/>
+<area shape="rect" id="node4" href="$classyarp_1_1manager_1_1YarpdevLocalBroker.html" title=" " alt="" coords="1449,14565,1660,14607"/>
+<area shape="rect" id="node6" href="$classyarp_1_1manager_1_1ScriptYarprunBroker.html" title=" " alt="" coords="1449,12677,1660,12719"/>
+<area shape="rect" id="node7" href="$classyarp_1_1manager_1_1YarpdevYarprunBroker.html" title=" " alt="" coords="1443,12743,1667,12784"/>
+<area shape="rect" id="node8" href="$classyarp_1_1os_1_1Connection.html" title="A controller for an individual connection." alt="" coords="5,35253,160,35279"/>
+<area shape="rect" id="node9" href="$classyarp_1_1os_1_1Carrier.html" title="A base class for connection types (tcp, mcast, shmem, ...) which are called carriers in YARP." alt="" coords="235,35227,362,35254"/>
+<area shape="rect" id="node36" href="$classyarp_1_1os_1_1NullConnection.html" title=" " alt="" coords="208,35278,389,35305"/>
+<area shape="rect" id="node10" href="$classForwardingCarrier.html" title=" " alt="" coords="469,35329,608,35355"/>
+<area shape="rect" id="node12" href="$classH264Carrier.html" title="A carrier for receiving frames compressed in h264 over rtp." alt="" coords="489,35379,589,35406"/>
+<area shape="rect" id="node13" href="$classHumanCarrier.html" title="No documentation available." alt="" coords="482,35075,595,35102"/>
+<area shape="rect" id="node14" href="$classMjpegCarrier.html" title="A carrier for sending/receiving images via mjpeg over http." alt="" coords="485,35126,592,35153"/>
+<area shape="rect" id="node15" href="$classTcpRosCarrier.html" title="not documented" alt="" coords="483,35177,594,35203"/>
+<area shape="rect" id="node17" href="$classXmlRpcCarrier.html" title="This carrier enables XML/RPC message transmission." alt="" coords="481,35227,597,35254"/>
+<area shape="rect" id="node18" href="$classyarp_1_1os_1_1AbstractCarrier.html" title="A starter class for implementing simple carriers." alt="" coords="449,35278,629,35305"/>
+<area shape="rect" id="node11" href="$classStubCarrier.html" title=" " alt="" coords="777,40741,872,40767"/>
+<area shape="rect" id="node16" href="$classRosSrvCarrier.html" title=" " alt="" coords="769,29526,880,29553"/>
+<area shape="rect" id="node19" href="$classMpiCarrier.html" title="Abstract base carrier for managing port communication via MPI." alt="" coords="779,35278,870,35305"/>
+<area shape="rect" id="node22" href="$classShmemCarrier.html" title="Communicating between two ports via shared memory." alt="" coords="767,35569,883,35595"/>
+<area shape="rect" id="node23" href="$classUnixSocketCarrier.html" title="Communicating between two ports(IPC) via Unix Socket." alt="" coords="755,35619,894,35646"/>
+<area shape="rect" id="node24" href="$classyarp_1_1os_1_1ModifyingCarrier.html" title="A starter class for implementing simple modifying carriers." alt="" coords="729,35227,920,35254"/>
+<area shape="rect" id="node28" href="$classyarp_1_1os_1_1impl_1_1LocalCarrier.html" title="A carrier for communicating locally within a process." alt="" coords="726,35670,923,35697"/>
+<area shape="rect" id="node29" href="$classyarp_1_1os_1_1impl_1_1TcpCarrier.html" title="Communicating between two ports via TCP." alt="" coords="733,32717,917,32743"/>
+<area shape="rect" id="node34" href="$classyarp_1_1os_1_1impl_1_1UdpCarrier.html" title="Communicating between two ports via UDP." alt="" coords="730,35177,919,35203"/>
+<area shape="rect" id="node20" href="$classMpiBcastCarrier.html" title="Carrier for port communicating via MPI broadcast." alt="" coords="1117,35335,1244,35362"/>
+<area shape="rect" id="node21" href="$classMpiP2PCarrier.html" title="Carrier for port communicating via MPI point&#45;to&#45;point send/receive." alt="" coords="1123,35285,1238,35311"/>
+<area shape="rect" id="node25" href="$classBayerCarrier.html" title="Decode bayer images and serve them as regular rgb." alt="" coords="1129,29774,1233,29801"/>
+<area shape="rect" id="node26" href="$classPortMonitor.html" title="Allow to monitor and modify port data from Lua script Under development." alt="" coords="1131,35234,1230,35261"/>
+<area shape="rect" id="node27" href="$classPriorityCarrier.html" title="Allow priority&#45;based message selection." alt="" coords="1124,35183,1237,35210"/>
+<area shape="rect" id="node30" href="$classWebSocketCarrier.html" title="not documented" alt="" coords="1112,32775,1249,32802"/>
+<area shape="rect" id="node31" href="$classyarp_1_1os_1_1impl_1_1HttpCarrier.html" title="Communicating via http." alt="" coords="1085,32623,1276,32650"/>
+<area shape="rect" id="node32" href="$classyarp_1_1os_1_1impl_1_1NameserCarrier.html" title="Communicating between two ports via a variant plain&#45;text protocol originally designed for the yarp na..." alt="" coords="1069,32674,1292,32701"/>
+<area shape="rect" id="node33" href="$classyarp_1_1os_1_1impl_1_1TextCarrier.html" title="Communicating between two ports via a plain&#45;text protocol." alt="" coords="1085,32725,1276,32751"/>
+<area shape="rect" id="node35" href="$classyarp_1_1os_1_1impl_1_1McastCarrier.html" title="Communicating between two ports via MCAST." alt="" coords="1079,35133,1282,35159"/>
+<area shape="rect" id="node37" href="$classyarp_1_1os_1_1ConnectionReader.html" title="An interface for reading from a network connection." alt="" coords="724,29431,925,29458"/>
+<area shape="rect" id="node38" href="$classyarp_1_1os_1_1NullConnectionReader.html" title="Dummy ConnectionReader that has no data." alt="" coords="1090,29409,1271,29451"/>
+<area shape="rect" id="node39" href="$classyarp_1_1os_1_1impl_1_1ConnectionRecorder.html" title="A helper for recording entire message/reply transactions." alt="" coords="1085,29475,1277,29516"/>
+<area shape="rect" id="node40" href="$classyarp_1_1os_1_1impl_1_1StreamConnectionReader.html" title="Lets Readable objects read from the underlying InputStream associated with the connection between two..." alt="" coords="1061,29344,1300,29385"/>
+<area shape="rect" id="node41" href="$classyarp_1_1os_1_1ConnectionWriter.html" title="An interface for writing to a network connection." alt="" coords="727,29577,922,29603"/>
+<area shape="rect" id="node42" href="$classyarp_1_1os_1_1NullConnectionWriter.html" title="A dummy ConnectionWriter that consumes data without effect." alt="" coords="1090,29540,1271,29581"/>
+<area shape="rect" id="node43" href="$classyarp_1_1os_1_1impl_1_1BufferedConnectionWriter.html" title="A helper for creating cached object descriptions." alt="" coords="1467,29507,1642,29548"/>
+<area shape="rect" id="node44" href="$classyarp_1_1os_1_1Contactable.html" title="An abstract port." alt="" coords="745,36550,905,36577"/>
+<area shape="rect" id="node45" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1099,36572,1262,36613"/>
+<area shape="rect" id="node48" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1089,33423,1273,33479"/>
+<area shape="rect" id="node50" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1077,36455,1285,36496"/>
+<area shape="rect" id="node51" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1094,38970,1267,39026"/>
+<area shape="rect" id="node52" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1099,33780,1262,33821"/>
+<area shape="rect" id="node54" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1079,33971,1283,34012"/>
+<area shape="rect" id="node56" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1094,34102,1267,34158"/>
+<area shape="rect" id="node57" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1091,39437,1270,39493"/>
+<area shape="rect" id="node58" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1084,38250,1277,38306"/>
+<area shape="rect" id="node59" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1088,40383,1273,40424"/>
+<area shape="rect" id="node61" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1083,36797,1278,36839"/>
+<area shape="rect" id="node63" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1072,37255,1289,37296"/>
+<area shape="rect" id="node65" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1094,39917,1267,39973"/>
+<area shape="rect" id="node66" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1057,37451,1305,37492"/>
+<area shape="rect" id="node68" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1083,38533,1278,38589"/>
+<area shape="rect" id="node69" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1084,34313,1277,34369"/>
+<area shape="rect" id="node70" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1094,34537,1267,34593"/>
+<area shape="rect" id="node71" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1095,32833,1267,32875"/>
+<area shape="rect" id="node73" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1094,39197,1267,39253"/>
+<area shape="rect" id="node74" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1099,40792,1262,40833"/>
+<area shape="rect" id="node75" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1085,38039,1276,38080"/>
+<area shape="rect" id="node76" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1094,35801,1267,35857"/>
+<area shape="rect" id="node77" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1085,34762,1276,34818"/>
+<area shape="rect" id="node78" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1099,36667,1262,36708"/>
+<area shape="rect" id="node79" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1066,33191,1295,33232"/>
+<area shape="rect" id="node81" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1099,36288,1262,36329"/>
+<area shape="rect" id="node82" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1083,38730,1279,38786"/>
+<area shape="rect" id="node83" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1044,37647,1317,37688"/>
+<area shape="rect" id="node84" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1073,37843,1289,37884"/>
+<area shape="rect" id="node85" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1083,34973,1279,35029"/>
+<area shape="rect" id="node86" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1083,35437,1279,35493"/>
+<area shape="rect" id="node87" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1074,40157,1287,40213"/>
+<area shape="rect" id="node88" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1099,36092,1262,36133"/>
+<area shape="rect" id="node89" href="$classyarp_1_1os_1_1BufferedPort.html" title=" " alt="" coords="1094,39677,1267,39733"/>
+<area shape="rect" id="node90" href="$classyarp_1_1os_1_1BufferedPort.html" title="A mini&#45;server for performing network communication in the background." alt="" coords="1080,33067,1281,33094"/>
+<area shape="rect" id="node92" href="$classyarp_1_1os_1_1UnbufferedContactable.html" title="An abstract unbuffered port." alt="" coords="1065,36521,1297,36547"/>
+<area shape="rect" id="node46" href="$classBatteryInputPortProcessor.html" title=" " alt="" coords="1459,36605,1651,36631"/>
+<area shape="rect" id="node47" href="$classTransforms__client__storage.html" title=" " alt="" coords="1458,36554,1651,36581"/>
+<area shape="rect" id="node49" href="$classFloatImageBufferedPort.html" title=" " alt="" coords="1466,33438,1643,33465"/>
+<area shape="rect" id="node53" href="$classInputPortProcessor.html" title=" " alt="" coords="2135,34121,2279,34147"/>
+<area shape="rect" id="node55" href="$classRangefinder2DInputPortProcessor.html" title=" " alt="" coords="1435,33978,1675,34005"/>
+<area shape="rect" id="node60" href="$classRgbImageBufferedPort.html" title=" " alt="" coords="1470,40390,1639,40417"/>
+<area shape="rect" id="node62" href="$classSensorStreamingDataInputPort.html" title=" " alt="" coords="1443,36805,1666,36831"/>
+<area shape="rect" id="node64" href="$classStateExtendedInputPort.html" title=" " alt="" coords="1467,37262,1643,37289"/>
+<area shape="rect" id="node67" href="$classVelocityInputPortProcessor.html" title="MobileBaseVelocityControl_nws_yarp: A device which allows a client to control the velocity of a mobil..." alt="" coords="1457,37458,1653,37485"/>
+<area shape="rect" id="node72" href="$structJoypadControl_1_1JoyPort.html" title=" " alt="" coords="1469,32893,1641,32935"/>
+<area shape="rect" id="node80" href="$structJoypadControl_1_1JoyPort.html" title=" " alt="" coords="1440,33069,1669,33111"/>
+<area shape="rect" id="node91" href="$structJoypadControl_1_1JoyPort.html" title=" " alt="" coords="1452,33018,1657,33045"/>
+<area shape="rect" id="node93" href="$classyarp_1_1os_1_1AbstractContactable.html" title="A default implementation of an abstract port." alt="" coords="1447,35698,1662,35725"/>
+<area shape="rect" id="node123" href="$classyarp_1_1os_1_1Port.html" title="A mini&#45;server for network communication." alt="" coords="1501,35647,1609,35674"/>
+<area shape="rect" id="node94" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1811,36166,1984,36222"/>
+<area shape="rect" id="node95" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1808,36246,1987,36302"/>
+<area shape="rect" id="node96" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1801,36326,1994,36382"/>
+<area shape="rect" id="node97" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1811,36406,1984,36462"/>
+<area shape="rect" id="node98" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1800,36486,1995,36542"/>
+<area shape="rect" id="node99" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1811,35147,1984,35203"/>
+<area shape="rect" id="node100" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1811,35227,1984,35283"/>
+<area shape="rect" id="node101" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1811,35307,1984,35363"/>
+<area shape="rect" id="node102" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1817,35387,1978,35443"/>
+<area shape="rect" id="node103" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1826,35468,1969,35509"/>
+<area shape="rect" id="node104" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1820,35534,1975,35590"/>
+<area shape="rect" id="node105" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1805,35614,1990,35670"/>
+<area shape="rect" id="node106" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1808,35694,1987,35750"/>
+<area shape="rect" id="node107" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1791,35774,2004,35830"/>
+<area shape="rect" id="node108" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1811,35854,1984,35910"/>
+<area shape="rect" id="node109" href="$classyarp_1_1os_1_1Publisher.html" title=" " alt="" coords="1811,35934,1984,35990"/>
+<area shape="rect" id="node110" href="$classyarp_1_1os_1_1Subscriber.html" title=" " alt="" coords="1811,34171,1984,34227"/>
+<area shape="rect" id="node111" href="$classyarp_1_1os_1_1Subscriber.html" title=" " alt="" coords="1801,34418,1994,34474"/>
+<area shape="rect" id="node113" href="$classyarp_1_1os_1_1Subscriber.html" title=" " alt="" coords="1811,34574,1984,34630"/>
+<area shape="rect" id="node115" href="$classyarp_1_1os_1_1Subscriber.html" title=" " alt="" coords="1802,34762,1993,34818"/>
+<area shape="rect" id="node116" href="$classyarp_1_1os_1_1Subscriber.html" title=" " alt="" coords="1799,34907,1995,34963"/>
+<area shape="rect" id="node117" href="$classyarp_1_1os_1_1Subscriber.html" title=" " alt="" coords="1799,34987,1995,35043"/>
+<area shape="rect" id="node118" href="$classyarp_1_1os_1_1Subscriber.html" title=" " alt="" coords="1811,35067,1984,35123"/>
+<area shape="rect" id="node119" href="$classyarp_1_1os_1_1Publisher.html" title="A port specialized for publishing data of a constant type on a topic." alt="" coords="1807,36014,1987,36041"/>
+<area shape="rect" id="node120" href="$classyarp_1_1os_1_1RpcClient.html" title="A port that is specialized as an RPC client." alt="" coords="1825,36065,1969,36091"/>
+<area shape="rect" id="node121" href="$classyarp_1_1os_1_1RpcServer.html" title="A port that is specialized as an RPC server." alt="" coords="1823,36115,1971,36142"/>
+<area shape="rect" id="node122" href="$classyarp_1_1os_1_1Subscriber.html" title="A port specialized for reading data of a constant type published on a topic." alt="" coords="1803,34019,1991,34046"/>
+<area shape="rect" id="node112" href="$classcommandSubscriber.html" title="MobileBaseVelocityControl_nws_ros: A device which allows a client application to control the velocity..." alt="" coords="2129,34433,2284,34459"/>
+<area shape="rect" id="node114" href="$classyarp_1_1dev_1_1RGBDRosConversionUtils_1_1commonImageProcessor.html" title=" " alt="" coords="2094,34581,2319,34623"/>
+<area shape="rect" id="node124" href="$classControlBoardWrapperCommon.html" title=" " alt="" coords="714,1013,935,1039"/>
+<area shape="rect" id="node125" href="$classControlBoardWrapper.html" title="controlboardwrapper2 deprecated: An updated version of the controlBoard network wrapper." alt="" coords="1473,1101,1636,1127"/>
+<area shape="rect" id="node126" href="$classControlBoardWrapperAmplifierControl.html" title=" " alt="" coords="1070,1181,1291,1223"/>
+<area shape="rect" id="node127" href="$classControlBoardWrapperAxisInfo.html" title=" " alt="" coords="1073,729,1288,755"/>
+<area shape="rect" id="node128" href="$classControlBoardWrapperControlCalibration.html" title=" " alt="" coords="1076,1247,1285,1288"/>
+<area shape="rect" id="node129" href="$classControlBoardWrapperControlLimits.html" title=" " alt="" coords="1076,1312,1285,1353"/>
+<area shape="rect" id="node130" href="$classControlBoardWrapperControlMode.html" title=" " alt="" coords="1058,611,1303,638"/>
+<area shape="rect" id="node131" href="$classControlBoardWrapperCurrentControl.html" title=" " alt="" coords="1075,845,1286,887"/>
+<area shape="rect" id="node132" href="$classControlBoardWrapperEncodersTimed.html" title=" " alt="" coords="1070,247,1291,288"/>
+<area shape="rect" id="node133" href="$classControlBoardWrapperImpedanceControl.html" title=" " alt="" coords="1063,663,1298,704"/>
+<area shape="rect" id="node134" href="$classControlBoardWrapperInteractionMode.html" title=" " alt="" coords="1047,1013,1315,1039"/>
+<area shape="rect" id="node135" href="$classControlBoardWrapperMotor.html" title=" " alt="" coords="1081,911,1281,938"/>
+<area shape="rect" id="node136" href="$classControlBoardWrapperMotorEncoders.html" title=" " alt="" coords="1081,545,1281,587"/>
+<area shape="rect" id="node137" href="$classControlBoardWrapperPWMControl.html" title=" " alt="" coords="1059,1130,1302,1157"/>
+<area shape="rect" id="node138" href="$classControlBoardWrapperPidControl.html" title=" " alt="" coords="1066,962,1295,989"/>
+<area shape="rect" id="node139" href="$classControlBoardWrapperPositionControl.html" title=" " alt="" coords="1073,1573,1288,1615"/>
+<area shape="rect" id="node140" href="$classControlBoardWrapperPositionDirect.html" title=" " alt="" coords="1073,1443,1288,1484"/>
+<area shape="rect" id="node141" href="$classControlBoardWrapperPreciselyTimed.html" title=" " alt="" coords="1070,1639,1291,1680"/>
+<area shape="rect" id="node142" href="$classControlBoardWrapperRemoteCalibrator.html" title=" " alt="" coords="1074,1064,1287,1105"/>
+<area shape="rect" id="node143" href="$classControlBoardWrapperRemoteVariables.html" title=" " alt="" coords="1074,480,1287,521"/>
+<area shape="rect" id="node144" href="$classControlBoardWrapperTorqueControl.html" title=" " alt="" coords="1078,1508,1283,1549"/>
+<area shape="rect" id="node145" href="$classControlBoardWrapperVelocityControl.html" title=" " alt="" coords="1073,1377,1288,1419"/>
+<area shape="rect" id="node146" title=" " alt="" coords="1098,4346,1263,4373"/>
+<area shape="rect" id="node147" href="$classServerFrameGrabber.html" title="grabber: Export a frame grabber to the network." alt="" coords="1476,4979,1633,5006"/>
+<area shape="rect" id="node148" title=" " alt="" coords="1094,4245,1267,4271"/>
+<area shape="rect" id="node149" title=" " alt="" coords="761,5806,889,5833"/>
+<area shape="rect" id="node150" href="$classFrameTransformGetMultiplexer.html" title="A multiplexer which collapses the output of many IFrameTransformStorageGet interfaces into one." alt="" coords="1069,5806,1293,5833"/>
+<area shape="rect" id="node151" href="$classFrameTransformGet__nwc__ros.html" title="frameTransformGet_nwc_ros: A ros network wrapper client that receives frame transforms from a ros top..." alt="" coords="1075,5857,1286,5883"/>
+<area shape="rect" id="node152" href="$classFrameTransformGet__nwc__yarp.html" title="frameTransformGet_nwc_yarp: A network wrapper client which converts the input retrieved from a FrameT..." alt="" coords="1071,5654,1291,5681"/>
+<area shape="rect" id="node153" href="$classFrameTransformGet__nws__yarp.html" title="frameTransformGet_nws_yarp: A network wrapper client which converts the input retrieved from an IFram..." alt="" coords="1787,9618,2007,9645"/>
+<area shape="rect" id="node154" href="$classFrameTransformSetMultiplexer.html" title="A multiplexer which forwards the input of one IFrameTransformStorageSet interfaces to many." alt="" coords="1069,7966,1292,7993"/>
+<area shape="rect" id="node155" href="$classyarp_1_1dev_1_1IAmplifierControl.html" title="Interface for control devices, amplifier commands." alt="" coords="725,2299,925,2326"/>
+<area shape="rect" id="node156" href="$classControlBoardRemapper.html" title="controlboardremapper : device that takes a list of axes from multiple controlboards and expose them a..." alt="" coords="1093,2207,1268,2234"/>
+<area shape="rect" id="node158" href="$classFakeBot.html" title="fakebot deprecated: Documentation to be added" alt="" coords="1518,2717,1591,2743"/>
+<area shape="rect" id="node159" href="$classRemoteControlBoard.html" title="remote_controlboard: The client side of the control board, connects to a remote controlboard using th..." alt="" coords="1101,2157,1260,2183"/>
+<area shape="rect" id="node160" href="$classyarp_1_1dev_1_1ImplementAmplifierControl.html" title=" " alt="" coords="1071,2461,1291,2503"/>
+<area shape="rect" id="node157" href="$classRemoteControlBoardRemapper.html" title="remotecontrolboardremapper A device that takes a list of axes from multiple controlboards,..." alt="" coords="1442,2207,1667,2234"/>
+<area shape="rect" id="node161" href="$classFakeMotionControl.html" title="fakeMotionControl: Documentation to be added" alt="" coords="1483,6455,1626,6482"/>
+<area shape="rect" id="node162" href="$classyarp_1_1dev_1_1IAmplifierControlRaw.html" title="Interface for control devices, amplifier commands." alt="" coords="1067,7595,1295,7622"/>
+<area shape="rect" id="node163" href="$classyarp_1_1dev_1_1IAnalogSensor.html" title="A generic interface to sensors (gyro, a/d converters)." alt="" coords="733,8039,916,8066"/>
+<area shape="rect" id="node164" href="$classAnalogSensorClient.html" title="analogsensorclient deprecated: Device that reads an AnalogSensor (using the IAnalogSensor interface) ..." alt="" coords="1106,7241,1255,7267"/>
+<area shape="rect" id="node165" href="$classFakeAnalogSensor.html" title="fakeAnalogSensor: Fake analog sensor device for testing purpose and reference for new analog devices" alt="" coords="1111,8878,1251,8905"/>
+<area shape="rect" id="node166" href="$classyarp_1_1dev_1_1IAudioGrabberSound.html" title="Read a YARP&#45;format sound block from a device." alt="" coords="447,5175,630,5216"/>
+<area shape="rect" id="node167" href="$classFfmpegGrabber.html" title="ffmpeg_grabber: An image frame grabber device using ffmpeg to capture images from AVI files." alt="" coords="1119,5249,1243,5275"/>
+<area shape="rect" id="node168" href="$classPortAudioDeviceDriver.html" title="portaudio deprecated: This device driver has been deprecated! Please use PortAudioPlayerDeviceDriver ..." alt="" coords="1469,3939,1640,3966"/>
+<area shape="rect" id="node169" href="$classyarp_1_1dev_1_1AudioRecorderDeviceBase.html" title="AudioRecorderDeviceBase : a base class for all audio recorder devices" alt="" coords="732,6791,917,6832"/>
+<area shape="rect" id="node170" href="$classPortAudioRecorderDeviceDriver.html" title="portaudioRecorder: A device driver for an audio source wrapped by PortAudio library." alt="" coords="1067,6937,1295,6963"/>
+<area shape="rect" id="node171" href="$classaudioFromFileDevice.html" title="audioFromFileDevice : This device driver, wrapped by default by AudioRecorderWrapper,..." alt="" coords="1101,6785,1260,6811"/>
+<area shape="rect" id="node172" href="$classfakeMicrophone.html" title="fakeMicrophone : fake microphone device implementing the IAudioGrabberSound interface to generate a t..." alt="" coords="1117,6835,1244,6862"/>
+<area shape="rect" id="node173" href="$classyarp_1_1dev_1_1IAudioRender.html" title=" " alt="" coords="450,4307,627,4334"/>
+<area shape="rect" id="node174" href="$classyarp_1_1dev_1_1AudioPlayerDeviceBase.html" title="AudioPlayerDeviceBase : a base class for all audio player devices" alt="" coords="702,6722,947,6749"/>
+<area shape="rect" id="node175" href="$classPortAudioPlayerDeviceDriver.html" title="portaudioPlayer: A device driver for an audio playback device wrapped by PortAudio library." alt="" coords="1075,7342,1286,7369"/>
+<area shape="rect" id="node176" href="$classaudioToFileDevice.html" title="audioToFileDevice : This device driver, wrapped by default by AudioPlayerWrapper, is used to save to ..." alt="" coords="1111,5705,1251,5731"/>
+<area shape="rect" id="node177" href="$classfakeSpeaker.html" title="fakeSpeaker : fake device implementing the IAudioRender device interface to play sound" alt="" coords="1129,6734,1232,6761"/>
+<area shape="rect" id="node178" href="$classyarp_1_1dev_1_1IAudioVisualGrabber.html" title="Read a YARP&#45;format image and sound from a device." alt="" coords="713,5131,936,5158"/>
+<area shape="rect" id="node179" href="$classyarp_1_1dev_1_1IAudioVisualStream.html" title=" " alt="" coords="715,5233,934,5259"/>
+<area shape="rect" id="node180" href="$classFakeFrameGrabber.html" title="fakeFrameGrabber: A fake camera for testing." alt="" coords="1109,5131,1253,5158"/>
+<area shape="rect" id="node182" href="$classFfmpegWriter.html" title="ffmpeg_writer: Uses ffmpeg to write images/sounds to movie files (AVI, MOV, ...)." alt="" coords="1125,5299,1237,5326"/>
+<area shape="rect" id="node181" href="$classTestFrameGrabber.html" title="testFrameGrabber deprecated" alt="" coords="1484,5861,1625,5887"/>
+<area shape="rect" id="node183" href="$classyarp_1_1dev_1_1IAxisInfo.html" title="Interface for getting information about specific axes, if available." alt="" coords="751,1890,898,1917"/>
+<area shape="rect" id="node184" href="$classyarp_1_1dev_1_1ImplementAxisInfo.html" title=" " alt="" coords="1073,1887,1288,1914"/>
+<area shape="rect" id="node185" href="$classyarp_1_1dev_1_1IAxisInfoRaw.html" title="Interface for getting information about specific axes, if available." alt="" coords="1093,7646,1268,7673"/>
+<area shape="rect" id="node186" href="$classyarp_1_1dev_1_1IBattery.html" title="A generic battery interface." alt="" coords="753,5451,896,5478"/>
+<area shape="rect" id="node187" href="$classBatteryClient.html" title="batteryClient: The client side of any IBattery capable device." alt="" coords="1127,5451,1235,5478"/>
+<area shape="rect" id="node188" href="$classFakeBattery.html" title="fakeBattery: Documentation to be added" alt="" coords="1848,8049,1947,8075"/>
+<area shape="rect" id="node189" href="$classUpowerBattery.html" title="upowerBattery: A device to view the battery of a linux laptop in YARP using the yarp::dev::IBattery i..." alt="" coords="1121,5502,1241,5529"/>
+<area shape="rect" id="node190" href="$classyarp_1_1os_1_1IConfig.html" title="An object that can be configured." alt="" coords="475,8853,602,8879"/>
+<area shape="rect" id="node191" href="$classyarp_1_1dev_1_1DeviceDriver.html" title="Interface implemented by all device drivers." alt="" coords="737,8853,912,8879"/>
+<area shape="rect" id="node192" href="$classGenericSensorRosPublisher.html" title=" " alt="" coords="1081,12165,1281,12221"/>
+<area shape="rect" id="node194" href="$classGenericSensorRosPublisher.html" title=" " alt="" coords="1081,11271,1281,11327"/>
+<area shape="rect" id="node196" href="$classGenericSensorRosPublisher.html" title=" " alt="" coords="1081,11765,1281,11821"/>
+<area shape="rect" id="node198" href="$classGenericSensorRosPublisher.html" title=" " alt="" coords="1081,11351,1281,11407"/>
+<area shape="rect" id="node200" href="$classGenericSensorRosPublisher.html" title=" " alt="" coords="1081,11583,1281,11639"/>
+<area shape="rect" id="node202" href="$classAnalogWrapper.html" title="analogServer deprecated: Device that expose an AnalogSensor (using the IAnalogSensor interface) on th..." alt="" coords="1119,10613,1242,10639"/>
+<area shape="rect" id="node203" href="$classAudioPlayerWrapper.html" title="AudioPlayerWrapper: A Wrapper which receives audio streams from a network port and sends it to device..." alt="" coords="1103,12615,1258,12642"/>
+<area shape="rect" id="node204" href="$classAudioRecorderWrapper.html" title="AudioRecorderWrapper: A Wrapper which streams audio over the network, after grabbing it from a device" alt="" coords="1095,12869,1267,12895"/>
+<area shape="rect" id="node205" href="$classBatteryWrapper.html" title="batteryWrapper: Device that expose a battery sensor (using the IBattery interface) on the YARP networ..." alt="" coords="1118,12666,1243,12693"/>
+<area shape="rect" id="node206" href="$classBoschIMU.html" title="imuBosch_BNO055: This device will connect to the proper analogServer and read the data broadcasted ma..." alt="" coords="1137,17637,1224,17663"/>
+<area shape="rect" id="node207" href="$classControlBoard__nws__ros.html" title="controlBoard_nws_ros: A controlBoard network wrapper server for ROS." alt="" coords="1097,9821,1264,9847"/>
+<area shape="rect" id="node208" href="$classControlBoard__nws__yarp.html" title="controlBoard_nws_yarp: A controlBoard network wrapper server for YARP." alt="" coords="1093,9871,1269,9898"/>
+<area shape="rect" id="node209" href="$classDeviceGroup.html" title="group: Lets you make a bunch of devices as a group." alt="" coords="1127,8118,1234,8145"/>
+<area shape="rect" id="node210" href="$classDevicePipe.html" title="pipe: Tries to connect the output of one device to the input of another." alt="" coords="1133,8067,1228,8094"/>
+<area shape="rect" id="node211" href="$classDynamixelAX12FtdiDriver.html" title="dynamixelAX12Ftdi: Documentation to be added" alt="" coords="1085,3023,1276,3050"/>
+<area shape="rect" id="node212" href="$classFakeLaser.html" title="fakeLaser : fake sensor device driver for testing purposes and reference for IRangefinder2D devices." alt="" coords="1137,8726,1224,8753"/>
+<area shape="rect" id="node213" href="$classFakeOdometry.html" title="FakeOdometry: A device for generating a fake odometry. This device will generate the odometry and the..." alt="" coords="1123,11845,1239,11871"/>
+<area shape="rect" id="node214" href="$classFakePositionSensor.html" title="fakePositionSensor: Fake position sensor device for testing purpose and reference for new similar dev..." alt="" coords="1107,15771,1254,15798"/>
+<area shape="rect" id="node215" href="$classFrameGrabberCropper.html" title=" " alt="" coords="1471,4731,1638,4758"/>
+<area shape="rect" id="node216" href="$classFrameGrabber__nwc__yarp.html" title="frameGrabber_nws_yarp: Connect to a frameGrabber_nws_yarp." alt="" coords="1805,4005,1989,4031"/>
+<area shape="rect" id="node217" href="$classFrameGrabber__nws__ros.html" title="frameGrabber_nws_ros: A ROS NWS for camera devices. Parameters required by this device are:" alt="" coords="1093,9770,1268,9797"/>
+<area shape="rect" id="node218" href="$classFrameGrabber__nws__yarp.html" title="frameGrabber_nws_yarp: A YARP NWS for camera devices." alt="" coords="1463,10546,1647,10573"/>
+<area shape="rect" id="node219" href="$classFrameTransformClient.html" title="frameTransformClient: A client to manage FrameTransforms for a robot (For more information,..." alt="" coords="1097,12717,1264,12743"/>
+<area shape="rect" id="node220" href="$classFrameTransformServer.html" title="A server to manage FrameTransforms for a robot (see FrameTransform: start all the required devices ne..." alt="" coords="1095,12397,1266,12423"/>
+<area shape="rect" id="node221" href="$classFrameTransformSet__nwc__ros.html" title="frameTransformSet_nwc_ros: A network wrapper client which publishes the transforms received on the ya..." alt="" coords="1076,8929,1285,8955"/>
+<area shape="rect" id="node222" href="$classFrameTransformSet__nwc__yarp.html" title="frameTransformSet_nwc_yarp: A network wrapper client which publishes the transforms received on the t..." alt="" coords="1071,8827,1290,8854"/>
+<area shape="rect" id="node223" href="$classFrameTransformSet__nws__yarp.html" title="frameTransformSet_nws_yarp: A network wrapper client which publishes the transforms received on the y..." alt="" coords="1788,9850,2007,9877"/>
+<area shape="rect" id="node224" href="$classFrameTransformStorage.html" title="frameTransformStorage: A class that keeps a FrameTransformContainer updated by receiving transformati..." alt="" coords="1091,9415,1270,9442"/>
+<area shape="rect" id="node225" href="$classGenericSensorRosPublisher.html" title="This abstract template needs to be specialized in a ROS Publisher, for a specific ROS mesagge/sensor ..." alt="" coords="1081,10547,1281,10588"/>
+<area shape="rect" id="node226" href="$classJoypadControlClient.html" title="JoypadControlClient: joypad input network wrapper on client side" alt="" coords="1479,9669,1630,9695"/>
+<area shape="rect" id="node227" href="$classJoypadControlServer.html" title="JoypadControlServer: Documentation to be added" alt="" coords="1103,9466,1258,9493"/>
+<area shape="rect" id="node228" href="$classLaserFromDepth.html" title="laserFromDepth: Documentation to be added" alt="" coords="1116,7865,1245,7891"/>
+<area shape="rect" id="node229" href="$classLaserFromExternalPort.html" title="laserFromExternalPort: Documentation to be added" alt="" coords="1095,7038,1266,7065"/>
+<area shape="rect" id="node230" href="$classLaserFromPointCloud.html" title="laserFromPointCloud: Documentation to be added" alt="" coords="1101,7089,1261,7115"/>
+<area shape="rect" id="node231" href="$classLaserFromRosTopic.html" title="laserFromRosTopic: Documentation to be added" alt="" coords="1107,8169,1254,8195"/>
+<area shape="rect" id="node232" href="$classLocalization2D__nwc__yarp.html" title="Localization2D_nwc_yarp A device which allows a user application retrieve the current position of the..." alt="" coords="1087,9030,1274,9057"/>
+<area shape="rect" id="node233" href="$classLocalization2D__nws__ros.html" title="localization2D_nws_ros: A localization server which can be wrap multiple algorithms and devices to pr..." alt="" coords="1091,10866,1270,10893"/>
+<area shape="rect" id="node234" href="$classLocalization2D__nws__yarp.html" title="localization2D_nws_yarp: A localization server which can be wrap multiple algorithms and devices to p..." alt="" coords="1087,10714,1274,10741"/>
+<area shape="rect" id="node235" href="$classMap2DStorage.html" title="Map2DStorage: A device capable of read/save collections of maps from disk, and make them accessible t..." alt="" coords="1121,12970,1240,12997"/>
+<area shape="rect" id="node236" href="$classMap2D__nwc__yarp.html" title="Map2D_nwc_yarp: A device which allows a client application to store/retrieve user maps device in a ma..." alt="" coords="1112,11895,1249,11922"/>
+<area shape="rect" id="node237" href="$classMap2D__nws__ros.html" title="map2D_nws_ros: A device capable of read/save collections of maps from disk, and make them accessible ..." alt="" coords="1117,10343,1245,10370"/>
+<area shape="rect" id="node238" href="$classMap2D__nws__yarp.html" title="map2D_nws_yarp: A device capable of read/save collections of maps from disk, and make them accessible..." alt="" coords="1112,10394,1249,10421"/>
+<area shape="rect" id="node239" href="$classMobileBaseVelocityControl__nwc__yarp.html" title="MobileBaseVelocityControl_nwc_yarp: A device which connects to MobileBaseVelocityControl_nws_yarp to ..." alt="" coords="1082,12448,1279,12489"/>
+<area shape="rect" id="node240" href="$classMobileBaseVelocityControl__nws__ros.html" title=" " alt="" coords="1082,9197,1279,9239"/>
+<area shape="rect" id="node241" href="$classMobileBaseVelocityControl__nws__yarp.html" title=" " alt="" coords="1799,9763,1996,9804"/>
+<area shape="rect" id="node242" href="$classMultipleAnalogSensorsClient.html" title="multipleanalogsensorsclient: The client side of a device exposing MultipleAnalogSensors interfaces." alt="" coords="1076,17687,1285,17714"/>
+<area shape="rect" id="node243" href="$classMultipleAnalogSensorsRemapper.html" title="multipleanalogsensorsremapper : device that takes a list of sensor from multiple analog sensors devic..." alt="" coords="1061,17738,1300,17765"/>
+<area shape="rect" id="node244" href="$classMultipleAnalogSensorsServer.html" title="multipleanalogsensorsserver: The server side of the MultipleAnalogSensorsClient, useful to expose dev..." alt="" coords="1791,9901,2004,9927"/>
+<area shape="rect" id="node245" href="$classNavigation2D__nwc__yarp.html" title="navigation2D_nwc_yarp: A device which allows a client application to perform navigation tasks,..." alt="" coords="1465,13610,1645,13637"/>
+<area shape="rect" id="node246" href="$classNop.html" title="test_nop: A test device that does absolutely nothing." alt="" coords="1157,10074,1205,10101"/>
+<area shape="rect" id="node247" href="$classOdometry2D__nws__ros.html" title="Odometry2D_nws_ros: A ros nws to get odometry and publish it on a ros topic. The attached device must..." alt="" coords="1098,9973,1263,9999"/>
+<area shape="rect" id="node248" href="$classOdometry2D__nws__yarp.html" title="Odometry2D_nws_yarp: A yarp nws to get the odometry and publish it on 3 yarp ports:" alt="" coords="1093,10815,1268,10842"/>
+<area shape="rect" id="node249" href="$classOpenCVGrabber.html" title="opencv_grabber: An image frame grabber device using OpenCV to capture images from cameras and AVI fil..." alt="" coords="1117,4579,1244,4606"/>
+<area shape="rect" id="node250" href="$classRGBDSensorClient.html" title="RGBDSensorClient: A Network client to receive data from kinect&#45;like devices. This device will read fr..." alt="" coords="1483,5055,1626,5082"/>
+<area shape="rect" id="node251" href="$classRGBDSensorFromRosTopic.html" title="RGBDSensorFromRosTopic is a driver for a virtual RGBD device: the data is not originated from a physi..." alt="" coords="1457,5966,1652,5993"/>
+<area shape="rect" id="node252" href="$classRGBDSensorWrapper.html" title="RGBDSensorWrapper deprecated: A Network grabber for kinect&#45;like devices." alt="" coords="1101,9567,1260,9594"/>
+<area shape="rect" id="node253" href="$classRGBDToPointCloudSensor__nws__ros.html" title="RGBDToPointCloudSensor_nws_ros: A Network grabber for kinect&#45;like devices. This device will produce o..." alt="" coords="1087,10227,1275,10268"/>
+<area shape="rect" id="node254" href="$classRangefinder2DClient.html" title="Rangefinder2DClient: The client side of any ILaserRangefinder2D capable device." alt="" coords="1103,5603,1259,5630"/>
+<area shape="rect" id="node255" href="$classRangefinder2D__nws__ros.html" title="rangefinder2D_nws_ros: A Network grabber for 2D Rangefinder devices. This device will publish data on..." alt="" coords="1091,10175,1270,10202"/>
+<area shape="rect" id="node256" href="$classRangefinder2D__nws__yarp.html" title="rangefinder2D_nws_yarp: A Network grabber for 2D Rangefinder devices. This device will stream data on..." alt="" coords="1087,10663,1274,10690"/>
+<area shape="rect" id="node257" href="$classRemoteFrameGrabber.html" title="remote_grabber: Connect to a ServerFrameGrabber. See ServerFrameGrabber for the network protocol used..." alt="" coords="1471,4841,1638,4867"/>
+<area shape="rect" id="node258" href="$classRgbdSensor__nws__ros.html" title="rgbdSensor_nws_ros: A Network grabber for kinect&#45;like devices. This device will produce two streams o..." alt="" coords="1101,9618,1260,9645"/>
+<area shape="rect" id="node259" href="$classRgbdSensor__nws__yarp.html" title="rgbdSensor_nws_yarp: A Network grabber for kinect&#45;like devices. This device will produce two streams ..." alt="" coords="1097,10125,1265,10151"/>
+<area shape="rect" id="node260" href="$classRobotDescriptionClient.html" title="robotDescriptionClient: This client device is used to connect to a robotDescriptionServer and ask inf..." alt="" coords="1095,9081,1267,9107"/>
+<area shape="rect" id="node261" href="$classRobotDescriptionServer.html" title="robotDescriptionServer: This device is a storage which contains a list of the currently opened device..." alt="" coords="1093,12818,1269,12845"/>
+<area shape="rect" id="node262" href="$classRpLidar.html" title="rpLidar: Documentation to be added" alt="" coords="1145,6886,1216,6913"/>
+<area shape="rect" id="node263" href="$classRpLidar2.html" title="rpLidar2: The device driver for the RP2 lidar" alt="" coords="1141,7291,1220,7318"/>
+<area shape="rect" id="node264" href="$classRpLidar3.html" title="rpLidar2: The device driver for the RP2 lidar" alt="" coords="1141,7139,1220,7166"/>
+<area shape="rect" id="node265" href="$classSDLJoypad.html" title="SDLJoypad: Device that reads inputs of Joypads compatible with the SDL library." alt="" coords="1509,9719,1600,9746"/>
+<area shape="rect" id="node266" href="$classSegFault.html" title="test_segfault: A test device that causes a segmentation fault." alt="" coords="1142,13239,1219,13266"/>
+<area shape="rect" id="node267" href="$classSerialDeviceDriver.html" title="serialport: A basic Serial Communications Link (RS232, USB)." alt="" coords="1109,10293,1253,10319"/>
+<area shape="rect" id="node268" href="$classSerialServoBoard.html" title="SerialServoBoard: Documentation to be added" alt="" coords="1113,4529,1248,4555"/>
+<area shape="rect" id="node269" href="$classServerGrabber.html" title="grabberDual deprecated: A Network grabber for camera devices." alt="" coords="1123,9517,1239,9543"/>
+<area shape="rect" id="node270" href="$classServerInertial.html" title="inertial deprecated: Export an inertial sensor." alt="" coords="1125,13711,1236,13738"/>
+<area shape="rect" id="node271" href="$classServerSerial.html" title="serial: Export a serial sensor." alt="" coords="1130,12919,1231,12946"/>
+<area shape="rect" id="node272" href="$classStubDriver.html" title=" " alt="" coords="1135,6582,1226,6609"/>
+<area shape="rect" id="node273" href="$classTransformClient.html" title="transformClient deprecated: Documentation to be added" alt="" coords="1118,12767,1243,12794"/>
+<area shape="rect" id="node274" href="$classTransformServer.html" title="transformServer deprecated: Documentation to be added" alt="" coords="1116,12346,1245,12373"/>
+<area shape="rect" id="node275" href="$classUSBCameraDriver.html" title="usbCamera: YARP device driver implementation for acquiring images from USB cameras." alt="" coords="1111,4681,1251,4707"/>
+<area shape="rect" id="node278" href="$classV4L__camera.html" title=" " alt="" coords="1129,4630,1232,4657"/>
+<area shape="rect" id="node279" href="$classVirtualAnalogWrapper.html" title="virtualAnalogServer: An analog wrapper for virtual device A virtual device is a software emulated dev..." alt="" coords="1098,13661,1263,13687"/>
+<area shape="rect" id="node280" href="$classdepthCameraDriver.html" title="depthCamera: YARP driver for OpenNI2 compatible devices." alt="" coords="1479,5106,1630,5133"/>
+<area shape="rect" id="node281" href="$classfakeDepthCameraDriver.html" title="fakeDepthCamera: Documentation to be added" alt="" coords="1465,6173,1645,6199"/>
+<area shape="rect" id="node282" href="$classfakeIMU.html" title="fakeIMU : fake device implementing the device interface typically implemented by an Inertial Measurem..." alt="" coords="1143,17586,1219,17613"/>
+<area shape="rect" id="node283" href="$classfakeLocalizer.html" title="fakeLocalizer Documentation to be added" alt="" coords="1127,8979,1235,9006"/>
+<area shape="rect" id="node284" href="$classfakeNavigation.html" title="fakeNavigation: Documentation to be added" alt="" coords="1120,13863,1241,13890"/>
+<area shape="rect" id="node285" href="$classlaserHokuyo.html" title="laserHokuyo: Documentation to be added" alt="" coords="1129,6987,1232,7014"/>
+<area shape="rect" id="node286" href="$classnavigation2D__nws__yarp.html" title=" " alt="" coords="1091,10765,1270,10791"/>
+<area shape="rect" id="node287" href="$classyarp_1_1dev_1_1DeprecatedDeviceDriver.html" title="Interface implemented by deprecated device drivers." alt="" coords="1075,6111,1286,6152"/>
+<area shape="rect" id="node289" href="$classyarp_1_1dev_1_1PolyDriver.html" title="A container for a device driver." alt="" coords="1101,6633,1260,6659"/>
+<area shape="rect" id="node193" href="$classIMURosPublisher.html" title="IMURosPublisher: This wrapper connects to a device and publishes a ROS topic of type sensor_msgs::Imu..." alt="" coords="1489,12179,1621,12206"/>
+<area shape="rect" id="node195" href="$classMagneticFieldRosPublisher.html" title="MagneticFieldRosPublisher: This wrapper connects to a device and publishes a ROS topic of type sensor..." alt="" coords="1456,11286,1653,11313"/>
+<area shape="rect" id="node197" href="$classPoseStampedRosPublisher.html" title="PoseStampedRosPublisher: This wrapper connects to a device and publishes a ROS topic of type geometry..." alt="" coords="1457,11779,1652,11806"/>
+<area shape="rect" id="node199" href="$classTemperatureRosPublisher.html" title="TemperatureRosPublisher: This wrapper connects to a device and publishes a ROS topic of type sensor_m..." alt="" coords="1461,11366,1649,11393"/>
+<area shape="rect" id="node201" href="$classWrenchStampedRosPublisher.html" title="WrenchStampedRosPublisher: This wrapper connects to a device and publishes a ROS topic of type geomet..." alt="" coords="1448,11598,1661,11625"/>
+<area shape="rect" id="node276" href="$classUSBCameraDriverRaw.html" title="usbCameraRaw: Documentation to be added" alt="" coords="1471,3889,1639,3915"/>
+<area shape="rect" id="node277" href="$classUSBCameraDriverRgb.html" title=" " alt="" coords="1472,3838,1637,3865"/>
+<area shape="rect" id="node288" href="$classServerSoundGrabber.html" title="ServerSoundGrabber: Export a microphone device streaming sound samples" alt="" coords="1477,13559,1633,13586"/>
+<area shape="rect" id="node290" href="$classyarp_1_1dev_1_1IContactLoadCellArrays.html" title="Device interface to one or multiple contact load cell arrays." alt="" coords="725,17789,925,17831"/>
+<area shape="rect" id="node291" href="$classyarp_1_1dev_1_1IControlCalibration.html" title="Interface for control devices, calibration commands." alt="" coords="719,2350,931,2377"/>
+<area shape="rect" id="node292" href="$classyarp_1_1dev_1_1ImplementControlCalibration.html" title=" " alt="" coords="1077,2579,1285,2620"/>
+<area shape="rect" id="node293" href="$classyarp_1_1dev_1_1IControlCalibrationRaw.html" title="Interface for control devices, calibration commands." alt="" coords="1061,7747,1301,7774"/>
+<area shape="rect" id="node294" href="$classyarp_1_1dev_1_1IControlLimits.html" title="Interface for control devices, commands to get/set position and veloity limits." alt="" coords="734,2401,915,2427"/>
+<area shape="rect" id="node295" href="$classyarp_1_1dev_1_1ImplementControlLimits.html" title="class ImplementControlLimits; class StubImplControlLimitsRaw;" alt="" coords="1077,2644,1285,2685"/>
+<area shape="rect" id="node296" href="$classyarp_1_1dev_1_1IControlLimitsRaw.html" title="Interface for control devices." alt="" coords="1076,8219,1285,8246"/>
+<area shape="rect" id="node297" href="$classyarp_1_1dev_1_1StubImplControlLimitsRaw.html" title="Stub implementation of IControlLimitRaw interface." alt="" coords="1457,8189,1652,8231"/>
+<area shape="rect" id="node298" href="$classyarp_1_1dev_1_1IControlMode.html" title="Interface for setting control mode in control board." alt="" coords="736,1777,913,1803"/>
+<area shape="rect" id="node299" href="$classyarp_1_1dev_1_1ImplementControlMode.html" title=" " alt="" coords="1059,1770,1303,1797"/>
+<area shape="rect" id="node300" href="$classyarp_1_1dev_1_1IControlModeRaw.html" title="Interface for setting control mode in control board." alt="" coords="1078,7915,1283,7942"/>
+<area shape="rect" id="node301" href="$classyarp_1_1dev_1_1ICurrentControl.html" title="Interface for control boards implementing current control." alt="" coords="730,1945,919,1971"/>
+<area shape="rect" id="node302" href="$classyarp_1_1dev_1_1ImplementCurrentControl.html" title=" " alt="" coords="1076,1939,1285,1980"/>
+<area shape="rect" id="node303" href="$classyarp_1_1dev_1_1ICurrentControlRaw.html" title="Interface for control boards implementing current control." alt="" coords="1072,5755,1289,5782"/>
+<area shape="rect" id="node304" href="$classyarp_1_1dev_1_1IDepthVisualParams.html" title="An interface for retrieving intrinsic parameter from a depth camera." alt="" coords="714,5081,935,5107"/>
+<area shape="rect" id="node305" href="$classyarp_1_1dev_1_1IRGBDSensor.html" title="A generic interface for cameras that have both color camera as well as depth camera sensor,..." alt="" coords="1093,5081,1269,5107"/>
+<area shape="rect" id="node306" href="$classyarp_1_1proto_1_1framegrabber_1_1DepthVisualParams__Forwarder.html" title=" " alt="" coords="1066,5183,1295,5224"/>
+<area shape="rect" id="node307" href="$classyarp_1_1dev_1_1IEncoderArrays.html" title="Device interface to one or multiple arrays of encoders." alt="" coords="731,17855,919,17882"/>
+<area shape="rect" id="node308" href="$classyarp_1_1dev_1_1IEncoders.html" title="Control board, encoder interface." alt="" coords="462,422,615,449"/>
+<area shape="rect" id="node309" href="$classyarp_1_1dev_1_1IEncodersTimed.html" title="Control board, extend encoder interface with timestamps." alt="" coords="727,422,922,449"/>
+<area shape="rect" id="node311" href="$classyarp_1_1dev_1_1ImplementEncoders.html" title=" " alt="" coords="715,130,935,157"/>
+<area shape="rect" id="node310" href="$classyarp_1_1dev_1_1ImplementEncodersTimed.html" title=" " alt="" coords="1071,415,1291,456"/>
+<area shape="rect" id="node312" href="$classyarp_1_1dev_1_1IEncodersRaw.html" title="Control board, encoder interface." alt="" coords="734,9289,915,9315"/>
+<area shape="rect" id="node313" href="$classyarp_1_1dev_1_1IEncodersTimedRaw.html" title="Control board, extend encoder raw interface adding timestamps." alt="" coords="1069,9263,1292,9290"/>
+<area shape="rect" id="node314" href="$classyarp_1_1dev_1_1StubImplEncodersRaw.html" title="Stub implementation of IEncodersRaw interface." alt="" coords="1063,9314,1298,9341"/>
+<area shape="rect" id="node315" href="$classyarp_1_1dev_1_1IFrameGrabberControls.html" title="Control interface for frame grabber devices." alt="" coords="731,4900,918,4941"/>
+<area shape="rect" id="node316" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberControls__Forwarder.html" title="This classes implement a sender / parser for IFrameGrabberControls interface messages." alt="" coords="1085,4899,1276,4955"/>
+<area shape="rect" id="node317" href="$classyarp_1_1dev_1_1IFrameGrabberControlsDC1394.html" title=" " alt="" coords="731,3748,918,3789"/>
+<area shape="rect" id="node318" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberControlsDC1394__Forwarder.html" title=" " alt="" coords="1067,3773,1295,3829"/>
+<area shape="rect" id="node319" href="$classyarp_1_1dev_1_1IFrameGrabberImageBase.html" title="Read a YARP&#45;format image from a device." alt="" coords="445,3192,632,3233"/>
+<area shape="rect" id="node320" href="$classyarp_1_1dev_1_1IFrameGrabberOf.html" title=" " alt="" coords="731,4179,918,4235"/>
+<area shape="rect" id="node324" href="$classyarp_1_1dev_1_1IFrameGrabberOf.html" title=" " alt="" coords="725,3410,924,3466"/>
+<area shape="rect" id="node328" href="$classyarp_1_1dev_1_1IFrameGrabberOf.html" title=" " alt="" coords="727,3185,922,3241"/>
+<area shape="rect" id="node331" href="$classyarp_1_1dev_1_1IFrameGrabberOf.html" title=" " alt="" coords="725,3104,925,3145"/>
+<area shape="rect" id="node334" href="$classyarp_1_1dev_1_1IFrameGrabberOf.html" title=" " alt="" coords="731,181,918,223"/>
+<area shape="rect" id="node321" href="$classFrameGrabberCropperOf.html" title=" " alt="" coords="1087,4013,1274,4069"/>
+<area shape="rect" id="node322" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Forwarder.html" title=" " alt="" coords="1031,3903,1330,3989"/>
+<area shape="rect" id="node323" href="$classFrameGrabberOf__ForwarderWithStream.html" title=" " alt="" coords="1429,3990,1680,4046"/>
+<area shape="rect" id="node325" href="$classFrameGrabberCropperOf.html" title=" " alt="" coords="1081,3591,1280,3647"/>
+<area shape="rect" id="node326" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Forwarder.html" title=" " alt="" coords="1075,3279,1286,3365"/>
+<area shape="rect" id="node327" href="$classFrameGrabberOf__ForwarderWithStream.html" title=" " alt="" coords="1403,3489,1706,3560"/>
+<area shape="rect" id="node329" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Forwarder.html" title=" " alt="" coords="1009,3170,1352,3255"/>
+<area shape="rect" id="node330" href="$classFrameGrabberOf__ForwarderWithStream.html" title=" " alt="" coords="1425,3347,1684,3403"/>
+<area shape="rect" id="node332" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Forwarder.html" title=" " alt="" coords="1009,3075,1352,3145"/>
+<area shape="rect" id="node333" href="$classFrameGrabberOf__ForwarderWithStream.html" title=" " alt="" coords="1453,3205,1656,3261"/>
+<area shape="rect" id="node335" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Forwarder.html" title=" " alt="" coords="1041,5,1320,76"/>
+<area shape="rect" id="node337" href="$classFrameGrabberCropperOf.html" title=" " alt="" coords="1090,181,1271,223"/>
+<area shape="rect" id="node338" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Forwarder.html" title="This classes implement a sender / parser for IFrameGrabberOf interface messages." alt="" coords="1055,101,1306,157"/>
+<area shape="rect" id="node336" href="$classFrameGrabberOf__ForwarderWithStream.html" title=" " alt="" coords="1453,13,1656,69"/>
+<area shape="rect" id="node339" href="$classyarp_1_1dev_1_1IFrameTransform.html" title="Transform Interface." alt="" coords="725,12701,925,12727"/>
+<area shape="rect" id="node340" href="$classyarp_1_1dev_1_1IFrameTransformClientControl.html" title="IFrameTransformClientControl Interface." alt="" coords="725,12752,925,12793"/>
+<area shape="rect" id="node341" href="$classyarp_1_1dev_1_1IFrameTransformStorageGet.html" title="Transform Interface." alt="" coords="725,7461,925,7503"/>
+<area shape="rect" id="node342" href="$classFrameTransformContainer.html" title="FrameTransformContainer: A class that contains a vector of frame transformations and exposes yarp::de..." alt="" coords="1085,8017,1276,8043"/>
+<area shape="rect" id="node343" href="$classyarp_1_1dev_1_1IFrameTransformStorageSet.html" title="Transform Interface." alt="" coords="725,8787,925,8828"/>
+<area shape="rect" id="node344" href="$classyarp_1_1dev_1_1IFrameTransformStorageUtils.html" title="Transform Interface." alt="" coords="725,9400,925,9441"/>
+<area shape="rect" id="node345" href="$classyarp_1_1dev_1_1IFrameWriterAudioVisual.html" title="Write a YARP&#45;format image and sound to a device." alt="" coords="719,5335,931,5376"/>
+<area shape="rect" id="node346" href="$classyarp_1_1dev_1_1IFrameWriterImage.html" title="Read a YARP&#45;format image to a device." alt="" coords="717,5283,933,5310"/>
+<area shape="rect" id="node347" href="$classyarp_1_1dev_1_1IGenericSensor.html" title="A generic interface to sensors – gyro, a/d converters etc." alt="" coords="731,17351,919,17378"/>
+<area shape="rect" id="node348" href="$classyarp_1_1dev_1_1IImpedanceControl.html" title="Interface for control boards implementing impedance control." alt="" coords="718,1834,931,1861"/>
+<area shape="rect" id="node349" href="$classyarp_1_1dev_1_1ImplementImpedanceControl.html" title=" " alt="" coords="1064,1821,1297,1863"/>
+<area shape="rect" id="node350" href="$classyarp_1_1dev_1_1IImpedanceControlRaw.html" title="Interface for control boards implementing impedance control." alt="" coords="1060,6430,1301,6457"/>
+<area shape="rect" id="node351" href="$classyarp_1_1dev_1_1IInteractionMode.html" title="Interface settings the way the robot interacts with the environment: basic interaction types are Stif..." alt="" coords="725,2097,925,2123"/>
+<area shape="rect" id="node352" href="$classyarp_1_1dev_1_1ImplementInteractionMode.html" title="Interface settings the way the robot interacts with the environment: basic interaction types are Stif..." alt="" coords="1047,2106,1314,2133"/>
+<area shape="rect" id="node353" href="$classyarp_1_1dev_1_1IInteractionModeRaw.html" title="Interface settings the way the robot interacts with the environment: basic interaction types are Stif..." alt="" coords="1067,8270,1295,8297"/>
+<area shape="rect" id="node354" href="$classyarp_1_1dev_1_1StubImplInteractionModeRaw.html" title="Stub implementation of IInteractionMode interface." alt="" coords="1445,8255,1664,8296"/>
+<area shape="rect" id="node355" href="$classyarp_1_1dev_1_1IJointFault.html" title="Interface for getting info about the fault which may occur on a robot." alt="" coords="747,2603,902,2630"/>
+<area shape="rect" id="node356" href="$classyarp_1_1dev_1_1ImplementJointFault.html" title=" " alt="" coords="1085,4397,1276,4439"/>
+<area shape="rect" id="node357" href="$classyarp_1_1dev_1_1IJointFaultRaw.html" title="Interface for getting info about the fault which may occur on a robot." alt="" coords="1089,6481,1272,6507"/>
+<area shape="rect" id="node358" href="$classyarp_1_1dev_1_1IJoypadController.html" title=" " alt="" coords="723,11018,926,11045"/>
+<area shape="rect" id="node359" href="$classyarp_1_1dev_1_1IJoypadEventDriven.html" title=" " alt="" coords="1071,11018,1290,11045"/>
+<area shape="rect" id="node360" href="$classyarp_1_1dev_1_1Nav2D_1_1ILocalization2D.html" title="ILocalization2D interface." alt="" coords="703,9030,946,9057"/>
+<area shape="rect" id="node361" href="$classyarp_1_1dev_1_1Nav2D_1_1INavigation2D.html" title="An interface to control the navigation of a mobile robot in a 2D environment." alt="" coords="1063,13813,1298,13839"/>
+<area shape="rect" id="node362" href="$classyarp_1_1dev_1_1Nav2D_1_1IMap2D.html" title="IMap2D Interface." alt="" coords="729,12970,921,12997"/>
+<area shape="rect" id="node363" href="$classyarp_1_1dev_1_1IMotor.html" title="Control board, encoder interface." alt="" coords="759,1995,891,2022"/>
+<area shape="rect" id="node364" href="$classyarp_1_1dev_1_1ImplementMotor.html" title=" " alt="" coords="1081,2005,1280,2031"/>
+<area shape="rect" id="node365" href="$classyarp_1_1dev_1_1IMotorEncoders.html" title="Control board, encoder interface." alt="" coords="729,1718,920,1745"/>
+<area shape="rect" id="node366" href="$classyarp_1_1dev_1_1ImplementMotorEncoders.html" title=" " alt="" coords="1081,1704,1280,1745"/>
+<area shape="rect" id="node367" href="$classyarp_1_1dev_1_1IMotorEncodersRaw.html" title="Control board, encoder interface." alt="" coords="1071,6683,1290,6710"/>
+<area shape="rect" id="node368" href="$classyarp_1_1dev_1_1IMotorRaw.html" title="Control board, encoder interface." alt="" coords="1101,7190,1261,7217"/>
+<area shape="rect" id="node369" href="$classyarp_1_1dev_1_1IMultipleWrapper.html" title="Interface for an object that can wrap/attach to to another." alt="" coords="437,11366,640,11393"/>
+<area shape="rect" id="node370" href="$classyarp_1_1dev_1_1WrapperMultiple.html" title="Helper interface for an object that can wrap/or &quot;attach&quot; to one or more other devices." alt="" coords="725,7410,924,7437"/>
+<area shape="rect" id="node371" href="$classyarp_1_1dev_1_1WrapperSingle.html" title="Helper interface for an object that can wrap/or &quot;attach&quot; to a single other device." alt="" coords="732,10023,917,10050"/>
+<area shape="rect" id="node372" href="$classyarp_1_1dev_1_1Nav2D_1_1INavigation2DControlActions.html" title=" " alt="" coords="712,13923,937,13964"/>
+<area shape="rect" id="node373" href="$classyarp_1_1dev_1_1Nav2D_1_1INavigation2DExtraActions.html" title=" " alt="" coords="712,13805,937,13847"/>
+<area shape="rect" id="node374" href="$classyarp_1_1dev_1_1Nav2D_1_1INavigation2DTargetActions.html" title=" " alt="" coords="712,13988,937,14029"/>
+<area shape="rect" id="node375" href="$classyarp_1_1dev_1_1Nav2D_1_1INavigation2DVelocityActions.html" title=" " alt="" coords="712,13740,937,13781"/>
+<area shape="rect" id="node376" href="$classyarp_1_1os_1_1InputStream.html" title="Simple specification of the minimum functions needed from input streams." alt="" coords="743,30201,906,30227"/>
+<area shape="rect" id="node377" href="$classHumanStream.html" title=" " alt="" coords="1123,30378,1239,30405"/>
+<area shape="rect" id="node378" href="$classMjpegStream.html" title=" " alt="" coords="1126,30074,1235,30101"/>
+<area shape="rect" id="node379" href="$classMpiStream.html" title="Abstract base class for port communication via MPI." alt="" coords="1134,30429,1227,30455"/>
+<area shape="rect" id="node382" href="$classShmemHybridStream.html" title="A stream abstraction for shared memory communication." alt="" coords="1099,30125,1262,30151"/>
+<area shape="rect" id="node383" href="$classTcpRosStream.html" title=" " alt="" coords="1123,30175,1238,30202"/>
+<area shape="rect" id="node384" href="$classUnixSockTwoWayStream.html" title="A stream abstraction for unix socket communication." alt="" coords="1089,30226,1272,30253"/>
+<area shape="rect" id="node385" href="$classWebSocketStream.html" title=" " alt="" coords="1111,30277,1251,30303"/>
+<area shape="rect" id="node386" href="$classXmlRpcStream.html" title=" " alt="" coords="1121,30327,1240,30354"/>
+<area shape="rect" id="node387" href="$classyarp_1_1os_1_1NullStream.html" title="A &quot;null&quot; stream, always invalid." alt="" coords="1103,30546,1258,30573"/>
+<area shape="rect" id="node388" href="$classyarp_1_1os_1_1StringInputStream.html" title="An InputStream that reads from a string." alt="" coords="1081,29723,1281,29750"/>
+<area shape="rect" id="node389" href="$classyarp_1_1os_1_1impl_1_1DgramTwoWayStream.html" title="A stream abstraction for datagram communication." alt="" coords="1087,30480,1275,30521"/>
+<area shape="rect" id="node391" href="$classyarp_1_1os_1_1impl_1_1LocalCarrierStream.html" title="A stream for communicating locally within a process." alt="" coords="1082,30597,1279,30639"/>
+<area shape="rect" id="node392" href="$classyarp_1_1os_1_1impl_1_1NameserTwoWayStream.html" title="Communicating between two ports via a variant plain&#45;text protocol originally designed for the yarp na..." alt="" coords="1079,29825,1282,29867"/>
+<area shape="rect" id="node393" href="$classyarp_1_1os_1_1impl_1_1SocketTwoWayStream.html" title="A stream abstraction for socket communication." alt="" coords="1087,29891,1274,29932"/>
+<area shape="rect" id="node394" href="$classyarp_1_1wire__rep__utils_1_1WireTwiddlerReader.html" title=" " alt="" coords="1101,29657,1261,29699"/>
+<area shape="rect" id="node380" href="$classMpiBcastStream.html" title="Implements communication via MPI broadcast." alt="" coords="1490,30382,1619,30409"/>
+<area shape="rect" id="node381" href="$classMpiP2PStream.html" title="Implements communication via MPI point&#45;to&#45;point send/receive." alt="" coords="1496,30433,1613,30459"/>
+<area shape="rect" id="node390" href="$classH264Stream.html" title=" " alt="" coords="1503,30487,1606,30514"/>
+<area shape="rect" id="node395" href="$classyarp_1_1dev_1_1Nav2D_1_1IOdometry2D.html" title="IOdometry2D interface." alt="" coords="710,11845,939,11871"/>
+<area shape="rect" id="node396" href="$classyarp_1_1dev_1_1IOrientationSensors.html" title="Device interface to one or multiple orientation sensors, such as IMUs with on board estimation algori..." alt="" coords="715,17469,934,17495"/>
+<area shape="rect" id="node397" href="$classyarp_1_1dev_1_1IPidControl.html" title="Interface for a generic control board device implementing a PID controller, with scaled arguments." alt="" coords="744,2046,905,2073"/>
+<area shape="rect" id="node398" href="$classyarp_1_1dev_1_1ImplementPidControl.html" title=" " alt="" coords="1067,2055,1295,2082"/>
+<area shape="rect" id="node399" href="$classyarp_1_1dev_1_1IPidControlRaw.html" title="Interface for a generic control board device implementing a PID controller." alt="" coords="1086,7443,1275,7470"/>
+<area shape="rect" id="node400" href="$classyarp_1_1dev_1_1IPositionControl.html" title="Interface for a generic control board device implementing position control." alt="" coords="728,2906,921,2933"/>
+<area shape="rect" id="node401" href="$classyarp_1_1dev_1_1ImplementPositionControl.html" title="Default implementation of the IPositionControl interface." alt="" coords="1074,4463,1287,4504"/>
+<area shape="rect" id="node402" href="$classyarp_1_1dev_1_1IPositionControlRaw.html" title="Interface for a generic control board device implementing position control in encoder coordinates." alt="" coords="1070,8777,1291,8803"/>
+<area shape="rect" id="node403" href="$classyarp_1_1dev_1_1StubImplPositionControlRaw.html" title="Stub implementation of IPositionControlRaw interface." alt="" coords="1455,8769,1655,8811"/>
+<area shape="rect" id="node404" href="$classyarp_1_1dev_1_1IPositionDirect.html" title="Interface for a generic control board device implementing position control." alt="" coords="732,2502,917,2529"/>
+<area shape="rect" id="node405" href="$classyarp_1_1dev_1_1ImplementPositionDirect.html" title="Default implementation of the IPositionDirect interface." alt="" coords="1074,2840,1287,2881"/>
+<area shape="rect" id="node406" href="$classyarp_1_1dev_1_1StubImplPositionDirectRaw.html" title="Stub implementation of IPositionControl2Raw interface." alt="" coords="1081,2775,1281,2816"/>
+<area shape="rect" id="node407" href="$classyarp_1_1dev_1_1IPositionDirectRaw.html" title="Interface for a generic control board device implementing position control in encoder coordinates." alt="" coords="1074,7494,1287,7521"/>
+<area shape="rect" id="node408" href="$classyarp_1_1dev_1_1IPositionSensors.html" title="Device interface to one or multiple position sensors, such as UWB localization sensors." alt="" coords="726,17519,923,17546"/>
+<area shape="rect" id="node409" href="$classyarp_1_1dev_1_1IPreciselyTimed.html" title=" " alt="" coords="727,4579,922,4606"/>
+<area shape="rect" id="node410" href="$classyarp_1_1dev_1_1IPWMControl.html" title="Interface for controlling an axis, by sending directly a PWM reference signal to a motor." alt="" coords="737,2198,912,2225"/>
+<area shape="rect" id="node411" href="$classyarp_1_1dev_1_1ImplementPWMControl.html" title=" " alt="" coords="1060,2309,1301,2335"/>
+<area shape="rect" id="node412" href="$classyarp_1_1dev_1_1IPWMControlRaw.html" title="Interface for controlling an axis, by sending directly a PWM reference signal to a motor." alt="" coords="1079,7545,1282,7571"/>
+<area shape="rect" id="node413" href="$classyarp_1_1dev_1_1IRangefinder2D.html" title="A generic interface for planar laser range finders." alt="" coords="443,6911,634,6938"/>
+<area shape="rect" id="node414" href="$classyarp_1_1dev_1_1Lidar2DDeviceBase.html" title="The Lidar2DDeviceBase class." alt="" coords="716,7578,933,7605"/>
+<area shape="rect" id="node415" href="$classyarp_1_1dev_1_1IRemoteCalibrator.html" title="IRemoteCalibrator interface is meant to remotize the access of the calibration device in order to all..." alt="" coords="720,2147,929,2174"/>
+<area shape="rect" id="node416" href="$classyarp_1_1dev_1_1IRemoteVariables.html" title="IRemoteVariables interface." alt="" coords="722,1365,927,1391"/>
+<area shape="rect" id="node417" href="$classyarp_1_1dev_1_1ImplementRemoteVariables.html" title=" " alt="" coords="1075,780,1287,821"/>
+<area shape="rect" id="node418" href="$classyarp_1_1dev_1_1IRgbVisualParams.html" title="An interface for retrieving intrinsic parameter from a rgb camera." alt="" coords="721,4786,928,4813"/>
+<area shape="rect" id="node419" href="$classyarp_1_1proto_1_1framegrabber_1_1RgbVisualParams__Forwarder.html" title=" " alt="" coords="1073,4833,1288,4875"/>
+<area shape="rect" id="node420" href="$classyarp_1_1dev_1_1IRobotDescription.html" title="This interface allows users to retrieve a list which contains the names and the types of the currentl..." alt="" coords="721,9081,928,9107"/>
+<area shape="rect" id="node421" href="$classyarp_1_1dev_1_1ISerialDevice.html" title="A generic interface to serial port devices." alt="" coords="737,11630,913,11657"/>
+<area shape="rect" id="node422" href="$classyarp_1_1dev_1_1IService.html" title="Common interface for devices that act like services (by which we mean they do something for remote us..." alt="" coords="753,7527,896,7554"/>
+<area shape="rect" id="node423" href="$classyarp_1_1dev_1_1ISixAxisForceTorqueSensors.html" title="Device interface to one or multiple six axis force torque sensor." alt="" coords="736,17907,913,17948"/>
+<area shape="rect" id="node424" href="$classyarp_1_1dev_1_1ISkinPatches.html" title="Device interface to one or more groups (patches) of tactile sensors (skin)." alt="" coords="739,17973,911,17999"/>
+<area shape="rect" id="node425" href="$classyarp_1_1dev_1_1ITemperatureSensors.html" title="Device interface to one or multiple temperature sensors." alt="" coords="711,17738,938,17765"/>
+<area shape="rect" id="node426" href="$classyarp_1_1dev_1_1IThreeAxisGyroscopes.html" title="Device interface to one or multiple three axis gyroscopes." alt="" coords="707,17570,942,17597"/>
+<area shape="rect" id="node427" href="$classyarp_1_1dev_1_1IThreeAxisLinearAccelerometers.html" title="Device interface to one or multiple three axis linear accelerometers." alt="" coords="725,17621,924,17663"/>
+<area shape="rect" id="node428" href="$classyarp_1_1dev_1_1IThreeAxisMagnetometers.html" title="Device interface to one or multiple three axis magnetometers." alt="" coords="693,17687,956,17714"/>
+<area shape="rect" id="node429" href="$classyarp_1_1dev_1_1ITorqueControl.html" title="Interface for control boards implementing torque control." alt="" coords="733,2553,917,2579"/>
+<area shape="rect" id="node430" href="$classyarp_1_1dev_1_1ImplementTorqueControl.html" title=" " alt="" coords="1079,2957,1283,2999"/>
+<area shape="rect" id="node431" href="$classyarp_1_1dev_1_1ITorqueControlRaw.html" title="Interface for control boards implementing torque control." alt="" coords="1075,7697,1287,7723"/>
+<area shape="rect" id="node432" href="$classyarp_1_1dev_1_1IVelocityControl.html" title="Interface for control boards implementing velocity control." alt="" coords="728,2451,921,2478"/>
+<area shape="rect" id="node433" href="$classyarp_1_1dev_1_1ImplementVelocityControl.html" title=" " alt="" coords="1074,2709,1287,2751"/>
+<area shape="rect" id="node434" href="$classyarp_1_1dev_1_1IVelocityControlRaw.html" title="Interface for control boards implementig velocity control in encoder coordinates." alt="" coords="1070,9365,1291,9391"/>
+<area shape="rect" id="node435" href="$classyarp_1_1dev_1_1StubImplVelocityControlRaw.html" title="Stub implementation of IPositionControl2Raw interface." alt="" coords="1455,9357,1655,9399"/>
+<area shape="rect" id="node436" href="$classyarp_1_1dev_1_1IVirtualAnalogSensor.html" title="A generic interface to a virtual sensors." alt="" coords="733,9132,916,9173"/>
+<area shape="rect" id="node437" href="$classyarp_1_1dev_1_1ImplementVirtualAnalogSensor.html" title=" " alt="" coords="1079,9132,1283,9173"/>
+<area shape="rect" id="node438" href="$classyarp_1_1dev_1_1IVirtualAnalogSensorRaw.html" title="A generic interface to a virtual sensors." alt="" coords="1089,7799,1272,7840"/>
+<area shape="rect" id="node439" href="$classyarp_1_1dev_1_1IWrapper.html" title="Interface for an object that can wrap/or &quot;attach&quot; to another." alt="" coords="464,9517,613,9543"/>
+<area shape="rect" id="node440" href="$classyarp_1_1os_1_1LocalReader.html" title="Under development." alt="" coords="725,32965,925,32991"/>
+<area shape="rect" id="node441" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title="Buffer incoming data to a port." alt="" coords="1065,32966,1296,32993"/>
+<area shape="rect" id="node442" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="743,35961,906,36003"/>
+<area shape="rect" id="node443" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,36027,1277,36068"/>
+<area shape="rect" id="node444" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="743,36157,906,36199"/>
+<area shape="rect" id="node445" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,36223,1277,36264"/>
+<area shape="rect" id="node446" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="721,36353,929,36395"/>
+<area shape="rect" id="node447" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1077,36389,1285,36431"/>
+<area shape="rect" id="node448" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="743,36863,906,36904"/>
+<area shape="rect" id="node449" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,36863,1277,36904"/>
+<area shape="rect" id="node450" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="727,36993,922,37035"/>
+<area shape="rect" id="node451" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1083,36993,1278,37035"/>
+<area shape="rect" id="node452" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="741,33263,908,33319"/>
+<area shape="rect" id="node453" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1066,33271,1295,33312"/>
+<area shape="rect" id="node454" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="716,37189,933,37231"/>
+<area shape="rect" id="node455" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1072,37189,1289,37231"/>
+<area shape="rect" id="node456" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="723,33649,927,33691"/>
+<area shape="rect" id="node457" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1079,33845,1283,33887"/>
+<area shape="rect" id="node458" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="701,37385,949,37427"/>
+<area shape="rect" id="node459" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1057,37385,1305,37427"/>
+<area shape="rect" id="node460" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="688,37581,961,37623"/>
+<area shape="rect" id="node461" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1044,37581,1317,37623"/>
+<area shape="rect" id="node462" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="717,37777,933,37819"/>
+<area shape="rect" id="node463" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,37777,1289,37819"/>
+<area shape="rect" id="node464" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="743,37124,906,37165"/>
+<area shape="rect" id="node465" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,37059,1277,37100"/>
+<area shape="rect" id="node466" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="729,37973,920,38015"/>
+<area shape="rect" id="node467" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,37973,1277,38015"/>
+<area shape="rect" id="node468" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="728,38170,921,38226"/>
+<area shape="rect" id="node469" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,38170,1277,38226"/>
+<area shape="rect" id="node470" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="728,34377,921,34433"/>
+<area shape="rect" id="node471" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,34393,1277,34449"/>
+<area shape="rect" id="node472" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="727,38410,922,38466"/>
+<area shape="rect" id="node473" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1083,38402,1278,38458"/>
+<area shape="rect" id="node474" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="727,35489,923,35545"/>
+<area shape="rect" id="node475" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1083,35517,1279,35573"/>
+<area shape="rect" id="node476" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="727,35097,923,35153"/>
+<area shape="rect" id="node477" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1083,35053,1279,35109"/>
+<area shape="rect" id="node478" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="727,38650,923,38706"/>
+<area shape="rect" id="node479" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1083,38650,1279,38706"/>
+<area shape="rect" id="node480" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="738,35881,911,35937"/>
+<area shape="rect" id="node481" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,35881,1288,35937"/>
+<area shape="rect" id="node482" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="738,34617,911,34673"/>
+<area shape="rect" id="node483" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,34617,1288,34673"/>
+<area shape="rect" id="node484" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="738,38890,911,38946"/>
+<area shape="rect" id="node485" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1049,38897,1312,38939"/>
+<area shape="rect" id="node486" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="738,39117,911,39173"/>
+<area shape="rect" id="node487" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,39117,1288,39173"/>
+<area shape="rect" id="node488" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="738,34137,911,34193"/>
+<area shape="rect" id="node489" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,34182,1288,34238"/>
+<area shape="rect" id="node490" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="735,39357,914,39413"/>
+<area shape="rect" id="node491" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,39357,1288,39413"/>
+<area shape="rect" id="node492" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="738,39597,911,39653"/>
+<area shape="rect" id="node493" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,39597,1288,39653"/>
+<area shape="rect" id="node494" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="738,39837,911,39893"/>
+<area shape="rect" id="node495" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1073,39837,1288,39893"/>
+<area shape="rect" id="node496" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="729,34857,920,34913"/>
+<area shape="rect" id="node497" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,34842,1277,34898"/>
+<area shape="rect" id="node498" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="718,40077,931,40133"/>
+<area shape="rect" id="node499" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1074,40077,1287,40133"/>
+<area shape="rect" id="node500" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="732,40317,917,40359"/>
+<area shape="rect" id="node501" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,40317,1277,40359"/>
+<area shape="rect" id="node502" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="727,33503,922,33559"/>
+<area shape="rect" id="node503" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1080,33503,1281,33559"/>
+<area shape="rect" id="node504" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="731,40594,918,40650"/>
+<area shape="rect" id="node505" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1080,40514,1281,40570"/>
+<area shape="rect" id="node506" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="743,40675,906,40716"/>
+<area shape="rect" id="node507" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,40675,1277,40716"/>
+<area shape="rect" id="node508" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="743,33911,906,33952"/>
+<area shape="rect" id="node509" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,34036,1277,34077"/>
+<area shape="rect" id="node510" href="$classyarp_1_1os_1_1LocalReader.html" title=" " alt="" coords="739,32899,911,32940"/>
+<area shape="rect" id="node511" href="$classyarp_1_1os_1_1PortReaderBuffer.html" title=" " alt="" coords="1084,32899,1277,32940"/>
+<area shape="rect" id="node512" href="$structJoypadControl_1_1LoopablePort.html" title=" " alt="" coords="1077,33017,1284,33043"/>
+<area shape="rect" id="node513" href="$classyarp_1_1dev_1_1Nav2D_1_1MapGrid2DInfo.html" title=" " alt="" coords="1078,16684,1283,16725"/>
+<area shape="rect" id="node514" href="$classyarp_1_1dev_1_1Nav2D_1_1MapGrid2D.html" title=" " alt="" coords="1447,17383,1662,17410"/>
+<area shape="rect" id="node515" href="$classyarp_1_1os_1_1NameSpace.html" title="An abstract name space for ports." alt="" coords="745,40923,905,40950"/>
+<area shape="rect" id="node516" href="$classyarp_1_1os_1_1MultiNameSpace.html" title=" " alt="" coords="1084,40923,1277,40950"/>
+<area shape="rect" id="node517" href="$classyarp_1_1os_1_1RosNameSpace.html" title=" " alt="" coords="1089,38345,1273,38371"/>
+<area shape="rect" id="node518" href="$classyarp_1_1os_1_1YarpNameSpace.html" title=" " alt="" coords="1087,40873,1274,40899"/>
+<area shape="rect" id="node519" href="$classyarp_1_1os_1_1YarpDummyNameSpace.html" title=" " alt="" coords="1435,40873,1674,40899"/>
+<area shape="rect" id="node520" href="$classyarp_1_1os_1_1OutputStream.html" title="Simple specification of the minimum functions needed from output streams." alt="" coords="738,30378,911,30405"/>
+<area shape="rect" id="node521" href="$classyarp_1_1os_1_1StringOutputStream.html" title="An OutputStream that produces a string." alt="" coords="1075,30794,1286,30821"/>
+<area shape="rect" id="node522" href="$classyarp_1_1os_1_1impl_1_1HttpTwoWayStream.html" title="Minimal http connection support." alt="" coords="1081,30663,1281,30704"/>
+<area shape="rect" id="node523" href="$classyarp_1_1os_1_1impl_1_1MemoryOutputStream.html" title="An OutputStream that writes to a given memory buffer address." alt="" coords="1072,30728,1289,30769"/>
+<area shape="rect" id="node524" href="$classyarp_1_1os_1_1PeriodicThread.html" title="An abstraction for a periodic thread." alt="" coords="735,10917,914,10943"/>
+<area shape="rect" id="node525" href="$classAudioRecorderDataThread.html" title=" " alt="" coords="1084,12514,1277,12541"/>
+<area shape="rect" id="node526" href="$classAudioRecorderStatusThread.html" title=" " alt="" coords="1079,11431,1282,11458"/>
+<area shape="rect" id="node527" href="$classDiagnosticThread.html" title=" " alt="" coords="1113,11482,1249,11509"/>
+<area shape="rect" id="node528" href="$classJoypadControlWatchdog.html" title=" " alt="" coords="1092,11533,1269,11559"/>
+<area shape="rect" id="node529" href="$classMonitorTrigger.html" title=" " alt="" coords="1123,11663,1239,11690"/>
+<area shape="rect" id="node530" href="$classPriorityDebugThread.html" title=" " alt="" coords="1103,11714,1259,11741"/>
+<area shape="rect" id="node531" href="$classThreadedTimer.html" title=" " alt="" coords="1120,14066,1241,14093"/>
+<area shape="rect" id="node532" href="$classTimerSingleton.html" title=" " alt="" coords="1120,11946,1241,11973"/>
+<area shape="rect" id="node533" href="$classfakeLocalizerThread.html" title=" " alt="" coords="1104,11221,1257,11247"/>
+<area shape="rect" id="node534" href="$classfakeNavigationThread.html" title=" " alt="" coords="1097,11997,1264,12023"/>
+<area shape="rect" id="node535" href="$classyarp_1_1manager_1_1ConcurentRateWrapper.html" title=" " alt="" coords="1085,12048,1276,12089"/>
+<area shape="rect" id="node536" href="$classyarp_1_1os_1_1RateThread.html" title="An abstraction for a periodic thread." alt="" coords="1102,12114,1259,12141"/>
+<area shape="rect" id="node537" href="$classyarp_1_1os_1_1RateThreadWrapper.html" title="This class takes a Runnable instance and wraps a thread around it." alt="" coords="1075,12245,1287,12271"/>
+<area shape="rect" id="node538" href="$classyarp_1_1os_1_1SystemRateThread.html" title=" " alt="" coords="1077,12295,1284,12322"/>
+<area shape="rect" id="node539" href="$classyarp_1_1os_1_1PortReader.html" title="Interface implemented by all objects that can read themselves from the network, such as Bottle object..." alt="" coords="747,12919,902,12946"/>
+<area shape="rect" id="node540" href="$classAnalogServerHandler.html" title="Handler of the rpc port related to an analog sensor." alt="" coords="1101,13341,1261,13367"/>
+<area shape="rect" id="node541" href="$classNetworkClock_1_1Private.html" title=" " alt="" coords="1094,13392,1267,13433"/>
+<area shape="rect" id="node542" href="$classPingSampler.html" title=" " alt="" coords="1129,13458,1233,13485"/>
+<area shape="rect" id="node543" href="$classRFModuleRespondHandler.html" title=" " alt="" coords="1083,13914,1278,13941"/>
+<area shape="rect" id="node544" href="$classRosSlave.html" title=" " alt="" coords="1139,13509,1222,13535"/>
+<area shape="rect" id="node545" href="$classyarp_1_1dev_1_1DeviceResponder.html" title="A cheap and cheerful framework for human readable/writable forms of messages to devices." alt="" coords="1079,14117,1283,14143"/>
+<area shape="rect" id="node557" href="$classyarp_1_1name_1_1NameServerConnectionHandler.html" title="Manage a single connection to the name server." alt="" coords="1051,13021,1310,13063"/>
+<area shape="rect" id="node558" href="$classyarp_1_1os_1_1Node_1_1Helper.html" title=" " alt="" coords="1097,13138,1264,13165"/>
+<area shape="rect" id="node559" href="$classyarp_1_1os_1_1PortReaderBufferBase.html" title=" " alt="" coords="1068,13290,1293,13317"/>
+<area shape="rect" id="node560" href="$classyarp_1_1os_1_1Portable.html" title="This is a base class for objects that can be both read from and be written to the YARP network." alt="" coords="1113,23714,1249,23741"/>
+<area shape="rect" id="node1032" href="$classyarp_1_1os_1_1Wire.html" title="Base class for IDL client/server." alt="" coords="1125,13189,1237,13215"/>
+<area shape="rect" id="node1046" href="$classyarp_1_1os_1_1impl_1_1PortCore.html" title=" " alt="" coords="1093,28334,1268,28361"/>
+<area shape="rect" id="node546" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Responder.html" title=" " alt="" coords="1447,13785,1662,13856"/>
+<area shape="rect" id="node547" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Responder.html" title=" " alt="" coords="1400,13881,1709,13966"/>
+<area shape="rect" id="node548" href="$classJoypadCtrlParser.html" title=" " alt="" coords="1490,13990,1619,14017"/>
+<area shape="rect" id="node549" href="$classRGBDImpl_1_1RGBDSensorParser.html" title=" " alt="" coords="1445,14041,1664,14067"/>
+<area shape="rect" id="node550" href="$classRPCMessagesParser.html" title="Helper object for parsing RPC port messages." alt="" coords="1478,14091,1631,14118"/>
+<area shape="rect" id="node551" href="$classServerGrabberResponder.html" title=" " alt="" coords="1462,14142,1647,14169"/>
+<area shape="rect" id="node552" href="$classyarp_1_1proto_1_1framegrabber_1_1DepthVisualParams__Responder.html" title=" " alt="" coords="1438,14193,1671,14235"/>
+<area shape="rect" id="node553" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberControlsDC1394__Responder.html" title=" " alt="" coords="1441,14259,1669,14315"/>
+<area shape="rect" id="node554" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberControls__Responder.html" title=" " alt="" coords="1459,14339,1650,14395"/>
+<area shape="rect" id="node555" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Responder.html" title=" " alt="" coords="1429,14419,1680,14475"/>
+<area shape="rect" id="node556" href="$classyarp_1_1proto_1_1framegrabber_1_1RgbVisualParams__Responder.html" title=" " alt="" coords="1445,14500,1664,14541"/>
+<area shape="rect" id="node561" href="$classyarp_1_1math_1_1Vec2D.html" title=" " alt="" coords="1478,21993,1631,22035"/>
+<area shape="rect" id="node562" href="$classFakeBatteryService__getBatteryCharge__helper.html" title=" " alt="" coords="1459,22059,1651,22100"/>
+<area shape="rect" id="node563" href="$classFakeBatteryService__getBatteryCurrent__helper.html" title=" " alt="" coords="1457,22124,1652,22165"/>
+<area shape="rect" id="node564" href="$classFakeBatteryService__getBatteryInfo__helper.html" title=" " alt="" coords="1469,22189,1640,22231"/>
+<area shape="rect" id="node565" href="$classFakeBatteryService__getBatteryStatusString__helper.html" title=" " alt="" coords="1466,22255,1643,22311"/>
+<area shape="rect" id="node566" href="$classFakeBatteryService__getBatteryStatus__helper.html" title=" " alt="" coords="1461,22336,1648,22377"/>
+<area shape="rect" id="node567" href="$classFakeBatteryService__getBatteryTemperature__helper.html" title=" " alt="" coords="1465,22402,1645,22458"/>
+<area shape="rect" id="node568" href="$classFakeBatteryService__getBatteryVoltage__helper.html" title=" " alt="" coords="1457,22483,1652,22524"/>
+<area shape="rect" id="node569" href="$classFakeBatteryService__setBatteryCharge__helper.html" title=" " alt="" coords="1459,22548,1650,22589"/>
+<area shape="rect" id="node570" href="$classFakeBatteryService__setBatteryCurrent__helper.html" title=" " alt="" coords="1458,22613,1651,22655"/>
+<area shape="rect" id="node571" href="$classFakeBatteryService__setBatteryInfo__helper.html" title=" " alt="" coords="1469,22679,1640,22720"/>
+<area shape="rect" id="node572" href="$classFakeBatteryService__setBatteryStatus__helper.html" title=" " alt="" coords="1461,22744,1648,22785"/>
+<area shape="rect" id="node573" href="$classFakeBatteryService__setBatteryTemperature__helper.html" title=" " alt="" coords="1465,22810,1644,22866"/>
+<area shape="rect" id="node574" href="$classFakeBatteryService__setBatteryVoltage__helper.html" title=" " alt="" coords="1457,22891,1652,22932"/>
+<area shape="rect" id="node575" href="$classFrameTransformStorageGetRPC__getTransformsRPC__helper.html" title=" " alt="" coords="1443,22956,1666,22997"/>
+<area shape="rect" id="node576" href="$classFrameTransformStorageSetRPC__clearAllRPC__helper.html" title=" " alt="" coords="1455,23021,1654,23063"/>
+<area shape="rect" id="node577" href="$classFrameTransformStorageSetRPC__deleteTransformRPC__helper.html" title=" " alt="" coords="1455,23087,1654,23143"/>
+<area shape="rect" id="node578" href="$classFrameTransformStorageSetRPC__setTransformRPC__helper.html" title=" " alt="" coords="1447,23168,1662,23209"/>
+<area shape="rect" id="node579" href="$classFrameTransformStorageSetRPC__setTransformsRPC__helper.html" title=" " alt="" coords="1444,23233,1665,23275"/>
+<area shape="rect" id="node580" href="$classILocalization2DMsgs__get__current__position1__RPC__helper.html" title=" " alt="" coords="1469,23299,1640,23355"/>
+<area shape="rect" id="node581" href="$classILocalization2DMsgs__get__current__position2__RPC__helper.html" title=" " alt="" coords="1469,23379,1640,23435"/>
+<area shape="rect" id="node582" href="$classILocalization2DMsgs__get__estimated__odometry__RPC__helper.html" title=" " alt="" coords="1458,23459,1651,23515"/>
+<area shape="rect" id="node583" href="$classILocalization2DMsgs__get__estimated__poses__RPC__helper.html" title=" " alt="" coords="1471,23539,1639,23595"/>
+<area shape="rect" id="node584" href="$classILocalization2DMsgs__get__localization__status__RPC__helper.html" title=" " alt="" coords="1465,23619,1644,23675"/>
+<area shape="rect" id="node585" href="$classILocalization2DMsgs__set__initial__pose1__RPC__helper.html" title=" " alt="" coords="1469,23699,1641,23755"/>
+<area shape="rect" id="node586" href="$classILocalization2DMsgs__set__initial__pose2__RPC__helper.html" title=" " alt="" coords="1469,23779,1641,23835"/>
+<area shape="rect" id="node587" href="$classILocalization2DMsgs__start__localization__service__RPC__helper.html" title=" " alt="" coords="1476,23859,1633,23915"/>
+<area shape="rect" id="node588" href="$classILocalization2DMsgs__stop__localization__service__RPC__helper.html" title=" " alt="" coords="1458,23939,1651,23995"/>
+<area shape="rect" id="node589" href="$classIMap2DMsgs__clear__all__areas__RPC__helper.html" title=" " alt="" coords="1471,24020,1639,24061"/>
+<area shape="rect" id="node590" href="$classIMap2DMsgs__clear__all__locations__RPC__helper.html" title=" " alt="" coords="1470,24085,1639,24127"/>
+<area shape="rect" id="node591" href="$classIMap2DMsgs__clear__all__maps__RPC__helper.html" title=" " alt="" coords="1471,24151,1639,24192"/>
+<area shape="rect" id="node592" href="$classIMap2DMsgs__clear__all__maps__temporary__flags__RPC__helper.html" title=" " alt="" coords="1465,24217,1644,24273"/>
+<area shape="rect" id="node593" href="$classIMap2DMsgs__clear__all__paths__RPC__helper.html" title=" " alt="" coords="1471,24297,1639,24339"/>
+<area shape="rect" id="node594" href="$classIMap2DMsgs__clear__map__temporary__flags__RPC__helper.html" title=" " alt="" coords="1464,24363,1645,24419"/>
+<area shape="rect" id="node595" href="$classIMap2DMsgs__delete__area__RPC__helper.html" title=" " alt="" coords="1459,24444,1650,24485"/>
+<area shape="rect" id="node596" href="$classIMap2DMsgs__delete__location__RPC__helper.html" title=" " alt="" coords="1448,24509,1661,24551"/>
+<area shape="rect" id="node597" href="$classIMap2DMsgs__delete__path__RPC__helper.html" title=" " alt="" coords="1459,24575,1650,24616"/>
+<area shape="rect" id="node598" href="$classIMap2DMsgs__enable__maps__compression__RPC__helper.html" title=" " alt="" coords="1455,24640,1655,24681"/>
+<area shape="rect" id="node599" href="$classIMap2DMsgs__get__all__areas__RPC__helper.html" title=" " alt="" coords="1476,24705,1633,24747"/>
+<area shape="rect" id="node600" href="$classIMap2DMsgs__get__all__locations__RPC__helper.html" title=" " alt="" coords="1470,24771,1639,24812"/>
+<area shape="rect" id="node601" href="$classIMap2DMsgs__get__all__paths__RPC__helper.html" title=" " alt="" coords="1476,24836,1633,24877"/>
+<area shape="rect" id="node602" href="$classIMap2DMsgs__get__area__RPC__helper.html" title=" " alt="" coords="1469,24901,1640,24943"/>
+<area shape="rect" id="node603" href="$classIMap2DMsgs__get__areas__list__RPC__helper.html" title=" " alt="" coords="1466,24967,1643,25008"/>
+<area shape="rect" id="node604" href="$classIMap2DMsgs__get__location__RPC__helper.html" title=" " alt="" coords="1458,25032,1651,25073"/>
+<area shape="rect" id="node605" href="$classIMap2DMsgs__get__locations__list__RPC__helper.html" title=" " alt="" coords="1455,25097,1655,25139"/>
+<area shape="rect" id="node606" href="$classIMap2DMsgs__get__map__RPC__helper.html" title=" " alt="" coords="1469,25163,1640,25204"/>
+<area shape="rect" id="node607" href="$classIMap2DMsgs__get__map__names__RPC__helper.html" title=" " alt="" coords="1469,25228,1640,25269"/>
+<area shape="rect" id="node608" href="$classIMap2DMsgs__get__path__RPC__helper.html" title=" " alt="" coords="1469,25293,1640,25335"/>
+<area shape="rect" id="node609" href="$classIMap2DMsgs__get__paths__list__RPC__helper.html" title=" " alt="" coords="1466,25359,1643,25400"/>
+<area shape="rect" id="node610" href="$classIMap2DMsgs__load__locations__and__extras__RPC__helper.html" title=" " alt="" coords="1451,25424,1658,25465"/>
+<area shape="rect" id="node611" href="$classIMap2DMsgs__load__map__from__disk__RPC__helper.html" title=" " alt="" coords="1466,25489,1643,25531"/>
+<area shape="rect" id="node612" href="$classIMap2DMsgs__load__maps__collection__RPC__helper.html" title=" " alt="" coords="1463,25555,1647,25596"/>
+<area shape="rect" id="node613" href="$classIMap2DMsgs__remove__map__RPC__helper.html" title=" " alt="" coords="1455,25620,1654,25661"/>
+<area shape="rect" id="node614" href="$classIMap2DMsgs__rename__area__RPC__helper.html" title=" " alt="" coords="1455,25685,1654,25727"/>
+<area shape="rect" id="node615" href="$classIMap2DMsgs__rename__location__RPC__helper.html" title=" " alt="" coords="1443,25751,1666,25792"/>
+<area shape="rect" id="node616" href="$classIMap2DMsgs__rename__path__RPC__helper.html" title=" " alt="" coords="1455,25816,1654,25857"/>
+<area shape="rect" id="node617" href="$classIMap2DMsgs__save__locations__and__extras__RPC__helper.html" title=" " alt="" coords="1449,25881,1660,25923"/>
+<area shape="rect" id="node618" href="$classIMap2DMsgs__save__map__to__disk__RPC__helper.html" title=" " alt="" coords="1465,25947,1645,25988"/>
+<area shape="rect" id="node619" href="$classIMap2DMsgs__save__maps__collection__RPC__helper.html" title=" " alt="" coords="1461,26012,1648,26053"/>
+<area shape="rect" id="node620" href="$classIMap2DMsgs__store__area__RPC__helper.html" title=" " alt="" coords="1463,26077,1646,26119"/>
+<area shape="rect" id="node621" href="$classIMap2DMsgs__store__location__RPC__helper.html" title=" " alt="" coords="1452,26143,1657,26184"/>
+<area shape="rect" id="node622" href="$classIMap2DMsgs__store__map__RPC__helper.html" title=" " alt="" coords="1463,26208,1646,26249"/>
+<area shape="rect" id="node623" href="$classIMap2DMsgs__store__path__RPC__helper.html" title=" " alt="" coords="1463,26273,1646,26315"/>
+<area shape="rect" id="node624" href="$classINavigation2DMsgs__apply__velocity__command__RPC__helper.html" title=" " alt="" coords="1459,26339,1651,26395"/>
+<area shape="rect" id="node625" href="$classINavigation2DMsgs__get__absolute__location__of__current__target__RPC__helper.html" title=" " alt="" coords="1453,26419,1656,26475"/>
+<area shape="rect" id="node626" href="$classINavigation2DMsgs__get__all__navigation__waypoints__RPC__helper.html" title=" " alt="" coords="1457,26499,1652,26555"/>
+<area shape="rect" id="node627" href="$classINavigation2DMsgs__get__current__nav__waypoint__RPC__helper.html" title=" " alt="" coords="1466,26579,1643,26635"/>
+<area shape="rect" id="node628" href="$classINavigation2DMsgs__get__current__navigation__map__RPC__helper.html" title=" " alt="" coords="1461,26659,1648,26715"/>
+<area shape="rect" id="node629" href="$classINavigation2DMsgs__get__last__velocity__command__RPC__helper.html" title=" " alt="" coords="1463,26739,1647,26795"/>
+<area shape="rect" id="node630" href="$classINavigation2DMsgs__get__name__of__current__target__RPC__helper.html" title=" " alt="" coords="1462,26819,1647,26875"/>
+<area shape="rect" id="node631" href="$classINavigation2DMsgs__get__navigation__status__RPC__helper.html" title=" " alt="" coords="1465,26899,1644,26955"/>
+<area shape="rect" id="node632" href="$classINavigation2DMsgs__get__relative__location__of__current__target__RPC__helper.html" title=" " alt="" coords="1453,26979,1656,27035"/>
+<area shape="rect" id="node633" href="$classINavigation2DMsgs__goto__target__by__absolute__location__RPC__helper.html" title=" " alt="" coords="1448,27059,1661,27115"/>
+<area shape="rect" id="node634" href="$classINavigation2DMsgs__goto__target__by__absolute__location__and__set__name__RPC__helper.html" title=" " alt="" coords="1448,27139,1661,27195"/>
+<area shape="rect" id="node635" href="$classINavigation2DMsgs__goto__target__by__relative__location1__RPC__helper.html" title=" " alt="" coords="1447,27219,1662,27275"/>
+<area shape="rect" id="node636" href="$classINavigation2DMsgs__goto__target__by__relative__location2__RPC__helper.html" title=" " alt="" coords="1447,27299,1662,27355"/>
+<area shape="rect" id="node637" href="$classINavigation2DMsgs__recompute__current__navigation__path__RPC__helper.html" title=" " alt="" coords="1441,27379,1668,27435"/>
+<area shape="rect" id="node638" href="$classINavigation2DMsgs__resume__navigation__RPC__helper.html" title=" " alt="" coords="1452,27460,1657,27501"/>
+<area shape="rect" id="node639" href="$classINavigation2DMsgs__stop__navigation__RPC__helper.html" title=" " alt="" coords="1463,27525,1647,27567"/>
+<area shape="rect" id="node640" href="$classINavigation2DMsgs__suspend__navigation__RPC__helper.html" title=" " alt="" coords="1449,20584,1660,20625"/>
+<area shape="rect" id="node641" href="$classIOdometry2DMsgs__reset__odometry__RPC__helper.html" title=" " alt="" coords="1463,20649,1646,20691"/>
+<area shape="rect" id="node642" href="$structJoyData.html" title=" " alt="" coords="1518,20715,1591,20742"/>
+<area shape="rect" id="node643" href="$classMobileBaseVelocityControlRPC__applyVelocityCommandRPC__helper.html" title=" " alt="" coords="1413,20767,1697,20808"/>
+<area shape="rect" id="node644" href="$classMobileBaseVelocityControlRPC__getLastVelocityCommandRPC__helper.html" title=" " alt="" coords="1407,20832,1703,20873"/>
+<area shape="rect" id="node645" href="$classMultipleAnalogSensorsMetadata__getMetadata__helper.html" title=" " alt="" coords="1438,20897,1671,20939"/>
+<area shape="rect" id="node646" href="$classyarp_1_1math_1_1FrameTransform.html" title=" " alt="" coords="1451,20963,1658,20990"/>
+<area shape="rect" id="node647" href="$classyarp_1_1math_1_1Quaternion.html" title=" " alt="" coords="1468,21014,1641,21041"/>
+<area shape="rect" id="node648" href="$classyarp_1_1math_1_1Vec2D.html" title=" " alt="" coords="1465,21065,1645,21091"/>
+<area shape="rect" id="node649" href="$classyarp_1_1os_1_1BinPortable.html" title="Class for writing and reading simple binary structures." alt="" coords="1457,21115,1652,21142"/>
+<area shape="rect" id="node650" href="$classyarp_1_1os_1_1Bottle.html" title="A simple collection of objects that can be described and transmitted in a portable way." alt="" coords="1494,17434,1615,17461"/>
+<area shape="rect" id="node652" href="$classyarp_1_1os_1_1CommandBottle.html" title=" " alt="" coords="1461,21166,1649,21193"/>
+<area shape="rect" id="node653" href="$classyarp_1_1os_1_1Header.html" title="An abstraction for a sequence number, time stamp and/or frame id." alt="" coords="1490,21217,1619,21243"/>
+<area shape="rect" id="node654" href="$classyarp_1_1os_1_1ManagedBytes.html" title="An abstraction for a block of bytes, with optional responsibility for allocating/destroying that bloc..." alt="" coords="1465,21267,1644,21294"/>
+<area shape="rect" id="node655" href="$classyarp_1_1os_1_1PortablePairBase.html" title=" " alt="" coords="1459,21587,1651,21614"/>
+<area shape="rect" id="node657" href="$classyarp_1_1os_1_1Property.html" title="A class for storing options and configuration information." alt="" coords="1486,17485,1623,17511"/>
+<area shape="rect" id="node658" href="$classyarp_1_1os_1_1Stamp.html" title="An abstraction for a time stamp and/or sequence number." alt="" coords="1493,21369,1617,21395"/>
+<area shape="rect" id="node659" href="$classyarp_1_1os_1_1SystemInfoSerializer.html" title="A helper class to pass the SystemInfo object around the YARP network." alt="" coords="1446,21419,1663,21446"/>
+<area shape="rect" id="node660" href="$classyarp_1_1os_1_1Value.html" title="A single value (typically within a Bottle)." alt="" coords="1495,17535,1614,17562"/>
+<area shape="rect" id="node674" href="$classyarp_1_1os_1_1idl_1_1Unwrapped.html" title=" " alt="" coords="1445,21470,1664,21497"/>
+<area shape="rect" id="node675" href="$classyarp_1_1os_1_1idl_1_1UnwrappedView.html" title=" " alt="" coords="1465,21521,1645,21563"/>
+<area shape="rect" id="node676" href="$classyarp_1_1os_1_1idl_1_1WirePortable.html" title="A &quot;tamed&quot; Portable, that promises to serialize itself in an IDL&#45;friendly way." alt="" coords="1459,21638,1650,21665"/>
+<area shape="rect" id="node1009" href="$classyarp_1_1os_1_1impl_1_1PortCommand.html" title="Simple Readable and Writable object representing a command to a YARP port." alt="" coords="1449,21790,1661,21817"/>
+<area shape="rect" id="node1010" href="$classyarp_1_1sig_1_1Image.html" title="Base class for storing images." alt="" coords="1491,21689,1618,21715"/>
+<area shape="rect" id="node1020" href="$structyarp_1_1sig_1_1IntrinsicParams.html" title="The IntrinsicParams struct to handle the intrinsic parameter of cameras(RGB and RGBD either)." alt="" coords="1461,21841,1648,21867"/>
+<area shape="rect" id="node1021" href="$classyarp_1_1sig_1_1Matrix.html" title="A class for a Matrix." alt="" coords="1491,21891,1619,21918"/>
+<area shape="rect" id="node1022" href="$classyarp_1_1sig_1_1PointCloudBase.html" title="The PointCloudBase class." alt="" coords="1461,21942,1649,21969"/>
+<area shape="rect" id="node1024" href="$classyarp_1_1sig_1_1Sound.html" title="Class for storing sounds See Audio in YARP for additional documentation on YARP audio." alt="" coords="1491,21318,1618,21345"/>
+<area shape="rect" id="node1025" href="$classyarp_1_1sig_1_1VectorBase.html" title="A Base class for a VectorOf&lt;T&gt;, provide default implementation for read/write methods." alt="" coords="1475,21739,1634,21766"/>
+<area shape="rect" id="node651" href="$classNullBottle.html" title=" " alt="" coords="1854,10154,1941,10181"/>
+<area shape="rect" id="node656" href="$classyarp_1_1os_1_1PortablePair.html" title="Group a pair of objects to be sent and received together." alt="" coords="1817,10256,1977,10297"/>
+<area shape="rect" id="node661" href="$classyarp_1_1os_1_1impl_1_1Storable.html" title="A single item in a Bottle." alt="" coords="1811,10205,1984,10231"/>
+<area shape="rect" id="node662" href="$classyarp_1_1os_1_1impl_1_1StoreBlob.html" title="A binary blob item." alt="" coords="2115,10129,2298,10155"/>
+<area shape="rect" id="node663" href="$classyarp_1_1os_1_1impl_1_1StoreDict.html" title="Key/value pairs." alt="" coords="2117,10179,2296,10206"/>
+<area shape="rect" id="node664" href="$classyarp_1_1os_1_1impl_1_1StoreFloat32.html" title="A 32&#45;bit floating point number item." alt="" coords="2105,10230,2308,10257"/>
+<area shape="rect" id="node665" href="$classyarp_1_1os_1_1impl_1_1StoreFloat64.html" title="A 64&#45;bit floating point number item." alt="" coords="2105,10281,2308,10307"/>
+<area shape="rect" id="node666" href="$classyarp_1_1os_1_1impl_1_1StoreInt16.html" title="A 16&#45;bit integer item." alt="" coords="2113,10331,2300,10358"/>
+<area shape="rect" id="node667" href="$classyarp_1_1os_1_1impl_1_1StoreInt32.html" title="A 32&#45;bit integer item." alt="" coords="2113,10382,2300,10409"/>
+<area shape="rect" id="node668" href="$classyarp_1_1os_1_1impl_1_1StoreInt64.html" title="A 64&#45;bit integer item." alt="" coords="2113,10433,2300,10459"/>
+<area shape="rect" id="node669" href="$classyarp_1_1os_1_1impl_1_1StoreInt8.html" title="A 8&#45;bit integer item." alt="" coords="2117,10483,2296,10510"/>
+<area shape="rect" id="node670" href="$classyarp_1_1os_1_1impl_1_1StoreList.html" title="A nested list of items." alt="" coords="2119,9926,2295,9953"/>
+<area shape="rect" id="node671" href="$classyarp_1_1os_1_1impl_1_1StoreNull.html" title="An empty item." alt="" coords="2117,9977,2296,10003"/>
+<area shape="rect" id="node672" href="$classyarp_1_1os_1_1impl_1_1StoreString.html" title="A string item." alt="" coords="2111,10027,2302,10054"/>
+<area shape="rect" id="node673" href="$classyarp_1_1os_1_1impl_1_1StoreVocab32.html" title="A vocabulary item." alt="" coords="2103,10078,2311,10105"/>
+<area shape="rect" id="node677" href="$classFakeBatteryService__getBatteryCharge__helper_1_1Command.html" title=" " alt="" coords="1801,25263,1993,25319"/>
+<area shape="rect" id="node678" href="$classFakeBatteryService__getBatteryCharge__helper_1_1Reply.html" title=" " alt="" coords="1801,25343,1993,25399"/>
+<area shape="rect" id="node679" href="$classFakeBatteryService__getBatteryCurrent__helper_1_1Command.html" title=" " alt="" coords="1800,25423,1995,25479"/>
+<area shape="rect" id="node680" href="$classFakeBatteryService__getBatteryCurrent__helper_1_1Reply.html" title=" " alt="" coords="1800,25503,1995,25559"/>
+<area shape="rect" id="node681" href="$classFakeBatteryService__getBatteryInfo__helper_1_1Command.html" title=" " alt="" coords="1812,25583,1983,25639"/>
+<area shape="rect" id="node682" href="$classFakeBatteryService__getBatteryInfo__helper_1_1Reply.html" title=" " alt="" coords="1812,25663,1983,25719"/>
+<area shape="rect" id="node683" href="$classFakeBatteryService__getBatteryStatusString__helper_1_1Command.html" title=" " alt="" coords="1809,25743,1986,25799"/>
+<area shape="rect" id="node684" href="$classFakeBatteryService__getBatteryStatusString__helper_1_1Reply.html" title=" " alt="" coords="1809,25823,1986,25879"/>
+<area shape="rect" id="node685" href="$classFakeBatteryService__getBatteryStatus__helper_1_1Command.html" title=" " alt="" coords="1804,25903,1991,25959"/>
+<area shape="rect" id="node686" href="$classFakeBatteryService__getBatteryStatus__helper_1_1Reply.html" title=" " alt="" coords="1804,25983,1991,26039"/>
+<area shape="rect" id="node687" href="$classFakeBatteryService__getBatteryTemperature__helper_1_1Command.html" title=" " alt="" coords="1807,26063,1987,26119"/>
+<area shape="rect" id="node688" href="$classFakeBatteryService__getBatteryTemperature__helper_1_1Reply.html" title=" " alt="" coords="1807,26143,1987,26199"/>
+<area shape="rect" id="node689" href="$classFakeBatteryService__getBatteryVoltage__helper_1_1Command.html" title=" " alt="" coords="1800,26223,1995,26279"/>
+<area shape="rect" id="node690" href="$classFakeBatteryService__getBatteryVoltage__helper_1_1Reply.html" title=" " alt="" coords="1800,26303,1995,26359"/>
+<area shape="rect" id="node691" href="$classFakeBatteryService__setBatteryCharge__helper_1_1Command.html" title=" " alt="" coords="1802,26383,1993,26439"/>
+<area shape="rect" id="node692" href="$classFakeBatteryService__setBatteryCharge__helper_1_1Reply.html" title=" " alt="" coords="1802,26463,1993,26519"/>
+<area shape="rect" id="node693" href="$classFakeBatteryService__setBatteryCurrent__helper_1_1Command.html" title=" " alt="" coords="1801,26543,1994,26599"/>
+<area shape="rect" id="node694" href="$classFakeBatteryService__setBatteryCurrent__helper_1_1Reply.html" title=" " alt="" coords="1801,26623,1994,26679"/>
+<area shape="rect" id="node695" href="$classFakeBatteryService__setBatteryInfo__helper_1_1Command.html" title=" " alt="" coords="1812,26703,1983,26759"/>
+<area shape="rect" id="node696" href="$classFakeBatteryService__setBatteryInfo__helper_1_1Reply.html" title=" " alt="" coords="1812,26783,1983,26839"/>
+<area shape="rect" id="node697" href="$classFakeBatteryService__setBatteryStatus__helper_1_1Command.html" title=" " alt="" coords="1804,26863,1991,26919"/>
+<area shape="rect" id="node698" href="$classFakeBatteryService__setBatteryStatus__helper_1_1Reply.html" title=" " alt="" coords="1804,26943,1991,26999"/>
+<area shape="rect" id="node699" href="$classFakeBatteryService__setBatteryTemperature__helper_1_1Command.html" title=" " alt="" coords="1808,27023,1987,27079"/>
+<area shape="rect" id="node700" href="$classFakeBatteryService__setBatteryTemperature__helper_1_1Reply.html" title=" " alt="" coords="1808,27103,1987,27159"/>
+<area shape="rect" id="node701" href="$classFakeBatteryService__setBatteryVoltage__helper_1_1Command.html" title=" " alt="" coords="1800,27183,1995,27239"/>
+<area shape="rect" id="node702" href="$classFakeBatteryService__setBatteryVoltage__helper_1_1Reply.html" title=" " alt="" coords="1800,27263,1995,27319"/>
+<area shape="rect" id="node703" href="$classFrameTransformStorageGetRPC__getTransformsRPC__helper_1_1Command.html" title=" " alt="" coords="1786,27343,2009,27399"/>
+<area shape="rect" id="node704" href="$classFrameTransformStorageGetRPC__getTransformsRPC__helper_1_1Reply.html" title=" " alt="" coords="1786,27423,2009,27479"/>
+<area shape="rect" id="node705" href="$classFrameTransformStorageSetRPC__clearAllRPC__helper_1_1Command.html" title=" " alt="" coords="1798,27503,1997,27559"/>
+<area shape="rect" id="node706" href="$classFrameTransformStorageSetRPC__clearAllRPC__helper_1_1Reply.html" title=" " alt="" coords="1798,27583,1997,27639"/>
+<area shape="rect" id="node707" href="$classFrameTransformStorageSetRPC__deleteTransformRPC__helper_1_1Command.html" title=" " alt="" coords="1798,27663,1997,27719"/>
+<area shape="rect" id="node708" href="$classFrameTransformStorageSetRPC__deleteTransformRPC__helper_1_1Reply.html" title=" " alt="" coords="1798,27743,1997,27799"/>
+<area shape="rect" id="node709" href="$classFrameTransformStorageSetRPC__setTransformRPC__helper_1_1Command.html" title=" " alt="" coords="1790,27823,2005,27879"/>
+<area shape="rect" id="node710" href="$classFrameTransformStorageSetRPC__setTransformRPC__helper_1_1Reply.html" title=" " alt="" coords="1790,27903,2005,27959"/>
+<area shape="rect" id="node711" href="$classFrameTransformStorageSetRPC__setTransformsRPC__helper_1_1Command.html" title=" " alt="" coords="1787,27983,2008,28039"/>
+<area shape="rect" id="node712" href="$classFrameTransformStorageSetRPC__setTransformsRPC__helper_1_1Reply.html" title=" " alt="" coords="1787,28063,2008,28119"/>
+<area shape="rect" id="node713" href="$classILocalization2DMsgs__get__current__position1__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,28143,1987,28199"/>
+<area shape="rect" id="node714" href="$classILocalization2DMsgs__get__current__position1__RPC__helper_1_1Reply.html" title=" " alt="" coords="1812,28223,1983,28279"/>
+<area shape="rect" id="node715" href="$classILocalization2DMsgs__get__current__position2__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,28303,1987,28359"/>
+<area shape="rect" id="node716" href="$classILocalization2DMsgs__get__current__position2__RPC__helper_1_1Reply.html" title=" " alt="" coords="1812,28383,1983,28439"/>
+<area shape="rect" id="node717" href="$classILocalization2DMsgs__get__estimated__odometry__RPC__helper_1_1Command.html" title=" " alt="" coords="1801,28463,1994,28519"/>
+<area shape="rect" id="node718" href="$classILocalization2DMsgs__get__estimated__odometry__RPC__helper_1_1Reply.html" title=" " alt="" coords="1801,28543,1994,28599"/>
+<area shape="rect" id="node719" href="$classILocalization2DMsgs__get__estimated__poses__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,28623,1987,28679"/>
+<area shape="rect" id="node720" href="$classILocalization2DMsgs__get__estimated__poses__RPC__helper_1_1Reply.html" title=" " alt="" coords="1813,28703,1981,28759"/>
+<area shape="rect" id="node721" href="$classILocalization2DMsgs__get__localization__status__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,28783,1987,28839"/>
+<area shape="rect" id="node722" href="$classILocalization2DMsgs__get__localization__status__RPC__helper_1_1Reply.html" title=" " alt="" coords="1808,28863,1987,28919"/>
+<area shape="rect" id="node723" href="$classILocalization2DMsgs__set__initial__pose1__RPC__helper_1_1Command.html" title=" " alt="" coords="1811,28943,1983,28999"/>
+<area shape="rect" id="node724" href="$classILocalization2DMsgs__set__initial__pose1__RPC__helper_1_1Reply.html" title=" " alt="" coords="1811,29023,1983,29079"/>
+<area shape="rect" id="node725" href="$classILocalization2DMsgs__set__initial__pose2__RPC__helper_1_1Command.html" title=" " alt="" coords="1811,29103,1983,29159"/>
+<area shape="rect" id="node726" href="$classILocalization2DMsgs__set__initial__pose2__RPC__helper_1_1Reply.html" title=" " alt="" coords="1811,29183,1983,29239"/>
+<area shape="rect" id="node727" href="$classILocalization2DMsgs__start__localization__service__RPC__helper_1_1Command.html" title=" " alt="" coords="1815,29264,1980,29335"/>
+<area shape="rect" id="node728" href="$classILocalization2DMsgs__start__localization__service__RPC__helper_1_1Reply.html" title=" " alt="" coords="1796,29359,1999,29415"/>
+<area shape="rect" id="node729" href="$classILocalization2DMsgs__stop__localization__service__RPC__helper_1_1Command.html" title=" " alt="" coords="1801,29439,1994,29495"/>
+<area shape="rect" id="node730" href="$classILocalization2DMsgs__stop__localization__service__RPC__helper_1_1Reply.html" title=" " alt="" coords="1801,29519,1994,29575"/>
+<area shape="rect" id="node731" href="$classIMap2DMsgs__clear__all__areas__RPC__helper_1_1Command.html" title=" " alt="" coords="1787,29600,2008,29641"/>
+<area shape="rect" id="node732" href="$classIMap2DMsgs__clear__all__areas__RPC__helper_1_1Reply.html" title=" " alt="" coords="1802,29665,1993,29707"/>
+<area shape="rect" id="node733" href="$classIMap2DMsgs__clear__all__locations__RPC__helper_1_1Command.html" title=" " alt="" coords="1813,29731,1982,29787"/>
+<area shape="rect" id="node734" href="$classIMap2DMsgs__clear__all__locations__RPC__helper_1_1Reply.html" title=" " alt="" coords="1813,29811,1982,29867"/>
+<area shape="rect" id="node735" href="$classIMap2DMsgs__clear__all__maps__RPC__helper_1_1Command.html" title=" " alt="" coords="1787,29892,2008,29933"/>
+<area shape="rect" id="node736" href="$classIMap2DMsgs__clear__all__maps__RPC__helper_1_1Reply.html" title=" " alt="" coords="1802,29957,1993,29999"/>
+<area shape="rect" id="node737" href="$classIMap2DMsgs__clear__all__maps__temporary__flags__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,30023,1987,30079"/>
+<area shape="rect" id="node738" href="$classIMap2DMsgs__clear__all__maps__temporary__flags__RPC__helper_1_1Reply.html" title=" " alt="" coords="1808,30103,1987,30159"/>
+<area shape="rect" id="node739" href="$classIMap2DMsgs__clear__all__paths__RPC__helper_1_1Command.html" title=" " alt="" coords="1787,30184,2008,30225"/>
+<area shape="rect" id="node740" href="$classIMap2DMsgs__clear__all__paths__RPC__helper_1_1Reply.html" title=" " alt="" coords="1802,30249,1993,30291"/>
+<area shape="rect" id="node741" href="$classIMap2DMsgs__clear__map__temporary__flags__RPC__helper_1_1Command.html" title=" " alt="" coords="1807,30315,1988,30371"/>
+<area shape="rect" id="node742" href="$classIMap2DMsgs__clear__map__temporary__flags__RPC__helper_1_1Reply.html" title=" " alt="" coords="1807,30395,1988,30451"/>
+<area shape="rect" id="node743" href="$classIMap2DMsgs__delete__area__RPC__helper_1_1Command.html" title=" " alt="" coords="1802,30476,1993,30517"/>
+<area shape="rect" id="node744" href="$classIMap2DMsgs__delete__area__RPC__helper_1_1Reply.html" title=" " alt="" coords="1802,30541,1993,30583"/>
+<area shape="rect" id="node745" href="$classIMap2DMsgs__delete__location__RPC__helper_1_1Command.html" title=" " alt="" coords="1791,30607,2004,30648"/>
+<area shape="rect" id="node746" href="$classIMap2DMsgs__delete__location__RPC__helper_1_1Reply.html" title=" " alt="" coords="1791,30672,2004,30713"/>
+<area shape="rect" id="node747" href="$classIMap2DMsgs__delete__path__RPC__helper_1_1Command.html" title=" " alt="" coords="1802,30737,1993,30779"/>
+<area shape="rect" id="node748" href="$classIMap2DMsgs__delete__path__RPC__helper_1_1Reply.html" title=" " alt="" coords="1802,30803,1993,30844"/>
+<area shape="rect" id="node749" href="$classIMap2DMsgs__enable__maps__compression__RPC__helper_1_1Command.html" title=" " alt="" coords="1797,30869,1997,30925"/>
+<area shape="rect" id="node750" href="$classIMap2DMsgs__enable__maps__compression__RPC__helper_1_1Reply.html" title=" " alt="" coords="1797,30949,1997,31005"/>
+<area shape="rect" id="node751" href="$classIMap2DMsgs__get__all__areas__RPC__helper_1_1Command.html" title=" " alt="" coords="1787,31029,2008,31071"/>
+<area shape="rect" id="node752" href="$classIMap2DMsgs__get__all__areas__RPC__helper_1_1Reply.html" title=" " alt="" coords="1802,31095,1993,31136"/>
+<area shape="rect" id="node753" href="$classIMap2DMsgs__get__all__locations__RPC__helper_1_1Command.html" title=" " alt="" coords="1813,31161,1982,31217"/>
+<area shape="rect" id="node754" href="$classIMap2DMsgs__get__all__locations__RPC__helper_1_1Reply.html" title=" " alt="" coords="1813,31241,1982,31297"/>
+<area shape="rect" id="node755" href="$classIMap2DMsgs__get__all__paths__RPC__helper_1_1Command.html" title=" " alt="" coords="1787,31321,2008,31363"/>
+<area shape="rect" id="node756" href="$classIMap2DMsgs__get__all__paths__RPC__helper_1_1Reply.html" title=" " alt="" coords="1802,31387,1993,31428"/>
+<area shape="rect" id="node757" href="$classIMap2DMsgs__get__area__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,31452,1987,31493"/>
+<area shape="rect" id="node758" href="$classIMap2DMsgs__get__area__RPC__helper_1_1Reply.html" title=" " alt="" coords="1812,31517,1983,31559"/>
+<area shape="rect" id="node759" href="$classIMap2DMsgs__get__areas__list__RPC__helper_1_1Command.html" title=" " alt="" coords="1795,31583,2000,31624"/>
+<area shape="rect" id="node760" href="$classIMap2DMsgs__get__areas__list__RPC__helper_1_1Reply.html" title=" " alt="" coords="1809,31648,1986,31689"/>
+<area shape="rect" id="node761" href="$classIMap2DMsgs__get__location__RPC__helper_1_1Command.html" title=" " alt="" coords="1801,31713,1994,31755"/>
+<area shape="rect" id="node762" href="$classIMap2DMsgs__get__location__RPC__helper_1_1Reply.html" title=" " alt="" coords="1801,31779,1994,31820"/>
+<area shape="rect" id="node763" href="$classIMap2DMsgs__get__locations__list__RPC__helper_1_1Command.html" title=" " alt="" coords="1795,31844,2000,31885"/>
+<area shape="rect" id="node764" href="$classIMap2DMsgs__get__locations__list__RPC__helper_1_1Reply.html" title=" " alt="" coords="1797,31909,1997,31951"/>
+<area shape="rect" id="node765" href="$classIMap2DMsgs__get__map__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,31975,1987,32016"/>
+<area shape="rect" id="node766" href="$classIMap2DMsgs__get__map__RPC__helper_1_1Reply.html" title=" " alt="" coords="1812,32040,1983,32081"/>
+<area shape="rect" id="node767" href="$classIMap2DMsgs__get__map__names__RPC__helper_1_1Command.html" title=" " alt="" coords="1783,32105,2012,32147"/>
+<area shape="rect" id="node768" href="$classIMap2DMsgs__get__map__names__RPC__helper_1_1Reply.html" title=" " alt="" coords="1798,32171,1997,32212"/>
+<area shape="rect" id="node769" href="$classIMap2DMsgs__get__path__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,32236,1987,32277"/>
+<area shape="rect" id="node770" href="$classIMap2DMsgs__get__path__RPC__helper_1_1Reply.html" title=" " alt="" coords="1812,32301,1983,32343"/>
+<area shape="rect" id="node771" href="$classIMap2DMsgs__get__paths__list__RPC__helper_1_1Command.html" title=" " alt="" coords="1795,32367,2000,32408"/>
+<area shape="rect" id="node772" href="$classIMap2DMsgs__get__paths__list__RPC__helper_1_1Reply.html" title=" " alt="" coords="1809,32432,1986,32473"/>
+<area shape="rect" id="node773" href="$classIMap2DMsgs__load__locations__and__extras__RPC__helper_1_1Command.html" title=" " alt="" coords="1794,32498,2001,32554"/>
+<area shape="rect" id="node774" href="$classIMap2DMsgs__load__locations__and__extras__RPC__helper_1_1Reply.html" title=" " alt="" coords="1784,32579,2011,32620"/>
+<area shape="rect" id="node775" href="$classIMap2DMsgs__load__map__from__disk__RPC__helper_1_1Command.html" title=" " alt="" coords="1809,32645,1986,32701"/>
+<area shape="rect" id="node776" href="$classIMap2DMsgs__load__map__from__disk__RPC__helper_1_1Reply.html" title=" " alt="" coords="1809,32725,1986,32781"/>
+<area shape="rect" id="node777" href="$classIMap2DMsgs__load__maps__collection__RPC__helper_1_1Command.html" title=" " alt="" coords="1805,32805,1989,32861"/>
+<area shape="rect" id="node778" href="$classIMap2DMsgs__load__maps__collection__RPC__helper_1_1Reply.html" title=" " alt="" coords="1805,32885,1989,32941"/>
+<area shape="rect" id="node779" href="$classIMap2DMsgs__remove__map__RPC__helper_1_1Command.html" title=" " alt="" coords="1798,32965,1997,33007"/>
+<area shape="rect" id="node780" href="$classIMap2DMsgs__remove__map__RPC__helper_1_1Reply.html" title=" " alt="" coords="1798,10321,1997,10363"/>
+<area shape="rect" id="node781" href="$classIMap2DMsgs__rename__area__RPC__helper_1_1Command.html" title=" " alt="" coords="1798,10387,1997,10428"/>
+<area shape="rect" id="node782" href="$classIMap2DMsgs__rename__area__RPC__helper_1_1Reply.html" title=" " alt="" coords="1798,10452,1997,10493"/>
+<area shape="rect" id="node783" href="$classIMap2DMsgs__rename__location__RPC__helper_1_1Command.html" title=" " alt="" coords="1786,10517,2009,10559"/>
+<area shape="rect" id="node784" href="$classIMap2DMsgs__rename__location__RPC__helper_1_1Reply.html" title=" " alt="" coords="1786,10583,2009,10624"/>
+<area shape="rect" id="node785" href="$classIMap2DMsgs__rename__path__RPC__helper_1_1Command.html" title=" " alt="" coords="1798,10648,1997,10689"/>
+<area shape="rect" id="node786" href="$classIMap2DMsgs__rename__path__RPC__helper_1_1Reply.html" title=" " alt="" coords="1798,10713,1997,10755"/>
+<area shape="rect" id="node787" href="$classIMap2DMsgs__save__locations__and__extras__RPC__helper_1_1Command.html" title=" " alt="" coords="1792,10779,2003,10835"/>
+<area shape="rect" id="node788" href="$classIMap2DMsgs__save__locations__and__extras__RPC__helper_1_1Reply.html" title=" " alt="" coords="1784,10860,2011,10901"/>
+<area shape="rect" id="node789" href="$classIMap2DMsgs__save__map__to__disk__RPC__helper_1_1Command.html" title=" " alt="" coords="1807,10926,1987,10982"/>
+<area shape="rect" id="node790" href="$classIMap2DMsgs__save__map__to__disk__RPC__helper_1_1Reply.html" title=" " alt="" coords="1807,11006,1987,11062"/>
+<area shape="rect" id="node791" href="$classIMap2DMsgs__save__maps__collection__RPC__helper_1_1Command.html" title=" " alt="" coords="1804,11086,1991,11142"/>
+<area shape="rect" id="node792" href="$classIMap2DMsgs__save__maps__collection__RPC__helper_1_1Reply.html" title=" " alt="" coords="1804,11166,1991,11222"/>
+<area shape="rect" id="node793" href="$classIMap2DMsgs__store__area__RPC__helper_1_1Command.html" title=" " alt="" coords="1806,11247,1989,11288"/>
+<area shape="rect" id="node794" href="$classIMap2DMsgs__store__area__RPC__helper_1_1Reply.html" title=" " alt="" coords="1806,11312,1989,11353"/>
+<area shape="rect" id="node795" href="$classIMap2DMsgs__store__location__RPC__helper_1_1Command.html" title=" " alt="" coords="1795,11377,2000,11419"/>
+<area shape="rect" id="node796" href="$classIMap2DMsgs__store__location__RPC__helper_1_1Reply.html" title=" " alt="" coords="1795,11443,2000,11484"/>
+<area shape="rect" id="node797" href="$classIMap2DMsgs__store__map__RPC__helper_1_1Command.html" title=" " alt="" coords="1806,11508,1989,11549"/>
+<area shape="rect" id="node798" href="$classIMap2DMsgs__store__map__RPC__helper_1_1Reply.html" title=" " alt="" coords="1806,11573,1989,11615"/>
+<area shape="rect" id="node799" href="$classIMap2DMsgs__store__path__RPC__helper_1_1Command.html" title=" " alt="" coords="1806,11639,1989,11680"/>
+<area shape="rect" id="node800" href="$classIMap2DMsgs__store__path__RPC__helper_1_1Reply.html" title=" " alt="" coords="1806,11704,1989,11745"/>
+<area shape="rect" id="node801" href="$classINavigation2DMsgs__apply__velocity__command__RPC__helper_1_1Command.html" title=" " alt="" coords="1801,11770,1993,11826"/>
+<area shape="rect" id="node802" href="$classINavigation2DMsgs__apply__velocity__command__RPC__helper_1_1Reply.html" title=" " alt="" coords="1801,11850,1993,11906"/>
+<area shape="rect" id="node803" href="$classINavigation2DMsgs__get__absolute__location__of__current__target__RPC__helper_1_1Command.html" title=" " alt="" coords="1796,11931,1999,12001"/>
+<area shape="rect" id="node804" href="$classINavigation2DMsgs__get__absolute__location__of__current__target__RPC__helper_1_1Reply.html" title=" " alt="" coords="1796,12025,1999,12096"/>
+<area shape="rect" id="node805" href="$classINavigation2DMsgs__get__all__navigation__waypoints__RPC__helper_1_1Command.html" title=" " alt="" coords="1800,12121,1995,12177"/>
+<area shape="rect" id="node806" href="$classINavigation2DMsgs__get__all__navigation__waypoints__RPC__helper_1_1Reply.html" title=" " alt="" coords="1800,12201,1995,12257"/>
+<area shape="rect" id="node807" href="$classINavigation2DMsgs__get__current__nav__waypoint__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,12281,1987,12337"/>
+<area shape="rect" id="node808" href="$classINavigation2DMsgs__get__current__nav__waypoint__RPC__helper_1_1Reply.html" title=" " alt="" coords="1809,12361,1986,12417"/>
+<area shape="rect" id="node809" href="$classINavigation2DMsgs__get__current__navigation__map__RPC__helper_1_1Command.html" title=" " alt="" coords="1804,12441,1991,12497"/>
+<area shape="rect" id="node810" href="$classINavigation2DMsgs__get__current__navigation__map__RPC__helper_1_1Reply.html" title=" " alt="" coords="1804,12521,1991,12577"/>
+<area shape="rect" id="node811" href="$classINavigation2DMsgs__get__last__velocity__command__RPC__helper_1_1Command.html" title=" " alt="" coords="1805,12601,1989,12657"/>
+<area shape="rect" id="node812" href="$classINavigation2DMsgs__get__last__velocity__command__RPC__helper_1_1Reply.html" title=" " alt="" coords="1805,12681,1989,12737"/>
+<area shape="rect" id="node813" href="$classINavigation2DMsgs__get__name__of__current__target__RPC__helper_1_1Command.html" title=" " alt="" coords="1805,12761,1990,12817"/>
+<area shape="rect" id="node814" href="$classINavigation2DMsgs__get__name__of__current__target__RPC__helper_1_1Reply.html" title=" " alt="" coords="1805,12841,1990,12897"/>
+<area shape="rect" id="node815" href="$classINavigation2DMsgs__get__navigation__status__RPC__helper_1_1Command.html" title=" " alt="" coords="1808,12921,1987,12977"/>
+<area shape="rect" id="node816" href="$classINavigation2DMsgs__get__navigation__status__RPC__helper_1_1Reply.html" title=" " alt="" coords="1808,13001,1987,13057"/>
+<area shape="rect" id="node817" href="$classINavigation2DMsgs__get__relative__location__of__current__target__RPC__helper_1_1Command.html" title=" " alt="" coords="1796,13081,1999,13152"/>
+<area shape="rect" id="node818" href="$classINavigation2DMsgs__get__relative__location__of__current__target__RPC__helper_1_1Reply.html" title=" " alt="" coords="1796,13176,1999,13247"/>
+<area shape="rect" id="node819" href="$classINavigation2DMsgs__goto__target__by__absolute__location__RPC__helper_1_1Command.html" title=" " alt="" coords="1791,13271,2004,13327"/>
+<area shape="rect" id="node820" href="$classINavigation2DMsgs__goto__target__by__absolute__location__RPC__helper_1_1Reply.html" title=" " alt="" coords="1791,13351,2004,13407"/>
+<area shape="rect" id="node821" href="$classINavigation2DMsgs__goto__target__by__absolute__location__and__set__name__RPC__helper_1_1Command.html" title=" " alt="" coords="1757,13431,2037,13487"/>
+<area shape="rect" id="node822" href="$classINavigation2DMsgs__goto__target__by__absolute__location__and__set__name__RPC__helper_1_1Reply.html" title=" " alt="" coords="1772,13511,2023,13567"/>
+<area shape="rect" id="node823" href="$classINavigation2DMsgs__goto__target__by__relative__location1__RPC__helper_1_1Command.html" title=" " alt="" coords="1790,13591,2005,13647"/>
+<area shape="rect" id="node824" href="$classINavigation2DMsgs__goto__target__by__relative__location1__RPC__helper_1_1Reply.html" title=" " alt="" coords="1790,13671,2005,13727"/>
+<area shape="rect" id="node825" href="$classINavigation2DMsgs__goto__target__by__relative__location2__RPC__helper_1_1Command.html" title=" " alt="" coords="1790,13751,2005,13807"/>
+<area shape="rect" id="node826" href="$classINavigation2DMsgs__goto__target__by__relative__location2__RPC__helper_1_1Reply.html" title=" " alt="" coords="1790,13831,2005,13887"/>
+<area shape="rect" id="node827" href="$classINavigation2DMsgs__recompute__current__navigation__path__RPC__helper_1_1Command.html" title=" " alt="" coords="1784,13911,2011,13967"/>
+<area shape="rect" id="node828" href="$classINavigation2DMsgs__recompute__current__navigation__path__RPC__helper_1_1Reply.html" title=" " alt="" coords="1784,13991,2011,14047"/>
+<area shape="rect" id="node829" href="$classINavigation2DMsgs__resume__navigation__RPC__helper_1_1Command.html" title=" " alt="" coords="1795,14071,2000,14127"/>
+<area shape="rect" id="node830" href="$classINavigation2DMsgs__resume__navigation__RPC__helper_1_1Reply.html" title=" " alt="" coords="1785,14152,2009,14193"/>
+<area shape="rect" id="node831" href="$classINavigation2DMsgs__stop__navigation__RPC__helper_1_1Command.html" title=" " alt="" coords="1805,14218,1989,14274"/>
+<area shape="rect" id="node832" href="$classINavigation2DMsgs__stop__navigation__RPC__helper_1_1Reply.html" title=" " alt="" coords="1805,14298,1989,14354"/>
+<area shape="rect" id="node833" href="$classINavigation2DMsgs__suspend__navigation__RPC__helper_1_1Command.html" title=" " alt="" coords="1792,14378,2003,14434"/>
+<area shape="rect" id="node834" href="$classINavigation2DMsgs__suspend__navigation__RPC__helper_1_1Reply.html" title=" " alt="" coords="1785,14459,2009,14500"/>
+<area shape="rect" id="node835" href="$classIOdometry2DMsgs__reset__odometry__RPC__helper_1_1Command.html" title=" " alt="" coords="1806,14525,1989,14581"/>
+<area shape="rect" id="node836" href="$classIOdometry2DMsgs__reset__odometry__RPC__helper_1_1Reply.html" title=" " alt="" coords="1806,14605,1989,14661"/>
+<area shape="rect" id="node837" href="$classMobileBaseVelocityControlRPC__applyVelocityCommandRPC__helper_1_1Command.html" title=" " alt="" coords="1779,14685,2015,14741"/>
+<area shape="rect" id="node838" href="$classMobileBaseVelocityControlRPC__applyVelocityCommandRPC__helper_1_1Reply.html" title=" " alt="" coords="1779,14765,2015,14821"/>
+<area shape="rect" id="node839" href="$classMobileBaseVelocityControlRPC__getLastVelocityCommandRPC__helper_1_1Command.html" title=" " alt="" coords="1773,14845,2021,14901"/>
+<area shape="rect" id="node840" href="$classMobileBaseVelocityControlRPC__getLastVelocityCommandRPC__helper_1_1Reply.html" title=" " alt="" coords="1773,14925,2021,14981"/>
+<area shape="rect" id="node841" href="$classMultipleAnalogSensorsMetadata__getMetadata__helper_1_1Command.html" title=" " alt="" coords="1780,15005,2015,15047"/>
+<area shape="rect" id="node842" href="$classMultipleAnalogSensorsMetadata__getMetadata__helper_1_1Reply.html" title=" " alt="" coords="1781,15071,2014,15112"/>
+<area shape="rect" id="node843" href="$classSensorMeasurement.html" title=" " alt="" coords="1819,15137,1975,15163"/>
+<area shape="rect" id="node844" href="$classSensorMeasurements.html" title=" " alt="" coords="1816,15187,1979,15214"/>
+<area shape="rect" id="node845" href="$classSensorMetadata.html" title=" " alt="" coords="1833,15238,1961,15265"/>
+<area shape="rect" id="node846" href="$classSensorRPCData.html" title=" " alt="" coords="1836,15289,1959,15315"/>
+<area shape="rect" id="node847" href="$classSensorStreamingData.html" title=" " alt="" coords="1815,15339,1979,15366"/>
+<area shape="rect" id="node848" href="$classreturn__getAllTransforms.html" title=" " alt="" coords="1808,15390,1987,15417"/>
+<area shape="rect" id="node849" href="$classreturn__getLastVelocityCommand.html" title=" " alt="" coords="1780,15441,2015,15467"/>
+<area shape="rect" id="node850" href="$classreturn__get__abs__loc__of__curr__target.html" title=" " alt="" coords="1825,15492,1970,15533"/>
+<area shape="rect" id="node851" href="$classreturn__get__all__areas.html" title=" " alt="" coords="1820,15558,1975,15585"/>
+<area shape="rect" id="node852" href="$classreturn__get__all__locations.html" title=" " alt="" coords="1808,15609,1987,15635"/>
+<area shape="rect" id="node853" href="$classreturn__get__all__nav__waypoints.html" title=" " alt="" coords="1826,15660,1969,15701"/>
+<area shape="rect" id="node854" href="$classreturn__get__all__paths.html" title=" " alt="" coords="1820,15726,1975,15753"/>
+<area shape="rect" id="node855" href="$classreturn__get__area.html" title=" " alt="" coords="1835,15777,1960,15803"/>
+<area shape="rect" id="node856" href="$classreturn__get__areas__list.html" title=" " alt="" coords="1818,15827,1977,15854"/>
+<area shape="rect" id="node857" href="$classreturn__get__current__nav__map.html" title=" " alt="" coords="1826,15879,1969,15920"/>
+<area shape="rect" id="node858" href="$classreturn__get__current__nav__waypoint.html" title=" " alt="" coords="1826,15944,1969,15985"/>
+<area shape="rect" id="node859" href="$classreturn__get__current__position1.html" title=" " alt="" coords="1826,16009,1969,16051"/>
+<area shape="rect" id="node860" href="$classreturn__get__current__position2.html" title=" " alt="" coords="1826,16075,1969,16116"/>
+<area shape="rect" id="node861" href="$classreturn__get__estimated__odometry.html" title=" " alt="" coords="1816,16140,1979,16181"/>
+<area shape="rect" id="node862" href="$classreturn__get__estimated__poses.html" title=" " alt="" coords="1816,16205,1979,16247"/>
+<area shape="rect" id="node863" href="$classreturn__get__last__velocity__command.html" title=" " alt="" coords="1808,16271,1987,16312"/>
+<area shape="rect" id="node864" href="$classreturn__get__localization__status.html" title=" " alt="" coords="1812,16336,1983,16377"/>
+<area shape="rect" id="node865" href="$classreturn__get__location.html" title=" " alt="" coords="1823,16402,1971,16429"/>
+<area shape="rect" id="node866" href="$classreturn__get__locations__list.html" title=" " alt="" coords="1806,16453,1989,16479"/>
+<area shape="rect" id="node867" href="$classreturn__get__map.html" title=" " alt="" coords="1835,16503,1960,16530"/>
+<area shape="rect" id="node868" href="$classreturn__get__map__names.html" title=" " alt="" coords="1809,16554,1985,16581"/>
+<area shape="rect" id="node869" href="$classreturn__get__name__of__current__target.html" title=" " alt="" coords="1821,16605,1974,16647"/>
+<area shape="rect" id="node870" href="$classreturn__get__navigation__status.html" title=" " alt="" coords="1815,16671,1980,16712"/>
+<area shape="rect" id="node871" href="$classreturn__get__path.html" title=" " alt="" coords="1835,16737,1960,16763"/>
+<area shape="rect" id="node872" href="$classreturn__get__paths__list.html" title=" " alt="" coords="1818,16787,1977,16814"/>
+<area shape="rect" id="node873" href="$classreturn__get__rel__loc__of__curr__target.html" title=" " alt="" coords="1828,16839,1967,16880"/>
+<area shape="rect" id="node874" href="$classyarp_1_1dev_1_1AudioPlayerStatus.html" title="AudioPlayerStatus: A class used to describe the status of an audio player device." alt="" coords="1793,16905,2002,16931"/>
+<area shape="rect" id="node875" href="$classyarp_1_1dev_1_1AudioRecorderStatus.html" title="AudioRecorderStatus: A class used to describe the status of an audio recorder device." alt="" coords="1805,16956,1990,16997"/>
+<area shape="rect" id="node876" href="$classyarp_1_1dev_1_1LaserScan2D.html" title=" " alt="" coords="1810,17022,1985,17049"/>
+<area shape="rect" id="node877" href="$classyarp_1_1dev_1_1Map2DAreaData.html" title=" " alt="" coords="1799,17073,1996,17099"/>
+<area shape="rect" id="node879" href="$classyarp_1_1dev_1_1Map2DLocationData.html" title=" " alt="" coords="1786,17123,2009,17150"/>
+<area shape="rect" id="node881" href="$classyarp_1_1dev_1_1Map2DPathData.html" title=" " alt="" coords="1800,17174,1995,17201"/>
+<area shape="rect" id="node883" href="$classyarp_1_1dev_1_1MobileBaseVelocity.html" title=" " alt="" coords="1788,17225,2007,17251"/>
+<area shape="rect" id="node884" href="$classyarp_1_1dev_1_1OdometryData.html" title=" " alt="" coords="1804,17275,1991,17302"/>
+<area shape="rect" id="node885" href="$classyarp_1_1dev_1_1OdometryData6D.html" title=" " alt="" coords="1795,17326,1999,17353"/>
+<area shape="rect" id="node886" href="$classyarp_1_1dev_1_1audioBufferSizeData.html" title=" " alt="" coords="1786,17377,2009,17403"/>
+<area shape="rect" id="node888" href="$classyarp_1_1dev_1_1impl_1_1jointData.html" title=" " alt="" coords="1804,17427,1991,17454"/>
+<area shape="rect" id="node889" href="$classyarp_1_1rosmsg_1_1TickDuration.html" title=" " alt="" coords="1798,17478,1997,17505"/>
+<area shape="rect" id="node890" href="$classyarp_1_1rosmsg_1_1TickTime.html" title=" " alt="" coords="1810,17529,1985,17555"/>
+<area shape="rect" id="node891" href="$classyarp_1_1rosmsg_1_1actionlib__msgs_1_1GoalID.html" title=" " alt="" coords="1812,17580,1983,17621"/>
+<area shape="rect" id="node892" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1AddDiagnostics.html" title=" " alt="" coords="1806,17645,1989,17687"/>
+<area shape="rect" id="node893" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1AddDiagnosticsReply.html" title=" " alt="" coords="1792,17711,2003,17752"/>
+<area shape="rect" id="node894" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1DiagnosticArray.html" title=" " alt="" coords="1806,17776,1989,17817"/>
+<area shape="rect" id="node895" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1DiagnosticStatus.html" title=" " alt="" coords="1806,17841,1989,17883"/>
+<area shape="rect" id="node896" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1KeyValue.html" title=" " alt="" coords="1806,17907,1989,17948"/>
+<area shape="rect" id="node897" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1SelfTest.html" title=" " alt="" coords="1806,17972,1989,18013"/>
+<area shape="rect" id="node898" href="$classyarp_1_1rosmsg_1_1diagnostic__msgs_1_1SelfTestReply.html" title=" " alt="" coords="1806,18037,1989,18079"/>
+<area shape="rect" id="node899" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Accel.html" title=" " alt="" coords="1808,18103,1987,18144"/>
+<area shape="rect" id="node900" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1AccelStamped.html" title=" " alt="" coords="1808,18168,1987,18209"/>
+<area shape="rect" id="node901" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1AccelWithCovariance.html" title=" " alt="" coords="1792,18233,2003,18275"/>
+<area shape="rect" id="node902" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1AccelWithCovarianceStamped.html" title=" " alt="" coords="1763,18299,2031,18340"/>
+<area shape="rect" id="node903" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Inertia.html" title=" " alt="" coords="1808,18364,1987,18405"/>
+<area shape="rect" id="node904" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1InertiaStamped.html" title=" " alt="" coords="1808,18429,1987,18471"/>
+<area shape="rect" id="node905" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Point.html" title=" " alt="" coords="1808,18495,1987,18536"/>
+<area shape="rect" id="node906" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Point32.html" title=" " alt="" coords="1808,18560,1987,18601"/>
+<area shape="rect" id="node907" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1PointStamped.html" title=" " alt="" coords="1808,18625,1987,18667"/>
+<area shape="rect" id="node908" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Polygon.html" title=" " alt="" coords="1808,18691,1987,18732"/>
+<area shape="rect" id="node909" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1PolygonStamped.html" title=" " alt="" coords="1806,18756,1989,18797"/>
+<area shape="rect" id="node910" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Pose.html" title=" " alt="" coords="1808,18821,1987,18863"/>
+<area shape="rect" id="node911" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Pose2D.html" title=" " alt="" coords="1808,18887,1987,18928"/>
+<area shape="rect" id="node912" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1PoseArray.html" title=" " alt="" coords="1808,18952,1987,18993"/>
+<area shape="rect" id="node913" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1PoseStamped.html" title=" " alt="" coords="1808,19017,1987,19059"/>
+<area shape="rect" id="node914" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1PoseWithCovariance.html" title=" " alt="" coords="1794,19083,2001,19124"/>
+<area shape="rect" id="node915" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1PoseWithCovarianceStamped.html" title=" " alt="" coords="1765,19148,2029,19189"/>
+<area shape="rect" id="node916" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Quaternion.html" title=" " alt="" coords="1808,19213,1987,19255"/>
+<area shape="rect" id="node917" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1QuaternionStamped.html" title=" " alt="" coords="1796,19279,1999,19320"/>
+<area shape="rect" id="node918" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Transform.html" title=" " alt="" coords="1808,19344,1987,19385"/>
+<area shape="rect" id="node919" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1TransformStamped.html" title=" " alt="" coords="1800,19409,1995,19451"/>
+<area shape="rect" id="node920" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Twist.html" title=" " alt="" coords="1808,19475,1987,19516"/>
+<area shape="rect" id="node921" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1TwistStamped.html" title=" " alt="" coords="1808,19540,1987,19581"/>
+<area shape="rect" id="node922" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1TwistWithCovariance.html" title=" " alt="" coords="1793,19605,2001,19647"/>
+<area shape="rect" id="node923" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1TwistWithCovarianceStamped.html" title=" " alt="" coords="1764,19671,2031,19712"/>
+<area shape="rect" id="node924" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Vector3.html" title=" " alt="" coords="1808,19736,1987,19777"/>
+<area shape="rect" id="node925" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Vector3Stamped.html" title=" " alt="" coords="1808,19801,1987,19843"/>
+<area shape="rect" id="node926" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1Wrench.html" title=" " alt="" coords="1808,19867,1987,19908"/>
+<area shape="rect" id="node927" href="$classyarp_1_1rosmsg_1_1geometry__msgs_1_1WrenchStamped.html" title=" " alt="" coords="1808,19932,1987,19973"/>
+<area shape="rect" id="node928" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1GetMap.html" title=" " alt="" coords="1807,19997,1988,20039"/>
+<area shape="rect" id="node929" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1GetMapReply.html" title=" " alt="" coords="1807,20063,1988,20104"/>
+<area shape="rect" id="node930" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1GetPlan.html" title=" " alt="" coords="1807,20128,1988,20169"/>
+<area shape="rect" id="node931" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1GetPlanReply.html" title=" " alt="" coords="1807,20193,1988,20235"/>
+<area shape="rect" id="node932" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1GridCells.html" title=" " alt="" coords="1807,20259,1988,20300"/>
+<area shape="rect" id="node933" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1MapMetaData.html" title=" " alt="" coords="1807,20324,1988,20365"/>
+<area shape="rect" id="node934" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1OccupancyGrid.html" title=" " alt="" coords="1807,20389,1988,20431"/>
+<area shape="rect" id="node935" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1Odometry.html" title=" " alt="" coords="1807,20455,1988,20496"/>
+<area shape="rect" id="node936" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1Path.html" title=" " alt="" coords="1807,20520,1988,20561"/>
+<area shape="rect" id="node937" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1SetMap.html" title=" " alt="" coords="1807,20585,1988,20627"/>
+<area shape="rect" id="node938" href="$classyarp_1_1rosmsg_1_1nav__msgs_1_1SetMapReply.html" title=" " alt="" coords="1807,20651,1988,20692"/>
+<area shape="rect" id="node939" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1ChannelFloat32.html" title=" " alt="" coords="1810,20716,1985,20757"/>
+<area shape="rect" id="node940" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1Imu.html" title=" " alt="" coords="1818,20781,1977,20823"/>
+<area shape="rect" id="node941" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1JointState.html" title=" " alt="" coords="1818,20847,1977,20888"/>
+<area shape="rect" id="node942" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1Joy.html" title=" " alt="" coords="1818,20912,1977,20953"/>
+<area shape="rect" id="node943" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1JoyFeedback.html" title=" " alt="" coords="1818,20977,1977,21019"/>
+<area shape="rect" id="node944" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1JoyFeedbackArray.html" title=" " alt="" coords="1803,21043,1992,21084"/>
+<area shape="rect" id="node945" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1MultiDOFJointState.html" title=" " alt="" coords="1799,21108,1995,21149"/>
+<area shape="rect" id="node946" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1NavSatFix.html" title=" " alt="" coords="1818,21173,1977,21215"/>
+<area shape="rect" id="node947" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1NavSatStatus.html" title=" " alt="" coords="1817,21239,1977,21280"/>
+<area shape="rect" id="node948" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1PointCloud.html" title=" " alt="" coords="1818,21304,1977,21345"/>
+<area shape="rect" id="node949" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1PointCloud2.html" title=" " alt="" coords="1818,21369,1977,21411"/>
+<area shape="rect" id="node950" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1PointField.html" title=" " alt="" coords="1818,21435,1977,21476"/>
+<area shape="rect" id="node951" href="$classyarp_1_1rosmsg_1_1sensor__msgs_1_1SetCameraInfoReply.html" title=" " alt="" coords="1794,21500,2001,21541"/>
+<area shape="rect" id="node952" href="$classyarp_1_1rosmsg_1_1shape__msgs_1_1Mesh.html" title=" " alt="" coords="1820,21565,1975,21607"/>
+<area shape="rect" id="node953" href="$classyarp_1_1rosmsg_1_1shape__msgs_1_1MeshTriangle.html" title=" " alt="" coords="1818,21631,1977,21672"/>
+<area shape="rect" id="node954" href="$classyarp_1_1rosmsg_1_1shape__msgs_1_1Plane.html" title=" " alt="" coords="1820,21696,1975,21737"/>
+<area shape="rect" id="node955" href="$classyarp_1_1rosmsg_1_1shape__msgs_1_1SolidPrimitive.html" title=" " alt="" coords="1816,21761,1979,21803"/>
+<area shape="rect" id="node956" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Bool.html" title=" " alt="" coords="1809,21827,1986,21868"/>
+<area shape="rect" id="node957" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Byte.html" title=" " alt="" coords="1809,21892,1986,21933"/>
+<area shape="rect" id="node958" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1ByteMultiArray.html" title=" " alt="" coords="1809,21957,1986,21999"/>
+<area shape="rect" id="node959" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Char.html" title=" " alt="" coords="1809,22023,1986,22064"/>
+<area shape="rect" id="node960" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1ColorRGBA.html" title=" " alt="" coords="1809,22088,1986,22129"/>
+<area shape="rect" id="node961" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Duration.html" title=" " alt="" coords="1809,22153,1986,22195"/>
+<area shape="rect" id="node962" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Empty.html" title=" " alt="" coords="1809,22219,1986,22260"/>
+<area shape="rect" id="node963" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Float32.html" title=" " alt="" coords="1809,22284,1986,22325"/>
+<area shape="rect" id="node964" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Float32MultiArray.html" title=" " alt="" coords="1809,22349,1986,22391"/>
+<area shape="rect" id="node965" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Float64.html" title=" " alt="" coords="1809,22415,1986,22456"/>
+<area shape="rect" id="node966" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Float64MultiArray.html" title=" " alt="" coords="1809,22480,1986,22521"/>
+<area shape="rect" id="node967" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Header.html" title=" " alt="" coords="1809,22545,1986,22587"/>
+<area shape="rect" id="node968" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int16.html" title=" " alt="" coords="1809,22611,1986,22652"/>
+<area shape="rect" id="node969" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int16MultiArray.html" title=" " alt="" coords="1809,22676,1986,22717"/>
+<area shape="rect" id="node970" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int32.html" title=" " alt="" coords="1809,22741,1986,22783"/>
+<area shape="rect" id="node971" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int32MultiArray.html" title=" " alt="" coords="1809,22807,1986,22848"/>
+<area shape="rect" id="node972" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int64.html" title=" " alt="" coords="1809,22872,1986,22913"/>
+<area shape="rect" id="node973" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int64MultiArray.html" title=" " alt="" coords="1809,22937,1986,22979"/>
+<area shape="rect" id="node974" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int8.html" title=" " alt="" coords="1809,23003,1986,23044"/>
+<area shape="rect" id="node975" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Int8MultiArray.html" title=" " alt="" coords="1809,23068,1986,23109"/>
+<area shape="rect" id="node976" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1MultiArrayDimension.html" title=" " alt="" coords="1809,23133,1986,23175"/>
+<area shape="rect" id="node977" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1MultiArrayLayout.html" title=" " alt="" coords="1809,23199,1986,23240"/>
+<area shape="rect" id="node978" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1String.html" title=" " alt="" coords="1809,23264,1986,23305"/>
+<area shape="rect" id="node979" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1Time.html" title=" " alt="" coords="1809,23329,1986,23371"/>
+<area shape="rect" id="node980" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt16.html" title=" " alt="" coords="1809,23395,1986,23436"/>
+<area shape="rect" id="node981" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt16MultiArray.html" title=" " alt="" coords="1809,23460,1986,23501"/>
+<area shape="rect" id="node982" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt32.html" title=" " alt="" coords="1809,23525,1986,23567"/>
+<area shape="rect" id="node983" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt32MultiArray.html" title=" " alt="" coords="1809,23591,1986,23632"/>
+<area shape="rect" id="node984" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt64.html" title=" " alt="" coords="1809,23656,1986,23697"/>
+<area shape="rect" id="node985" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt64MultiArray.html" title=" " alt="" coords="1809,23721,1986,23763"/>
+<area shape="rect" id="node986" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt8.html" title=" " alt="" coords="1809,23787,1986,23828"/>
+<area shape="rect" id="node987" href="$classyarp_1_1rosmsg_1_1std__msgs_1_1UInt8MultiArray.html" title=" " alt="" coords="1809,23852,1986,23893"/>
+<area shape="rect" id="node988" href="$classyarp_1_1rosmsg_1_1tf2__msgs_1_1FrameGraph.html" title=" " alt="" coords="1810,23917,1985,23959"/>
+<area shape="rect" id="node989" href="$classyarp_1_1rosmsg_1_1tf2__msgs_1_1FrameGraphReply.html" title=" " alt="" coords="1810,23983,1985,24024"/>
+<area shape="rect" id="node990" href="$classyarp_1_1rosmsg_1_1tf2__msgs_1_1TF2Error.html" title=" " alt="" coords="1810,24048,1985,24089"/>
+<area shape="rect" id="node991" href="$classyarp_1_1rosmsg_1_1tf2__msgs_1_1TFMessage.html" title=" " alt="" coords="1810,24113,1985,24155"/>
+<area shape="rect" id="node992" href="$classyarp_1_1rosmsg_1_1tf_1_1FrameGraph.html" title=" " alt="" coords="1791,24179,2003,24206"/>
+<area shape="rect" id="node993" href="$classyarp_1_1rosmsg_1_1tf_1_1FrameGraphReply.html" title=" " alt="" coords="1791,24231,2003,24272"/>
+<area shape="rect" id="node994" href="$classyarp_1_1rosmsg_1_1tf_1_1tfMessage.html" title=" " alt="" coords="1797,24297,1997,24323"/>
+<area shape="rect" id="node995" href="$classyarp_1_1rosmsg_1_1trajectory__msgs_1_1JointTrajectory.html" title=" " alt="" coords="1808,24348,1987,24389"/>
+<area shape="rect" id="node996" href="$classyarp_1_1rosmsg_1_1trajectory__msgs_1_1JointTrajectoryPoint.html" title=" " alt="" coords="1798,24413,1997,24455"/>
+<area shape="rect" id="node997" href="$classyarp_1_1rosmsg_1_1trajectory__msgs_1_1MultiDOFJointTrajectory.html" title=" " alt="" coords="1784,24479,2011,24520"/>
+<area shape="rect" id="node998" href="$classyarp_1_1rosmsg_1_1trajectory__msgs_1_1MultiDOFJointTrajectoryPoint.html" title=" " alt="" coords="1768,24544,2027,24585"/>
+<area shape="rect" id="node999" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1ImageMarker.html" title=" " alt="" coords="1798,24609,1997,24651"/>
+<area shape="rect" id="node1000" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1InteractiveMarker.html" title=" " alt="" coords="1798,24675,1997,24716"/>
+<area shape="rect" id="node1001" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1InteractiveMarkerControl.html" title=" " alt="" coords="1780,24740,2015,24781"/>
+<area shape="rect" id="node1002" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1InteractiveMarkerFeedback.html" title=" " alt="" coords="1773,24805,2022,24847"/>
+<area shape="rect" id="node1003" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1InteractiveMarkerInit.html" title=" " alt="" coords="1793,24871,2001,24912"/>
+<area shape="rect" id="node1004" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1InteractiveMarkerPose.html" title=" " alt="" coords="1788,24936,2007,24977"/>
+<area shape="rect" id="node1005" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1InteractiveMarkerUpdate.html" title=" " alt="" coords="1780,25001,2015,25043"/>
+<area shape="rect" id="node1006" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1Marker.html" title=" " alt="" coords="1798,25067,1997,25108"/>
+<area shape="rect" id="node1007" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1MarkerArray.html" title=" " alt="" coords="1798,25132,1997,25173"/>
+<area shape="rect" id="node1008" href="$classyarp_1_1rosmsg_1_1visualization__msgs_1_1MenuEntry.html" title=" " alt="" coords="1798,25197,1997,25239"/>
+<area shape="rect" id="node878" href="$classyarp_1_1dev_1_1Nav2D_1_1Map2DArea.html" title=" " alt="" coords="2097,17073,2316,17099"/>
+<area shape="rect" id="node880" href="$structyarp_1_1dev_1_1Nav2D_1_1Map2DLocation.html" title=" " alt="" coords="2085,17123,2328,17150"/>
+<area shape="rect" id="node882" href="$classyarp_1_1dev_1_1Nav2D_1_1Map2DPath.html" title=" " alt="" coords="2099,17174,2315,17201"/>
+<area shape="rect" id="node887" href="$classyarp_1_1dev_1_1AudioBufferSize.html" title=" " alt="" coords="2110,17377,2303,17403"/>
+<area shape="rect" id="node1011" href="$classyarp_1_1sig_1_1ImageOf.html" title=" " alt="" coords="1807,33460,1987,33501"/>
+<area shape="rect" id="node1012" href="$classyarp_1_1sig_1_1ImageOf.html" title=" " alt="" coords="1806,33525,1989,33567"/>
+<area shape="rect" id="node1013" href="$classyarp_1_1sig_1_1ImageOf.html" title=" " alt="" coords="1811,33031,1983,33072"/>
+<area shape="rect" id="node1014" href="$classyarp_1_1sig_1_1ImageOf.html" title=" " alt="" coords="1826,33096,1969,33137"/>
+<area shape="rect" id="node1015" href="$classyarp_1_1sig_1_1ImageOf.html" title=" " alt="" coords="1826,33161,1969,33203"/>
+<area shape="rect" id="node1016" href="$classyarp_1_1sig_1_1ImageOf.html" title=" " alt="" coords="1808,33227,1987,33268"/>
+<area shape="rect" id="node1017" href="$classyarp_1_1sig_1_1ImageOf.html" title=" " alt="" coords="1826,33292,1969,33333"/>
+<area shape="rect" id="node1018" href="$classyarp_1_1sig_1_1FlexImage.html" title="Image class with user control of representation details." alt="" coords="1820,33358,1975,33385"/>
+<area shape="rect" id="node1019" href="$classyarp_1_1sig_1_1ImageOf.html" title="Typed image class." alt="" coords="1807,33409,1987,33435"/>
+<area shape="rect" id="node1023" href="$classyarp_1_1sig_1_1PointCloud.html" title="The PointCloud class." alt="" coords="1800,33969,1995,33995"/>
+<area shape="rect" id="node1026" href="$classyarp_1_1sig_1_1VectorOf.html" title=" " alt="" coords="1809,33591,1986,33632"/>
+<area shape="rect" id="node1027" href="$classyarp_1_1sig_1_1VectorOf.html" title=" " alt="" coords="1791,33656,2003,33697"/>
+<area shape="rect" id="node1028" href="$classyarp_1_1sig_1_1VectorOf.html" title=" " alt="" coords="1826,33721,1969,33763"/>
+<area shape="rect" id="node1029" href="$classyarp_1_1sig_1_1VectorOf.html" title=" " alt="" coords="1826,33787,1969,33828"/>
+<area shape="rect" id="node1030" href="$classyarp_1_1sig_1_1VectorOf.html" title=" " alt="" coords="1826,33852,1969,33893"/>
+<area shape="rect" id="node1031" href="$classyarp_1_1sig_1_1VectorOf.html" title="Provides:" alt="" coords="1807,33918,1987,33945"/>
+<area shape="rect" id="node1033" href="$classFakeBatteryService.html" title=" " alt="" coords="1481,12809,1628,12835"/>
+<area shape="rect" id="node1034" href="$classFrameTransformStorageGetRPC.html" title=" " alt="" coords="1441,12859,1668,12886"/>
+<area shape="rect" id="node1035" href="$classFrameTransformStorageSetRPC.html" title=" " alt="" coords="1442,12961,1667,12987"/>
+<area shape="rect" id="node1036" href="$classILocalization2DMsgs.html" title=" " alt="" coords="1477,13163,1633,13190"/>
+<area shape="rect" id="node1038" href="$classIMap2DMsgs.html" title=" " alt="" coords="1501,13214,1608,13241"/>
+<area shape="rect" id="node1040" href="$classINavigation2DMsgs.html" title=" " alt="" coords="1480,13062,1629,13089"/>
+<area shape="rect" id="node1042" href="$classIOdometry2DMsgs.html" title=" " alt="" coords="1483,13113,1626,13139"/>
+<area shape="rect" id="node1044" href="$classMobileBaseVelocityControlRPC.html" title=" " alt="" coords="1443,12910,1666,12937"/>
+<area shape="rect" id="node1045" href="$classMultipleAnalogSensorsMetadata.html" title=" " alt="" coords="1438,13011,1671,13038"/>
+<area shape="rect" id="node1037" href="$classILocalization2DRPCd.html" title=" " alt="" coords="1819,10053,1975,10079"/>
+<area shape="rect" id="node1039" href="$classIMap2DRPCd.html" title=" " alt="" coords="1844,10103,1951,10130"/>
+<area shape="rect" id="node1041" href="$classINavigation2DRPCd.html" title=" " alt="" coords="1823,9951,1972,9978"/>
+<area shape="rect" id="node1043" href="$classIOdometry2DRPCd.html" title=" " alt="" coords="1826,10002,1969,10029"/>
+<area shape="rect" id="node1047" href="$classyarp_1_1os_1_1impl_1_1PortCoreAdapter.html" title=" " alt="" coords="1467,28327,1642,28368"/>
+<area shape="rect" id="node1048" href="$classyarp_1_1os_1_1PortReaderBufferBaseCreator.html" title=" " alt="" coords="728,37059,921,37100"/>
+<area shape="rect" id="node1049" href="$classyarp_1_1os_1_1PortWriter.html" title="Interface implemented by all objects that can write themselves to the network, such as Bottle objects..." alt="" coords="751,29293,899,29319"/>
+<area shape="rect" id="node1050" href="$classyarp_1_1os_1_1SizedWriter.html" title="Minimal requirements for an efficient Writer." alt="" coords="1102,29293,1259,29319"/>
+<area shape="rect" id="node1051" href="$classyarp_1_1wire__rep__utils_1_1RosWireImage.html" title="As far as YARP is concerned, on the wire to/from ROS a raw image has:" alt="" coords="1479,29220,1630,29261"/>
+<area shape="rect" id="node1052" href="$classyarp_1_1wire__rep__utils_1_1SizedWriterTail.html" title=" " alt="" coords="1479,29285,1630,29327"/>
+<area shape="rect" id="node1053" href="$classyarp_1_1wire__rep__utils_1_1WireTwiddlerWriter.html" title=" " alt="" coords="1477,29351,1632,29392"/>
+<area shape="rect" id="node1054" href="$classyarp_1_1os_1_1Timer_1_1PrivateImpl.html" title=" " alt="" coords="723,16387,926,16414"/>
+<area shape="rect" id="node1055" href="$classMonoThreadTimer.html" title=" " alt="" coords="1110,17485,1251,17511"/>
+<area shape="rect" id="node1056" href="$classRunStdio.html" title=" " alt="" coords="785,40974,865,41001"/>
+<area shape="rect" id="node1057" href="$classRunRead.html" title=" " alt="" coords="1141,40974,1221,41001"/>
+<area shape="rect" id="node1058" href="$classRunReadWrite.html" title=" " alt="" coords="1123,38482,1238,38509"/>
+<area shape="rect" id="node1059" href="$classRunWrite.html" title=" " alt="" coords="1139,41025,1222,41051"/>
+<area shape="rect" id="node1060" href="$classyarp_1_1os_1_1Searchable.html" title="A base class for nested structures that can be searched." alt="" coords="1103,17434,1258,17461"/>
+<area shape="rect" id="node1061" href="$classyarp_1_1os_1_1ResourceFinder.html" title="Helper class for finding config files and other external resources." alt="" coords="1463,17333,1646,17359"/>
+<area shape="rect" id="node1062" href="$classyarp_1_1os_1_1Thread.html" title="An abstraction for a thread of execution." alt="" coords="761,15390,888,15417"/>
+<area shape="rect" id="node1063" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15203,1286,15244"/>
+<area shape="rect" id="node1064" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15269,1286,15325"/>
+<area shape="rect" id="node1065" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15349,1286,15391"/>
+<area shape="rect" id="node1066" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1049,15415,1312,15456"/>
+<area shape="rect" id="node1067" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15480,1286,15521"/>
+<area shape="rect" id="node1068" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15545,1286,15587"/>
+<area shape="rect" id="node1069" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,17042,1288,17098"/>
+<area shape="rect" id="node1070" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,15611,1288,15667"/>
+<area shape="rect" id="node1071" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15691,1286,15747"/>
+<area shape="rect" id="node1072" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15823,1286,15864"/>
+<area shape="rect" id="node1073" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15888,1286,15929"/>
+<area shape="rect" id="node1074" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1072,15953,1289,15995"/>
+<area shape="rect" id="node1075" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,16085,1288,16141"/>
+<area shape="rect" id="node1076" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1057,16165,1305,16207"/>
+<area shape="rect" id="node1077" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,16231,1286,16287"/>
+<area shape="rect" id="node1078" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,16311,1286,16367"/>
+<area shape="rect" id="node1079" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,16538,1288,16594"/>
+<area shape="rect" id="node1080" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,16619,1286,16660"/>
+<area shape="rect" id="node1081" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,16750,1288,16806"/>
+<area shape="rect" id="node1082" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,16831,1286,16872"/>
+<area shape="rect" id="node1083" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,16896,1286,16937"/>
+<area shape="rect" id="node1084" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,16962,1288,17018"/>
+<area shape="rect" id="node1085" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,17122,1286,17178"/>
+<area shape="rect" id="node1086" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,16019,1286,16060"/>
+<area shape="rect" id="node1087" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1066,16392,1295,16433"/>
+<area shape="rect" id="node1088" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,14619,1286,14660"/>
+<area shape="rect" id="node1089" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,14685,1286,14741"/>
+<area shape="rect" id="node1090" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1044,14765,1317,14807"/>
+<area shape="rect" id="node1091" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,14831,1289,14872"/>
+<area shape="rect" id="node1092" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,14897,1286,14953"/>
+<area shape="rect" id="node1093" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,14977,1286,15033"/>
+<area shape="rect" id="node1094" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1074,15057,1287,15113"/>
+<area shape="rect" id="node1095" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,15137,1286,15179"/>
+<area shape="rect" id="node1096" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1073,16458,1288,16514"/>
+<area shape="rect" id="node1097" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1075,17202,1286,17258"/>
+<area shape="rect" id="node1098" href="$classMpiControlThread.html" title=" " alt="" coords="1111,17282,1250,17309"/>
+<area shape="rect" id="node1099" href="$classRFModuleThreadedHandler.html" title=" " alt="" coords="1081,17333,1280,17359"/>
+<area shape="rect" id="node1100" href="$classRunTerminator.html" title=" " alt="" coords="1122,17383,1239,17410"/>
+<area shape="rect" id="node1101" href="$classZombieHunterThread.html" title=" " alt="" coords="1100,14218,1261,14245"/>
+<area shape="rect" id="node1102" href="$classstreamThread.html" title=" " alt="" coords="1124,14269,1237,14295"/>
+<area shape="rect" id="node1103" href="$classyarp_1_1manager_1_1ConcurentWrapper.html" title=" " alt="" coords="1085,14320,1276,14361"/>
+<area shape="rect" id="node1104" href="$classyarp_1_1os_1_1Terminee.html" title="A class that can be polled to see whether the process has been asked to quit gracefully." alt="" coords="1109,14386,1252,14413"/>
+<area shape="rect" id="node1105" href="$classyarp_1_1os_1_1TypedReaderThread.html" title=" " alt="" coords="1056,14437,1305,14463"/>
+<area shape="rect" id="node1106" href="$classyarp_1_1robotinterface_1_1impl_1_1CalibratorThread.html" title=" " alt="" coords="1093,14488,1269,14529"/>
+<area shape="rect" id="node1107" href="$classyarp_1_1serversql_1_1impl_1_1ConnectThread.html" title=" " alt="" coords="1103,14553,1259,14595"/>
+<area shape="rect" id="node1108" href="$classyarp_1_1os_1_1impl_1_1ThreadImpl.html" title="An abstraction for a thread of execution." alt="" coords="728,30947,921,30974"/>
+<area shape="rect" id="node1109" href="$classyarp_1_1os_1_1PeriodicThread_1_1Private.html" title=" " alt="" coords="1091,31028,1270,31069"/>
+<area shape="rect" id="node1110" href="$classyarp_1_1os_1_1Thread_1_1Private.html" title=" " alt="" coords="1090,31094,1271,31121"/>
+<area shape="rect" id="node1111" href="$classyarp_1_1os_1_1impl_1_1FallbackNameClient.html" title="A client for the FallbackNameServer class." alt="" coords="1095,30845,1267,30887"/>
+<area shape="rect" id="node1112" href="$classyarp_1_1os_1_1impl_1_1FallbackNameServer.html" title="Multi&#45;cast server, for last resort information sharing about name information – when config files are..." alt="" coords="1095,30911,1267,30952"/>
+<area shape="rect" id="node1113" href="$classyarp_1_1os_1_1impl_1_1PortCoreUnit.html" title="This manages a single threaded resource related to a single input or output connection." alt="" coords="1079,30977,1282,31003"/>
+<area shape="rect" id="node1114" href="$classyarp_1_1os_1_1impl_1_1PortCoreInputUnit.html" title="Manager for a single input to a port." alt="" coords="1467,30936,1642,30977"/>
+<area shape="rect" id="node1115" href="$classyarp_1_1os_1_1impl_1_1PortCoreOutputUnit.html" title="Manager for a single output from a port." alt="" coords="1467,31001,1642,31043"/>
+<area shape="rect" id="node1116" href="$classyarp_1_1os_1_1TwoWayStream.html" title="A stream which can be asked to perform bidirectional communication." alt="" coords="733,30263,916,30290"/>
+<area shape="rect" id="node1117" href="$classyarp_1_1os_1_1ShiftStream.html" title="A container for a stream, allowing the stream implementation to be replaced when needed." alt="" coords="1101,29957,1260,29983"/>
+<area shape="rect" id="node1118" href="$classyarp_1_1os_1_1impl_1_1FakeTwoWayStream.html" title="A dummy two way stream for testing purposes." alt="" coords="1080,30008,1281,30049"/>
+<area shape="rect" id="node1119" href="$classyarp_1_1os_1_1TypedReader.html" title="A base class for sources of typed data." alt="" coords="723,33015,927,33042"/>
+<area shape="rect" id="node1120" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="741,36027,908,36068"/>
+<area shape="rect" id="node1121" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="741,36223,908,36264"/>
+<area shape="rect" id="node1122" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="721,36419,929,36460"/>
+<area shape="rect" id="node1123" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="741,36732,908,36773"/>
+<area shape="rect" id="node1124" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="727,36928,922,36969"/>
+<area shape="rect" id="node1125" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="741,33183,908,33239"/>
+<area shape="rect" id="node1126" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="716,37255,933,37296"/>
+<area shape="rect" id="node1127" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="723,33715,927,33756"/>
+<area shape="rect" id="node1128" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="701,37451,949,37492"/>
+<area shape="rect" id="node1129" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="688,37647,961,37688"/>
+<area shape="rect" id="node1130" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="717,37843,933,37884"/>
+<area shape="rect" id="node1131" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="741,36601,908,36643"/>
+<area shape="rect" id="node1132" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="729,38039,920,38080"/>
+<area shape="rect" id="node1133" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="728,38250,921,38306"/>
+<area shape="rect" id="node1134" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="728,34297,921,34353"/>
+<area shape="rect" id="node1135" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="727,38490,922,38546"/>
+<area shape="rect" id="node1136" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="727,35409,923,35465"/>
+<area shape="rect" id="node1137" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="727,35017,923,35073"/>
+<area shape="rect" id="node1138" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="727,38730,923,38786"/>
+<area shape="rect" id="node1139" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="738,35801,911,35857"/>
+<area shape="rect" id="node1140" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="738,34537,911,34593"/>
+<area shape="rect" id="node1141" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="738,38970,911,39026"/>
+<area shape="rect" id="node1142" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="738,39197,911,39253"/>
+<area shape="rect" id="node1143" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="738,34057,911,34113"/>
+<area shape="rect" id="node1144" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="735,39437,914,39493"/>
+<area shape="rect" id="node1145" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="738,39677,911,39733"/>
+<area shape="rect" id="node1146" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="738,39917,911,39973"/>
+<area shape="rect" id="node1147" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="729,34777,920,34833"/>
+<area shape="rect" id="node1148" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="718,40157,931,40213"/>
+<area shape="rect" id="node1149" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="732,40383,917,40424"/>
+<area shape="rect" id="node1150" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="727,33423,922,33479"/>
+<area shape="rect" id="node1151" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="731,40514,918,40570"/>
+<area shape="rect" id="node1152" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="741,40792,908,40833"/>
+<area shape="rect" id="node1153" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="741,33780,908,33821"/>
+<area shape="rect" id="node1154" href="$classyarp_1_1os_1_1TypedReader.html" title=" " alt="" coords="739,32833,911,32875"/>
+<area shape="rect" id="node1155" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title="A callback for typed data from a port." alt="" coords="695,33066,955,33093"/>
+<area shape="rect" id="node1156" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,36092,936,36133"/>
+<area shape="rect" id="node1157" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,36288,936,36329"/>
+<area shape="rect" id="node1158" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,36484,936,36525"/>
+<area shape="rect" id="node1159" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,36667,936,36708"/>
+<area shape="rect" id="node1160" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,36797,936,36839"/>
+<area shape="rect" id="node1161" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="710,33117,939,33159"/>
+<area shape="rect" id="node1162" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,37320,936,37361"/>
+<area shape="rect" id="node1163" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,33845,936,33887"/>
+<area shape="rect" id="node1164" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="701,37516,949,37557"/>
+<area shape="rect" id="node1165" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="688,37712,961,37753"/>
+<area shape="rect" id="node1166" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,37908,936,37949"/>
+<area shape="rect" id="node1167" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,17403,936,17444"/>
+<area shape="rect" id="node1168" href="$classImplementCallbackHelper2.html" title="Callback implementation after buffered input." alt="" coords="1081,17535,1281,17562"/>
+<area shape="rect" id="node1169" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,38104,936,38145"/>
+<area shape="rect" id="node1170" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,38330,936,38386"/>
+<area shape="rect" id="node1171" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,34217,936,34273"/>
+<area shape="rect" id="node1172" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,38570,936,38626"/>
+<area shape="rect" id="node1173" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,35329,936,35385"/>
+<area shape="rect" id="node1174" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,34937,936,34993"/>
+<area shape="rect" id="node1175" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,38810,936,38866"/>
+<area shape="rect" id="node1176" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,35721,936,35777"/>
+<area shape="rect" id="node1177" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,34457,936,34513"/>
+<area shape="rect" id="node1178" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="693,39051,956,39092"/>
+<area shape="rect" id="node1179" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,39277,936,39333"/>
+<area shape="rect" id="node1180" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,33977,936,34033"/>
+<area shape="rect" id="node1181" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,39517,936,39573"/>
+<area shape="rect" id="node1182" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,39757,936,39813"/>
+<area shape="rect" id="node1183" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,39997,936,40053"/>
+<area shape="rect" id="node1184" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,34697,936,34753"/>
+<area shape="rect" id="node1185" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,40237,936,40293"/>
+<area shape="rect" id="node1186" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,40448,936,40489"/>
+<area shape="rect" id="node1187" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,33343,936,33399"/>
+<area shape="rect" id="node1188" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,40857,936,40899"/>
+<area shape="rect" id="node1189" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,33584,936,33625"/>
+<area shape="rect" id="node1190" href="$classyarp_1_1os_1_1TypedReaderCallback.html" title=" " alt="" coords="713,32768,936,32809"/>
+</map>
