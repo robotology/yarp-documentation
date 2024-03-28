@@ -1,0 +1,26 @@
+var group__yarp__tools =
+[
+    [ "Yarp-config", "group__yarp-config.html", null ],
+    [ "Yarp", "group__yarp.html", null ],
+    [ "Yarpbatterygui", "group__yarpbatterygui.html", null ],
+    [ "yarpdatadumper: the YARP data recorder", "group__yarpdatadumper.html", null ],
+    [ "yarpdatadumperAppGenerator: Generate yarpmanager applications for yarpdatadumper", "group__yarpdatadumperAppGenerator.html", null ],
+    [ "yarpdataplayer: replay recorded data", "group__yarpdataplayer.html", "group__yarpdataplayer" ],
+    [ "yarpdev: the standard YARP device utility", "group__yarpdev.html", null ],
+    [ "yarphear: listen to YARP audio streams", "group__yarphear.html", null ],
+    [ "yarpidl_rosmsg: YARP code generator/compiler for ROS IDL", "group__yarpidl__rosmsg.html", null ],
+    [ "yarpidl_thrift: YARP code generator/compiler for Thrift IDL", "group__yarpidl__thrift.html", null ],
+    [ "yarplaserscannergui: visualize data from a laser scanner", "group__yarplaserscannergui.html", null ],
+    [ "yarplogger-console: visualize log from YARP programs", "group__yarplogger-console.html", null ],
+    [ "yarplogger: visualize log from YARP programs", "group__yarplogger.html", null ],
+    [ "yarpmanager-console: run and manage multiple programs on a set of machines", "group__yarpmanager-console.html", null ],
+    [ "yarpmanager: edit, run and manage multiple programs on a set of machines", "group__yarpmanager.html", null ],
+    [ "yarpmobilebasegui: Control the mobile base of the robot", "group__yarpmobilebasegui.html", null ],
+    [ "yarpmotorgui: move the joints of a robot", "group__yarpmotorgui.html", null ],
+    [ "yarprobotinterface: Start multiple YARP devices as specified in an xml file.", "group__yarprobotinterface.html", null ],
+    [ "yarpros: YARP-ROS helper tool", "group__yarpros.html", null ],
+    [ "yarprun: run programs on a set of machines", "group__yarprun.html", null ],
+    [ "yarpscope: visualize the numerical content of a port", "group__yarpscope.html", null ],
+    [ "yarpserver: the YARP name server", "group__yarpserver.html", null ],
+    [ "yarpview: visualize YARP images", "group__yarpview.html", null ]
+];
