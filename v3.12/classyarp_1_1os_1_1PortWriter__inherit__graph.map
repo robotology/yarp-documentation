@@ -1,0 +1,99 @@
+<map id="yarp::os::PortWriter" name="yarp::os::PortWriter">
+<area shape="rect" id="Node000001" title="Interface implemented by all objects that can write themselves to the network, such as Bottle objects..." alt="" coords="4796,5,4935,31"/>
+<area shape="rect" id="Node000002" href="$classyarp_1_1os_1_1Portable.html" title="This is a base class for objects that can be both read from and be written to the YARP network." alt="" coords="4643,86,4768,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4831,39,4730,88,4727,84,4829,34"/>
+<area shape="rect" id="Node000722" href="$classyarp_1_1os_1_1SizedWriter.html" title="Minimal requirements for an efficient Writer." alt="" coords="4792,86,4939,111"/>
+<area shape="poly" id="edge47_Node000001_Node000722" title=" " alt="" coords="4868,44,4868,86,4863,86,4863,44"/>
+<area shape="rect" id="Node000724" href="$classyarp_1_1os_1_1impl_1_1ConnectionRecorder.html" title="A helper for recording entire message/reply transactions." alt="" coords="4963,79,5144,119"/>
+<area shape="poly" id="edge48_Node000001_Node000724" title=" " alt="" coords="4906,33,5009,76,5007,81,4904,38"/>
+<area shape="rect" id="Node000003" href="$classyarp_1_1math_1_1Vec2D.html" title=" " alt="" coords="5,174,149,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="4629,102,3760,102,2357,108,1629,116,974,128,462,146,281,157,162,169,130,177,129,171,161,164,281,151,462,140,974,123,1629,111,2357,103,3760,97,4629,97"/>
+<area shape="rect" id="Node000004" href="$classFakeBatteryService__getBatteryCharge__helper.html" title=" " alt="" coords="173,174,355,214"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="4629,103,3795,105,2458,115,1765,123,1141,135,653,150,481,159,367,169,329,177,328,171,366,164,481,154,653,145,1141,129,1764,118,2458,109,3795,100,4629,97"/>
+<area shape="rect" id="Node000005" href="$classFakeBatteryService__getBatteryCurrent__helper.html" title=" " alt="" coords="379,174,563,214"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="4629,103,3831,106,2560,116,1901,125,1309,136,847,151,683,160,575,169,536,177,535,171,574,164,683,154,847,146,1309,131,1901,119,2560,111,3831,101,4629,98"/>
+<area shape="rect" id="Node000006" href="$classFakeBatteryService__getBatteryInfo__helper.html" title=" " alt="" coords="587,174,747,214"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="4629,103,3863,105,2650,115,2022,123,1458,134,1018,150,862,159,759,169,725,177,724,171,758,164,862,154,1017,144,1458,129,2022,118,2649,109,3863,100,4629,97"/>
+<area shape="rect" id="Node000007" href="$classFakeBatteryService__getBatteryStatusString__helper.html" title=" " alt="" coords="771,167,939,221"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="4629,103,3896,106,2743,117,2148,125,1614,137,1196,151,1049,160,951,169,939,171,938,166,950,164,1048,154,1196,146,1614,131,2148,120,2743,111,3896,101,4629,98"/>
+<area shape="rect" id="Node000008" href="$classFakeBatteryService__getBatteryStatus__helper.html" title=" " alt="" coords="963,174,1139,214"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="4629,103,3932,108,2842,119,1776,139,1382,153,1243,161,1151,169,1114,176,1113,171,1150,164,1243,155,1382,147,1776,133,2842,113,3932,102,4629,98"/>
+<area shape="rect" id="Node000009" href="$classFakeBatteryService__getBatteryTemperature__helper.html" title=" " alt="" coords="1163,167,1333,221"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="4629,103,3965,108,2937,119,1934,139,1563,153,1432,161,1346,169,1334,171,1333,166,1345,164,1432,155,1563,148,1934,134,2937,114,3965,103,4629,98"/>
+<area shape="rect" id="Node000010" href="$classFakeBatteryService__getBatteryVoltage__helper.html" title=" " alt="" coords="1357,174,1541,214"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="4629,103,4002,109,3040,122,2103,142,1757,155,1554,169,1515,177,1514,171,1553,164,1757,149,2103,137,3039,117,4002,104,4629,98"/>
+<area shape="rect" id="Node000011" href="$classFakeBatteryService__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="1565,167,1757,221"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="4629,103,3146,124,2278,144,1958,156,1770,169,1758,171,1757,166,1769,164,1958,150,2278,138,3146,119,4629,98"/>
+<area shape="rect" id="Node000012" href="$classFakeBatteryService__setBatteryCharge__helper.html" title=" " alt="" coords="1781,174,1963,214"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="4628,102,4126,102,3356,108,2947,115,2560,128,2226,145,2088,157,1975,169,1937,177,1936,171,1974,164,2088,151,2226,140,2560,122,2947,110,3356,102,4126,96,4628,97"/>
+<area shape="rect" id="Node000013" href="$classFakeBatteryService__setBatteryCurrent__helper.html" title=" " alt="" coords="1987,174,2171,214"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="4629,102,4161,103,3452,111,3075,119,2720,131,2414,147,2183,169,2145,177,2144,171,2182,164,2413,142,2720,125,3075,113,3452,105,4161,98,4629,97"/>
+<area shape="rect" id="Node000014" href="$classFakeBatteryService__setBatteryInfo__helper.html" title=" " alt="" coords="2195,174,2355,214"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="4629,102,4191,103,3535,109,3188,117,2861,130,2579,147,2367,169,2333,177,2332,171,2366,164,2579,141,2861,124,3188,112,3535,104,4191,97,4629,97"/>
+<area shape="rect" id="Node000015" href="$classFakeBatteryService__setBatteryStatus__helper.html" title=" " alt="" coords="2379,174,2555,214"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="4629,103,4224,105,3627,114,3312,123,3015,134,2760,150,2567,169,2531,176,2530,171,2566,164,2759,144,3015,129,3311,117,3627,109,4224,100,4629,97"/>
+<area shape="rect" id="Node000016" href="$classFakeBatteryService__setBatteryTemperature__helper.html" title=" " alt="" coords="2579,167,2747,221"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="4629,103,4256,106,3715,116,3431,124,3163,136,2933,151,2759,169,2747,171,2746,166,2758,164,2932,145,3163,130,3430,119,3715,110,4256,101,4629,98"/>
+<area shape="rect" id="Node000017" href="$classFakeBatteryService__setBatteryVoltage__helper.html" title=" " alt="" coords="2771,174,2955,214"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="4629,104,4292,109,3811,120,3324,140,3120,153,2967,169,2929,177,2928,171,2966,164,3120,148,3323,134,3811,115,4292,103,4628,98"/>
+<area shape="rect" id="Node000018" href="$classFakeTestMsgs__doSomethingRPC__helper.html" title=" " alt="" coords="2979,174,3173,214"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="4629,104,3913,124,3493,143,3318,155,3186,169,3147,177,3146,171,3185,164,3318,150,3493,138,3913,119,4629,99"/>
+<area shape="rect" id="Node000019" href="$classFakeTestMsgs__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="3197,174,3429,214"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="4629,103,4423,106,4129,115,3788,135,3613,150,3442,169,3397,177,3396,171,3441,164,3613,145,3788,130,4129,110,4423,100,4629,97"/>
+<area shape="rect" id="Node000020" href="$classFrameTransformStorageGetRPC__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="3453,167,3672,221"/>
+<area shape="poly" id="edge19_Node000002_Node000020" title=" " alt="" coords="4629,104,4458,109,4224,120,3956,139,3684,169,3673,171,3672,166,3684,164,3955,134,4224,114,4458,103,4628,99"/>
+<area shape="rect" id="Node000021" href="$classFrameTransformStorageGetRPC__getTransformsRPC__helper.html" title=" " alt="" coords="3696,174,3909,214"/>
+<area shape="poly" id="edge20_Node000002_Node000021" title=" " alt="" coords="4629,106,4319,125,4121,144,3922,169,3882,176,3881,171,3921,164,4121,139,4319,120,4629,101"/>
+<area shape="rect" id="Node000022" href="$classFrameTransformStorageSetRPC__clearAllRPC__helper.html" title=" " alt="" coords="3933,174,4123,214"/>
+<area shape="poly" id="edge21_Node000002_Node000022" title=" " alt="" coords="4629,109,4407,131,4271,148,4135,169,4100,177,4099,171,4134,164,4270,143,4406,125,4629,103"/>
+<area shape="rect" id="Node000023" href="$classFrameTransformStorageSetRPC__deleteTransformRPC__helper.html" title=" " alt="" coords="4147,167,4336,221"/>
+<area shape="poly" id="edge22_Node000002_Node000023" title=" " alt="" coords="4629,116,4349,169,4337,172,4335,167,4347,164,4628,110"/>
+<area shape="rect" id="Node000024" href="$classFrameTransformStorageSetRPC__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="4360,167,4579,221"/>
+<area shape="poly" id="edge23_Node000002_Node000024" title=" " alt="" coords="4665,119,4537,169,4535,164,4663,114"/>
+<area shape="rect" id="Node000025" href="$classFrameTransformStorageSetRPC__setTransformRPC__helper.html" title=" " alt="" coords="4603,174,4808,214"/>
+<area shape="poly" id="edge24_Node000002_Node000025" title=" " alt="" coords="4708,125,4708,174,4703,174,4703,125"/>
+<area shape="rect" id="Node000026" href="$classFrameTransformStorageSetRPC__setTransformsRPC__helper.html" title=" " alt="" coords="4832,174,5043,214"/>
+<area shape="poly" id="edge25_Node000002_Node000026" title=" " alt="" coords="4748,114,4892,172,4890,176,4746,119"/>
+<area shape="rect" id="Node000027" href="$classIAudioGrabberMsgs__getRecordingAudioBufferCurrentSize__RPC__helper.html" title=" " alt="" coords="5067,174,5312,214"/>
+<area shape="poly" id="edge26_Node000002_Node000027" title=" " alt="" coords="4762,112,4781,116,4918,141,5055,164,5094,171,5093,177,5054,169,4917,147,4779,121,4761,117"/>
+<area shape="rect" id="Node000028" href="$classIAudioGrabberMsgs__getRecordingAudioBufferMaxSize__RPC__helper.html" title=" " alt="" coords="5336,174,5568,214"/>
+<area shape="poly" id="edge27_Node000002_Node000028" title=" " alt="" coords="4760,112,4780,116,4932,136,5052,142,5172,147,5324,164,5367,171,5366,177,5324,169,5171,153,5052,147,4932,141,4780,121,4759,117"/>
+<area shape="rect" id="Node000029" href="$classIAudioGrabberMsgs__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="5592,174,5811,214"/>
+<area shape="poly" id="edge28_Node000002_Node000029" title=" " alt="" coords="4758,112,4780,116,4901,132,5004,140,5180,142,5356,144,5459,150,5580,164,5622,171,5622,177,5580,169,5459,156,5356,149,5180,148,5004,145,4901,137,4780,121,4757,117"/>
+<area shape="rect" id="Node000030" href="$classIAudioGrabberMsgs__getSound__RPC__helper.html" title=" " alt="" coords="5835,174,6043,214"/>
+<area shape="poly" id="edge29_Node000002_Node000030" title=" " alt="" coords="4758,112,4780,116,4938,135,5072,143,5190,144,5301,142,5412,139,5530,140,5665,147,5823,164,5865,171,5864,177,5822,169,5664,152,5530,145,5412,145,5301,147,5190,150,5072,149,4937,140,4780,121,4757,117"/>
+<area shape="rect" id="Node000031" href="$classIAudioGrabberMsgs__isRecording__RPC__helper.html" title=" " alt="" coords="6067,174,6288,214"/>
+<area shape="poly" id="edge30_Node000002_Node000031" title=" " alt="" coords="4758,112,4780,116,4973,138,5137,147,5282,148,5417,144,5552,139,5697,138,5862,145,6055,164,6099,171,6098,177,6054,169,5861,151,5697,144,5552,145,5417,149,5282,153,5137,153,4973,143,4780,121,4757,117"/>
+<area shape="rect" id="Node000032" href="$classIAudioGrabberMsgs__resetRecordingAudioBuffer__RPC__helper.html" title=" " alt="" coords="6312,174,6557,214"/>
+<area shape="poly" id="edge31_Node000002_Node000032" title=" " alt="" coords="4758,112,4780,116,5010,142,5206,152,5378,152,5539,147,5700,140,5873,138,6069,144,6300,164,6349,171,6348,177,6300,169,6069,150,5873,143,5700,146,5539,152,5378,158,5205,158,5010,147,4780,121,4757,117"/>
+<area shape="rect" id="Node000033" href="$classIAudioGrabberMsgs__setHWGain__RPC__helper.html" title=" " alt="" coords="6581,174,6800,214"/>
+<area shape="poly" id="edge32_Node000002_Node000033" title=" " alt="" coords="4758,112,4780,116,4922,133,5051,145,5281,156,5484,154,5674,145,5864,136,6067,132,6298,139,6428,149,6570,164,6614,171,6613,177,6569,169,6427,154,6298,145,6067,137,5864,141,5674,150,5484,159,5281,161,5051,150,4921,139,4780,121,4757,117"/>
+<area shape="rect" id="Node000034" href="$classIAudioGrabberMsgs__setSWGain__RPC__helper.html" title=" " alt="" coords="6824,174,7040,214"/>
+<area shape="poly" id="edge33_Node000002_Node000034" title=" " alt="" coords="4758,112,4780,116,4941,135,5088,148,5223,156,5349,160,5580,156,5795,145,6011,134,6242,128,6368,130,6504,136,6651,147,6812,164,6857,171,6856,177,6812,169,6651,153,6504,142,6368,136,6242,134,6011,139,5795,151,5580,162,5349,165,5223,162,5087,154,4940,141,4780,121,4757,117"/>
+<area shape="rect" id="Node000035" href="$classIAudioGrabberMsgs__startRecording__RPC__helper.html" title=" " alt="" coords="7064,174,7304,214"/>
+<area shape="poly" id="edge34_Node000002_Node000035" title=" " alt="" coords="4758,112,4780,116,4883,127,5001,135,5276,144,5586,146,5915,145,6556,143,6831,149,7052,164,7101,171,7100,177,7052,169,6831,154,6556,148,5915,150,5586,152,5276,149,5001,140,4882,132,4780,121,4757,117"/>
+<area shape="rect" id="Node000036" href="$classIAudioGrabberMsgs__stopRecording__RPC__helper.html" title=" " alt="" coords="7328,174,7568,214"/>
+<area shape="poly" id="edge35_Node000002_Node000036" title=" " alt="" coords="4758,112,4780,116,4895,128,5027,137,5333,146,5680,148,6047,145,6762,142,7069,148,7201,154,7316,164,7365,171,7365,177,7316,169,7201,160,7069,153,6762,147,6047,151,5680,153,5333,152,5026,142,4894,133,4780,121,4757,117"/>
+<area shape="rect" id="Node000037" href="$classIBatteryMsgs__getBatteryInfoRPC__helper.html" title=" " alt="" coords="7592,174,7792,214"/>
+<area shape="poly" id="edge36_Node000002_Node000037" title=" " alt="" coords="4758,112,4780,116,4907,129,5052,138,5391,147,5774,147,6180,142,6585,137,6969,136,7308,143,7454,152,7580,164,7622,171,7621,177,7580,169,7453,157,7308,149,6969,141,6585,142,6180,147,5774,152,5391,152,5052,144,4906,134,4780,121,4757,117"/>
+<area shape="rect" id="Node000038" href="$classIBatteryMsgs__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="7816,174,8045,214"/>
+<area shape="poly" id="edge37_Node000002_Node000038" title=" " alt="" coords="4758,112,4780,116,4917,130,5074,140,5440,150,5853,150,6291,145,6729,140,7143,138,7510,145,7667,152,7804,164,7851,171,7851,177,7804,169,7667,158,7509,150,7143,143,6729,145,6291,151,5854,156,5440,155,5074,145,4916,135,4780,121,4757,117"/>
+<area shape="rect" id="Node000039" href="$classIChatBotMsgs__getLanguageRPC__helper.html" title=" " alt="" coords="8069,174,8261,214"/>
+<area shape="poly" id="edge38_Node000002_Node000039" title=" " alt="" coords="4758,112,4780,116,4928,131,5099,141,5289,148,5495,150,5944,149,6418,141,6893,134,7342,131,7739,140,7910,149,8058,164,8098,171,8097,177,8057,169,7909,155,7739,145,7342,137,6893,139,6419,147,5944,154,5495,156,5289,153,5098,147,4928,136,4780,121,4757,117"/>
+<area shape="rect" id="Node000040" href="$classIChatBotMsgs__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="8285,174,8520,214"/>
+<area shape="poly" id="edge39_Node000002_Node000040" title=" " alt="" coords="4758,112,4780,116,4938,132,5120,143,5322,151,5542,154,6020,154,6526,147,7032,139,7510,136,7933,142,8116,151,8274,164,8322,171,8321,177,8273,169,8115,156,7933,148,7510,141,7032,144,6526,152,6020,159,5542,160,5322,156,5119,149,4937,137,4780,121,4757,117"/>
+<area shape="rect" id="Node000041" href="$classIChatBotMsgs__getStatusRPC__helper.html" title=" " alt="" coords="8544,174,8741,214"/>
+<area shape="poly" id="edge40_Node000002_Node000041" title=" " alt="" coords="4758,112,4780,116,4950,133,5145,145,5362,152,5599,154,6112,152,6656,142,7199,133,7713,129,7949,131,8167,137,8363,148,8532,164,8574,171,8573,177,8532,169,8362,153,8167,143,7949,136,7713,134,7199,138,6656,148,6112,157,5599,160,5362,157,5145,150,4949,138,4780,121,4757,117"/>
+<area shape="rect" id="Node000042" href="$classIChatBotMsgs__interactRPC__helper.html" title=" " alt="" coords="8765,174,8949,214"/>
+<area shape="poly" id="edge41_Node000002_Node000042" title=" " alt="" coords="4758,112,4780,116,4960,134,5166,146,5397,153,5647,155,6191,151,6767,140,7342,129,7886,125,8137,127,8367,134,8574,146,8754,164,8793,171,8792,177,8753,169,8574,151,8367,139,8136,133,7886,130,7342,134,6767,145,6191,156,5647,161,5397,158,5166,151,4959,139,4780,121,4757,117"/>
+<area shape="rect" id="Node000043" href="$classIChatBotMsgs__resetBotRPC__helper.html" title=" " alt="" coords="8973,174,9163,214"/>
+<area shape="poly" id="edge42_Node000002_Node000043" title=" " alt="" coords="4758,112,4780,116,4969,135,5187,147,5429,155,5692,157,6265,153,6870,141,7476,129,8049,124,8312,127,8555,133,8773,146,8962,164,9002,171,9001,177,8961,169,8772,151,8555,139,8312,132,8049,130,7476,134,6871,146,6265,158,5692,163,5429,160,5186,153,4968,140,4780,121,4757,117"/>
+<area shape="rect" id="Node000044" href="$classIChatBotMsgs__setLanguageRPC__helper.html" title=" " alt="" coords="9187,174,9379,214"/>
+<area shape="poly" id="edge43_Node000002_Node000044" title=" " alt="" coords="4757,112,4780,116,4979,136,5207,149,5462,156,5739,159,6341,154,6977,142,7614,129,8215,123,8492,126,8747,132,8976,145,9175,164,9216,171,9215,177,9174,169,8976,150,8747,138,8492,131,8215,129,7614,134,6977,147,6341,160,5739,164,5462,162,5207,154,4978,141,4780,121,4756,117"/>
+<area shape="rect" id="Node000045" href="$classILocalization2DMsgs__getRemoteProtocolVersion__helper.html" title=" " alt="" coords="9403,167,9595,221"/>
+<area shape="poly" id="edge44_Node000002_Node000045" title=" " alt="" coords="4757,112,4780,116,4988,137,5228,150,5496,158,5786,161,6417,155,7085,142,7753,128,8384,122,8675,124,8942,131,9183,144,9391,164,9403,166,9402,171,9390,169,9182,149,8942,136,8675,129,8384,127,7753,133,7085,147,6417,161,5786,166,5496,163,5228,156,4988,142,4780,121,4756,117"/>
+<area shape="rect" id="Node000046" href="$classILocalization2DMsgs__get__current__position1__RPC__helper.html" title=" " alt="" coords="9619,167,9779,221"/>
+<area shape="poly" id="edge45_Node000002_Node000046" title=" " alt="" coords="4757,112,4780,116,4916,127,5118,135,5684,142,6401,141,7194,137,7986,133,8703,134,9269,143,9471,152,9607,164,9619,166,9618,171,9606,169,9471,157,9269,148,8703,139,7986,139,7194,142,6401,146,5684,147,5118,140,4916,132,4780,121,4756,117"/>
+<area shape="rect" id="Node000047" href="$classILocalization2DMsgs__get__current__position2__RPC__helper.html" title=" " alt="" coords="9803,167,9963,221"/>
+<area shape="poly" id="edge46_Node000002_Node000047" title=" " alt="" coords="4757,112,4780,116,4921,127,5131,135,5718,142,6463,141,7286,137,8109,133,8853,133,9440,142,9650,151,9791,164,9803,166,9802,171,9790,169,9649,157,9440,147,8853,138,8109,138,7286,142,6463,147,5718,148,5131,140,4921,133,4780,121,4756,117"/>
+</map>

@@ -1,0 +1,26 @@
+var classGraph =
+[
+    [ "Graph", "classGraph.html#a9bc587b46e832b835f0262fed5d85484", null ],
+    [ "~Graph", "classGraph.html#a902c5b3eacb66d60752525ab23297a95", null ],
+    [ "acquiredDataChanged", "classGraph.html#ab49976391722385ef19e89e0b4564600", null ],
+    [ "appendPreviousValues", "classGraph.html#a73d5f1822c1f7b073e7f3f9c118c1026", null ],
+    [ "appendValues", "classGraph.html#a7d3d5c8150dba2b939cab1d5f8195b58", null ],
+    [ "clearData", "classGraph.html#a74922940f357ab16b13afe17ea9ea59f", null ],
+    [ "getColor", "classGraph.html#aceab3bc9eca7f2b77d13bf4db30b2d31", null ],
+    [ "getConnection", "classGraph.html#a4d87c7c111becfcf475429799bc3463f", null ],
+    [ "getLineSize", "classGraph.html#a2357757c326194b918a06b8e610f96cb", null ],
+    [ "getType", "classGraph.html#a837bfe1debcde36a0f06e40b568470f3", null ],
+    [ "init", "classGraph.html#a1652f8adb70a4c80ef3a1905da005661", null ],
+    [ "setCustomGraph", "classGraph.html#a58f15eda872b2f2abc844cee90be3f64", null ],
+    [ "setCustomGraphPoint", "classGraph.html#a3d9ddf31811f8eaef6647eead6e88971", null ],
+    [ "valuesChanged", "classGraph.html#aad19e6581c8f67e18b0ab4df5adb9b05", null ],
+    [ "curr_connection", "classGraph.html#aef1ea272c3520a8ad50cfd775f10ca2d", null ],
+    [ "customGraph", "classGraph.html#abb25e3981afd633c62a4f9e4b91e7071", null ],
+    [ "customGraphPoint", "classGraph.html#a19caef071b8ebf2f23f0781460d10c56", null ],
+    [ "deleteConnection", "classGraph.html#ae5110074ea82b129929e1ba1352afde9", null ],
+    [ "graph_y_scale", "classGraph.html#a309e82cc1df64fd05e7c8eff9b321391", null ],
+    [ "index", "classGraph.html#ab5da6d441d40218f54883bb1bc20afb9", null ],
+    [ "lastT", "classGraph.html#aacc55d6e780dddd197fd6e61aec5f6d1", null ],
+    [ "lastX", "classGraph.html#ad2063eedc6fc44d8a8bd1cade6a75eb3", null ],
+    [ "lastY", "classGraph.html#a548e4013d1b072a97a4d5ea29086971a", null ]
+];
