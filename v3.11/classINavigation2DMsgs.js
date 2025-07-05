@@ -1,0 +1,24 @@
+var classINavigation2DMsgs =
+[
+    [ "INavigation2DMsgs", "classINavigation2DMsgs.html#a0dbf8031b756f3a85d27467b7cea8ba6", null ],
+    [ "apply_velocity_command_RPC", "classINavigation2DMsgs.html#a7ff2cdf7c590644e76530ab13ee08c0d", null ],
+    [ "follow_path_RPC", "classINavigation2DMsgs.html#a7f68afcdad46851a9853cf4605944342", null ],
+    [ "get_absolute_location_of_current_target_RPC", "classINavigation2DMsgs.html#a37cd49717d2e4fd083fd4c07cce7657a", null ],
+    [ "get_all_navigation_waypoints_RPC", "classINavigation2DMsgs.html#aca52c8a91e85669953e108c27ae057d3", null ],
+    [ "get_current_nav_waypoint_RPC", "classINavigation2DMsgs.html#a8c51c509f283b8e71f07152ae59e8c64", null ],
+    [ "get_current_navigation_map_RPC", "classINavigation2DMsgs.html#a7472a8f05e893c7b66de2d5e9e5ce619", null ],
+    [ "get_last_velocity_command_RPC", "classINavigation2DMsgs.html#a4aa8d58f38bbbed705b4ce983fa92cc8", null ],
+    [ "get_name_of_current_target_RPC", "classINavigation2DMsgs.html#abf08ea9b4626e9c4f0d08e03c0e6e160", null ],
+    [ "get_navigation_status_RPC", "classINavigation2DMsgs.html#a851dd317d51da3febc0266759e22efb6", null ],
+    [ "get_relative_location_of_current_target_RPC", "classINavigation2DMsgs.html#ac3c61a2b11f481acaed279c5b41ff55f", null ],
+    [ "goto_target_by_absolute_location_and_set_name_RPC", "classINavigation2DMsgs.html#a24bdf8a64f203d1771c58c9768c06254", null ],
+    [ "goto_target_by_absolute_location_RPC", "classINavigation2DMsgs.html#a04b67a9ce5010ae64fe94d9a8fc9f0eb", null ],
+    [ "goto_target_by_relative_location1_RPC", "classINavigation2DMsgs.html#a18c101285895bea1eb898bead087efbc", null ],
+    [ "goto_target_by_relative_location2_RPC", "classINavigation2DMsgs.html#aeb1b049245c0911c98315f85c6d82ad8", null ],
+    [ "help", "classINavigation2DMsgs.html#a8c3eb6a7378e970938e201e5ea1b6d6c", null ],
+    [ "read", "classINavigation2DMsgs.html#ae13be8c41d168d31b19a825db73e34f7", null ],
+    [ "recompute_current_navigation_path_RPC", "classINavigation2DMsgs.html#aba28b0a496b97bf6185b53ca957a1c9a", null ],
+    [ "resume_navigation_RPC", "classINavigation2DMsgs.html#a4efebe732d1dcbfdcde1444811530326", null ],
+    [ "stop_navigation_RPC", "classINavigation2DMsgs.html#a970a055d8c931b9fff1506d159337e95", null ],
+    [ "suspend_navigation_RPC", "classINavigation2DMsgs.html#a881afaff4e719d2f91134cd792bba664", null ]
+];

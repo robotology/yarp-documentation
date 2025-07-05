@@ -1,0 +1,27 @@
+var classRangefinder2D__nwc__yarp =
+[
+    [ "close", "classRangefinder2D__nwc__yarp.html#a2a96a731f3cf433dd57b056fc826d703", null ],
+    [ "getDeviceInfo", "classRangefinder2D__nwc__yarp.html#a421353ba23c74eceded1439f539313da", null ],
+    [ "getDeviceStatus", "classRangefinder2D__nwc__yarp.html#a2141f61920c9f909b396867d221a32f3", null ],
+    [ "getDistanceRange", "classRangefinder2D__nwc__yarp.html#a3573ed6f681eb646e4899312b5e683c4", null ],
+    [ "getHorizontalResolution", "classRangefinder2D__nwc__yarp.html#afa3ba4de1c183dc43a3f41d6f496fac5", null ],
+    [ "getLaserMeasurement", "classRangefinder2D__nwc__yarp.html#afc2d514ca1386cd5203f4b2101864d88", null ],
+    [ "getRawData", "classRangefinder2D__nwc__yarp.html#abba5c0123723731113a3795d653cca69", null ],
+    [ "getScanLimits", "classRangefinder2D__nwc__yarp.html#ae0f9e784f86810eb96db10d19b66fe59", null ],
+    [ "getScanRate", "classRangefinder2D__nwc__yarp.html#aedc85f0cb555ba9c9b49c607ce18a34d", null ],
+    [ "open", "classRangefinder2D__nwc__yarp.html#a79eb40ee51bc7b6bef8b86ba34f4e505", null ],
+    [ "setDistanceRange", "classRangefinder2D__nwc__yarp.html#a93c4ab1379f620df59c451a126356cb3", null ],
+    [ "setHorizontalResolution", "classRangefinder2D__nwc__yarp.html#aeb3af88179938402e3dc5e5161728741", null ],
+    [ "setScanLimits", "classRangefinder2D__nwc__yarp.html#ae2609be43e4d5f74055beb7460c4a36f", null ],
+    [ "setScanRate", "classRangefinder2D__nwc__yarp.html#a46f76547f41e2cd76e950bfaa9fe6c99", null ],
+    [ "m_deviceId", "classRangefinder2D__nwc__yarp.html#aa5a9d98417fd5c65780ebcd42a3ea244", null ],
+    [ "m_inputPort", "classRangefinder2D__nwc__yarp.html#af34bb38a26018695088da03296c85fb0", null ],
+    [ "m_laser_frame_name", "classRangefinder2D__nwc__yarp.html#a65b8c924ae17722d4f211c61bb20a224", null ],
+    [ "m_lastTs", "classRangefinder2D__nwc__yarp.html#af0909fb1d1083e97d76aa76cb8c948ef", null ],
+    [ "m_mutex", "classRangefinder2D__nwc__yarp.html#a3e002462fb1926179c19dfbdbece9c09", null ],
+    [ "m_robot_frame_name", "classRangefinder2D__nwc__yarp.html#a17cbce74a192d3f6de3ef78c2ae061f2", null ],
+    [ "m_RPC", "classRangefinder2D__nwc__yarp.html#a3b5c6e067b79b76d29d0b8f907b1f63e", null ],
+    [ "m_rpcPort", "classRangefinder2D__nwc__yarp.html#ac31f2a6b062e368c014ed86049ebc17f", null ],
+    [ "m_scan_angle_max", "classRangefinder2D__nwc__yarp.html#a3bbb02b2848ce4e68890aaad98780304", null ],
+    [ "m_scan_angle_min", "classRangefinder2D__nwc__yarp.html#a3070175eaef6c650d95a9713a348afd8", null ]
+];
