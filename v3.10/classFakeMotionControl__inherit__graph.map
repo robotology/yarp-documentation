@@ -1,0 +1,99 @@
+<map id="FakeMotionControl" name="FakeMotionControl">
+<area shape="rect" id="Node000001" title="fakeMotionControl: The aim of this device is to mimic the expected behavior of a real motion control ..." alt="" coords="4463,181,4596,207"/>
+<area shape="rect" id="Node000002" href="$classFakeMotionControl__ParamsParser.html" title="This class is the parameters parser for class FakeMotionControl." alt="" coords="5,93,195,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,131,514,145,1012,157,2332,175,3654,185,4462,190,4462,195,3654,191,2332,180,1012,162,514,150,208,136"/>
+<area shape="rect" id="Node000003" href="$classyarp_1_1dev_1_1IDeviceDriverParams.html" title="An interface for the management of the parameters of a DeviceDriver." alt="" coords="16,5,184,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,59,103,93,97,93,97,59"/>
+<area shape="rect" id="Node000004" href="$classyarp_1_1dev_1_1DeviceDriver.html" title="Interface implemented by all device drivers." alt="" coords="219,101,384,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="364,126,396,131,671,146,1139,158,2400,176,3675,186,4463,190,4463,195,3675,191,2399,181,1138,164,671,151,396,136,363,131"/>
+<area shape="rect" id="Node000005" href="$classyarp_1_1os_1_1PeriodicThread.html" title="An abstraction for a periodic thread." alt="" coords="408,101,576,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="555,126,588,131,849,145,1294,157,2493,175,3708,185,4463,190,4463,195,3708,191,2493,180,1294,162,849,150,588,136,554,131"/>
+<area shape="rect" id="Node000006" href="$classyarp_1_1dev_1_1IPidControlRaw.html" title="Interface for a generic control board device implementing a PID controller." alt="" coords="600,101,779,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="755,126,791,131,1038,144,1458,155,2592,173,4463,190,4463,195,2592,179,1458,161,1038,149,790,136,754,131"/>
+<area shape="rect" id="Node000007" href="$classyarp_1_1dev_1_1IControlCalibrationRaw.html" title="Interface for control devices, calibration commands." alt="" coords="803,101,1032,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="997,125,1044,131,1375,150,1814,164,2322,175,2858,182,3849,189,4463,190,4463,195,3849,194,2858,187,2322,180,1814,169,1375,155,1044,136,997,131"/>
+<area shape="rect" id="Node000008" href="$classyarp_1_1dev_1_1IAmplifierControlRaw.html" title="Interface for control devices, amplifier commands." alt="" coords="1056,101,1275,126"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1242,125,1287,131,1593,149,2000,163,2470,174,2966,181,3887,188,4462,190,4462,195,3887,194,2966,186,2470,179,2000,169,1593,154,1286,136,1242,131"/>
+<area shape="rect" id="Node000009" href="$classyarp_1_1dev_1_1IEncodersTimedRaw.html" title="Control board, extend encoder raw interface adding timestamps." alt="" coords="1299,101,1512,126"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1481,125,1524,131,1806,148,2181,162,3073,180,3924,188,4462,190,4462,195,3924,193,3073,185,2181,167,1806,154,1524,136,1481,131"/>
+<area shape="rect" id="Node000010" href="$classyarp_1_1dev_1_1IEncodersRaw.html" title="Control board, encoder interface." alt="" coords="1320,13,1491,38"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1408,52,1408,100,1403,100,1403,52"/>
+<area shape="rect" id="Node000011" href="$classyarp_1_1dev_1_1IMotorEncodersRaw.html" title="Control board, encoder interface." alt="" coords="1536,101,1744,126"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1714,125,1756,131,2015,147,2359,161,3177,179,3961,187,4462,190,4462,195,3961,192,3177,184,2359,166,2015,153,1756,136,1713,131"/>
+<area shape="rect" id="Node000012" href="$classyarp_1_1dev_1_1IMotorRaw.html" title="Control board, encoder interface." alt="" coords="1768,101,1917,126"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1902,126,1930,131,2171,151,2491,166,2862,176,3255,183,3989,190,4462,190,4462,196,3989,195,3255,189,2862,182,2491,171,2170,156,1929,136,1901,131"/>
+<area shape="rect" id="Node000013" href="$classyarp_1_1dev_1_1IPositionControlRaw.html" title="Interface for a generic control board device implementing position control in encoder coordinates." alt="" coords="1941,101,2152,126"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="2122,125,2164,131,2382,145,2672,157,3362,175,4027,185,4462,190,4462,195,4027,191,3362,180,2672,163,2382,151,2164,136,2121,131"/>
+<area shape="rect" id="Node000014" href="$classyarp_1_1dev_1_1IVelocityControlRaw.html" title="Interface for control boards implementig velocity control in encoder coordinates." alt="" coords="2176,101,2387,126"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="2357,125,2399,131,2594,144,2852,156,3468,173,4462,189,4462,195,3468,179,2852,161,2593,149,2398,136,2356,131"/>
+<area shape="rect" id="Node000015" href="$classyarp_1_1dev_1_1IControlModeRaw.html" title="Interface for setting control mode in control board." alt="" coords="2411,101,2605,126"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="2580,126,2618,131,2791,144,3020,155,3568,172,4463,189,4463,194,3568,178,3020,160,2790,149,2617,136,2579,131"/>
+<area shape="rect" id="Node000016" href="$classyarp_1_1dev_1_1IControlLimitsRaw.html" title="Interface for control devices." alt="" coords="2629,101,2829,126"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="2803,126,2842,131,2993,142,3193,153,3671,170,4462,189,4462,194,3671,175,3192,158,2992,148,2841,136,2802,131"/>
+<area shape="rect" id="Node000017" href="$classyarp_1_1dev_1_1IPositionDirectRaw.html" title="Interface for a generic control board device implementing position control in encoder coordinates." alt="" coords="2853,101,3056,126"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="3029,126,3068,131,3273,149,3483,163,3888,181,4232,189,4463,190,4462,196,4232,194,3888,186,3483,168,3273,154,3068,136,3028,131"/>
+<area shape="rect" id="Node000018" href="$classyarp_1_1dev_1_1ITorqueControlRaw.html" title="Interface for control boards implementing torque control." alt="" coords="3080,101,3283,126"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="3256,126,3295,131,3638,159,3975,177,4264,186,4462,189,4462,195,4264,191,3975,182,3638,165,3294,136,3255,131"/>
+<area shape="rect" id="Node000019" href="$classyarp_1_1dev_1_1ICurrentControlRaw.html" title="Interface for control boards implementing current control." alt="" coords="3307,101,3515,126"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="3488,126,3527,131,3798,155,4066,172,4462,188,4462,194,4065,178,3798,161,3526,136,3487,131"/>
+<area shape="rect" id="Node000020" href="$classyarp_1_1dev_1_1IPWMControlRaw.html" title="Interface for controlling an axis, by sending directly a PWM reference signal to a motor." alt="" coords="3539,101,3731,126"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="3708,126,3743,131,3948,152,4151,169,4462,187,4462,192,4151,174,3948,158,3742,136,3708,131"/>
+<area shape="rect" id="Node000021" href="$classyarp_1_1dev_1_1IImpedanceControlRaw.html" title="Interface for control boards implementing impedance control." alt="" coords="3755,101,3987,126"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="3960,125,3999,131,4463,183,4462,189,3998,136,3959,131"/>
+<area shape="rect" id="Node000022" href="$classyarp_1_1dev_1_1IInteractionModeRaw.html" title="Interface settings the way the robot interacts with the environment: basic interaction types are Stif..." alt="" coords="4011,101,4229,126"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="4193,126,4470,179,4469,184,4192,131"/>
+<area shape="rect" id="Node000023" href="$classyarp_1_1dev_1_1IAxisInfoRaw.html" title="Interface for getting information about specific axes, if available." alt="" coords="4253,101,4419,126"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="4378,129,4502,179,4500,184,4376,133"/>
+<area shape="rect" id="Node000024" href="$classyarp_1_1dev_1_1IVirtualAnalogSensorRaw.html" title="A generic interface to a virtual sensors." alt="" coords="4443,93,4616,133"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="4532,147,4532,181,4527,181,4527,147"/>
+<area shape="rect" id="Node000025" href="$classyarp_1_1dev_1_1IJointFaultRaw.html" title="Interface for getting info about the fault which may occur on a robot." alt="" coords="4640,101,4813,126"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="4686,134,4559,184,4557,179,4684,129"/>
+<area shape="rect" id="Node000026" href="$classyarp_1_1dev_1_1ImplementControlCalibration.html" title=" " alt="" coords="4837,93,5035,133"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="4826,139,4589,184,4588,179,4825,133"/>
+<area shape="rect" id="Node000027" href="$classyarp_1_1dev_1_1IControlCalibration.html" title="Interface for control devices, calibration commands." alt="" coords="4835,13,5037,38"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="4939,52,4939,93,4933,93,4933,52"/>
+<area shape="rect" id="Node000028" href="$classyarp_1_1dev_1_1ImplementAmplifierControl.html" title=" " alt="" coords="5059,93,5269,133"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="5046,136,4793,167,4596,189,4596,183,4793,162,5045,131"/>
+<area shape="rect" id="Node000029" href="$classyarp_1_1dev_1_1IAmplifierControl.html" title="Interface for control devices, amplifier commands." alt="" coords="5069,13,5259,38"/>
+<area shape="poly" id="edge28_Node000028_Node000029" title=" " alt="" coords="5167,52,5167,93,5161,93,5161,52"/>
+<area shape="rect" id="Node000030" href="$classyarp_1_1dev_1_1ImplementPidControl.html" title=" " alt="" coords="5293,101,5512,126"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="5322,131,5282,136,5087,156,4894,172,4597,192,4596,186,4894,167,5086,151,5281,131,5321,125"/>
+<area shape="rect" id="Node000031" href="$classyarp_1_1dev_1_1IPidControl.html" title="Interface for a generic control board device implementing a PID controller, with scaled arguments." alt="" coords="5327,13,5479,38"/>
+<area shape="poly" id="edge30_Node000030_Node000031" title=" " alt="" coords="5405,52,5405,100,5400,100,5400,52"/>
+<area shape="rect" id="Node000032" href="$classyarp_1_1dev_1_1ImplementEncodersTimed.html" title=" " alt="" coords="5536,93,5747,133"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="5522,136,5250,161,4985,177,4597,194,4596,188,4985,172,5249,155,5522,131"/>
+<area shape="rect" id="Node000033" href="$classyarp_1_1dev_1_1IEncodersTimed.html" title="Control board, extend encoder interface with timestamps." alt="" coords="5549,13,5733,38"/>
+<area shape="poly" id="edge32_Node000032_Node000033" title=" " alt="" coords="5644,52,5644,93,5639,93,5639,52"/>
+<area shape="rect" id="Node000035" href="$classyarp_1_1dev_1_1ImplementPositionControl.html" title="Default implementation of the IPositionControl interface." alt="" coords="5771,93,5973,133"/>
+<area shape="poly" id="edge33_Node000001_Node000035" title=" " alt="" coords="5757,136,5411,165,5076,182,4792,191,4596,195,4596,189,4791,186,5076,177,5411,159,5757,131"/>
+<area shape="rect" id="Node000036" href="$classyarp_1_1dev_1_1IPositionControl.html" title="Interface for a generic control board device implementing position control." alt="" coords="5780,13,5964,38"/>
+<area shape="poly" id="edge34_Node000035_Node000036" title=" " alt="" coords="5875,52,5875,93,5869,93,5869,52"/>
+<area shape="rect" id="Node000037" href="$classyarp_1_1dev_1_1ImplementVelocityControl.html" title=" " alt="" coords="5997,93,6200,133"/>
+<area shape="poly" id="edge35_Node000001_Node000037" title=" " alt="" coords="5983,136,5777,154,5567,168,5164,186,4823,194,4596,196,4596,190,4823,189,5163,181,5567,163,5776,149,5983,131"/>
+<area shape="rect" id="Node000039" href="$classyarp_1_1dev_1_1ImplementControlMode.html" title=" " alt="" coords="6224,101,6459,126"/>
+<area shape="poly" id="edge36_Node000001_Node000039" title=" " alt="" coords="6259,131,6212,136,5972,155,5727,169,5254,187,4856,194,4596,196,4596,190,4856,189,5254,182,5727,164,5972,149,6212,131,6259,125"/>
+<area shape="rect" id="Node000041" href="$classyarp_1_1dev_1_1ImplementImpedanceControl.html" title=" " alt="" coords="6483,93,6707,133"/>
+<area shape="poly" id="edge37_Node000001_Node000041" title=" " alt="" coords="6469,136,6286,148,6049,159,5492,176,4596,194,4596,189,5492,171,6048,154,6285,143,6469,131"/>
+<area shape="rect" id="Node000043" href="$classyarp_1_1dev_1_1ImplementJointFault.html" title=" " alt="" coords="6731,93,6912,133"/>
+<area shape="poly" id="edge38_Node000001_Node000043" title=" " alt="" coords="6717,136,6509,151,6239,164,5606,181,4998,191,4596,195,4596,190,4998,186,5606,176,6239,158,6509,146,6717,131"/>
+<area shape="rect" id="Node000045" href="$classyarp_1_1dev_1_1ImplementMotorEncoders.html" title=" " alt="" coords="6936,93,7125,133"/>
+<area shape="poly" id="edge39_Node000001_Node000045" title=" " alt="" coords="6923,136,6694,152,6397,165,5699,182,5032,192,4596,195,4596,190,5032,186,5699,177,6397,159,6694,147,6922,131"/>
+<area shape="rect" id="Node000047" href="$classyarp_1_1dev_1_1ImplementTorqueControl.html" title=" " alt="" coords="7149,93,7344,133"/>
+<area shape="poly" id="edge40_Node000001_Node000047" title=" " alt="" coords="7136,136,6886,153,6561,166,5796,184,5066,192,4597,195,4596,190,5066,187,5796,178,6560,161,6886,147,7135,131"/>
+<area shape="rect" id="Node000049" href="$classyarp_1_1dev_1_1ImplementControlLimits.html" title="class ImplementControlLimits; class StubImplControlLimitsRaw;" alt="" coords="7368,93,7565,133"/>
+<area shape="poly" id="edge41_Node000001_Node000049" title=" " alt="" coords="7354,136,7082,154,6728,168,5894,185,5101,193,4597,195,4597,190,5101,188,5894,180,6728,162,7082,148,7354,131"/>
+<area shape="rect" id="Node000051" href="$classyarp_1_1dev_1_1ImplementPositionDirect.html" title="Default implementation of the IPositionDirect interface." alt="" coords="7589,93,7792,133"/>
+<area shape="poly" id="edge42_Node000001_Node000051" title=" " alt="" coords="7576,136,7282,155,6898,169,6457,179,5994,186,5137,194,4597,195,4597,190,5137,188,5994,181,6457,174,6897,163,7281,149,7575,131"/>
+<area shape="rect" id="Node000053" href="$classyarp_1_1dev_1_1ImplementInteractionMode.html" title="Interface settings the way the robot interacts with the environment: basic interaction types are Stif..." alt="" coords="7816,101,8072,126"/>
+<area shape="poly" id="edge43_Node000001_Node000053" title=" " alt="" coords="7858,130,7804,136,7495,153,7083,166,6107,184,5177,192,4596,195,4596,190,5177,187,6107,178,7083,161,7494,147,7804,131,7857,125"/>
+<area shape="rect" id="Node000055" href="$classyarp_1_1dev_1_1ImplementCurrentControl.html" title=" " alt="" coords="8096,93,8296,133"/>
+<area shape="poly" id="edge44_Node000001_Node000055" title=" " alt="" coords="8083,136,7737,157,7285,173,6766,184,6221,191,5216,196,4596,196,4596,190,5216,191,6221,185,6766,178,7285,168,7737,152,8082,131"/>
+<area shape="rect" id="Node000057" href="$classyarp_1_1dev_1_1ImplementPWMControl.html" title=" " alt="" coords="8320,101,8552,126"/>
+<area shape="poly" id="edge45_Node000001_Node000057" title=" " alt="" coords="8356,131,8308,136,7948,156,7469,171,6915,182,6332,189,5255,195,4596,195,4596,190,5255,190,6332,184,6915,177,7469,166,7948,151,8308,131,8355,125"/>
+<area shape="rect" id="Node000059" href="$classyarp_1_1dev_1_1ImplementMotor.html" title=" " alt="" coords="8576,101,8765,126"/>
+<area shape="poly" id="edge46_Node000001_Node000059" title=" " alt="" coords="8602,131,8564,136,8296,150,7840,161,6611,179,4596,195,4596,190,6611,174,7840,156,8296,144,8564,131,8602,126"/>
+<area shape="rect" id="Node000061" href="$classyarp_1_1dev_1_1ImplementAxisInfo.html" title=" " alt="" coords="8789,101,8995,126"/>
+<area shape="poly" id="edge47_Node000001_Node000061" title=" " alt="" coords="8819,131,8778,136,8494,149,8013,161,6715,179,4596,195,4596,190,6715,173,8013,156,8494,144,8777,131,8819,126"/>
+<area shape="rect" id="Node000063" href="$classyarp_1_1dev_1_1ImplementVirtualAnalogSensor.html" title=" " alt="" coords="9019,93,9213,133"/>
+<area shape="poly" id="edge48_Node000001_Node000063" title=" " alt="" coords="9005,136,8688,151,8171,163,6801,181,5431,191,4596,195,4596,190,5431,186,6801,175,8171,157,8688,145,9005,131"/>
+</map>
