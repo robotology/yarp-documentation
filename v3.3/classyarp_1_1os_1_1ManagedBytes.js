@@ -1,0 +1,25 @@
+var classyarp_1_1os_1_1ManagedBytes =
+[
+    [ "ManagedBytes", "classyarp_1_1os_1_1ManagedBytes.html#ab27e23059c8b3651557146f361b74da6", null ],
+    [ "ManagedBytes", "classyarp_1_1os_1_1ManagedBytes.html#ae7a3c734face3de55a71626db9fd3b6c", null ],
+    [ "ManagedBytes", "classyarp_1_1os_1_1ManagedBytes.html#a3540cf00afd5a85932189b397089b786", null ],
+    [ "ManagedBytes", "classyarp_1_1os_1_1ManagedBytes.html#a227f63196361588fc7eef92392b38175", null ],
+    [ "~ManagedBytes", "classyarp_1_1os_1_1ManagedBytes.html#ab05b9889b7f670868cefb2c42b6e3998", null ],
+    [ "allocate", "classyarp_1_1os_1_1ManagedBytes.html#a48f2035fb2b18b0600531c396ebce664", null ],
+    [ "allocateOnNeed", "classyarp_1_1os_1_1ManagedBytes.html#a459adf524b79b7892a4fec086ad42fda", null ],
+    [ "bytes", "classyarp_1_1os_1_1ManagedBytes.html#a99870bdb2a5a2a433a1a2103a9eb7a65", null ],
+    [ "bytes", "classyarp_1_1os_1_1ManagedBytes.html#a41c563c189aa28744836de69f3e54fef", null ],
+    [ "clear", "classyarp_1_1os_1_1ManagedBytes.html#a1d5a7a014e6635df10a88c1edcebe575", null ],
+    [ "copy", "classyarp_1_1os_1_1ManagedBytes.html#a895a611e7036b2e36216fbb9f82f1ccf", null ],
+    [ "get", "classyarp_1_1os_1_1ManagedBytes.html#a5ff50eabb004b83c388204000f90b928", null ],
+    [ "get", "classyarp_1_1os_1_1ManagedBytes.html#ab6a6d6720476bd84a3e04c769bcad3e5", null ],
+    [ "isOwner", "classyarp_1_1os_1_1ManagedBytes.html#a3ad5141e06ded99e3534c8d0e9b4686b", null ],
+    [ "length", "classyarp_1_1os_1_1ManagedBytes.html#ac50d5c97ce01e05a01a1944aa14be377", null ],
+    [ "operator=", "classyarp_1_1os_1_1ManagedBytes.html#a46fcc85ffaaac2f66cacab228dd3697d", null ],
+    [ "read", "classyarp_1_1os_1_1ManagedBytes.html#a6d82d11af17d8436840cb9bc44b13236", null ],
+    [ "resetUsed", "classyarp_1_1os_1_1ManagedBytes.html#a4fad0f4a37c506ce85e2d9a74e752536", null ],
+    [ "setUsed", "classyarp_1_1os_1_1ManagedBytes.html#a61146f82c1660bd59fc815a3e0067a98", null ],
+    [ "used", "classyarp_1_1os_1_1ManagedBytes.html#a41dd986fed9bb418c25f084e583fcba7", null ],
+    [ "usedBytes", "classyarp_1_1os_1_1ManagedBytes.html#a80b1c5103e683413b7143cc98c11c230", null ],
+    [ "write", "classyarp_1_1os_1_1ManagedBytes.html#a56043fcd40257cffa103641bc6524473", null ]
+];
