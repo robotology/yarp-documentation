@@ -1,0 +1,27 @@
+var classyarp_1_1manager_1_1GPU =
+[
+    [ "GPU", "classyarp_1_1manager_1_1GPU.html#a2ca7973e32f63ba3472166a007419a75", null ],
+    [ "GPU", "classyarp_1_1manager_1_1GPU.html#a421ddca67a5ea95256e074d50b30d722", null ],
+    [ "GPU", "classyarp_1_1manager_1_1GPU.html#ad9213dc1564bcc6470a4479fff7556a4", null ],
+    [ "~GPU", "classyarp_1_1manager_1_1GPU.html#a33c06fe09312e38538f33e6984257c66", null ],
+    [ "clone", "classyarp_1_1manager_1_1GPU.html#aaaec0e66a32b7eb33f7c548ac922e584", null ],
+    [ "getCompCompatibility", "classyarp_1_1manager_1_1GPU.html#a2221054c26bae0f89c80ebfbc18b68d7", null ],
+    [ "getConstantMemory", "classyarp_1_1manager_1_1GPU.html#aa88902aa667f4dfb9000a26db9f52199", null ],
+    [ "getCores", "classyarp_1_1manager_1_1GPU.html#a7e4d96b4d1df594abde0594514275db2", null ],
+    [ "getFrequency", "classyarp_1_1manager_1_1GPU.html#af89d29d328ec1db0fe012639a2b210bf", null ],
+    [ "getGlobalMemory", "classyarp_1_1manager_1_1GPU.html#a5f5261312675f4969b32c4b448bad9a5", null ],
+    [ "getOverlap", "classyarp_1_1manager_1_1GPU.html#a776b063c926ab978f71ad3992774a8f6", null ],
+    [ "getRegisterPerBlock", "classyarp_1_1manager_1_1GPU.html#aff58d76a0ed3f8774a0613a7c4e756a8", null ],
+    [ "getSharedMemory", "classyarp_1_1manager_1_1GPU.html#a8ab582f653c1a24a08e951d6a26d650a", null ],
+    [ "getThreadPerBlock", "classyarp_1_1manager_1_1GPU.html#ac54e475045bdc0bd1326ef31fcbeaed3", null ],
+    [ "satisfy", "classyarp_1_1manager_1_1GPU.html#a31ec46a6127209ee0e79ccbfb15e85ac", null ],
+    [ "setCompCompatibility", "classyarp_1_1manager_1_1GPU.html#a7e93332088bae3789942255440714e20", null ],
+    [ "setConstantMemory", "classyarp_1_1manager_1_1GPU.html#aa386194f5dbc3cca4ea02ddd9f72df12", null ],
+    [ "setCores", "classyarp_1_1manager_1_1GPU.html#ae66be765f50b3a8f0df5421b7b6534d8", null ],
+    [ "setFrequency", "classyarp_1_1manager_1_1GPU.html#a05da4a9511c7eb9e78e70c539cf50f7d", null ],
+    [ "setGlobalMemory", "classyarp_1_1manager_1_1GPU.html#aee5749e64186852e8bf3707f3b19e3ef", null ],
+    [ "setOverlap", "classyarp_1_1manager_1_1GPU.html#a622356049f60de73885f66b99c489da9", null ],
+    [ "setResgisterPerBlock", "classyarp_1_1manager_1_1GPU.html#aee56471aa429189937d0b011d25ccecd", null ],
+    [ "setSharedMemory", "classyarp_1_1manager_1_1GPU.html#ad6937cd161f74b2f770f97e49e52c4d7", null ],
+    [ "setThreadPerBlock", "classyarp_1_1manager_1_1GPU.html#a0de2d02a518c1dcf9b57c2d6c660aa23", null ]
+];
