@@ -1,0 +1,28 @@
+var classyarp_1_1os_1_1impl_1_1NameClient =
+[
+    [ "~NameClient", "classyarp_1_1os_1_1impl_1_1NameClient.html#ad5a67eba5305718a870e8487bc8151f6", null ],
+    [ "create", "classyarp_1_1os_1_1impl_1_1NameClient.html#a3ed30f3f839ec7197aad1dfd06371407", null ],
+    [ "didSave", "classyarp_1_1os_1_1impl_1_1NameClient.html#a6062f87085db81767b8a643fc4cf446c", null ],
+    [ "didScan", "classyarp_1_1os_1_1impl_1_1NameClient.html#a0e173ae4c86dde52656c5defc047ecf1", null ],
+    [ "extractAddress", "classyarp_1_1os_1_1impl_1_1NameClient.html#a7134f7ae8f31fe3633893d11dacefdb3", null ],
+    [ "extractAddress", "classyarp_1_1os_1_1impl_1_1NameClient.html#a5a1c62743cb958b35d7f7beae67ff058", null ],
+    [ "getAddress", "classyarp_1_1os_1_1impl_1_1NameClient.html#a737c975ff19f45a1aabc7f7704d6e580", null ],
+    [ "getMode", "classyarp_1_1os_1_1impl_1_1NameClient.html#a9895335d137f87585a195cb21d7f9a80", null ],
+    [ "getNameClient", "classyarp_1_1os_1_1impl_1_1NameClient.html#a0757c5275e86fe47674acdffbd69269c", null ],
+    [ "getNodes", "classyarp_1_1os_1_1impl_1_1NameClient.html#a32084e284831058c7225caa5e02317ac", null ],
+    [ "getQueryBypass", "classyarp_1_1os_1_1impl_1_1NameClient.html#ab4fe23e8f882d7ca448ac195df2eb86d", null ],
+    [ "isFakeMode", "classyarp_1_1os_1_1impl_1_1NameClient.html#ac4751e90e7aa6d6d05dcf3b9eed19fc9", null ],
+    [ "probe", "classyarp_1_1os_1_1impl_1_1NameClient.html#a4c8309326d1ce69127d14fb87f5ee054", null ],
+    [ "queryBypass", "classyarp_1_1os_1_1impl_1_1NameClient.html#a6417a9f368b94e42cdac7d9a7f6dd836", null ],
+    [ "queryName", "classyarp_1_1os_1_1impl_1_1NameClient.html#a95b05bac92f52fc3cc55cb79d18a4573", null ],
+    [ "registerName", "classyarp_1_1os_1_1impl_1_1NameClient.html#afd73a6ad47a65092e0f477cdfe2ec3ef", null ],
+    [ "registerName", "classyarp_1_1os_1_1impl_1_1NameClient.html#ab17678a35a5e0ee83aaa7e8a2c5618ad", null ],
+    [ "send", "classyarp_1_1os_1_1impl_1_1NameClient.html#a93ec76cb86fe59d324beb93a2239810c", null ],
+    [ "send", "classyarp_1_1os_1_1impl_1_1NameClient.html#a28bc3a5a5aefad0a1097d6b267f0ed3d", null ],
+    [ "setContact", "classyarp_1_1os_1_1impl_1_1NameClient.html#a91cef3cc1a8c5d9f7a6aa437459623c1", null ],
+    [ "setFakeMode", "classyarp_1_1os_1_1impl_1_1NameClient.html#ab91f73226e2e5b67249e9e0d0dcf99f5", null ],
+    [ "setSave", "classyarp_1_1os_1_1impl_1_1NameClient.html#aff869308261e030a85ff4b726fdf4f8c", null ],
+    [ "setScan", "classyarp_1_1os_1_1impl_1_1NameClient.html#ae66b432adc39a38271bd726fefef4de9", null ],
+    [ "unregisterName", "classyarp_1_1os_1_1impl_1_1NameClient.html#a07550c3d24313ab1d29231cd9cbd94bb", null ],
+    [ "updateAddress", "classyarp_1_1os_1_1impl_1_1NameClient.html#a7873a5fbb18318d6535f0bbd4f622cd5", null ]
+];
