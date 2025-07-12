@@ -1,0 +1,115 @@
+<map id="src/libYARP_dev/src/yarp/dev/IRangefinder2D.h" name="src/libYARP_dev/src/yarp/dev/IRangefinder2D.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3961,5,4159,45"/>
+<area shape="rect" id="Node000002" href="$rpLidar_8h.html" title=" " alt="" coords="13,101,208,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3947,30,3436,34,2632,45,1668,65,675,96,422,109,209,122,208,117,422,103,675,91,1668,59,2632,40,3436,29,3947,25"/>
+<area shape="rect" id="Node000004" href="$Rangefinder2D__nws__ros_8h.html" title=" " alt="" coords="687,101,942,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="3947,29,3504,31,2825,40,2018,60,1600,76,1190,96,943,116,942,111,1189,91,1600,71,2018,55,2825,35,3504,26,3947,24"/>
+<area shape="rect" id="Node000006" href="$LaserFromRosTopic_8h.html" title=" " alt="" coords="517,218,768,273"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="3947,30,3352,38,2504,51,1697,71,1402,83,1227,96,743,221,742,215,1226,91,1401,77,1697,65,2504,46,3352,32,3947,25"/>
+<area shape="rect" id="Node000008" href="$Rangefinder2D__controlBoard__nws__ros2_8h.html" title=" " alt="" coords="2863,93,3143,163"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="3947,33,3594,51,3376,70,3158,96,3143,98,3142,93,3157,91,3375,65,3593,46,3947,27"/>
+<area shape="rect" id="Node000010" href="$Rangefinder2D__nwc__ros2_8h.html" title=" " alt="" coords="3169,101,3449,155"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="3947,39,3728,62,3475,96,3433,103,3432,98,3474,91,3727,57,3947,34"/>
+<area shape="rect" id="Node000012" href="$Rangefinder2D__nws__ros2_8h.html" title=" " alt="" coords="3487,101,3767,155"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="3966,51,3740,103,3739,98,3965,46"/>
+<area shape="rect" id="Node000014" href="$Rangefinder2DClient_8h.html" title=" " alt="" coords="3798,108,4018,148"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="4021,55,3938,110,3935,106,4018,51"/>
+<area shape="rect" id="Node000016" href="$rangefinder2DClient__test_8cpp.html" title=" " alt="" coords="3940,218,4180,273"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="4063,59,4063,218,4057,218,4057,59"/>
+<area shape="rect" id="Node000017" href="$Rangefinder2D__nwc__yarp_8h.html" title=" " alt="" coords="4897,101,5098,155"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="4173,26,4315,32,4492,44,4685,63,4878,91,4912,98,4911,103,4877,96,4684,68,4491,49,4315,38,4173,32"/>
+<area shape="rect" id="Node000019" href="$rangefinder2D__nwc__yarp__test_8cpp.html" title=" " alt="" coords="4205,218,4427,273"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="4094,52,4287,216,4283,220,4091,57"/>
+<area shape="rect" id="Node000020" href="$Rangefinder2D__nws__yarp_8h.html" title=" " alt="" coords="5122,101,5323,155"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="4173,23,4354,25,4588,35,4848,55,4981,71,5110,91,5143,98,5142,103,5109,96,4980,76,4848,60,4587,40,4354,31,4173,28"/>
+<area shape="rect" id="Node000022" href="$rangefinder2D__nws__yarp__test_8cpp.html" title=" " alt="" coords="4451,218,4674,273"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="4117,48,4503,216,4501,220,4115,53"/>
+<area shape="rect" id="Node000023" href="$fakeLaser_8h.html" title=" " alt="" coords="792,225,955,265"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="3947,30,3383,33,2585,43,2185,52,1830,63,1554,78,1456,86,1391,96,1344,110,1309,128,1275,147,1227,165,1155,183,1097,191,1040,198,967,213,922,228,920,223,966,208,1039,192,1097,185,1154,177,1226,160,1272,142,1307,123,1342,106,1390,91,1455,81,1553,72,1829,58,2185,46,2585,38,3383,28,3947,24"/>
+<area shape="rect" id="Node000025" href="$fakeLaser__test_8cpp.html" title=" " alt="" coords="4699,225,4883,265"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="4168,46,4242,66,4317,91,4354,109,4381,126,4408,144,4445,160,4511,179,4564,188,4618,194,4686,208,4736,223,4734,228,4685,213,4617,200,4563,193,4510,185,4443,165,4406,148,4378,131,4352,113,4315,96,4241,71,4167,51"/>
+<area shape="rect" id="Node000026" href="$fakeLaserWithMotor_8h.html" title=" " alt="" coords="979,225,1186,265"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="3947,31,3379,38,2587,52,1864,71,1618,83,1541,89,1499,96,1468,110,1446,128,1424,147,1392,165,1339,184,1297,194,1254,201,1199,213,1147,228,1146,223,1198,208,1253,196,1296,189,1338,179,1390,160,1420,142,1442,124,1465,106,1498,91,1540,84,1618,78,1864,66,2587,46,3379,33,3947,25"/>
+<area shape="rect" id="Node000031" href="$fakeLaserWithMotor__test_8cpp.html" title=" " alt="" coords="4907,218,5138,273"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="4173,26,4306,32,4454,43,4588,62,4642,75,4683,91,4702,107,4713,126,4723,144,4740,160,4807,182,4927,215,4926,220,4805,187,4737,165,4718,147,4708,128,4698,111,4680,96,4641,80,4587,67,4453,48,4306,37,4173,31"/>
+<area shape="rect" id="Node000032" href="$laserFromDepth_8h.html" title=" " alt="" coords="1211,225,1413,265"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="3947,30,3395,37,2631,49,1934,69,1699,81,1624,88,1585,96,1559,110,1542,127,1525,145,1500,165,1432,201,1366,228,1364,223,1429,196,1497,160,1521,142,1538,123,1556,106,1583,91,1623,83,1698,76,1934,64,2631,44,3395,31,3947,25"/>
+<area shape="rect" id="Node000034" href="$laserFromDepth__test_8cpp.html" title=" " alt="" coords="5162,225,5387,265"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="4174,25,4317,30,4478,41,4626,60,4686,74,4731,91,4751,108,4762,126,4772,145,4791,160,4840,183,4884,195,4924,201,4963,201,5046,198,5094,200,5150,208,5211,223,5210,228,5149,213,5094,205,5046,203,4963,206,4924,206,4883,201,4838,188,4788,165,4768,148,4757,129,4747,111,4728,96,4684,79,4626,66,4478,46,4317,35,4173,31"/>
+<area shape="rect" id="Node000035" href="$laserFromExternalPort_8h.html" title=" " alt="" coords="1437,225,1656,265"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="3947,30,3408,33,2666,43,2304,52,1992,63,1765,78,1694,86,1657,96,1621,123,1592,159,1570,195,1556,226,1551,224,1566,193,1588,156,1617,119,1655,91,1693,81,1765,72,1992,58,2304,46,2666,38,3408,28,3947,24"/>
+<area shape="rect" id="Node000037" href="$laserFromExternalPort__test_8cpp.html" title=" " alt="" coords="5411,218,5645,273"/>
+<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="4173,24,4327,28,4503,39,4666,59,4731,73,4780,91,4801,108,4812,127,4822,145,4841,160,4892,177,4958,188,5034,194,5116,197,5276,199,5345,202,5400,208,5436,215,5435,221,5400,213,5345,207,5276,205,5116,202,5034,200,4957,194,4890,183,4839,165,4818,148,4807,129,4797,111,4777,96,4729,78,4665,64,4503,44,4327,34,4173,30"/>
+<area shape="rect" id="Node000038" href="$laserFromPointCloud_8h.html" title=" " alt="" coords="2627,225,2837,265"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="3947,30,3670,35,3329,46,3165,54,3023,65,2914,79,2876,87,2852,96,2814,123,2783,159,2759,196,2743,226,2738,224,2754,193,2778,156,2810,120,2849,91,2875,82,2913,74,3022,60,3165,49,3329,40,3670,30,3947,25"/>
+<area shape="rect" id="Node000040" href="$laserFromPointCloud__test_8cpp.html" title=" " alt="" coords="5669,218,5904,273"/>
+<area shape="poly" id="edge39_Node000001_Node000040" title=" " alt="" coords="4173,23,4338,26,4529,35,4621,44,4706,55,4776,71,4829,91,4849,108,4858,127,4867,145,4885,160,4917,173,4955,184,5046,197,5151,203,5264,204,5486,200,5582,201,5658,208,5695,215,5694,221,5657,213,5581,207,5486,206,5264,209,5151,208,5045,202,4954,189,4915,178,4883,165,4863,148,4854,129,4844,111,4827,96,4775,76,4705,61,4621,49,4528,40,4338,31,4173,28"/>
+<area shape="rect" id="Node000041" href="$laserHokuyo_8h.html" title=" " alt="" coords="5347,108,5527,148"/>
+<area shape="poly" id="edge40_Node000001_Node000041" title=" " alt="" coords="4173,26,4437,33,4773,45,5099,64,5234,76,5337,91,5390,105,5388,110,5335,96,5233,82,5099,69,4772,50,4437,38,4173,31"/>
+<area shape="rect" id="Node000043" href="$IRangefinder2D_8cpp.html" title=" " alt="" coords="5551,108,5766,148"/>
+<area shape="poly" id="edge42_Node000001_Node000043" title=" " alt="" coords="4173,26,4476,32,4870,44,5258,63,5418,76,5540,91,5603,105,5601,110,5540,96,5418,81,5257,69,4870,50,4476,37,4173,31"/>
+<area shape="rect" id="Node000044" href="$Lidar2DDeviceBase_8h.html" title=" " alt="" coords="1668,108,1895,148"/>
+<area shape="poly" id="edge43_Node000001_Node000044" title=" " alt="" coords="3947,34,1895,124,1895,119,3947,29"/>
+<area shape="rect" id="Node000052" href="$libYARP__dev_2src_2yarp_2dev_2all_8h.html" title=" " alt="" coords="5790,108,5938,148"/>
+<area shape="poly" id="edge54_Node000001_Node000052" title=" " alt="" coords="4173,23,4520,25,4985,33,5223,41,5445,53,5635,69,5779,91,5825,105,5823,110,5778,96,5634,75,5444,58,5222,46,4984,38,4520,30,4173,29"/>
+<area shape="rect" id="Node000057" href="$IRangefinder2DTest_8h.html" title=" " alt="" coords="4456,101,4669,155"/>
+<area shape="poly" id="edge55_Node000001_Node000057" title=" " alt="" coords="4174,45,4413,91,4456,100,4455,105,4411,96,4173,50"/>
+<area shape="rect" id="Node000003" href="$rpLidar_8cpp.html" title=" " alt="" coords="5,218,200,273"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,169,107,218,102,218,105,169"/>
+<area shape="rect" id="Node000005" href="$Rangefinder2D__nws__ros_8cpp.html" title=" " alt="" coords="224,218,493,273"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="698,161,463,221,461,215,697,156"/>
+<area shape="rect" id="Node000007" href="$LaserFromRosTopic_8cpp.html" title=" " alt="" coords="176,328,427,383"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="548,279,385,330,383,325,546,274"/>
+<area shape="rect" id="Node000009" href="$Rangefinder2D__controlBoard__nws__ros2_8cpp.html" title=" " alt="" coords="2861,211,3141,280"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="3005,177,3004,210,2999,210,2999,177"/>
+<area shape="rect" id="Node000011" href="$Rangefinder2D__nwc__ros2_8cpp.html" title=" " alt="" coords="3166,211,3399,280"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="3303,169,3293,211,3288,210,3298,168"/>
+<area shape="rect" id="Node000013" href="$Rangefinder2D__nws__ros2_8cpp.html" title=" " alt="" coords="3423,211,3657,280"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="3601,168,3568,212,3563,209,3597,165"/>
+<area shape="rect" id="Node000015" href="$Rangefinder2DClient_8cpp.html" title=" " alt="" coords="3681,225,3916,265"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="3883,160,3819,227,3815,223,3879,156"/>
+<area shape="rect" id="Node000018" href="$Rangefinder2D__nwc__yarp_8cpp.html" title=" " alt="" coords="5929,218,6130,273"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="5091,156,5110,160,5231,177,5335,185,5427,186,5513,184,5599,182,5691,183,5795,191,5916,208,5949,215,5948,220,5916,213,5794,196,5690,189,5599,187,5513,190,5427,192,5335,190,5231,183,5109,165,5090,161"/>
+<area shape="rect" id="Node000021" href="$Rangefinder2D__nws__yarp_8cpp.html" title=" " alt="" coords="6154,218,6355,273"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="5317,156,5336,160,5458,177,5562,185,5653,186,5739,184,5825,182,5917,183,6021,191,6143,208,6176,215,6174,220,6142,213,6021,196,5917,188,5825,187,5739,189,5653,191,5561,190,5457,183,5336,165,5316,161"/>
+<area shape="rect" id="Node000024" href="$fakeLaser_8cpp.html" title=" " alt="" coords="451,335,613,375"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="810,273,781,283,599,338,597,333,779,277,808,268"/>
+<area shape="rect" id="Node000027" href="$fakeLaserWithMotor_8cpp.html" title=" " alt="" coords="856,335,1077,375"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="1054,277,989,337,985,333,1051,273"/>
+<area shape="rect" id="Node000028" href="$fakeLaserWithMotor__laser_8cpp.html" title=" " alt="" coords="1101,328,1296,383"/>
+<area shape="poly" id="edge27_Node000026_Node000028" title=" " alt="" coords="1115,273,1172,326,1169,330,1111,276"/>
+<area shape="rect" id="Node000029" href="$fakeLaserWithMotor__motors_8cpp.html" title=" " alt="" coords="1320,328,1515,383"/>
+<area shape="poly" id="edge28_Node000026_Node000029" title=" " alt="" coords="1155,267,1337,325,1335,330,1153,272"/>
+<area shape="rect" id="Node000030" href="$fakeLaserWithMotor__utils_8cpp.html" title=" " alt="" coords="637,328,832,383"/>
+<area shape="poly" id="edge29_Node000026_Node000030" title=" " alt="" coords="1010,272,820,330,819,325,1008,267"/>
+<area shape="rect" id="Node000033" href="$laserFromDepth_8cpp.html" title=" " alt="" coords="1539,335,1741,375"/>
+<area shape="poly" id="edge32_Node000032_Node000033" title=" " alt="" coords="1383,267,1583,333,1582,338,1381,272"/>
+<area shape="rect" id="Node000036" href="$laserFromExternalPort_8cpp.html" title=" " alt="" coords="1765,335,1989,375"/>
+<area shape="poly" id="edge35_Node000035_Node000036" title=" " alt="" coords="1618,267,1820,333,1818,338,1616,272"/>
+<area shape="rect" id="Node000039" href="$laserFromPointCloud_8cpp.html" title=" " alt="" coords="2619,335,2845,375"/>
+<area shape="poly" id="edge38_Node000038_Node000039" title=" " alt="" coords="2735,279,2735,335,2729,335,2729,279"/>
+<area shape="rect" id="Node000042" href="$laserHokuyo_8cpp.html" title=" " alt="" coords="6379,225,6559,265"/>
+<area shape="poly" id="edge41_Node000041_Node000042" title=" " alt="" coords="5500,150,5541,160,5665,179,5771,187,5866,187,5954,184,6042,181,6137,181,6244,189,6369,208,6422,223,6420,228,6367,213,6243,194,6137,186,6042,186,5954,189,5866,192,5771,192,5664,184,5539,165,5499,155"/>
+<area shape="poly" id="edge47_Node000044_Node000006" title=" " alt="" coords="1654,140,1193,172,954,193,780,213,743,221,742,215,780,208,953,187,1192,167,1654,134"/>
+<area shape="poly" id="edge48_Node000044_Node000023" title=" " alt="" coords="1654,143,1255,180,1072,199,967,213,920,228,918,223,966,208,1071,193,1255,174,1654,138"/>
+<area shape="poly" id="edge49_Node000044_Node000026" title=" " alt="" coords="1655,148,1404,181,1199,213,1143,228,1141,223,1198,208,1404,175,1654,142"/>
+<area shape="poly" id="edge50_Node000044_Node000032" title=" " alt="" coords="1680,154,1426,213,1374,228,1372,223,1425,208,1678,148"/>
+<area shape="poly" id="edge51_Node000044_Node000035" title=" " alt="" coords="1732,156,1586,228,1584,223,1730,152"/>
+<area shape="poly" id="edge52_Node000044_Node000038" title=" " alt="" coords="1908,132,2053,141,2231,156,2423,178,2615,208,2675,223,2673,228,2614,213,2423,183,2230,161,2053,146,1908,137"/>
+<area shape="rect" id="Node000045" href="$rpLidar2_8h.html" title=" " alt="" coords="2400,218,2603,273"/>
+<area shape="poly" id="edge44_Node000044_Node000045" title=" " alt="" coords="1909,138,2133,165,2261,184,2387,208,2418,215,2417,221,2386,213,2260,190,2132,170,1908,143"/>
+<area shape="rect" id="Node000047" href="$rpLidar3_8h.html" title=" " alt="" coords="1680,218,1883,273"/>
+<area shape="poly" id="edge45_Node000044_Node000047" title=" " alt="" coords="1784,162,1784,218,1779,218,1779,162"/>
+<area shape="rect" id="Node000049" href="$rpLidar4_8h.html" title=" " alt="" coords="1907,218,2109,273"/>
+<area shape="poly" id="edge46_Node000044_Node000049" title=" " alt="" coords="1831,152,1957,215,1955,220,1829,156"/>
+<area shape="rect" id="Node000051" href="$Lidar2DDeviceBase_8cpp.html" title=" " alt="" coords="2134,225,2375,265"/>
+<area shape="poly" id="edge53_Node000044_Node000051" title=" " alt="" coords="1874,149,2122,208,2181,223,2180,228,2121,213,1873,154"/>
+<area shape="poly" id="edge56_Node000057_Node000016" title=" " alt="" coords="4443,157,4193,213,4163,221,4161,215,4191,208,4442,152"/>
+<area shape="poly" id="edge57_Node000057_Node000019" title=" " alt="" coords="4496,163,4373,220,4371,215,4493,159"/>
+<area shape="poly" id="edge58_Node000057_Node000022" title=" " alt="" coords="4565,169,4565,218,4560,218,4560,169"/>
+<area shape="poly" id="edge59_Node000057_Node000025" title=" " alt="" coords="4628,159,4755,223,4752,228,4626,164"/>
+<area shape="poly" id="edge60_Node000057_Node000031" title=" " alt="" coords="4673,156,4689,160,4895,208,4925,215,4923,221,4894,213,4687,165,4672,161"/>
+<area shape="poly" id="edge61_Node000057_Node000034" title=" " alt="" coords="4683,151,4739,160,4854,174,4945,182,5035,190,5150,208,5212,223,5211,228,5149,213,5034,195,4944,187,4854,180,4738,165,4683,156"/>
+<area shape="poly" id="edge62_Node000057_Node000037" title=" " alt="" coords="4684,146,4790,160,4961,174,5096,179,5230,186,5400,208,5436,215,5435,221,5400,213,5229,191,5095,184,4961,179,4789,165,4683,151"/>
+<area shape="poly" id="edge63_Node000057_Node000040" title=" " alt="" coords="4684,143,4840,160,4965,169,5070,173,5250,175,5429,181,5534,191,5658,208,5695,215,5694,221,5657,213,5534,196,5429,187,5250,180,5070,179,4964,174,4840,165,4683,148"/>
+</map>
