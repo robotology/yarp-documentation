@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['left_19553',['left',['../classyarp_1_1dev_1_1IVisualServoing.html#afe9475d289a8781ca4bfc5d73eeaf5d3a811882fecd5c7618d7099ebbd39ea254',1,'yarp::dev::IVisualServoing']]],
+  ['leopard_5fpython_19554',['LEOPARD_PYTHON',['../V4L__camera_8h.html#a981ad4215da813a58b928c703ac4cacdacebe991834d4f300ec5da5d5eef91729',1,'V4L_camera.h']]],
+  ['linux_19555',['LINUX',['../namespaceyarp_1_1manager.html#a269ad14d1e407b5db3db568f4d482696af60392050eed14a3b256ab88cbbac7a9',1,'yarp::manager']]],
+  ['loc_5ffrom_5fclient_19556',['LOC_FROM_CLIENT',['../classFakeLaser.html#ae20295460219a5b9f70004bc22167386a91f35e6d30f67ceaa6a346ce484e58a6',1,'FakeLaser']]],
+  ['loc_5ffrom_5fport_19557',['LOC_FROM_PORT',['../classFakeLaser.html#ae20295460219a5b9f70004bc22167386ae42188c894fa36489492d8f0c652553b',1,'FakeLaser']]],
+  ['loc_5fnot_5fset_19558',['LOC_NOT_SET',['../classFakeLaser.html#ae20295460219a5b9f70004bc22167386a3746157f7d7c4efb5075498704c4b035',1,'FakeLaser']]],
+  ['local_19559',['local',['../namespaceyarp_1_1manager.html#af8e1bb9e0c85f2c826fd01217934d145af5ddaf0ca7929578b408c909429f68f2',1,'yarp::manager']]],
+  ['local_5fmap_19560',['local_map',['../namespaceyarp_1_1dev.html#a2bcbeb424b0cc1ecaba7ad0545423f6ca644cc9596338a898dfabae4ed978ca8f',1,'yarp::dev']]],
+  ['localization_5fstatus_5ferror_19561',['localization_status_error',['../namespaceyarp_1_1dev.html#aa4a02aee3b3e72cf02abebed28bbfd0faf6f6040fce23d17680759caf570e0795',1,'yarp::dev']]],
+  ['localization_5fstatus_5flocalized_5fok_19562',['localization_status_localized_ok',['../namespaceyarp_1_1dev.html#aa4a02aee3b3e72cf02abebed28bbfd0fab9556f98f637f0754a436ef46bcdfd0b',1,'yarp::dev']]],
+  ['localization_5fstatus_5fnot_5fyet_5flocalized_19563',['localization_status_not_yet_localized',['../namespaceyarp_1_1dev.html#aa4a02aee3b3e72cf02abebed28bbfd0faa8dc2d2f97d92b5f1cd63eac9913022d',1,'yarp::dev']]],
+  ['loglevel_5fdebug_19564',['LOGLEVEL_DEBUG',['../namespaceyarp_1_1yarpLogger.html#a1128f1f7b4a3abd3670855b32842cb8fa1dd887980fdbadc2c0b2489001e7778d',1,'yarp::yarpLogger']]],
+  ['loglevel_5ferror_19565',['LOGLEVEL_ERROR',['../namespaceyarp_1_1yarpLogger.html#a1128f1f7b4a3abd3670855b32842cb8fa9f61bec85632ddd041655762d3ecd99c',1,'yarp::yarpLogger']]],
+  ['loglevel_5ffatal_19566',['LOGLEVEL_FATAL',['../namespaceyarp_1_1yarpLogger.html#a1128f1f7b4a3abd3670855b32842cb8fab304ec98ba9f62a6aa3617d912c38934',1,'yarp::yarpLogger']]],
+  ['loglevel_5finfo_19567',['LOGLEVEL_INFO',['../namespaceyarp_1_1yarpLogger.html#a1128f1f7b4a3abd3670855b32842cb8faf8165b05a88c884ca6e23c61b51983bd',1,'yarp::yarpLogger']]],
+  ['loglevel_5ftrace_19568',['LOGLEVEL_TRACE',['../namespaceyarp_1_1yarpLogger.html#a1128f1f7b4a3abd3670855b32842cb8faf88eaef62705aa0e647f1806838d63c2',1,'yarp::yarpLogger']]],
+  ['loglevel_5fundefined_19569',['LOGLEVEL_UNDEFINED',['../namespaceyarp_1_1yarpLogger.html#a1128f1f7b4a3abd3670855b32842cb8fa7782e84c35c9fa777302418bba7fc481',1,'yarp::yarpLogger']]],
+  ['loglevel_5fwarning_19570',['LOGLEVEL_WARNING',['../namespaceyarp_1_1yarpLogger.html#a1128f1f7b4a3abd3670855b32842cb8fa515e39c296bd85846e9995ae76470d80',1,'yarp::yarpLogger']]],
+  ['logsystem_5fyarp_19571',['LOGSYSTEM_YARP',['../namespaceyarp_1_1yarpLogger.html#a13e199fc30f7981a5996430871840181a1358a05527640003098d594d47525fe2',1,'yarp::yarpLogger']]],
+  ['logsystem_5fyarprun_19572',['LOGSYSTEM_YARPRUN',['../namespaceyarp_1_1yarpLogger.html#a13e199fc30f7981a5996430871840181aabf792c4604b478a38068fd41ceb193d',1,'yarp::yarpLogger']]]
+];
