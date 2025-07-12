@@ -1,0 +1,28 @@
+var classBattery__nws__yarp__ParamsParser =
+[
+    [ "parser_version_type", "structBattery__nws__yarp__ParamsParser_1_1parser__version__type.html", "structBattery__nws__yarp__ParamsParser_1_1parser__version__type" ],
+    [ "Battery_nws_yarp_ParamsParser", "classBattery__nws__yarp__ParamsParser.html#a01fdeb88ec714523218b8793b5232576", null ],
+    [ "~Battery_nws_yarp_ParamsParser", "classBattery__nws__yarp__ParamsParser.html#af852c4010da46a2079c1c5cac451a64c", null ],
+    [ "getConfiguration", "classBattery__nws__yarp__ParamsParser.html#a357cf8ff68224b63438713f341e007f2", null ],
+    [ "getDeviceClassName", "classBattery__nws__yarp__ParamsParser.html#ab2b51a1cf7398e02a1680438748a2896", null ],
+    [ "getDeviceName", "classBattery__nws__yarp__ParamsParser.html#afe511c39574f9d360d09fdcab899eff7", null ],
+    [ "getDocumentationOfDeviceParams", "classBattery__nws__yarp__ParamsParser.html#a46c74ecedd9bf7e86384d63c563abc7f", null ],
+    [ "getListOfParams", "classBattery__nws__yarp__ParamsParser.html#adddd70369c767598e52aaa4cf1a20caa", null ],
+    [ "getParamValue", "classBattery__nws__yarp__ParamsParser.html#a3dda375997996f50cbfaa9878afb25d4", null ],
+    [ "parseParams", "classBattery__nws__yarp__ParamsParser.html#a854954263fffc484acb45cf01ce38479", null ],
+    [ "m_device_classname", "classBattery__nws__yarp__ParamsParser.html#a3322463971690992a34918f88ce88576", null ],
+    [ "m_device_name", "classBattery__nws__yarp__ParamsParser.html#a82163b54a499f766ff4bf6ef5452e108", null ],
+    [ "m_enable_log", "classBattery__nws__yarp__ParamsParser.html#a72717ffb5de0dd0146b3a7cab153bedd", null ],
+    [ "m_enable_log_defaultValue", "classBattery__nws__yarp__ParamsParser.html#a89894b3cca02d987c78143cd19775cda", null ],
+    [ "m_enable_shutdown", "classBattery__nws__yarp__ParamsParser.html#ae428b42849b1a9c8c13defb717da676b", null ],
+    [ "m_enable_shutdown_defaultValue", "classBattery__nws__yarp__ParamsParser.html#ab233bd2ae59025854b6f890afffff69a", null ],
+    [ "m_name", "classBattery__nws__yarp__ParamsParser.html#a52e338b5514ebaad06bb6792d5beed92", null ],
+    [ "m_name_defaultValue", "classBattery__nws__yarp__ParamsParser.html#a613ee9d9a7fc1051c7667126772ad82a", null ],
+    [ "m_parser_is_strict", "classBattery__nws__yarp__ParamsParser.html#a99d08ba7b42e3286a508f7682ae42035", null ],
+    [ "m_parser_version", "classBattery__nws__yarp__ParamsParser.html#ab35ac172776e2196abb3c7621fd30727", null ],
+    [ "m_period", "classBattery__nws__yarp__ParamsParser.html#a5cad7d5a32728b806bf003c8fa8b0320", null ],
+    [ "m_period_defaultValue", "classBattery__nws__yarp__ParamsParser.html#a8830d9206b582dc525c6c6dca7a546aa", null ],
+    [ "m_provided_configuration", "classBattery__nws__yarp__ParamsParser.html#a2a921a8b7926ca9bf65d17ea5f714669", null ],
+    [ "m_quitPortName", "classBattery__nws__yarp__ParamsParser.html#a9a83c83fc8596f8d9b6ad75e5b000ecb", null ],
+    [ "m_quitPortName_defaultValue", "classBattery__nws__yarp__ParamsParser.html#a40ebe3f84b0ff0c500770b6cb5e4f388", null ]
+];
