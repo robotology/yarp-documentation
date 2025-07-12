@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['range_5ferror_22203',['RANGE_ERROR',['../DynamixelAX12FtdiDriver_8h.html#a59e56af19e754a6aa26a612ebf91d05faf1416900abf05d8ecbec408a3d61e493',1,'DynamixelAX12FtdiDriver.h']]],
+  ['raw_22204',['RAW',['../ServerFrameGrabberDual_8h.html#a4a111ac42356c5d321deac6b7a9a9297abdeded99fe7d3f2773014a9a2cfb73d7',1,'ServerFrameGrabberDual.h']]],
+  ['raw_5fmachine_5funits_22205',['RAW_MACHINE_UNITS',['../namespaceyarp_1_1dev.html#a488f005d19aa631a87bee4fc2cba0c2ca9ce3a94402313710592fc0f9a114de8b',1,'yarp::dev::RAW_MACHINE_UNITS()'],['../namespaceyarp_1_1dev.html#aa374d8f93250b1d1fdd13c7c23fe1aa8a9ce3a94402313710592fc0f9a114de8b',1,'yarp::dev::RAW_MACHINE_UNITS()']]],
+  ['ready_22206',['READY',['../namespaceyarp_1_1manager.html#a3c9db774f5183af5a8c4d4af0e1ea845a97ed92e8f66c0d381c95e17b99989922',1,'yarp::manager']]],
+  ['relative_22207',['Relative',['../namespaceyarp_1_1os.html#a9f1cca6dbcacadd737644a5ce3283260a2ca9469819fb0fb61ff98e914a7ccca0',1,'yarp::os']]],
+  ['render_5fappend_22208',['RENDER_APPEND',['../classPortAudioDeviceDriver.html#a77bdea313b92fbb59d01189843f65347a812110737ccdb004339d09c3ff105990',1,'PortAudioDeviceDriver::RENDER_APPEND()'],['../classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a6170d8e2011afd0a031754b1a30ab09ba369ed4215d7e4f786a3cafff15ae82ad',1,'yarp::dev::AudioPlayerDeviceBase::RENDER_APPEND()']]],
+  ['render_5fimmediate_22209',['RENDER_IMMEDIATE',['../classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a6170d8e2011afd0a031754b1a30ab09ba629cc70d8023321f98d86ddc12dbc440',1,'yarp::dev::AudioPlayerDeviceBase::RENDER_IMMEDIATE()'],['../classPortAudioDeviceDriver.html#a77bdea313b92fbb59d01189843f65347a3e8eb86dbfa1489cd5906bf901933d9e',1,'PortAudioDeviceDriver::RENDER_IMMEDIATE()']]],
+  ['resource_22210',['RESOURCE',['../namespaceyarp_1_1manager.html#a2a258df14366136378c2aedcad4793f8a037cfe34d3116214eb0a2264147066f0',1,'yarp::manager']]],
+  ['rgb_5fsensor_5ferror_22211',['RGB_SENSOR_ERROR',['../classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25adbaf797814fc62a7da756e34db5ee526',1,'yarp::dev::IRGBDSensor']]],
+  ['rgbd_5fsensor_5fgeneric_5ferror_22212',['RGBD_SENSOR_GENERIC_ERROR',['../classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25abfbebc3cf3c2d80ce22090dcfe0a60e1',1,'yarp::dev::IRGBDSensor']]],
+  ['rgbd_5fsensor_5fnot_5fready_22213',['RGBD_SENSOR_NOT_READY',['../classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25abd1e3acf40b1d650aac73c4701b563ee',1,'yarp::dev::IRGBDSensor']]],
+  ['rgbd_5fsensor_5fok_5fin_5fuse_22214',['RGBD_SENSOR_OK_IN_USE',['../classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25adfdf5c47bfaf6d6520887d99593caa23',1,'yarp::dev::IRGBDSensor']]],
+  ['rgbd_5fsensor_5fok_5fstanby_22215',['RGBD_SENSOR_OK_STANBY',['../classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25af565db384e2f57ff692f836b1d0b19c5',1,'yarp::dev::IRGBDSensor']]],
+  ['rgbd_5fsensor_5ftimeout_22216',['RGBD_SENSOR_TIMEOUT',['../classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25ac9029ccef59ca222d9a6cfe79ec73d49',1,'yarp::dev::IRGBDSensor']]],
+  ['right_22217',['right',['../classyarp_1_1dev_1_1IVisualServoing.html#afe9475d289a8781ca4bfc5d73eeaf5d3a7c4f29407893c334a6cb7a87bf045c0d',1,'yarp::dev::IVisualServoing']]],
+  ['robot_22218',['Robot',['../classyarp_1_1os_1_1ResourceFinderOptions.html#ac225c58c5c6b01194e9982b426d382ecacdfe334961d79bf395930570c8274f00',1,'yarp::os::ResourceFinderOptions']]],
+  ['ros_5fconfig_5ferror_22219',['ROS_config_error',['../yarpRosHelper_8h.html#a37167c1d561b7dbdb92571a539210711a48f8c516faabdca7e008cc37a1b5be57',1,'yarpRosHelper.h']]],
+  ['ros_5fdisabled_22220',['ROS_disabled',['../yarpRosHelper_8h.html#a37167c1d561b7dbdb92571a539210711ab95e3ddfc37db0168ff1b84c2a17d304',1,'yarpRosHelper.h']]],
+  ['ros_5fenabled_22221',['ROS_enabled',['../yarpRosHelper_8h.html#a37167c1d561b7dbdb92571a539210711ab66d559c1f03b622dabaa0373991d379',1,'yarpRosHelper.h']]],
+  ['ros_5fonly_22222',['ROS_only',['../yarpRosHelper_8h.html#a37167c1d561b7dbdb92571a539210711a0203ba4de58787e4c5379d9f35cf8805',1,'yarpRosHelper.h']]],
+  ['rotation_5fas_5fmatrix_22223',['rotation_as_matrix',['../classyarp_1_1math_1_1FrameTransform.html#a4f101bba5ef3b127abfc185b112f2767aee284753284867a35d89f5cb6a72a487',1,'yarp::math::FrameTransform']]],
+  ['rotation_5fas_5fquaternion_22224',['rotation_as_quaternion',['../classyarp_1_1math_1_1FrameTransform.html#a4f101bba5ef3b127abfc185b112f2767a60c712cc88c1679bf89f12a956a2f995',1,'yarp::math::FrameTransform']]],
+  ['rotation_5fas_5frpy_22225',['rotation_as_rpy',['../classyarp_1_1math_1_1FrameTransform.html#a4f101bba5ef3b127abfc185b112f2767a8150e64b6b6b780893b011bdf8007deb',1,'yarp::math::FrameTransform']]],
+  ['running_22226',['RUNNING',['../namespaceyarp_1_1manager.html#a3c9db774f5183af5a8c4d4af0e1ea845ab98dbf7394f4ebab773e86eb22e61587',1,'yarp::manager']]]
+];
