@@ -1,0 +1,25 @@
+var classFrameGrabberCropper__ParamsParser =
+[
+    [ "parser_version_type", "structFrameGrabberCropper__ParamsParser_1_1parser__version__type.html", "structFrameGrabberCropper__ParamsParser_1_1parser__version__type" ],
+    [ "FrameGrabberCropper_ParamsParser", "classFrameGrabberCropper__ParamsParser.html#a9d7052352e815b7f3389eba5a2e9e6d5", null ],
+    [ "~FrameGrabberCropper_ParamsParser", "classFrameGrabberCropper__ParamsParser.html#a5dfa0cdc36ea41f253538b4a0b5669c1", null ],
+    [ "getDeviceClassName", "classFrameGrabberCropper__ParamsParser.html#a5a51604aaac71485b59a81724e5327e6", null ],
+    [ "getDeviceName", "classFrameGrabberCropper__ParamsParser.html#af81cb07f2119c8d5392a619ca866611e", null ],
+    [ "getDocumentationOfDeviceParams", "classFrameGrabberCropper__ParamsParser.html#a176a5610584601d7c3be82926be318a7", null ],
+    [ "getListOfParams", "classFrameGrabberCropper__ParamsParser.html#a37f452e4d9870fc2f889046af9edbfa0", null ],
+    [ "parseParams", "classFrameGrabberCropper__ParamsParser.html#aa0a5aa257d6835725c005e948b7fa3a0", null ],
+    [ "m_device_classname", "classFrameGrabberCropper__ParamsParser.html#ac0ff9252290e607e24075bb214fb2f77", null ],
+    [ "m_device_name", "classFrameGrabberCropper__ParamsParser.html#a5ece3df94d5e65aa26b3ec8e6d1321e8", null ],
+    [ "m_forwardRgbVisualParams", "classFrameGrabberCropper__ParamsParser.html#ae3eb7bf8bcd164ea6a77b7b98aec3b4e", null ],
+    [ "m_forwardRgbVisualParams_defaultValue", "classFrameGrabberCropper__ParamsParser.html#a58763bfaec652402ea243962e25303ef", null ],
+    [ "m_parser_is_strict", "classFrameGrabberCropper__ParamsParser.html#aa5273e5c9a879e6f854b1d629024bb5d", null ],
+    [ "m_parser_version", "classFrameGrabberCropper__ParamsParser.html#a10d2a2080a8dfb4374831b7e51e5eee1", null ],
+    [ "m_x1", "classFrameGrabberCropper__ParamsParser.html#ab41e46f5fa76e76fafec693dbd0eec50", null ],
+    [ "m_x1_defaultValue", "classFrameGrabberCropper__ParamsParser.html#a1fa1b6442dd9c66e109e02aece3c5084", null ],
+    [ "m_x2", "classFrameGrabberCropper__ParamsParser.html#a34c400da0243134403c2738ef14662ed", null ],
+    [ "m_x2_defaultValue", "classFrameGrabberCropper__ParamsParser.html#a12d1a10cc90adfd89a42ac9a96fa5775", null ],
+    [ "m_y1", "classFrameGrabberCropper__ParamsParser.html#a4c36af4d4839b985d19451b5a8ad4236", null ],
+    [ "m_y1_defaultValue", "classFrameGrabberCropper__ParamsParser.html#ae29e406987ea188f9149f170e6b6076b", null ],
+    [ "m_y2", "classFrameGrabberCropper__ParamsParser.html#a89b1e25c70a61dfcbd4c872050f3a519", null ],
+    [ "m_y2_defaultValue", "classFrameGrabberCropper__ParamsParser.html#a9ca1bbd7217de2684062728b11bd90a5", null ]
+];
