@@ -1,0 +1,101 @@
+<map id="yarp::os::PortReader" name="yarp::os::PortReader">
+<area shape="rect" id="Node000001" title="Interface implemented by all objects that can read themselves from the network, such as Bottle object..." alt="" coords="2955,5,3099,31"/>
+<area shape="rect" id="Node000002" href="$classAnalogServerHandler.html" title="Handler of the rpc port related to an analog sensor." alt="" coords="5,87,155,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2941,22,1998,27,1311,38,604,57,385,63,289,69,167,83,127,90,126,85,166,77,289,63,385,57,604,52,1311,32,1998,22,2941,17"/>
+<area shape="rect" id="Node000003" href="$classAudioPlayerWrapper.html" title="AudioPlayerWrapper: A Wrapper which receives audio streams from a network port and sends it to device..." alt="" coords="179,87,323,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2941,23,2234,36,1225,57,974,58,779,55,584,59,470,68,335,83,295,90,294,85,334,77,469,63,584,54,779,50,974,53,1225,52,2234,31,2941,18"/>
+<area shape="rect" id="Node000004" href="$classAudioRecorderWrapper.html" title="AudioRecorderWrapper: A Wrapper which streams audio over the network, after grabbing it from a device" alt="" coords="347,87,509,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2941,23,2258,36,1289,57,1073,60,905,59,737,63,522,83,478,90,477,85,521,77,736,58,904,53,1073,54,1289,52,2258,30,2941,18"/>
+<area shape="rect" id="Node000005" href="$classAudioRecorder__nws__yarp.html" title="AudioRecorder_nws_yarp: A Wrapper which streams audio over the network, after grabbing it from a devi..." alt="" coords="533,87,709,113"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="2941,23,2278,35,1341,57,1031,62,895,67,722,83,675,90,674,85,721,77,895,61,1031,56,1341,52,2278,29,2941,18"/>
+<area shape="rect" id="Node000006" href="$classBattery__nws__yarp.html" title="Battery_nws_yarp: Device that expose a battery sensor (using the IBattery interface) on the YARP netw..." alt="" coords="733,87,861,113"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="2941,23,2295,33,1845,43,1385,57,1129,61,1017,66,874,83,838,90,837,85,873,77,1016,61,1128,55,1385,52,1845,38,2295,28,2941,18"/>
+<area shape="rect" id="Node000007" href="$classChatBot__nws__yarp.html" title="ChatBot_nws_yarp: A wrapper for a plugin able to interact with a chatbot or implementing one." alt="" coords="885,87,1019,113"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="2941,23,2308,31,1869,42,1420,57,1225,63,1140,69,1031,83,995,90,994,85,1030,77,1139,64,1225,58,1420,52,1869,36,2308,26,2941,17"/>
+<area shape="rect" id="Node000008" href="$classFakeFrameGrabber.html" title="fakeFrameGrabber: A fake camera for testing." alt="" coords="1043,87,1176,113"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="2941,22,2317,26,1885,37,1444,57,1316,66,1188,83,1153,90,1152,85,1188,77,1315,60,1444,52,1885,32,2317,21,2941,16"/>
+<area shape="rect" id="Node000010" href="$classFakeLaser.html" title="fakeLaser : fake sensor device driver for testing purposes and reference for IRangefinder2D devices." alt="" coords="1200,87,1277,113"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="2941,25,1932,57,1750,58,1609,53,1541,53,1468,57,1386,66,1290,83,1266,90,1264,85,1289,77,1385,61,1468,51,1540,48,1609,48,1751,52,1932,52,2941,19"/>
+<area shape="rect" id="Node000011" href="$classFakeLaserWithMotor.html" title="fakeLaserWithMotor : fake sensor device driver for testing purposes and reference for IRangefinder2D ..." alt="" coords="1301,87,1445,113"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="2941,24,2520,37,1963,57,1709,62,1599,67,1458,83,1418,90,1417,85,1457,77,1599,62,1709,57,1963,52,2520,32,2941,19"/>
+<area shape="rect" id="Node000012" href="$classFrameTransformClient.html" title="frameTransformClient: A client to manage FrameTransforms for a robot (For more information,..." alt="" coords="1469,87,1627,113"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="2941,24,2287,44,1913,61,1757,71,1639,83,1597,90,1596,85,1638,77,1757,66,1912,55,2287,38,2941,19"/>
+<area shape="rect" id="Node000013" href="$classFrameTransformServer.html" title="A server to manage FrameTransforms for a robot (see FrameTransform: start all the required devices ne..." alt="" coords="1651,87,1811,113"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="2941,25,2611,37,2189,57,2006,65,1926,71,1823,83,1781,90,1780,85,1822,77,1925,65,2005,60,2189,52,2611,32,2941,20"/>
+<area shape="rect" id="Node000014" href="$classLLM__nws__yarp.html" title="LLM_nws_yarp: A server which can be wrap multiple algorithms and devices to provide LLM services." alt="" coords="1835,87,1941,113"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="2941,24,2436,44,2157,61,2041,71,1954,83,1923,90,1922,85,1953,77,2041,66,2156,55,2435,38,2941,19"/>
+<area shape="rect" id="Node000015" href="$classLocalization2D__nws__ros.html" title="localization2D_nws_ros: A localization server which can be wrap multiple algorithms and devices to pr..." alt="" coords="1965,87,2133,113"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="2941,24,2593,41,2370,58,2146,83,2102,90,2101,85,2145,77,2369,53,2592,36,2940,19"/>
+<area shape="rect" id="Node000016" href="$classLocalization2D__nws__yarp.html" title="localization2D_nws_yarp: A localization server which can be wrap multiple algorithms and devices to p..." alt="" coords="2157,87,2333,113"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="2941,27,2675,47,2510,63,2346,83,2302,90,2301,85,2345,77,2510,57,2674,41,2940,22"/>
+<area shape="rect" id="Node000017" href="$classMap2DStorage.html" title="Map2DStorage: A device capable of read/save collections of maps from disk, and make them accessible t..." alt="" coords="2357,87,2467,113"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="2941,27,2730,46,2604,62,2479,83,2449,90,2448,85,2478,77,2603,57,2729,41,2941,22"/>
+<area shape="rect" id="Node000018" href="$classMap2D__nws__ros.html" title="map2D_nws_ros: A device capable of read/save collections of maps from disk, and make them accessible ..." alt="" coords="2491,87,2608,113"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="2942,32,2791,53,2621,83,2590,90,2589,85,2619,77,2791,47,2941,27"/>
+<area shape="rect" id="Node000019" href="$classMap2D__nws__ros2.html" title="Map2D_nws_ros2: A device capable of read/save collections of maps from disk, and make them accessible..." alt="" coords="2632,87,2757,113"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="2965,36,2770,83,2740,90,2739,85,2769,77,2964,31"/>
+<area shape="rect" id="Node000020" href="$classMap2D__nws__yarp.html" title="map2D_nws_yarp: A device capable of read/save collections of maps from disk, and make them accessible..." alt="" coords="2781,87,2909,113"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="2989,39,2872,90,2870,85,2987,34"/>
+<area shape="rect" id="Node000021" href="$classMobileBaseVelocityControl__nws__yarp.html" title="MobileBaseVelocityControl_nws_yarp: A device which allows a client to control the velocity of a mobil..." alt="" coords="2933,80,3120,120"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="3029,44,3029,80,3024,80,3024,44"/>
+<area shape="rect" id="Node000022" href="$classNavigation2D__nwc__yarp.html" title="navigation2D_nwc_yarp: A device which allows a client application to perform navigation tasks,..." alt="" coords="3144,87,3315,113"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="3069,33,3201,85,3199,90,3067,38"/>
+<area shape="rect" id="Node000023" href="$classNavigation2D__nws__yarp.html" title=" " alt="" coords="3339,87,3509,113"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="3097,31,3368,85,3367,90,3096,36"/>
+<area shape="rect" id="Node000024" href="$classNetworkClock_1_1Private.html" title=" " alt="" coords="3533,80,3696,120"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="3113,25,3301,47,3522,77,3534,79,3533,85,3521,83,3300,52,3112,31"/>
+<area shape="rect" id="Node000025" href="$classOdometry2D__nws__yarp.html" title="Odometry2D_nws_yarp: A yarp nws to get the odometry and publish it on 3 yarp ports:" alt="" coords="3720,87,3885,113"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="3113,21,3379,41,3544,57,3708,77,3751,85,3750,90,3708,83,3543,62,3379,46,3113,27"/>
+<area shape="rect" id="Node000026" href="$classPingSampler.html" title=" " alt="" coords="3909,87,4003,113"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="3113,16,3262,18,3458,26,3678,45,3789,59,3898,77,3925,85,3924,90,3897,83,3788,64,3677,50,3458,32,3262,23,3113,21"/>
+<area shape="rect" id="Node000027" href="$classRFModuleRespondHandler.html" title=" " alt="" coords="4027,87,4211,113"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="3113,19,3402,31,3764,52,3890,62,4015,77,4060,85,4060,90,4014,83,3889,67,3764,57,3402,36,3113,25"/>
+<area shape="rect" id="Node000028" href="$classRangefinder2D__nws__yarp.html" title="rangefinder2D_nws_yarp: A Network grabber for 2D Rangefinder devices." alt="" coords="4235,87,4411,113"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="3112,17,3311,20,3586,29,3902,47,4064,60,4223,77,4269,85,4268,90,4222,83,4064,66,3902,52,3586,34,3311,25,3112,22"/>
+<area shape="rect" id="Node000029" href="$classRobotDescriptionServer.html" title="robotDescriptionServer: This device is a storage which contains a list of the currently opened device..." alt="" coords="4435,87,4600,113"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="3113,19,3496,32,3997,52,4211,59,4304,65,4423,77,4467,85,4466,90,4422,83,4303,70,4210,64,3997,57,3496,37,3113,24"/>
+<area shape="rect" id="Node000030" href="$classSerialPort__nws__yarp.html" title="serialPort_nws_yarp: Export a serial sensor." alt="" coords="4624,87,4768,113"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="3113,19,4028,52,4193,55,4321,56,4449,60,4612,77,4652,85,4651,90,4612,83,4448,66,4321,61,4193,61,4028,57,3112,25"/>
+<area shape="rect" id="Node000031" href="$classSpeechSynthesizer__nws__yarp.html" title="SpeechSynthesizer_nws_yarp: A wrapper for a plugin able to perform speech synthesis." alt="" coords="4792,87,4997,113"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="3112,18,3937,38,4423,55,4626,66,4780,77,4834,85,4833,90,4780,83,4626,71,4423,61,3937,43,3112,24"/>
+<area shape="rect" id="Node000032" href="$classSpeechTranscription__nws__yarp.html" title="SpeechTranscription_nws_yarp: A wrapper for a plugin able to perform speech transcription." alt="" coords="5021,80,5163,120"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="3112,18,3648,31,4384,52,4560,55,4698,54,4835,59,5010,77,5021,79,5021,84,5009,83,4834,65,4697,60,4560,60,4384,57,3648,36,3112,24"/>
+<area shape="rect" id="Node000033" href="$classyarp_1_1dev_1_1DeviceResponder.html" title="A cheap and cheerful framework for human readable/writable forms of messages to devices." alt="" coords="5187,87,5381,113"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="3113,19,4420,52,4633,55,4798,56,4963,60,5175,77,5227,85,5226,90,5174,83,4963,66,4798,61,4632,61,4420,57,3113,24"/>
+<area shape="rect" id="Node000045" href="$classyarp_1_1name_1_1NameServerConnectionHandler.html" title="Manage a single connection to the name server." alt="" coords="5405,80,5653,120"/>
+<area shape="poly" id="edge45_Node000001_Node000045" title=" " alt="" coords="3113,18,4221,35,4897,53,5180,64,5394,77,5405,78,5405,84,5393,83,5179,70,4896,58,4221,40,3113,23"/>
+<area shape="rect" id="Node000046" href="$classyarp_1_1os_1_1Node_1_1Helper.html" title=" " alt="" coords="5677,87,5835,113"/>
+<area shape="poly" id="edge46_Node000001_Node000046" title=" " alt="" coords="3112,18,3851,30,4909,52,5122,54,5288,53,5454,58,5666,77,5709,85,5708,90,5665,83,5453,63,5288,58,5122,59,4909,57,3851,35,3112,23"/>
+<area shape="rect" id="Node000047" href="$classyarp_1_1os_1_1PortReaderBufferBase.html" title=" " alt="" coords="5859,87,6075,113"/>
+<area shape="poly" id="edge47_Node000001_Node000047" title=" " alt="" coords="3112,18,3935,28,5131,52,5489,56,5646,62,5847,77,5903,85,5902,90,5846,83,5646,67,5489,62,5131,57,3935,34,3112,23"/>
+<area shape="rect" id="Node000048" href="$classyarp_1_1os_1_1Portable.html" title="This is a base class for objects that can be both read from and be written to the YARP network." alt="" coords="6099,87,6224,113"/>
+<area shape="poly" id="edge48_Node000001_Node000048" title=" " alt="" coords="3113,18,3953,30,5177,52,5434,52,5633,47,5730,48,5833,51,5949,61,6087,77,6123,85,6122,90,6086,83,5949,66,5832,57,5729,53,5633,53,5434,57,5177,57,3953,35,3113,23"/>
+<area shape="rect" id="Node000566" href="$classyarp_1_1os_1_1Wire.html" title="Base class for IDL client/server." alt="" coords="6248,87,6349,113"/>
+<area shape="poly" id="edge49_Node000001_Node000566" title=" " alt="" coords="3113,17,4089,26,4803,37,5537,52,5734,52,5888,49,6041,53,6131,62,6237,77,6266,85,6265,90,6235,83,6130,67,6041,59,5888,54,5734,58,5537,57,4802,42,4089,32,3113,23"/>
+<area shape="rect" id="Node000599" href="$classyarp_1_1os_1_1impl_1_1PortCore.html" title=" " alt="" coords="6373,87,6539,113"/>
+<area shape="poly" id="edge50_Node000001_Node000599" title=" " alt="" coords="3113,17,4189,23,4985,34,5805,52,6084,56,6206,62,6362,77,6406,85,6405,90,6361,83,6205,67,6084,62,5805,57,4985,39,4189,28,3113,22"/>
+<area shape="rect" id="Node000009" href="$classTestFrameGrabber.html" title="testFrameGrabber deprecated" alt="" coords="1044,184,1175,209"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1112,127,1112,184,1107,184,1107,127"/>
+<area shape="rect" id="Node000034" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Responder.html" title=" " alt="" coords="6067,338,6272,407"/>
+<area shape="poly" id="edge33_Node000033_Node000034" title=" " alt="" coords="5357,112,5394,117,5552,121,5816,124,5954,128,6077,136,6172,148,6205,157,6226,167,6253,198,6264,231,6261,268,6246,308,6236,325,6222,340,6218,336,6232,322,6242,306,6256,266,6259,232,6248,201,6222,171,6203,162,6171,153,6077,141,5954,133,5816,129,5552,127,5393,123,5357,118"/>
+<area shape="rect" id="Node000035" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Responder.html" title=" " alt="" coords="5092,331,5391,415"/>
+<area shape="poly" id="edge34_Node000033_Node000035" title=" " alt="" coords="5211,118,5175,123,5049,127,4840,131,4732,135,4636,143,4563,155,4538,163,4525,171,4516,184,4513,196,4516,209,4525,222,4540,238,4561,252,4616,277,4685,299,4763,317,4933,344,5092,360,5092,365,4933,349,4762,323,4683,304,4614,282,4558,256,4537,242,4521,226,4511,211,4508,196,4511,182,4521,167,4536,158,4561,150,4635,138,4731,130,4840,125,5049,121,5174,117,5210,112"/>
+<area shape="rect" id="Node000036" href="$classFrameGrabber__nws__yarp.html" title="frameGrabber_nws_yarp: A YARP NWS for camera devices." alt="" coords="4535,184,4708,209"/>
+<area shape="poly" id="edge35_Node000033_Node000036" title=" " alt="" coords="5208,118,5175,123,5047,137,4947,144,4847,153,4721,172,4660,187,4658,181,4719,167,4847,147,4947,139,5047,132,5174,117,5207,112"/>
+<area shape="rect" id="Node000037" href="$classJoypadCtrlParser.html" title=" " alt="" coords="4732,184,4852,209"/>
+<area shape="poly" id="edge36_Node000033_Node000037" title=" " alt="" coords="5205,118,5175,123,5019,143,4951,153,4865,172,4820,186,4819,181,4863,167,4950,147,5018,137,5174,117,5204,112"/>
+<area shape="rect" id="Node000038" href="$classRGBDImpl_1_1RGBDSensorParser.html" title=" " alt="" coords="4876,184,5084,209"/>
+<area shape="poly" id="edge37_Node000033_Node000038" title=" " alt="" coords="5235,119,5018,187,5016,181,5233,114"/>
+<area shape="rect" id="Node000039" href="$classRPCMessagesParser.html" title="Helper object for parsing RPC port messages." alt="" coords="5108,184,5252,209"/>
+<area shape="poly" id="edge38_Node000033_Node000039" title=" " alt="" coords="5263,124,5195,186,5191,182,5259,120"/>
+<area shape="rect" id="Node000040" href="$classyarp_1_1proto_1_1framegrabber_1_1DepthVisualParams__Responder.html" title=" " alt="" coords="5276,177,5500,217"/>
+<area shape="poly" id="edge39_Node000033_Node000040" title=" " alt="" coords="5309,120,5369,175,5365,179,5305,124"/>
+<area shape="rect" id="Node000041" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberControlsDC1394__Responder.html" title=" " alt="" coords="5524,169,5743,224"/>
+<area shape="poly" id="edge40_Node000033_Node000041" title=" " alt="" coords="5340,114,5537,167,5536,172,5339,119"/>
+<area shape="rect" id="Node000042" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberControls__Responder.html" title=" " alt="" coords="5767,169,5948,224"/>
+<area shape="poly" id="edge41_Node000033_Node000042" title=" " alt="" coords="5362,112,5394,117,5575,140,5654,149,5755,167,5767,169,5766,174,5754,172,5653,155,5574,145,5393,123,5362,118"/>
+<area shape="rect" id="Node000043" href="$classyarp_1_1proto_1_1framegrabber_1_1FrameGrabberOf__Responder.html" title=" " alt="" coords="5972,169,6212,224"/>
+<area shape="poly" id="edge42_Node000033_Node000043" title=" " alt="" coords="5359,112,5394,117,5553,134,5677,141,5801,149,5960,167,5972,168,5972,174,5960,172,5801,154,5677,146,5552,139,5393,123,5358,118"/>
+<area shape="poly" id="edge43_Node000043_Node000034" title=" " alt="" coords="6079,238,6074,272,6076,289,6081,305,6092,322,6107,336,6104,340,6088,325,6076,308,6070,290,6069,272,6074,237"/>
+<area shape="poly" id="edge44_Node000043_Node000035" title=" " alt="" coords="5959,228,5391,343,5390,338,5958,223"/>
+</map>
