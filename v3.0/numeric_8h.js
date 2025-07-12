@@ -1,0 +1,25 @@
+var numeric_8h =
+[
+    [ "YARP_DBL_EXP_DIG", "numeric_8h.html#aa44a6a4bbd9ca06e5000918acd6b8d52", null ],
+    [ "YARP_FLOAT128_IS_IEC559", "numeric_8h.html#a60f9be1ebcd4d6d0a927af0be989416d", null ],
+    [ "YARP_FLOAT32_IS_IEC559", "numeric_8h.html#aaab573782d20f0bed3e5eb0ed235cfe5", null ],
+    [ "YARP_FLOAT64_IS_IEC559", "numeric_8h.html#ac8bc997a0600ecd11f2c29bd1f07d3b9", null ],
+    [ "YARP_FLT_EXP_DIG", "numeric_8h.html#a82bbd7ee6aa793cef647a32af7c621c3", null ],
+    [ "YARP_HAS_FLOAT128_T", "numeric_8h.html#a16afe98f4a879acca581c8a4095264f7", null ],
+    [ "YARP_HAS_SYS_TYPES_H", "numeric_8h.html#abe1dae5d5f9b5b1c7997575a50ae55e6", null ],
+    [ "YARP_INT32_FMT", "numeric_8h.html#ad0269286b9ea27fe3e1258b20d9fadf3", null ],
+    [ "YARP_INT64_FMT", "numeric_8h.html#ace8f1bedb25bf90b00d8ed3091db83ff", null ],
+    [ "YARP_LDBL_EXP_DIG", "numeric_8h.html#a4c999172e3a979b1030c821bc39eb5d9", null ],
+    [ "YARP_LITTLE_ENDIAN", "numeric_8h.html#a0c6f818ea95d091916d8cb3991e4d552", null ],
+    [ "float128_t", "numeric_8h.html#a8d51ce73bd8c0c82dd027a02a2576e63", null ],
+    [ "float32_t", "numeric_8h.html#ac11d8bc36cd5170d3c016aaafc7e4e16", null ],
+    [ "float64_t", "numeric_8h.html#a87f36c177996f1192fb6f2c0d1a9cf10", null ],
+    [ "ssize_t", "numeric_8h.html#a3df5afb43ff7b7cc2b4e3cb9150eab20", null ],
+    [ "YARP_FLOAT32", "numeric_8h.html#a0062f2d82261fd2e74e96d358f75b2e3", null ],
+    [ "YARP_FLOAT64", "numeric_8h.html#ab489a6d2d15c75a8a4843e0680784939", null ],
+    [ "YARP_INT16", "numeric_8h.html#a39cd3412b7ef2f880642ffcc307e231d", null ],
+    [ "YARP_INT32", "numeric_8h.html#a3ee1fb8f446619c8b03f0e5c4180b676", null ],
+    [ "YARP_INT64", "numeric_8h.html#a20d17340df91749730ea052a787c883f", null ],
+    [ "YARP_INT8", "numeric_8h.html#a0b0caa5c81217d7031217eaf9013b9d8", null ],
+    [ "YARP_SSIZE_T", "numeric_8h.html#aaaebf5910af02c9736cd61c25b4e5d89", null ]
+];

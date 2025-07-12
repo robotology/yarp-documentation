@@ -1,0 +1,27 @@
+var classyarp_1_1dev_1_1ImplementAmplifierControl =
+[
+    [ "ImplementAmplifierControl", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a3e284f12159a2fa3ddfcc5f3991173fe", null ],
+    [ "~ImplementAmplifierControl", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a2753610e67f66818daefd0c74fe416dd", null ],
+    [ "disableAmp", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a89160800512b4e162f026e827e7d83d1", null ],
+    [ "enableAmp", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a5cebc4e92793e46393c4710628d39339", null ],
+    [ "getAmpStatus", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#ac680c5ea75f4edb9e0c786b679894654", null ],
+    [ "getAmpStatus", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a4df57b8cd8c838f2335b44f2d37b3b19", null ],
+    [ "getCurrent", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a2f029dcd62e412fe696a1e7b17dfd5a8", null ],
+    [ "getCurrents", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a7bc3680013bd904039355c3bb343edf5", null ],
+    [ "getMaxCurrent", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#ac48a1849a4d49e0e4656bf0ca3ce3ba8", null ],
+    [ "getNominalCurrent", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a624bf89bf48cd0ec12680ac746dd6c33", null ],
+    [ "getPeakCurrent", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a803a1d0adae5d88504972ca3e8cc3be7", null ],
+    [ "getPowerSupplyVoltage", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a83eae9e95a53dff27f4c9255aa67d7de", null ],
+    [ "getPWM", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#aaa96e81373a1dbf1be51da27281ceb1b", null ],
+    [ "getPWMLimit", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#aeb315550e2670405ae0caa455effb87d", null ],
+    [ "initialize", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a3e8065527e8f372ea751b10e388eb7dc", null ],
+    [ "setMaxCurrent", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a15987ef1788e82c45626f5814abb06ec", null ],
+    [ "setNominalCurrent", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a0c64ac7c3b97f8cd65e5ca8fb40cb881", null ],
+    [ "setPeakCurrent", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a067dd81a060cc9dedb99ea6f6b79fdd3", null ],
+    [ "setPWMLimit", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#ae917cb892d53d31cdc60db56056510b8", null ],
+    [ "uninitialize", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#aca60ee4b31f2b559fbea9453945a8705", null ],
+    [ "dTemp", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a0f70bb29f8efecb0e6d9465510282269", null ],
+    [ "helper", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#aeeef1ce03e3154289c7d7025eca34cef", null ],
+    [ "iAmplifier", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#a0ce5d286623dbbb4ffe64c1a1fa54298", null ],
+    [ "iTemp", "classyarp_1_1dev_1_1ImplementAmplifierControl.html#ad4b9f785d14652f8411c6a2e390973c7", null ]
+];

@@ -1,0 +1,37 @@
+var classyarp_1_1dev_1_1IRGBDSensor =
+[
+    [ "RGBDSensor_status", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25", [
+      [ "RGBD_SENSOR_NOT_READY", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25abd1e3acf40b1d650aac73c4701b563ee", null ],
+      [ "RGBD_SENSOR_OK_STANBY", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25af565db384e2f57ff692f836b1d0b19c5", null ],
+      [ "RGBD_SENSOR_OK_IN_USE", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25adfdf5c47bfaf6d6520887d99593caa23", null ],
+      [ "RGB_SENSOR_ERROR", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25adbaf797814fc62a7da756e34db5ee526", null ],
+      [ "DEPTH_SENSOR_ERROR", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25a28e87de3df8c4a2d90ffa244c5689910", null ],
+      [ "RGBD_SENSOR_GENERIC_ERROR", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25abfbebc3cf3c2d80ce22090dcfe0a60e1", null ],
+      [ "RGBD_SENSOR_TIMEOUT", "classyarp_1_1dev_1_1IRGBDSensor.html#a007f8ea5d2cbcdcac2eaaf117d47eb25ac9029ccef59ca222d9a6cfe79ec73d49", null ]
+    ] ],
+    [ "~IRGBDSensor", "classyarp_1_1dev_1_1IRGBDSensor.html#ab806e3913e03662c35bd74a5567ff9ef", null ],
+    [ "getDepthAccuracy", "classyarp_1_1dev_1_1IRGBDSensor.html#ab545305cd9b1b29ae937f7c8adeff765", null ],
+    [ "getDepthClipPlanes", "classyarp_1_1dev_1_1IRGBDSensor.html#a64c57f7cfd4cc0fa590fd7bc6cf6e693", null ],
+    [ "getDepthFOV", "classyarp_1_1dev_1_1IRGBDSensor.html#afdad7f44a87377972f6c972c3dfe5222", null ],
+    [ "getDepthHeight", "classyarp_1_1dev_1_1IRGBDSensor.html#a29b9bf4dad618b4286a93cb77dad6622", null ],
+    [ "getDepthImage", "classyarp_1_1dev_1_1IRGBDSensor.html#a5ed8015f99fd3223d50a9d832cb17a8f", null ],
+    [ "getDepthIntrinsicParam", "classyarp_1_1dev_1_1IRGBDSensor.html#a584166206790dda608495c3e57417314", null ],
+    [ "getDepthWidth", "classyarp_1_1dev_1_1IRGBDSensor.html#af309b066c6e0fbbd37e8b15516e8120a", null ],
+    [ "getExtrinsicParam", "classyarp_1_1dev_1_1IRGBDSensor.html#a5f1f111fe515446ac6ddee427d624165", null ],
+    [ "getImages", "classyarp_1_1dev_1_1IRGBDSensor.html#a4b95e1feb347c6447d984b9455229dd5", null ],
+    [ "getLastErrorMsg", "classyarp_1_1dev_1_1IRGBDSensor.html#adb66d68f335f117038052f1851f8ac04", null ],
+    [ "getRgbFOV", "classyarp_1_1dev_1_1IRGBDSensor.html#a969cad7eb55d132500f6cfbcae64eea1", null ],
+    [ "getRgbHeight", "classyarp_1_1dev_1_1IRGBDSensor.html#a2fba9a4b88fd622bebc41cd62de6b9b3", null ],
+    [ "getRgbImage", "classyarp_1_1dev_1_1IRGBDSensor.html#a36f0fce0d4451debdadf597849d60811", null ],
+    [ "getRgbIntrinsicParam", "classyarp_1_1dev_1_1IRGBDSensor.html#af58056eeb0fcb06e70070d57ec53d37e", null ],
+    [ "getRgbResolution", "classyarp_1_1dev_1_1IRGBDSensor.html#ad54f5433f3cd7a19bf34daf702c7a275", null ],
+    [ "getRgbSupportedConfigurations", "classyarp_1_1dev_1_1IRGBDSensor.html#a9a71e8b760c5792bf2ef5db700d7da4f", null ],
+    [ "getRgbWidth", "classyarp_1_1dev_1_1IRGBDSensor.html#a50bd4cb4230821824d23a6f19835a4fb", null ],
+    [ "getSensorStatus", "classyarp_1_1dev_1_1IRGBDSensor.html#ababe6dc59f59ef9db2f896ce4581030f", null ],
+    [ "setDepthAccuracy", "classyarp_1_1dev_1_1IRGBDSensor.html#ab1484c0e683ad634425e2993bdbae2bc", null ],
+    [ "setDepthClipPlanes", "classyarp_1_1dev_1_1IRGBDSensor.html#aa1067132065dceaa7b36a69e5da8fc3d", null ],
+    [ "setDepthFOV", "classyarp_1_1dev_1_1IRGBDSensor.html#a5206f25f4104f4205031c5fdb359dc1e", null ],
+    [ "setDepthResolution", "classyarp_1_1dev_1_1IRGBDSensor.html#ad76dcc8bb710f997e85f5f606f0ce8f1", null ],
+    [ "setRgbFOV", "classyarp_1_1dev_1_1IRGBDSensor.html#a0469a6207e3507ce69b8ac66dda8c186", null ],
+    [ "setRgbResolution", "classyarp_1_1dev_1_1IRGBDSensor.html#addced730c64a6d80fe55590ac21a6aaa", null ]
+];
