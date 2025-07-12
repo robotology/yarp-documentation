@@ -1,0 +1,25 @@
+var classFakeNavigation =
+[
+    [ "FakeNavigation", "classFakeNavigation.html#ab170d46cf5372d5d2278fbba86c07942", null ],
+    [ "applyVelocityCommand", "classFakeNavigation.html#acb29b515a6a5fb1dd9e93b08328d04da", null ],
+    [ "close", "classFakeNavigation.html#a154da45f449c356b99b6fcadcf8fa92f", null ],
+    [ "followPath", "classFakeNavigation.html#a343664174e45052f625152861f7afaa8", null ],
+    [ "getAbsoluteLocationOfCurrentTarget", "classFakeNavigation.html#a72ef91b0143fb16c1680c89fe99c0592", null ],
+    [ "getAllNavigationWaypoints", "classFakeNavigation.html#ac2bf08310215b4dbdcc5a1411b773dc5", null ],
+    [ "getCurrentNavigationMap", "classFakeNavigation.html#ade731efb3e0f11d72a7971fb6cb09740", null ],
+    [ "getCurrentNavigationWaypoint", "classFakeNavigation.html#a438959506bd5dffdb787a6c8da091db4", null ],
+    [ "getLastVelocityCommand", "classFakeNavigation.html#a184cb395c94dc69d88e7b8ee0a8d04eb", null ],
+    [ "getNavigationStatus", "classFakeNavigation.html#aee9feeabc1f20fb50981eb307a797221", null ],
+    [ "getRelativeLocationOfCurrentTarget", "classFakeNavigation.html#af332877e612f59002cb69d4168e698da", null ],
+    [ "gotoTargetByAbsoluteLocation", "classFakeNavigation.html#ac1c250855647b0f4b858166f80a32b48", null ],
+    [ "gotoTargetByRelativeLocation", "classFakeNavigation.html#acbb1ebf7443b320a75b4ec1745bb8a31", null ],
+    [ "gotoTargetByRelativeLocation", "classFakeNavigation.html#a384b5c1b54c0a7498eabbd20641581aa", null ],
+    [ "open", "classFakeNavigation.html#a8ee8f7f7dd33c26cd02aead54548d707", null ],
+    [ "recomputeCurrentNavigationPath", "classFakeNavigation.html#adc87ed86c2c38db2535fd8db8b5ea158", null ],
+    [ "resumeNavigation", "classFakeNavigation.html#a0df28856adbcd54d8bc05c7e744d55ee", null ],
+    [ "run", "classFakeNavigation.html#a3f422053ad0b95e6bf0563454e46b73a", null ],
+    [ "stopNavigation", "classFakeNavigation.html#a6e291b82f13d86c7d21cc969f2cea986", null ],
+    [ "suspendNavigation", "classFakeNavigation.html#a1b48bd02b54bbfe9bf0e135f41020aa6", null ],
+    [ "threadInit", "classFakeNavigation.html#a785a6644a9bf4ef3ec7ccd4afe764bee", null ],
+    [ "threadRelease", "classFakeNavigation.html#ac58c3e76cef4d38b82b850641b83fedb", null ]
+];

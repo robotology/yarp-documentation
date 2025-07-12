@@ -1,0 +1,68 @@
+var group__dev__impl__wrapper =
+[
+    [ "AudioPlayerWrapper", "classAudioPlayerWrapper.html", [
+      [ "AudioPlayerWrapper", "classAudioPlayerWrapper.html#a6da9028ace15c07d7b390af87364b2f0", null ],
+      [ "AudioPlayerWrapper", "classAudioPlayerWrapper.html#a6e0b9487668d646762efd839261789b1", null ],
+      [ "AudioPlayerWrapper", "classAudioPlayerWrapper.html#a98e7d2762062da5508ba47f0a728d639", null ],
+      [ "~AudioPlayerWrapper", "classAudioPlayerWrapper.html#a239e080c3466043060f0562cecca169f", null ],
+      [ "afterStart", "classAudioPlayerWrapper.html#ab8e69d297ff26ab563ba26f1f4806e32", null ],
+      [ "attach", "classAudioPlayerWrapper.html#af805a74a77934726de76e1ba1bb97c7b", null ],
+      [ "close", "classAudioPlayerWrapper.html#a0e8381e11d633881890de4006297c3af", null ],
+      [ "detach", "classAudioPlayerWrapper.html#abdc43b255296c462e6d9710ea9cca832", null ],
+      [ "open", "classAudioPlayerWrapper.html#ad74dad9a7f193c83cf35b8d68700d8f2", null ],
+      [ "operator=", "classAudioPlayerWrapper.html#a401212ec76a69421214c8b3c67ee7f7d", null ],
+      [ "operator=", "classAudioPlayerWrapper.html#ac2f8e155d6c466b1df69f36b31e21bc3", null ],
+      [ "run", "classAudioPlayerWrapper.html#a69ea168366fe71943d0e7c26fb3c6347", null ],
+      [ "threadInit", "classAudioPlayerWrapper.html#a415f502ad92f55507aeb41418db460bc", null ],
+      [ "threadRelease", "classAudioPlayerWrapper.html#a6dbdbcf2075564d51868cec2e75ae348", null ]
+    ] ],
+    [ "JoypadControlServer", "classJoypadControlServer.html", [
+      [ "JoypadControlServer", "classJoypadControlServer.html#a73093105261dc12805067919f238c246", null ],
+      [ "JoypadControlServer", "classJoypadControlServer.html#a5ff33f673f20d2c3a40dfa245260db0c", null ],
+      [ "JoypadControlServer", "classJoypadControlServer.html#a23338e276b826b6747d0012114fa5bfb", null ],
+      [ "~JoypadControlServer", "classJoypadControlServer.html#a3ac907f734254f6f3ab76ca84ee20ec8", null ],
+      [ "attach", "classJoypadControlServer.html#a40616910dc58b143a495000283acd22e", null ],
+      [ "close", "classJoypadControlServer.html#a589fc5e49704a9fa27eca9a948d15940", null ],
+      [ "detach", "classJoypadControlServer.html#a76869fcf00cb57cecf464c13c4b685df", null ],
+      [ "open", "classJoypadControlServer.html#a1c5e930f68d091779922f7c74ba6b2a9", null ],
+      [ "operator=", "classJoypadControlServer.html#a06afe6e44257bcb1c0112c50ff486216", null ],
+      [ "operator=", "classJoypadControlServer.html#a0df3a7beb845531ca22321cff0de94c1", null ],
+      [ "run", "classJoypadControlServer.html#a808dbb6e9616a4219e087cbfeec8cac7", null ],
+      [ "threadInit", "classJoypadControlServer.html#aecffbe33d37f48d9bd25bac9e1eee0eb", null ],
+      [ "threadRelease", "classJoypadControlServer.html#a275171494a6a0691dc4005ab17aeb6ef", null ]
+    ] ],
+    [ "MultipleAnalogSensorsServer", "classMultipleAnalogSensorsServer.html", [
+      [ "MultipleAnalogSensorsServer", "classMultipleAnalogSensorsServer.html#a3e3b9a5e409cd80a62ace6d6484ed22a", null ],
+      [ "~MultipleAnalogSensorsServer", "classMultipleAnalogSensorsServer.html#a91342273a7e32564f20635fd8a39a9c0", null ],
+      [ "attach", "classMultipleAnalogSensorsServer.html#ac8eef7d29a30d2712204eeeb8fbb1c5f", null ],
+      [ "close", "classMultipleAnalogSensorsServer.html#abe8cdfd12937ab35dc02d4020dfaf5f8", null ],
+      [ "detach", "classMultipleAnalogSensorsServer.html#a4386be772745cc02f7457b9636aedbc8", null ],
+      [ "getMetadata", "classMultipleAnalogSensorsServer.html#a4cb67c74036ee215c98e4dea319888d8", null ],
+      [ "open", "classMultipleAnalogSensorsServer.html#adb8e698b4c304a3c788bc4977adba534", null ],
+      [ "run", "classMultipleAnalogSensorsServer.html#aa0893089fa266ac4ed001f8f685ed164", null ],
+      [ "threadRelease", "classMultipleAnalogSensorsServer.html#abe4e7a372345b515c696158c6fbb0bca", null ]
+    ] ],
+    [ "VirtualAnalogWrapper", "classVirtualAnalogWrapper.html", [
+      [ "VirtualAnalogWrapper", "classVirtualAnalogWrapper.html#a29a7d87f0243d68724eef9de8e36fbe3", null ],
+      [ "VirtualAnalogWrapper", "classVirtualAnalogWrapper.html#ae27e667c233e29c897b0321149d6c8ea", null ],
+      [ "VirtualAnalogWrapper", "classVirtualAnalogWrapper.html#a5ca32829cd2ce1f31182282acfd0e7cf", null ],
+      [ "~VirtualAnalogWrapper", "classVirtualAnalogWrapper.html#a592e6fd4002916ce4fab388270050dd2", null ],
+      [ "attachAll", "classVirtualAnalogWrapper.html#a947b8f80164a99adafd5a3716ef67117", null ],
+      [ "close", "classVirtualAnalogWrapper.html#a8c1c131b53d5df9fa36b25f5d0b93e20", null ],
+      [ "detachAll", "classVirtualAnalogWrapper.html#af31e518751ada1d9f433626d7c849b9a", null ],
+      [ "open", "classVirtualAnalogWrapper.html#adcd6c5a9d352507a8b6eeb4decb5e26f", null ],
+      [ "operator=", "classVirtualAnalogWrapper.html#a323f3de9147510f4d07a84b36caeb815", null ],
+      [ "operator=", "classVirtualAnalogWrapper.html#a40e2ff345edce28dc357cc43af287812", null ],
+      [ "perform_first_check", "classVirtualAnalogWrapper.html#afd19c0a8b916dfbf2de9a99adfbbf62b", null ],
+      [ "run", "classVirtualAnalogWrapper.html#af90d351a0566b29195b669bc0f22e574", null ],
+      [ "first_check", "classVirtualAnalogWrapper.html#a34faee927a45ce91d2405b9707e8d9db", null ],
+      [ "lastRecv", "classVirtualAnalogWrapper.html#a8ac23fd25dfdcca1da139d54b8916250", null ],
+      [ "mChan2BAddr", "classVirtualAnalogWrapper.html#a938f5a969a570db3b3f31eab4ea6c1c4", null ],
+      [ "mChan2Board", "classVirtualAnalogWrapper.html#a7d98ced3b73dc66f5c98c05cbb1e18d5", null ],
+      [ "mIsVerbose", "classVirtualAnalogWrapper.html#ac209fb9771f392693d4e21dccdf9d28b", null ],
+      [ "mMutex", "classVirtualAnalogWrapper.html#a776590fcbaa64344d55e58336632423e", null ],
+      [ "mNSubdevs", "classVirtualAnalogWrapper.html#a346ed42ab3b4c5cbdf5c8dad01b776c4", null ],
+      [ "mPortInputTorques", "classVirtualAnalogWrapper.html#afabd734f4bd26cecbc08b6eb9bef5c7f", null ],
+      [ "mSubdevices", "classVirtualAnalogWrapper.html#a43b616a893c2de9991b06f3577747e06", null ]
+    ] ]
+];
