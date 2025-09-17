@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+% Packages requested by user
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$ f $
+\pagebreak
+
+$ s $
+\pagebreak
+
+$ r \in [-180, 180] , p \in [-90, 90], y \in [-180, 180]$
+\pagebreak
+
+\[ {}^f R_s = RotZ\left(\frac{\pi}{180}y\right)*RotY\left(\frac{\pi}{180}p\right)*RotX\left(\frac{\pi}{180}r\right) \]
+\pagebreak
+
+\[ RotZ(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) & 0 \\ \sin(\theta) & \cos(\theta) & 0 \\ 0 & 0 & 1 \\ \end{bmatrix} \]
+\pagebreak
+
+\[ RotY(\theta) = \begin{bmatrix} \cos(\theta) & 0 & \sin(\theta) \\ 0 & 1 & 0 \\ -\sin(\theta) & 0 & \cos(\theta) \\ \end{bmatrix} \]
+\pagebreak
+
+\[ RotX(\theta) = \begin{bmatrix} 1 & 0 & 0 \\ 0 & \cos(\theta) & - \sin(\theta) \\ 0 & \sin(\theta) & \cos(\theta) \\ \end{bmatrix} \]
+\pagebreak
+
+$ {}^f R_s \in \mathbb{R}^{3 \times 3} $
+\pagebreak
+
+\[ \mathbf{v} = [\alpha, \beta, \gamma ]\]
+\pagebreak
+
+\[ R = R_z(\alpha) R_y(\beta) R_z(\gamma) \]
+\pagebreak
+
+\[ \mathbf{v} = [\psi, \theta, \phi ]\]
+\pagebreak
+
+\[ R = R_z(\phi) R_y(\theta) R_x(\psi) \]
+\pagebreak
+
+\[ \mathbf{v} = [\phi, \theta, \psi ]\]
+\pagebreak
+
+\[ R = R_x(\psi) R_y(\theta) R_z(\phi) \]
+\pagebreak
+
+$ \begin{bmatrix} q_1 \\ q_2 \\ q_3 \end{bmatrix} \in \mathbb{R}^3 $
+\pagebreak
+
+\[ R(s,r) = I_{3\times3} + 2s r^{\wedge} + 2{r^\wedge}^2, \]
+\pagebreak
+
+$ r^{\wedge} $
+\pagebreak
+
+\[ r \times v = r^\wedge v \]
+\pagebreak
+
+\[ \mathbf{q}=q_0 + i \cdot q_1 + j \cdot q_2 + k \cdot q_3 \]
+\pagebreak
+
+\end{document}
