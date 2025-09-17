@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['plugin_20to_20yarp_0',['Add a plugin to YARP',['../group__add__a__plugin.html',1,'']]],
+  ['plugins_1',['Ways to compile YARP plugins',['../group__yarp__plugins.html',1,'']]],
+  ['pointcloud_2',['YARP PointCloud',['../group__yarp__pointcloud.html',1,'']]],
+  ['port_3',['port',['../group__portmonitors__examples__7.html',1,'An example which shows how to use a Lua script to create a new data type in a port'],['../group__portmonitors__examples__6.html',1,'An example which shows how to use a Lua script to modify incoming data in an input port'],['../group__portmonitors__examples__5.html',1,'An example which shows how to use C++ and DLLS to modify incoming data in an input port'],['../group__yarpscope.html',1,'yarpscope: visualize the numerical content of a port']]],
+  ['port_20arbitrator_20with_20time_20events_4',['An example of using port arbitrator with time events',['../group__portmonitors__examples__2.html',1,'']]],
+  ['port_20monitors_20for_20arbitrating_20multiple_20connections_5',['An example of using port monitors for arbitrating multiple connections',['../group__portmonitors__examples__1.html',1,'']]],
+  ['portmonitor_20object_20at_20the_20both_20sides_20of_20a_20connection_20to_20encode_20and_20decode_20data_6',['An example of using the portmonitor object at the both sides of a connection to encode and decode data',['../group__portmonitors__examples__3.html',1,'']]],
+  ['portmonitors_7',['portmonitors',['../group__portmonitors__lists.html',1,'Available Portmonitors'],['../group__portmonitors__module.html',1,'Portmonitors']]],
+  ['possibile_20server_20client_20configurations_8',['FrameTransform: possibile server-client configurations',['../group__Fts__ftc__config.html',1,'']]],
+  ['pre_20nwc_20nws_20architecture_9',['pre nwc nws architecture',['../group__dev__impl__network__clients.html',1,'Network Clients (Clients - pre NWC/NWS architecture)'],['../group__dev__impl__wrapper.html',1,'Network Servers (Wrappers - pre NWC/NWS architecture)']]],
+  ['processing_10',['yarp::sig Signal Processing',['../group__sig__module.html',1,'']]],
+  ['profiling_20and_20visualizing_20yarp_20network_11',['yarpviz: a graphical tool for profiling and visualizing YARP network',['../group__yarpviz.html',1,'']]],
+  ['programs_12',['programs',['../group__yarplogger-console.html',1,'yarplogger-console: visualize log from YARP programs'],['../group__yarplogger.html',1,'yarplogger: visualize log from YARP programs']]],
+  ['programs_20on_20a_20set_20of_20machines_13',['programs on a set of machines',['../group__yarpmanager-console.html',1,'yarpmanager-console: run and manage multiple programs on a set of machines'],['../group__yarpmanager.html',1,'yarpmanager: edit, run and manage multiple programs on a set of machines'],['../group__yarprun.html',1,'yarprun: run programs on a set of machines']]]
+];

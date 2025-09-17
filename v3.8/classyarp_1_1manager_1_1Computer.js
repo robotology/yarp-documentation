@@ -1,0 +1,25 @@
+var classyarp_1_1manager_1_1Computer =
+[
+    [ "Computer", "classyarp_1_1manager_1_1Computer.html#a52056dfe9041f024ac58c1eaf02945d3", null ],
+    [ "Computer", "classyarp_1_1manager_1_1Computer.html#abe1a84b544ba9988cfc592c46f5d925f", null ],
+    [ "Computer", "classyarp_1_1manager_1_1Computer.html#a979cb71b02b2e50383738e68b770e30a", null ],
+    [ "~Computer", "classyarp_1_1manager_1_1Computer.html#a633f86288c20c5aa1eed7f14fb069272", null ],
+    [ "addPeripheral", "classyarp_1_1manager_1_1Computer.html#a6626a9cc0baac8a81f49b7af190bb04b", null ],
+    [ "clear", "classyarp_1_1manager_1_1Computer.html#a1a647cd6d778255a025e3c61d30432da", null ],
+    [ "clone", "classyarp_1_1manager_1_1Computer.html#ade1908b2007dd3efd2972eef7a27bbdc", null ],
+    [ "getMemory", "classyarp_1_1manager_1_1Computer.html#a8342f9cac6ffdc17186eb9da2e4ed5ef", null ],
+    [ "getNetwork", "classyarp_1_1manager_1_1Computer.html#a0315b4766c08b663c66580e6cb6bb2e0", null ],
+    [ "getPeripheralAt", "classyarp_1_1manager_1_1Computer.html#a67f77e3bec0b7a0f5594432896b7d040", null ],
+    [ "getPlatform", "classyarp_1_1manager_1_1Computer.html#aab2a48fe48c73700404fdbd08d4255dc", null ],
+    [ "getProcesses", "classyarp_1_1manager_1_1Computer.html#ac9e0d4418175cb13713ce0dec30091cc", null ],
+    [ "getProcessor", "classyarp_1_1manager_1_1Computer.html#a81148dfd8333ba4009cb6b655d744023", null ],
+    [ "getStorage", "classyarp_1_1manager_1_1Computer.html#aa4956c9e2d4616c91743b94de202706d", null ],
+    [ "operator=", "classyarp_1_1manager_1_1Computer.html#ab5f8ff3f194d43e7c1659dfc2c1f006f", null ],
+    [ "peripheralCount", "classyarp_1_1manager_1_1Computer.html#a5a2e5f7c9194ec1f12d702027cbc4e3d", null ],
+    [ "satisfy", "classyarp_1_1manager_1_1Computer.html#a20ca9ec24ec6196f3542cee0aabc7d5e", null ],
+    [ "setMemory", "classyarp_1_1manager_1_1Computer.html#ab2cf5690fe40d3388807a91cdbc349fd", null ],
+    [ "setNetwork", "classyarp_1_1manager_1_1Computer.html#a2fd9395706e04ea91fff1d31e0d12d98", null ],
+    [ "setPlatform", "classyarp_1_1manager_1_1Computer.html#a76d05958d1e67425444c6194d9d9b54b", null ],
+    [ "setProcessor", "classyarp_1_1manager_1_1Computer.html#a253cd350f4ef339493e8a831372e3a94", null ],
+    [ "setStorage", "classyarp_1_1manager_1_1Computer.html#a9cd586f8b2b47ded8f5f6c76cbf1e23b", null ]
+];
