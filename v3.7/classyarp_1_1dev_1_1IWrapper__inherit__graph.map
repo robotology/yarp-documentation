@@ -1,0 +1,33 @@
+<map id="yarp::dev::IWrapper" name="yarp::dev::IWrapper">
+<area shape="rect" id="node1" title="Interface for an object that can wrap/or &quot;attach&quot; to another." alt="" coords="542,5,691,32"/>
+<area shape="rect" id="node2" href="$classFrameGrabberCropper.html" title=" " alt="" coords="5,80,172,107"/>
+<area shape="rect" id="node3" href="$classJoypadControlServer.html" title="JoypadControlServer: Documentation to be added" alt="" coords="197,80,351,107"/>
+<area shape="rect" id="node4" href="$classRGBDSensorWrapper.html" title="RGBDSensorWrapper deprecated: A Network grabber for kinect&#45;like devices." alt="" coords="376,80,535,107"/>
+<area shape="rect" id="node5" href="$classServerGrabber.html" title="grabberDual deprecated: A Network grabber for camera devices." alt="" coords="559,80,675,107"/>
+<area shape="rect" id="node6" href="$classServerInertial.html" title="inertial deprecated: Export an inertial sensor." alt="" coords="699,80,809,107"/>
+<area shape="rect" id="node7" href="$classyarp_1_1dev_1_1WrapperMultiple.html" title="Helper interface for an object that can wrap/or &quot;attach&quot; to one or more other devices." alt="" coords="833,80,1032,107"/>
+<area shape="rect" id="node10" href="$classyarp_1_1dev_1_1WrapperSingle.html" title="Helper interface for an object that can wrap/or &quot;attach&quot; to a single other device." alt="" coords="2943,80,3128,107"/>
+<area shape="rect" id="node8" href="$classFrameTransformGetMultiplexer.html" title="A multiplexer which collapses the output of many IFrameTransformStorageGet interfaces into one." alt="" coords="574,162,798,189"/>
+<area shape="rect" id="node9" href="$classFrameTransformSetMultiplexer.html" title="A multiplexer which forwards the input of one IFrameTransformStorageSet interfaces to many." alt="" coords="821,162,1044,189"/>
+<area shape="rect" id="node11" href="$classControlBoard__nws__ros.html" title="controlBoard_nws_ros: A controlBoard network wrapper server for ROS." alt="" coords="1068,162,1235,189"/>
+<area shape="rect" id="node12" href="$classControlBoard__nws__yarp.html" title="controlBoard_nws_yarp: A controlBoard network wrapper server for YARP." alt="" coords="1259,162,1435,189"/>
+<area shape="rect" id="node13" href="$classFrameGrabber__nws__ros.html" title="frameGrabber_nws_ros: A ROS NWS for camera devices. Parameters required by this device are:" alt="" coords="1460,162,1635,189"/>
+<area shape="rect" id="node14" href="$classFrameGrabber__nws__yarp.html" title="frameGrabber_nws_yarp: A YARP NWS for camera devices." alt="" coords="1659,162,1843,189"/>
+<area shape="rect" id="node15" href="$classFrameTransformGet__nws__yarp.html" title="frameTransformGet_nws_yarp: A network wrapper client which converts the input retrieved from an IFram..." alt="" coords="1868,162,2088,189"/>
+<area shape="rect" id="node16" href="$classFrameTransformSet__nws__yarp.html" title="frameTransformSet_nws_yarp: A network wrapper client which publishes the transforms received on the y..." alt="" coords="2113,162,2331,189"/>
+<area shape="rect" id="node17" href="$classFrameTransformStorage.html" title="frameTransformStorage: A class that keeps a FrameTransformContainer updated by receiving transformati..." alt="" coords="2355,162,2534,189"/>
+<area shape="rect" id="node18" href="$classLocalization2D__nws__ros.html" title="localization2D_nws_ros: A localization server which can be wrap multiple algorithms and devices to pr..." alt="" coords="2558,162,2737,189"/>
+<area shape="rect" id="node19" href="$classLocalization2D__nws__yarp.html" title="localization2D_nws_yarp: A localization server which can be wrap multiple algorithms and devices to p..." alt="" coords="2761,162,2947,189"/>
+<area shape="rect" id="node20" href="$classMap2D__nws__ros.html" title="map2D_nws_ros: A device capable of read/save collections of maps from disk, and make them accessible ..." alt="" coords="2971,162,3099,189"/>
+<area shape="rect" id="node21" href="$classMap2D__nws__yarp.html" title="map2D_nws_yarp: A device capable of read/save collections of maps from disk, and make them accessible..." alt="" coords="3124,162,3261,189"/>
+<area shape="rect" id="node22" href="$classMobileBaseVelocityControl__nws__ros.html" title=" " alt="" coords="3286,155,3483,196"/>
+<area shape="rect" id="node23" href="$classMobileBaseVelocityControl__nws__yarp.html" title=" " alt="" coords="3507,155,3705,196"/>
+<area shape="rect" id="node24" href="$classOdometry2D__nws__ros.html" title="Odometry2D_nws_ros: A ros nws to get odometry and publish it on a ros topic. The attached device must..." alt="" coords="3729,162,3894,189"/>
+<area shape="rect" id="node25" href="$classOdometry2D__nws__yarp.html" title="Odometry2D_nws_yarp: A yarp nws to get the odometry and publish it on 3 yarp ports:" alt="" coords="3919,162,4093,189"/>
+<area shape="rect" id="node26" href="$classRGBDToPointCloudSensor__nws__ros.html" title="RGBDToPointCloudSensor_nws_ros: A Network grabber for kinect&#45;like devices. This device will produce o..." alt="" coords="4117,155,4305,196"/>
+<area shape="rect" id="node27" href="$classRangefinder2D__nws__ros.html" title="rangefinder2D_nws_ros: A Network grabber for 2D Rangefinder devices. This device will publish data on..." alt="" coords="4330,162,4509,189"/>
+<area shape="rect" id="node28" href="$classRangefinder2D__nws__yarp.html" title="rangefinder2D_nws_yarp: A Network grabber for 2D Rangefinder devices. This device will stream data on..." alt="" coords="4533,162,4719,189"/>
+<area shape="rect" id="node29" href="$classRgbdSensor__nws__ros.html" title="rgbdSensor_nws_ros: A Network grabber for kinect&#45;like devices. This device will produce two streams o..." alt="" coords="4744,162,4903,189"/>
+<area shape="rect" id="node30" href="$classRgbdSensor__nws__yarp.html" title="rgbdSensor_nws_yarp: A Network grabber for kinect&#45;like devices. This device will produce two streams ..." alt="" coords="4927,162,5095,189"/>
+<area shape="rect" id="node31" href="$classnavigation2D__nws__yarp.html" title=" " alt="" coords="5119,162,5298,189"/>
+</map>
