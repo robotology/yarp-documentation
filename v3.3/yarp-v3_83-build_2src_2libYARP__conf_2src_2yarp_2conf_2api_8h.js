@@ -1,0 +1,25 @@
+var yarp_v3_83_build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h =
+[
+    [ "YARP_DEPRECATED_API", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a9082dabc147f1d2e35fff1a2d0a476d9", null ],
+    [ "YARP_DEPRECATED_API_MSG", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a2532a7f9672f246b061dae497e854c83", null ],
+    [ "YARP_DEPRECATED_COMPILER_SPECIFIC", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a5441b342036f3e0661080843c0367c04", null ],
+    [ "YARP_DEPRECATED_COMPILER_SPECIFIC_MSG", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#ad282f47c4d8196ebf66abb038cfdd51b", null ],
+    [ "YARP_DEPRECATED_INTERNAL", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a210809505734edcacbd4d088f81116dd", null ],
+    [ "YARP_DEPRECATED_INTERNAL_MSG", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a2c61219024443ce47b74cc1cc2d41040", null ],
+    [ "YARP_DEPRECATED_TYPEDEF", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a9f9b0ca66cc5d39d365b0590f5df3fcc", null ],
+    [ "YARP_DEPRECATED_TYPEDEF_MSG", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#ad173cc8aaf25f6b0d8204701b9f84140", null ],
+    [ "YARP_DLL", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a49ebc38ff7a194978f07051477699da8", null ],
+    [ "YARP_EXPORT", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a0837ad9cf324b8ca3d4506e696037a82", null ],
+    [ "YARP_EXPORT_EXTERN", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a996286e37d91028d97e0581acfa8c4db", null ],
+    [ "YARP_HELPER_DLL_EXPORT", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a9b3e1769fb87d843896a197c22103c5c", null ],
+    [ "YARP_HELPER_DLL_EXPORT_EXTERN", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#acfebdb44cda5e5eed2913bb1a2254276", null ],
+    [ "YARP_HELPER_DLL_IMPORT", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#af95806f7aa09a5befe0c0babd85094e8", null ],
+    [ "YARP_HELPER_DLL_IMPORT_EXTERN", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a7ebf715e69add86c4ba6adcc187d802a", null ],
+    [ "YARP_HELPER_DLL_LOCAL", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#ab013a6e20ceabaeb762b2094427cfa35", null ],
+    [ "YARP_IMPORT", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a0d0544d3cfdea45a41d921441580aabb", null ],
+    [ "YARP_IMPORT_EXTERN", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#afac266e4d67c18e90de633c90661e966", null ],
+    [ "YARP_LOCAL", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a2b94c8c9c13d560ccfb0a71f2f5fb944", null ],
+    [ "YARP_NODISCARD", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a1d4604859e73cd0d6a1643d6db77ec87", null ],
+    [ "YARP_NORETURN", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a9674a3f53771bd72d40e8392fbb64801", null ],
+    [ "YARP_UNUSED", "yarp-v3_83-build_2src_2libYARP__conf_2src_2yarp_2conf_2api_8h.html#a115a3e86265819f41c93ff12c2538d1f", null ]
+];
