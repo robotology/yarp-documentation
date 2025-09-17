@@ -1,0 +1,349 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- YARP Version: 3.2.2 (3.2.2)
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Searching 16 bit integer - Using unsigned short
+-- Check if the system is big endian - little endian
+-- Check size of void *
+-- Check size of void * - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Performing Test CXX_HAS_WALL
+-- Performing Test CXX_HAS_WALL - Success
+-- Performing Test CXX_HAS_WEXTRA
+-- Performing Test CXX_HAS_WEXTRA - Success
+-- Performing Test CXX_HAS_WSIGN_COMPARE
+-- Performing Test CXX_HAS_WSIGN_COMPARE - Success
+-- Performing Test CXX_HAS_WPOINTER_ARITH
+-- Performing Test CXX_HAS_WPOINTER_ARITH - Success
+-- Performing Test CXX_HAS_WINIT_SELF
+-- Performing Test CXX_HAS_WINIT_SELF - Success
+-- Performing Test CXX_HAS_WNON_VIRTUAL_DTOR
+-- Performing Test CXX_HAS_WNON_VIRTUAL_DTOR - Success
+-- Performing Test CXX_HAS_WCAST_ALIGN
+-- Performing Test CXX_HAS_WCAST_ALIGN - Success
+-- Performing Test CXX_HAS_WUNUSED
+-- Performing Test CXX_HAS_WUNUSED - Success
+-- Performing Test CXX_HAS_WUNUSED_BUT_SET_VARIABLE
+-- Performing Test CXX_HAS_WUNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test CXX_HAS_WVLA
+-- Performing Test CXX_HAS_WVLA - Success
+-- Performing Test CXX_HAS_WMISSING_INCLUDE_DIRS
+-- Performing Test CXX_HAS_WMISSING_INCLUDE_DIRS - Success
+-- Performing Test CXX_HAS_WLOGICAL_OP
+-- Performing Test CXX_HAS_WLOGICAL_OP - Success
+-- Performing Test CXX_HAS_WREORDER
+-- Performing Test CXX_HAS_WREORDER - Success
+-- Performing Test CXX_HAS_WSIZEOF_POINTER_MEMACCESS
+-- Performing Test CXX_HAS_WSIZEOF_POINTER_MEMACCESS - Success
+-- Performing Test CXX_HAS_WOVERLOADED_VIRTUAL
+-- Performing Test CXX_HAS_WOVERLOADED_VIRTUAL - Success
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_UNDEFINED_COMPARE
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_UNDEFINED_COMPARE - Failed
+-- Performing Test CXX_HAS_WMISMATCHED_NEW_DELETE
+-- Performing Test CXX_HAS_WMISMATCHED_NEW_DELETE - Failed
+-- Performing Test CXX_HAS_WPARENTHESES_EQUALITY
+-- Performing Test CXX_HAS_WPARENTHESES_EQUALITY - Failed
+-- Performing Test CXX_HAS_WUNDEF
+-- Performing Test CXX_HAS_WUNDEF - Success
+-- Performing Test CXX_HAS_WREDUNDANT_DECLS
+-- Performing Test CXX_HAS_WREDUNDANT_DECLS - Success
+-- Performing Test CXX_HAS_WUNKNOWN_PRAGMAS
+-- Performing Test CXX_HAS_WUNKNOWN_PRAGMAS - Success
+-- Performing Test CXX_HAS_WUNUSED_RESULT
+-- Performing Test CXX_HAS_WUNUSED_RESULT - Success
+-- Performing Test CXX_HAS_WC__11_COMPAT
+-- Performing Test CXX_HAS_WC__11_COMPAT - Success
+-- Performing Test CXX_HAS_WHEADER_GUARD
+-- Performing Test CXX_HAS_WHEADER_GUARD - Failed
+-- Performing Test CXX_HAS_WIGNORED_ATTRIBUTES
+-- Performing Test CXX_HAS_WIGNORED_ATTRIBUTES - Success
+-- Performing Test CXX_HAS_WNEWLINE_EOF
+-- Performing Test CXX_HAS_WNEWLINE_EOF - Failed
+-- Performing Test CXX_HAS_WDANGLING_ELSE
+-- Performing Test CXX_HAS_WDANGLING_ELSE - Success
+-- Performing Test CXX_HAS_WGCC_COMPAT
+-- Performing Test CXX_HAS_WGCC_COMPAT - Failed
+-- Performing Test CXX_HAS_WMICROSOFT_EXISTS
+-- Performing Test CXX_HAS_WMICROSOFT_EXISTS - Failed
+-- Performing Test CXX_HAS_WSTATIC_INLINE_EXPLICIT_INSTANTIATION
+-- Performing Test CXX_HAS_WSTATIC_INLINE_EXPLICIT_INSTANTIATION - Failed
+-- Performing Test CXX_HAS_WMISLEADING_INDENTATION
+-- Performing Test CXX_HAS_WMISLEADING_INDENTATION - Success
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_COMPARE
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_COMPARE - Success
+-- Performing Test CXX_HAS_WINCONSISTENT_MISSING_OVERRIDE
+-- Performing Test CXX_HAS_WINCONSISTENT_MISSING_OVERRIDE - Failed
+-- Performing Test CXX_HAS_WSUGGEST_OVERRIDE
+-- Performing Test CXX_HAS_WSUGGEST_OVERRIDE - Success
+-- Performing Test CXX_HAS_WMAYBE_UNINITIALIZED
+-- Performing Test CXX_HAS_WMAYBE_UNINITIALIZED - Success
+-- Performing Test CXX_HAS_WNULL_CONVERSION
+-- Performing Test CXX_HAS_WNULL_CONVERSION - Failed
+-- Performing Test CXX_HAS_WNO_UNUSED_PARAMETER
+-- Performing Test CXX_HAS_WNO_UNUSED_PARAMETER - Success
+-- Performing Test CXX_HAS_WCONVERSION
+-- Performing Test CXX_HAS_WCONVERSION - Success
+-- Performing Test CXX_HAS_WSIGN_CONVERSION
+-- Performing Test CXX_HAS_WSIGN_CONVERSION - Success
+-- Performing Test CXX_HAS_WOLD_STYLE_CAST
+-- Performing Test CXX_HAS_WOLD_STYLE_CAST - Success
+-- Performing Test CXX_HAS_WINLINE
+-- Performing Test CXX_HAS_WINLINE - Success
+-- Performing Test CXX_HAS_WFLOAT_EQUAL
+-- Performing Test CXX_HAS_WFLOAT_EQUAL - Success
+-- Performing Test CXX_HAS_FVISIBILITY_HIDDEN
+-- Performing Test CXX_HAS_FVISIBILITY_HIDDEN - Success
+-- Performing Test CXX_HAS_FVISIBILITY_INLINES_HIDDEN
+-- Performing Test CXX_HAS_FVISIBILITY_INLINES_HIDDEN - Success
+-- Performing Test CXX_HAS_WDEPRECATED_DECLARATIONS
+-- Performing Test CXX_HAS_WDEPRECATED_DECLARATIONS - Success
+-- Performing Test CXX_HAS_WFORMAT
+-- Performing Test CXX_HAS_WFORMAT - Success
+-- Performing Test CXX_HAS_WFORMAT_2
+-- Performing Test CXX_HAS_WFORMAT_2 - Success
+-- Performing Test CXX_HAS_WFORMAT_SECURITY
+-- Performing Test CXX_HAS_WFORMAT_SECURITY - Success
+-- Performing Test CXX_HAS_WFORMAT_Y2K
+-- Performing Test CXX_HAS_WFORMAT_Y2K - Success
+-- Performing Test CXX_HAS_WFORMAT_NONLITERAL
+-- Performing Test CXX_HAS_WFORMAT_NONLITERAL - Success
+-- Performing Test CXX_HAS_FSTACK_PROTECTOR
+-- Performing Test CXX_HAS_FSTACK_PROTECTOR - Success
+-- Performing Test CXX_HAS_WL__ZRELRO
+-- Performing Test CXX_HAS_WL__ZRELRO - Success
+-- Performing Test CXX_HAS_WL__ZNOW
+-- Performing Test CXX_HAS_WL__ZNOW - Success
+-- Performing Test CXX_HAS_FPIE
+-- Performing Test CXX_HAS_FPIE - Success
+-- Performing Test CXX_HAS_STD_CXX11
+-- Performing Test CXX_HAS_STD_CXX11 - Success
+-- Performing Test CXX_HAS_STD_CXX0X
+-- Performing Test CXX_HAS_STD_CXX0X - Success
+-- Performing Test CXX_HAS_STD_CXX14
+-- Performing Test CXX_HAS_STD_CXX14 - Success
+-- Performing Test CXX_HAS_STD_CXX1Y
+-- Performing Test CXX_HAS_STD_CXX1Y - Success
+-- Performing Test CXX_HAS_STD_CXX17
+-- Performing Test CXX_HAS_STD_CXX17 - Success
+-- Performing Test CXX_HAS_STD_CXX1Z
+-- Performing Test CXX_HAS_STD_CXX1Z - Success
+-- Performing Test CXX_HAS_WERROR
+-- Performing Test CXX_HAS_WERROR - Success
+-- Performing Test CXX_HAS_WFATAL_ERROR
+-- Performing Test CXX_HAS_WFATAL_ERROR - Success
+-- Looking for include file execinfo.h
+-- Looking for include file execinfo.h - found
+-- Looking for include file sys/wait.h
+-- Looking for include file sys/wait.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/prctl.h
+-- Looking for include file sys/prctl.h - found
+-- Looking for include file csignal
+-- Looking for include file csignal - not found
+-- Looking for include file signal.h
+-- Looking for include file signal.h - found
+-- Looking for include file sys/signal.h
+-- Looking for include file sys/signal.h - found
+-- Looking for include file netdb.h
+-- Looking for include file netdb.h - found
+-- Looking for include file dlfcn.h
+-- Looking for include file dlfcn.h - found
+-- Looking for include file ifaddrs.h
+-- Looking for include file ifaddrs.h - found
+-- Setting build type to 'Release' as none was specified.
+-- Using:
+--   CMake: 3.18.4 (/usr/bin/cmake)
+--   C Compiler: GNU 9.3.0 (/usr/bin/cc)
+--   CXX Compiler: GNU 9.3.0 (/usr/bin/c++)
+-- Build type: Release
+-- CMake modules directory: /home/runner/work/yarp-documentation/yarp-documentation/yarp/cmake;/usr/share/YCM/modules;/usr/share/YCM/find-modules;/usr/share/YCM/build-modules;/usr/share/YCM/style-modules;/usr/share/YCM/cmake-next/Modules;/usr/share/YCM/3rdparty;/usr/share/YCM/deprecated;/usr/share/YCM/modules;/usr/share/YCM/find-modules;/usr/share/YCM/build-modules;/usr/share/YCM/style-modules;/usr/share/YCM/cmake-next/Modules;/usr/share/YCM/3rdparty;/usr/share/YCM/deprecated
+-- Performing Test ACE_COMPILES_WITHOUT_INLINE_RELEASE
+-- Performing Test ACE_COMPILES_WITHOUT_INLINE_RELEASE - Success
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- OpenCV 4 is not supported yet.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Doxygen: /usr/local/bin/doxygen (found version "1.8.20 (f246dd2f1c58eea39ea3f50c108019e4d4137bd5)") found components: doxygen dot 
+-- Found GObject: /usr/include/glib-2.0  
+-- Found GStreamer: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so (Required is at least version "1.4") 
+-- Found GSTREAMER_APP_LIBRARY: /usr/lib/x86_64-linux-gnu/libgstapp-1.0.so
+-- Found GSTREAMER_APP_INCLUDE_DIR: /usr/include/gstreamer-1.0
+-- Libraries found:
+--  [x] YCM (>= 0.10.4): found (/usr/share/cmake/YCM)
+--  [x] ACE: found 6.4.5 (/usr/lib/libACE.so)
+--  [x] RobotTestingFramework (>= 2): found 2.0.1 (/usr/lib/x86_64-linux-gnu/cmake/RobotTestingFramework)
+--  [x] SQLite: found 3.31.1 (/usr/lib/x86_64-linux-gnu/libsqlite3.so)
+--  [x] Eigen3: found (/usr/include/eigen3)
+--  [x] TinyXML (>= 2.6): found 2.6.2 (/usr/lib/x86_64-linux-gnu/libtinyxml.so)
+--  [x] xmlrpcpp: compiling (customized version)
+--  [x] hmac: compiling (not searched)
+--  [x] Qt5: found 5.12.8 (/usr/lib/x86_64-linux-gnu/cmake/Qt5)
+--  [x] QCustomPlot: found (/usr/lib/x86_64-linux-gnu/libqcustomplot.so)
+--  [x] Graphviz: found (/usr/lib/x86_64-linux-gnu/libgvc.so)
+--  [x] QGVCore: compiling (customized version)
+--  [x] Libedit: found 3.1 (/usr/lib/x86_64-linux-gnu/libedit.so)
+--  [x] SWIG (>= 3.0): found 4.0.1 (/usr/share/swig4.0)
+--  [ ] OpenCV: not found
+--  [ ] Lua: not found
+--  [ ] LibOVR (>= 1.17): not found
+--  [ ] GLFW3: not found
+--  [ ] GLEW: not found
+--  [x] OpenGL: found (/usr/lib/x86_64-linux-gnu/libOpenGL.so)
+--  [x] Libdc1394 (>= 2.0): found 2.2.5 (/usr/lib/x86_64-linux-gnu/libdc1394.so)
+--  [x] JPEG: found 80 (/usr/lib/x86_64-linux-gnu/libjpeg.so)
+--  [x] PNG: found (/usr/lib/x86_64-linux-gnu/libpng.so)
+--  [x] MPI: found (/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so)
+--  [ ] FTDI: not found
+--  [x] FFMPEG: found (/usr/lib/x86_64-linux-gnu/libavformat.so)
+--  [ ] SDL: not found
+--  [x] PortAudio: found 19 (/usr/lib/x86_64-linux-gnu/libportaudio.so)
+--  [ ] ZFP (>= 0.5.1): not found
+--  [ ] OpenNI2: not found
+--  [ ] realsense2: not found
+--  [x] GLIB2: found (/usr/lib/x86_64-linux-gnu/libglib-2.0.so)
+--  [x] GObject: found (/usr/include/glib-2.0)
+--  [x] GStreamer (>= 1.4): found (/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so)
+--  [x] GStreamerPluginsBase (>= 1.4): found
+--  [x] BISON (>= 2.5): found 3.5.1
+--  [x] FLEX: found 2.6.4
+--  [ ] I2C: not found
+--  [x] Libv4l2: found 1.18.0 (/usr/lib/x86_64-linux-gnu/libv4l2.so)
+--  [x] Libv4lconvert: found 1.18.0 (/usr/lib/x86_64-linux-gnu/libv4lconvert.so)
+-- Enabled features:
+--  [x] Build shared libraries (BUILD_SHARED_LIBS)
+--  [ ] Disable ACE library (SKIP_ACE)
+--  [ ] Filter out deprecated declarations from YARP API (YARP_NO_DEPRECATED)
+--  [ ]   Do not warn when using YARP deprecated declarations (YARP_NO_DEPRECATED_WARNINGS)
+--  [x] Compile YARP_math library (YARP_COMPILE_libYARP_math)
+--  [x] Compile executables (YARP_COMPILE_EXECUTABLES)
+--  [x]   Compile yarprobotinterface (YARP_COMPILE_yarprobotinterface)
+--  [x]   Compile YARP Module Manager (console) (YARP_COMPILE_yarpmanager-console)
+--  [x]   Compile yarpdatadumper (YARP_COMPILE_yarpdatadumper)
+--  [x]   Compile GUIs (YARP_COMPILE_GUIS)
+--  [x]     Compile yarpview (YARP_COMPILE_yarpview)
+--  [x]     Compile yarpmanager (YARP_COMPILE_yarpmanager)
+--  [x]     Compile yarplogger (YARP_COMPILE_yarplogger)
+--  [x]     Compile yarpscope (YARP_COMPILE_yarpscope)
+--  [x]     Compile yarpdataplayer (YARP_COMPILE_yarpdataplayer)
+--  [x]     Compile yarpmotorgui (YARP_COMPILE_yarpmotorgui)
+--  [ ]     Compile yarplaserscannergui (dependencies unsatisfied: "YARP_HAS_OpenCV") (YARP_COMPILE_yarplaserscannergui)
+--  [x]     Compile yarpbatterygui (YARP_COMPILE_yarpbatterygui)
+--  [x]     Compile yarpviz (YARP_COMPILE_yarpviz)
+--  [x] Compile Robot Testing Framework addons (YARP_COMPILE_RobotTestingFramework_ADDONS)
+--  [ ] Compile Unmaintained components (YARP_COMPILE_UNMAINTAINED)
+--  [ ] Compile and enable YARP tests (YARP_COMPILE_TESTS)
+--  [ ]   Disable tests that fail randomly due to race conditions (YARP_DISABLE_FAILING_TESTS)
+--  [ ]   Enable broken tests (YARP_ENABLE_BROKEN_TESTS)
+--  [ ]   Run integration tests (YARP_ENABLE_INTEGRATION_TESTS)
+--  [x] devices plugins (YARP_COMPILE_DEVICE_PLUGINS)
+--  [x]   plugin yarpmod_AudioPlayerWrapper (ENABLE_yarpmod_AudioPlayerWrapper)
+--  [x]   plugin yarpmod_AudioRecorderWrapper (ENABLE_yarpmod_AudioRecorderWrapper)
+--  [ ]   plugin yarpmod_depthCamera (dependencies unsatisfied: "YARP_HAS_OpenNI2") (ENABLE_yarpmod_depthCamera)
+--  [ ]   plugin yarpmod_fakeDepthCamera (ENABLE_yarpmod_fakeDepthCamera)
+--  [ ]   plugin yarpmod_fakebot (ENABLE_yarpmod_fakebot)
+--  [ ]   plugin yarpmod_fakeMotionControl (ENABLE_yarpmod_fakeMotionControl)
+--  [ ]   plugin yarpmod_fakeAnalogSensor (ENABLE_yarpmod_fakeAnalogSensor)
+--  [ ]   plugin yarpmod_fakeBattery (ENABLE_yarpmod_fakeBattery)
+--  [ ]   plugin yarpmod_fakeIMU (ENABLE_yarpmod_fakeIMU)
+--  [ ]   plugin yarpmod_SerialServoBoard (ENABLE_yarpmod_SerialServoBoard)
+--  [ ]   plugin yarpmod_ffmpeg_grabber (ENABLE_yarpmod_ffmpeg_grabber)
+--  [ ]   plugin yarpmod_ffmpeg_writer (ENABLE_yarpmod_ffmpeg_writer)
+--  [ ]   plugin yarpmod_opencv_grabber (dependencies unsatisfied: "YARP_HAS_OpenCV") (ENABLE_yarpmod_opencv_grabber)
+--  [ ]   plugin yarpmod_serialport (ENABLE_yarpmod_serialport)
+--  [ ]   plugin yarpmod_portaudio (ENABLE_yarpmod_portaudio)
+--  [ ]   plugin yarpmod_portaudioPlayer (ENABLE_yarpmod_portaudioPlayer)
+--  [ ]   plugin yarpmod_portaudioRecorder (ENABLE_yarpmod_portaudioRecorder)
+--  [ ]   plugin yarpmod_imuBosch_BNO055 (dependencies unsatisfied: "YARP_HAS_I2C") (ENABLE_yarpmod_imuBosch_BNO055)
+--  [ ]   plugin yarpmod_dynamixelAX12Ftdi (dependencies unsatisfied: "YARP_HAS_FTDI") (ENABLE_yarpmod_dynamixelAX12Ftdi)
+--  [ ]   plugin yarpmod_fakeLaser (ENABLE_yarpmod_fakeLaser)
+--  [ ]   plugin yarpmod_fakeMicrophone (ENABLE_yarpmod_fakeMicrophone)
+--  [ ]   plugin yarpmod_fakeSpeaker (ENABLE_yarpmod_fakeSpeaker)
+--  [ ]   plugin yarpmod_laserFromDepth (ENABLE_yarpmod_laserFromDepth)
+--  [ ]   plugin yarpmod_rpLidar (ENABLE_yarpmod_rpLidar)
+--  [ ]   plugin yarpmod_rpLidar2 (ENABLE_yarpmod_rpLidar2)
+--  [ ]   plugin yarpmod_laserHokuyo (ENABLE_yarpmod_laserHokuyo)
+--  [ ]   plugin yarpmod_ovrheadset (dependencies unsatisfied: "YARP_HAS_LibOVR;YARP_HAS_GLFW3;YARP_HAS_GLEW") (ENABLE_yarpmod_ovrheadset)
+--  [x]   plugin yarpmod_test_grabber (ENABLE_yarpmod_test_grabber)
+--  [ ]   plugin yarpmod_SDLJoypad (dependencies unsatisfied: "YARP_HAS_SDL") (ENABLE_yarpmod_SDLJoypad)
+--  [x]   plugin yarpmod_batteryClient (ENABLE_yarpmod_batteryClient)
+--  [x]   plugin yarpmod_batteryWrapper (ENABLE_yarpmod_batteryWrapper)
+--  [x]   plugin yarpmod_Rangefinder2DWrapper (ENABLE_yarpmod_Rangefinder2DWrapper)
+--  [ ]   plugin yarpmod_realsense2 (dependencies unsatisfied: "YARP_HAS_realsense2") (ENABLE_yarpmod_realsense2)
+--  [x]   plugin yarpmod_ServerSoundGrabber (ENABLE_yarpmod_ServerSoundGrabber)
+--  [x]   plugin yarpmod_multipleanalogsensorsserver (ENABLE_yarpmod_multipleanalogsensorsserver)
+--  [x]   plugin yarpmod_multipleanalogsensorsclient (ENABLE_yarpmod_multipleanalogsensorsclient)
+--  [x]   plugin yarpmod_multipleanalogsensorsremapper (ENABLE_yarpmod_multipleanalogsensorsremapper)
+--  [x]   plugin yarpmod_transformClient (ENABLE_yarpmod_transformClient)
+--  [x]   plugin yarpmod_transformServer (ENABLE_yarpmod_transformServer)
+--  [x]   plugin yarpmod_localization2DClient (ENABLE_yarpmod_localization2DClient)
+--  [x]   plugin yarpmod_localization2DServer (ENABLE_yarpmod_localization2DServer)
+--  [x]   plugin yarpmod_map2DClient (ENABLE_yarpmod_map2DClient)
+--  [x]   plugin yarpmod_map2DServer (ENABLE_yarpmod_map2DServer)
+--  [x]   plugin yarpmod_navigation2DClient (ENABLE_yarpmod_navigation2DClient)
+--  [x]   plugin yarpmod_navigation2DServer (ENABLE_yarpmod_navigation2DServer)
+--  [x]   plugin yarpmod_Rangefinder2DClient (ENABLE_yarpmod_Rangefinder2DClient)
+--  [ ]   plugin yarpmod_usbCamera (dependencies unsatisfied: "YARP_HAS_OpenCV") (ENABLE_yarpmod_usbCamera)
+--  [ ]   plugin yarpmod_usbCameraRaw (dependencies unsatisfied: "YARP_HAS_OpenCV") (ENABLE_yarpmod_usbCameraRaw)
+--  [ ]   plugin yarpmod_fakeLocalizer (ENABLE_yarpmod_fakeLocalizer)
+--  [ ]   plugin yarpmod_fakeNavigation (ENABLE_yarpmod_fakeNavigation)
+--  [x] carrier plugins (YARP_COMPILE_CARRIER_PLUGINS)
+--  [x]   plugin yarpcar_shmem (ENABLE_yarpcar_shmem)
+--  [ ]   plugin yarpcar_human (ENABLE_yarpcar_human)
+--  [ ]   plugin yarpcar_mpi (ENABLE_yarpcar_mpi)
+--  [ ]   plugin yarpcar_mpibcast (ENABLE_yarpcar_mpibcast)
+--  [x]   plugin yarpcar_xmlrpc (ENABLE_yarpcar_xmlrpc)
+--  [x]   plugin yarpcar_tcpros (ENABLE_yarpcar_tcpros)
+--  [x]   plugin yarpcar_rossrv (ENABLE_yarpcar_rossrv)
+--  [ ]   plugin yarpcar_mjpeg (ENABLE_yarpcar_mjpeg)
+--  [x]   plugin yarpcar_bayer (ENABLE_yarpcar_bayer)
+--  [x]   plugin yarpcar_priority (ENABLE_yarpcar_priority)
+--  [x]   plugin yarpcar_portmonitor (ENABLE_yarpcar_portmonitor)
+--  [ ]   plugin yarpcar_depthimage (ENABLE_yarpcar_depthimage)
+--  [ ]   plugin yarpcar_zfp (dependencies unsatisfied: "YARP_HAS_ZFP") (ENABLE_yarpcar_zfp)
+--  [ ]   plugin yarpcar_h264 (ENABLE_yarpcar_h264)
+-- yarpdatadumper: OpenCV not selected, keep on building...
+-- yarpdataplayer: OpenCV not selected, keep on building...
+--  [ ] Bindings (YARP_COMPILE_BINDINGS)
+--  [ ]   Java bindings (CREATE_JAVA)
+--  [ ]   Python bindings (CREATE_PYTHON)
+--  [ ]   Perl bindings (CREATE_PERL)
+--  [ ]   CSharp bindings (CREATE_CSHARP)
+--  [ ]   TCL bindings (CREATE_TCL)
+--  [ ]   Ruby bindings (CREATE_RUBY)
+--  [ ]   Lua bindings (CREATE_LUA)
+--  [ ]   Octave bindings (CREATE_OCTAVE)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/runner/work/yarp-documentation/yarp-documentation/yarp-v3.2-build
