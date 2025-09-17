@@ -1,0 +1,28 @@
+var classAudioFromFileDevice__ParamsParser =
+[
+    [ "parser_version_type", "structAudioFromFileDevice__ParamsParser_1_1parser__version__type.html", "structAudioFromFileDevice__ParamsParser_1_1parser__version__type" ],
+    [ "AudioFromFileDevice_ParamsParser", "classAudioFromFileDevice__ParamsParser.html#ad8e9402a948bb4983619f7a466d326e2", null ],
+    [ "~AudioFromFileDevice_ParamsParser", "classAudioFromFileDevice__ParamsParser.html#abfc45cdf45c8ef4fe6b5c5d809484242", null ],
+    [ "getConfiguration", "classAudioFromFileDevice__ParamsParser.html#abc1cd578921b8aedf1cdc96cbdb3a5a0", null ],
+    [ "getDeviceClassName", "classAudioFromFileDevice__ParamsParser.html#aed67809069fcc8b36d25cced332bc4bb", null ],
+    [ "getDeviceName", "classAudioFromFileDevice__ParamsParser.html#ae02d71a1bd569cde5f30b059f7c33b36", null ],
+    [ "getDocumentationOfDeviceParams", "classAudioFromFileDevice__ParamsParser.html#aa730225e8aa2a6053f7bc0e4800cc02c", null ],
+    [ "getListOfParams", "classAudioFromFileDevice__ParamsParser.html#ab4602110990929fb415aa4eabbf1c2b1", null ],
+    [ "getParamValue", "classAudioFromFileDevice__ParamsParser.html#a2525806aa779c000cb44c37dd6c33f98", null ],
+    [ "parseParams", "classAudioFromFileDevice__ParamsParser.html#ae84c5858767961682df27f134838b95b", null ],
+    [ "m_device_classname", "classAudioFromFileDevice__ParamsParser.html#a3914e045830df787d1403a6e03bfae3a", null ],
+    [ "m_device_name", "classAudioFromFileDevice__ParamsParser.html#af7ac682faadb17efa71a5299ad5c9fad", null ],
+    [ "m_driver_frame_size", "classAudioFromFileDevice__ParamsParser.html#a74a022ad112926220c63417e6694cae7", null ],
+    [ "m_driver_frame_size_defaultValue", "classAudioFromFileDevice__ParamsParser.html#ac0e486772504849370111e9b0eeb9800", null ],
+    [ "m_file_name", "classAudioFromFileDevice__ParamsParser.html#a476b3e181e150d1db3f75503809de5ae", null ],
+    [ "m_file_name_defaultValue", "classAudioFromFileDevice__ParamsParser.html#a8b99e3e2b86b7e3d37ddeb5c0843bbb0", null ],
+    [ "m_parser_is_strict", "classAudioFromFileDevice__ParamsParser.html#a4e836d4709a78dfb79b6cc8db76090f4", null ],
+    [ "m_parser_version", "classAudioFromFileDevice__ParamsParser.html#a5f3de4992c4811613113a9f2df1d4f64", null ],
+    [ "m_period", "classAudioFromFileDevice__ParamsParser.html#a865b705f49ae76f3f8f56cfc703d4b21", null ],
+    [ "m_period_defaultValue", "classAudioFromFileDevice__ParamsParser.html#acf5060141ad9a2df6e35f1bf83b42b1d", null ],
+    [ "m_provided_configuration", "classAudioFromFileDevice__ParamsParser.html#a7c62fd827ec57f3cdbf7179179f10156", null ],
+    [ "m_reset_on_stop", "classAudioFromFileDevice__ParamsParser.html#a93eb020ca41467f768a936c584dabb22", null ],
+    [ "m_reset_on_stop_defaultValue", "classAudioFromFileDevice__ParamsParser.html#a19d99d3b024d1fc9377bcea24ee2a38c", null ],
+    [ "m_use_params_from_file", "classAudioFromFileDevice__ParamsParser.html#a8cf720d12e25ac8b8ac9e4f39e56b132", null ],
+    [ "m_use_params_from_file_defaultValue", "classAudioFromFileDevice__ParamsParser.html#a855009d1eb91dfa38fda2a28d85d8857", null ]
+];

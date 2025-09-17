@@ -1,0 +1,4 @@
+var frameGrabberMsgs_2idl__generated__code_2IRGBVisualParamsMsgs__return__getRgbIntrinsicParam_8h =
+[
+    [ "IRGBVisualParamsMsgs_return_getRgbIntrinsicParam", "classIRGBVisualParamsMsgs__return__getRgbIntrinsicParam.html", "classIRGBVisualParamsMsgs__return__getRgbIntrinsicParam" ]
+];

@@ -1,0 +1,27 @@
+var classLaserFromExternalPort =
+[
+    [ "LaserFromExternalPort", "classLaserFromExternalPort.html#ab316d2edd7298ff400fadf4db790f76f", null ],
+    [ "~LaserFromExternalPort", "classLaserFromExternalPort.html#a30d43605ddc680d941bcb9fcf9296ae1", null ],
+    [ "acquireDataFromHW", "classLaserFromExternalPort.html#a7bc1b1d02d23e87e18773aaeb96b496a", null ],
+    [ "calculate", "classLaserFromExternalPort.html#af2a59363ea2ffeb52735e4c1d7d484de", null ],
+    [ "close", "classLaserFromExternalPort.html#a172c31b3f83e59b8f5072cf6032fb36f", null ],
+    [ "open", "classLaserFromExternalPort.html#a2761950048de2c207ecc06c29d63a0ea", null ],
+    [ "run", "classLaserFromExternalPort.html#ab16d4aae9decfff0fb0e929f3caba760", null ],
+    [ "setDistanceRange", "classLaserFromExternalPort.html#aedab18b9dd5902ba2b919de5ce2a204e", null ],
+    [ "setHorizontalResolution", "classLaserFromExternalPort.html#a229c7c61d4f7826568eb37c6fadc8716", null ],
+    [ "setScanLimits", "classLaserFromExternalPort.html#a78e694e257c6941e7edc0645a158e382", null ],
+    [ "setScanRate", "classLaserFromExternalPort.html#acfcad981eee3f5ecdd6a905008494812", null ],
+    [ "threadInit", "classLaserFromExternalPort.html#a32dfbc842583e3ebafebf059b22b8d26", null ],
+    [ "threadRelease", "classLaserFromExternalPort.html#ace3af68304d979d88a7f52e671f619de", null ],
+    [ "m_base_type", "classLaserFromExternalPort.html#a251b7419777362a1e8cf0a91bd199dbd", null ],
+    [ "m_dst_frame_id", "classLaserFromExternalPort.html#a4984f6d8f5066cc5d595070d9c4127af", null ],
+    [ "m_empty_laser_data", "classLaserFromExternalPort.html#aa2584916b5c8819ca314644de5d99d3f", null ],
+    [ "m_input_ports", "classLaserFromExternalPort.html#a56f5f89273676253037ed301373a8309", null ],
+    [ "m_iTc", "classLaserFromExternalPort.html#aac41d8fd1edabc04ce04ab5480a7b841", null ],
+    [ "m_last_scan_data", "classLaserFromExternalPort.html#a7e6dbc6475f6702e7d574f9a1ce96db5", null ],
+    [ "m_last_stamp", "classLaserFromExternalPort.html#a3a50fea32c3c1205d88ecb2d7712d4aa", null ],
+    [ "m_option_override_limits", "classLaserFromExternalPort.html#aaa62dfd7c7c50a0a1308620ddd07f061", null ],
+    [ "m_port_names", "classLaserFromExternalPort.html#ab6ea5b0c0f32ec32f32fa633248230cb", null ],
+    [ "m_src_frame_id", "classLaserFromExternalPort.html#a3528632987d3f0e1ed92cd661ed273ec", null ],
+    [ "m_tc_driver", "classLaserFromExternalPort.html#af2a076829278fa23e0681983cbe62814", null ]
+];
