@@ -1,0 +1,25 @@
+var classyarp_1_1manager_1_1Arbitrator =
+[
+    [ "Arbitrator", "classyarp_1_1manager_1_1Arbitrator.html#a0b86dda00f45bfad4e1db1bc502a6c04", null ],
+    [ "Arbitrator", "classyarp_1_1manager_1_1Arbitrator.html#a58b30e79d0d395b5f5248d19703f3f55", null ],
+    [ "~Arbitrator", "classyarp_1_1manager_1_1Arbitrator.html#ad3e72e96c8d2658b641098facc744df7", null ],
+    [ "addRule", "classyarp_1_1manager_1_1Arbitrator.html#a344901a3574543ac306581671a3b22c3", null ],
+    [ "getAlphas", "classyarp_1_1manager_1_1Arbitrator.html#aad5500cde61e44acace8330ad381c647", null ],
+    [ "getBias", "classyarp_1_1manager_1_1Arbitrator.html#a50b2c1ddf0ade75995aa9f5fbf56d41c", null ],
+    [ "getModel", "classyarp_1_1manager_1_1Arbitrator.html#a6b7e67e13d139c1b60505b31cc5bd316", null ],
+    [ "getModelBase", "classyarp_1_1manager_1_1Arbitrator.html#a7d7665327cb91963b8261abd7bdd4c17", null ],
+    [ "getPort", "classyarp_1_1manager_1_1Arbitrator.html#ae71fc23d01957e9ec3dbae820792acd7", null ],
+    [ "getRule", "classyarp_1_1manager_1_1Arbitrator.html#ac5a53513f26d8746f710e2a7e0a54650", null ],
+    [ "getRuleMap", "classyarp_1_1manager_1_1Arbitrator.html#af540f5185a6487159edc9b3b15da9d10", null ],
+    [ "operator==", "classyarp_1_1manager_1_1Arbitrator.html#a472df95e99ae8b7f8d4ffd8e81e5358d", null ],
+    [ "owner", "classyarp_1_1manager_1_1Arbitrator.html#af30b03cc85dab874ade15fff8a848dc4", null ],
+    [ "removeRule", "classyarp_1_1manager_1_1Arbitrator.html#ad3f4a1bf6d43d33fe4c85266691ccfa3", null ],
+    [ "ruleCount", "classyarp_1_1manager_1_1Arbitrator.html#a6695d72d00cb5f6f26beb11a9ed47299", null ],
+    [ "setModel", "classyarp_1_1manager_1_1Arbitrator.html#abb6f6b4ef0b480602131c996abdfe033", null ],
+    [ "setModelBase", "classyarp_1_1manager_1_1Arbitrator.html#ac087ff9db8e7849c58ec50ca2b9ab598", null ],
+    [ "setOwner", "classyarp_1_1manager_1_1Arbitrator.html#a297e323c410b6cb073ab4623a0d12856", null ],
+    [ "setPort", "classyarp_1_1manager_1_1Arbitrator.html#ad5a92a24be59f0ca6167e0d351b42090", null ],
+    [ "trainWeights", "classyarp_1_1manager_1_1Arbitrator.html#a58a78a691feb8fd5609a5373c05a88af", null ],
+    [ "trainWeights", "classyarp_1_1manager_1_1Arbitrator.html#a718b0cb3cd7a75a0ee89d5a7c3de5dc7", null ],
+    [ "validate", "classyarp_1_1manager_1_1Arbitrator.html#a7080e96b2f887b28515eb21f399498ea", null ]
+];
