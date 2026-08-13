@@ -1,0 +1,97 @@
+<map id="yarp::dev::IWrapper" name="yarp::dev::IWrapper">
+<area shape="rect" id="Node000001" title="Interface for an object that can wrap/or &quot;attach&quot; to another." alt="" coords="280,5,419,31"/>
+<area shape="rect" id="Node000002" href="$classFrameGrabberCropper.html" title=" " alt="" coords="73,79,231,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,38,185,81,183,76,304,33"/>
+<area shape="rect" id="Node000003" href="$classyarp_1_1dev_1_1WrapperMultiple.html" title="Helper interface for an object that can wrap/or &quot;attach&quot; to one or more other devices." alt="" coords="255,79,444,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="352,44,352,79,347,79,347,44"/>
+<area shape="rect" id="Node000006" href="$classyarp_1_1dev_1_1WrapperSingle.html" title="Helper interface for an object that can wrap/or &quot;attach&quot; to a single other device." alt="" coords="4160,79,4336,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="433,18,4160,86,4160,91,432,24"/>
+<area shape="rect" id="Node000004" href="$classFrameTransformGetMultiplexer.html" title="A multiplexer which collapses the output of many IFrameTransformStorageGet interfaces into one." alt="" coords="5,159,219,185"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="303,111,147,162,146,157,301,106"/>
+<area shape="rect" id="Node000005" href="$classFrameTransformSetMultiplexer.html" title="A multiplexer which forwards the input of one IFrameTransformStorageSet interfaces to many." alt="" coords="243,159,456,185"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="352,118,352,159,347,159,347,118"/>
+<area shape="rect" id="Node000007" href="$classAudioPlayerWrapper.html" title="AudioPlayerWrapper: A Wrapper which receives audio streams from a network port and sends it to device..." alt="" coords="480,159,624,185"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="4146,96,3416,100,2319,110,1257,128,867,140,636,155,596,162,595,157,636,149,866,135,1257,123,2318,105,3416,95,4146,90"/>
+<area shape="rect" id="Node000008" href="$classAudioRecorderWrapper.html" title="AudioRecorderWrapper: A Wrapper which streams audio over the network, after grabbing it from a device" alt="" coords="648,159,811,185"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="4146,96,2411,113,1409,131,1040,142,823,155,778,162,777,157,822,149,1040,137,1409,125,2411,108,4146,91"/>
+<area shape="rect" id="Node000009" href="$classAudioRecorder__nws__yarp.html" title="AudioRecorder_nws_yarp: A Wrapper which streams audio over the network, after grabbing it from a devi..." alt="" coords="835,159,1011,185"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="4146,95,3545,95,2641,100,2161,107,1708,118,1318,134,1023,155,975,162,974,157,1022,149,1317,128,1708,113,2161,102,2641,95,3545,89,4146,90"/>
+<area shape="rect" id="Node000010" href="$classBattery__nws__ros2.html" title="Battery_nws_ros2: A ros2 nws to get the status of a battery and publish it on a ros2 topic...." alt="" coords="1035,159,1163,185"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="4146,96,3514,101,2586,112,1695,129,1368,141,1175,155,1138,162,1137,157,1174,149,1368,136,1695,124,2586,107,3513,96,4146,91"/>
+<area shape="rect" id="Node000011" href="$classBattery__nws__yarp.html" title="Battery_nws_yarp: Device that expose a battery sensor (using the IBattery interface) on the YARP netw..." alt="" coords="1187,159,1315,185"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="4147,96,3542,102,2662,113,1819,130,1510,142,1327,155,1290,162,1289,157,1326,149,1509,136,1819,125,2662,107,3542,96,4146,91"/>
+<area shape="rect" id="Node000012" href="$classChatBot__nws__yarp.html" title="ChatBot_nws_yarp: A wrapper for a plugin able to interact with a chatbot or implementing one." alt="" coords="1339,159,1472,185"/>
+<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="4146,96,2740,114,1947,132,1656,143,1484,155,1446,162,1445,157,1484,149,1656,137,1947,126,2740,109,4146,91"/>
+<area shape="rect" id="Node000013" href="$classControlBoard__nws__ros.html" title="controlBoard_nws_ros: A controlBoard network wrapper server for ROS." alt="" coords="1496,159,1653,185"/>
+<area shape="poly" id="edge12_Node000006_Node000013" title=" " alt="" coords="4146,95,3652,97,2935,104,2557,111,2203,122,1897,136,1666,155,1622,162,1621,157,1665,149,1896,131,2202,116,2557,106,2935,99,3652,91,4146,90"/>
+<area shape="rect" id="Node000014" href="$classControlBoard__nws__ros2.html" title="controlBoard_nws_ros: A controlBoard network wrapper server for ROS2." alt="" coords="1677,159,1843,185"/>
+<area shape="poly" id="edge13_Node000006_Node000014" title=" " alt="" coords="4146,96,3684,98,3022,107,2349,124,2067,138,1855,155,1810,162,1809,157,1854,149,2067,132,2348,119,3022,101,3684,93,4146,90"/>
+<area shape="rect" id="Node000015" href="$classControlBoard__nws__yarp.html" title="controlBoard_nws_yarp: A controlBoard network wrapper server for YARP." alt="" coords="1867,159,2032,185"/>
+<area shape="poly" id="edge14_Node000006_Node000015" title=" " alt="" coords="4146,96,3718,99,3110,109,2495,126,2238,139,2044,155,1999,162,1998,157,2044,149,2238,134,2495,121,3110,103,3718,94,4146,90"/>
+<area shape="rect" id="Node000016" href="$classFrameGrabber__nws__ros.html" title="frameGrabber_nws_ros: A ROS NWS for camera devices. Parameters required by this device are:" alt="" coords="2056,159,2221,185"/>
+<area shape="poly" id="edge15_Node000006_Node000016" title=" " alt="" coords="4146,96,3750,101,3197,111,2641,128,2409,140,2234,155,2188,162,2188,157,2233,149,2409,135,2641,123,3197,105,3750,95,4146,91"/>
+<area shape="rect" id="Node000017" href="$classFrameGrabber__nws__ros2.html" title="FrameGrabber_nws_ros2: A Network grabber for camera devices." alt="" coords="2245,159,2419,185"/>
+<area shape="poly" id="edge16_Node000006_Node000017" title=" " alt="" coords="4146,97,3290,113,2794,131,2588,142,2431,155,2384,162,2384,157,2430,149,2587,136,2794,125,3290,108,4146,91"/>
+<area shape="rect" id="Node000018" href="$classFrameGrabber__nws__yarp.html" title="frameGrabber_nws_yarp: A YARP NWS for camera devices." alt="" coords="2443,159,2616,185"/>
+<area shape="poly" id="edge17_Node000006_Node000018" title=" " alt="" coords="4146,97,3383,115,2947,132,2766,143,2628,155,2582,162,2581,157,2628,149,2765,138,2947,127,3383,110,4146,92"/>
+<area shape="rect" id="Node000019" href="$classFrameTransformGet__nws__yarp.html" title="frameTransformGet_nws_yarp: A network wrapper client which converts the input retrieved from an IFram..." alt="" coords="2640,159,2851,185"/>
+<area shape="poly" id="edge18_Node000006_Node000019" title=" " alt="" coords="4146,96,3916,99,3598,108,3233,125,2863,155,2809,162,2808,157,2862,149,3233,120,3598,102,3916,94,4146,90"/>
+<area shape="rect" id="Node000020" href="$classFrameTransformSet__nws__yarp.html" title="frameTransformSet_nws_yarp: A network wrapper client which publishes the transforms received on the y..." alt="" coords="2875,159,3083,185"/>
+<area shape="poly" id="edge19_Node000006_Node000020" title=" " alt="" coords="4146,97,3690,112,3394,129,3095,155,3042,162,3041,157,3094,149,3394,124,3690,107,4146,92"/>
+<area shape="rect" id="Node000021" href="$classFrameTransformStorage.html" title="frameTransformStorage: A class that keeps a FrameTransformContainer updated by receiving transformati..." alt="" coords="3107,159,3275,185"/>
+<area shape="poly" id="edge20_Node000006_Node000021" title=" " alt="" coords="4146,97,3767,113,3528,130,3287,155,3243,162,3242,157,3286,149,3527,124,3767,107,4146,92"/>
+<area shape="rect" id="Node000022" href="$classJoypadControlServer.html" title="JoypadControlServer: Documentation to be added" alt="" coords="3299,159,3443,185"/>
+<area shape="poly" id="edge21_Node000006_Node000022" title=" " alt="" coords="4146,98,3836,115,3646,131,3455,155,3417,162,3416,157,3454,149,3645,126,3836,110,4146,93"/>
+<area shape="rect" id="Node000023" href="$classLLM__nws__yarp.html" title="LLM_nws_yarp: A server which can be wrap multiple algorithms and devices to provide LLM services." alt="" coords="3467,159,3573,185"/>
+<area shape="poly" id="edge22_Node000006_Node000023" title=" " alt="" coords="4147,98,3891,115,3738,131,3586,155,3556,162,3555,157,3585,149,3737,126,3890,110,4146,93"/>
+<area shape="rect" id="Node000024" href="$classLocalization2D__nws__ros.html" title="localization2D_nws_ros: A localization server which can be wrap multiple algorithms and devices to pr..." alt="" coords="3597,159,3765,185"/>
+<area shape="poly" id="edge23_Node000006_Node000024" title=" " alt="" coords="4146,106,3974,127,3778,155,3737,162,3736,157,3777,149,3973,122,4146,101"/>
+<area shape="rect" id="Node000025" href="$classLocalization2D__nws__ros2.html" title="Localization2D_nws_ros2: A localization server which can be wrap multiple algorithms and devices to p..." alt="" coords="3789,159,3965,185"/>
+<area shape="poly" id="edge24_Node000006_Node000025" title=" " alt="" coords="4181,109,3932,162,3931,157,4180,104"/>
+<area shape="rect" id="Node000026" href="$classLocalization2D__nws__yarp.html" title="localization2D_nws_yarp: A localization server which can be wrap multiple algorithms and devices to p..." alt="" coords="3989,159,4165,185"/>
+<area shape="poly" id="edge25_Node000006_Node000026" title=" " alt="" coords="4212,112,4103,162,4101,157,4210,107"/>
+<area shape="rect" id="Node000027" href="$classMap2D__nws__ros.html" title="map2D_nws_ros: A device capable of read/save collections of maps from disk, and make them accessible ..." alt="" coords="4189,159,4307,185"/>
+<area shape="poly" id="edge26_Node000006_Node000027" title=" " alt="" coords="4251,118,4251,159,4245,159,4245,118"/>
+<area shape="rect" id="Node000028" href="$classMap2D__nws__ros2.html" title="Map2D_nws_ros2: A device capable of read/save collections of maps from disk, and make them accessible..." alt="" coords="4331,159,4456,185"/>
+<area shape="poly" id="edge27_Node000006_Node000028" title=" " alt="" coords="4283,108,4373,157,4371,161,4280,113"/>
+<area shape="rect" id="Node000029" href="$classMap2D__nws__yarp.html" title="map2D_nws_yarp: A device capable of read/save collections of maps from disk, and make them accessible..." alt="" coords="4480,159,4608,185"/>
+<area shape="poly" id="edge28_Node000006_Node000029" title=" " alt="" coords="4305,105,4502,157,4500,162,4304,110"/>
+<area shape="rect" id="Node000030" href="$classMobileBaseVelocityControl__nws__ros.html" title="MobileBaseVelocityControl_nws_ros: A device which allows a client application to control the velocity..." alt="" coords="4632,152,4819,192"/>
+<area shape="poly" id="edge29_Node000006_Node000030" title=" " alt="" coords="4335,103,4620,149,4632,151,4631,157,4620,155,4334,109"/>
+<area shape="rect" id="Node000031" href="$classMobileBaseVelocityControl__nws__ros2.html" title="MobileBaseVelocityControl_nws_ros2: A device which allows a client application to control the velocit..." alt="" coords="4843,152,5029,192"/>
+<area shape="poly" id="edge30_Node000006_Node000031" title=" " alt="" coords="4350,98,4571,119,4831,149,4843,151,4842,156,4830,155,4570,124,4349,103"/>
+<area shape="rect" id="Node000032" href="$classMobileBaseVelocityControl__nws__yarp.html" title=" " alt="" coords="5053,152,5240,192"/>
+<area shape="poly" id="edge31_Node000006_Node000032" title=" " alt="" coords="4350,94,4660,113,4851,129,5042,149,5053,151,5053,156,5041,155,4850,134,4660,118,4350,100"/>
+<area shape="rect" id="Node000033" href="$classOdometry2D__nws__ros.html" title="Odometry2D_nws_ros: A ros nws to get odometry and publish it on a ros topic. The attached device must..." alt="" coords="5264,159,5419,185"/>
+<area shape="poly" id="edge32_Node000006_Node000033" title=" " alt="" coords="4350,91,4522,95,4746,105,4999,122,5252,149,5294,157,5293,162,5252,155,4998,128,4746,110,4521,101,4350,96"/>
+<area shape="rect" id="Node000034" href="$classOdometry2D__nws__ros2.html" title="Odometry2D_nws_ros2: A ros2 nws to get odometry and publish it on a ros2 topic. The attached device m..." alt="" coords="5443,159,5605,185"/>
+<area shape="poly" id="edge33_Node000006_Node000034" title=" " alt="" coords="4350,90,4550,93,4818,102,5123,119,5279,133,5431,149,5475,157,5474,162,5430,155,5278,138,5123,125,4818,107,4550,98,4350,95"/>
+<area shape="rect" id="Node000035" href="$classOdometry2D__nws__yarp.html" title="Odometry2D_nws_yarp: A yarp nws to get the odometry and publish it on 3 yarp ports:" alt="" coords="5629,159,5795,185"/>
+<area shape="poly" id="edge34_Node000006_Node000035" title=" " alt="" coords="4350,89,4578,90,4892,98,5253,116,5437,131,5618,149,5662,157,5661,162,5617,155,5437,136,5252,121,4892,103,4577,96,4350,94"/>
+<area shape="rect" id="Node000036" href="$classRGBDToPointCloudSensor__nws__ros.html" title="RGBDToPointCloudSensor_nws_ros: A Network grabber for kinect&#45;like devices. This device will produce o..." alt="" coords="5819,152,5997,192"/>
+<area shape="poly" id="edge35_Node000006_Node000036" title=" " alt="" coords="4350,92,5084,111,5501,128,5675,138,5807,149,5819,151,5818,156,5806,155,5675,143,5501,133,5084,116,4350,97"/>
+<area shape="rect" id="Node000037" href="$classRangefinder2D__controlBoard__nws__ros2.html" title="Rangefinder2D_nws_ros2: A Network grabber that simultaneously publishes the joint states and the meas..." alt="" coords="6021,152,6219,192"/>
+<area shape="poly" id="edge36_Node000006_Node000037" title=" " alt="" coords="4350,92,5180,110,5659,127,5858,138,6010,149,6021,151,6021,156,6009,155,5858,143,5658,133,5179,116,4350,97"/>
+<area shape="rect" id="Node000038" href="$classRangefinder2D__nws__ros.html" title="rangefinder2D_nws_ros: A Network grabber for 2D Rangefinder devices. This device will publish data on..." alt="" coords="6243,159,6411,185"/>
+<area shape="poly" id="edge37_Node000006_Node000038" title=" " alt="" coords="4350,91,4740,96,5283,106,5830,123,6058,135,6231,149,6277,157,6276,162,6230,155,6058,140,5830,129,5283,111,4740,101,4350,96"/>
+<area shape="rect" id="Node000039" href="$classRangefinder2D__nws__ros2.html" title="Rangefinder2D_nws_ros2: A Network grabber for 2D Rangefinder devices" alt="" coords="6435,159,6611,185"/>
+<area shape="poly" id="edge38_Node000006_Node000039" title=" " alt="" coords="4350,91,4773,95,5372,105,5978,122,6231,134,6423,149,6471,157,6470,162,6422,155,6231,140,5978,128,5372,110,4773,100,4350,96"/>
+<area shape="rect" id="Node000040" href="$classRangefinder2D__nws__yarp.html" title="rangefinder2D_nws_yarp: A Network grabber for 2D Rangefinder devices. This device will stream data on..." alt="" coords="6635,159,6811,185"/>
+<area shape="poly" id="edge39_Node000006_Node000040" title=" " alt="" coords="4350,90,4808,94,5466,103,6133,120,6412,133,6623,149,6671,157,6670,162,6622,155,6412,139,6133,126,5465,108,4808,99,4350,96"/>
+<area shape="rect" id="Node000041" href="$classRgbdSensor__nws__ros.html" title="rgbdSensor_nws_ros: A Network grabber for kinect&#45;like devices. This device will produce two streams o..." alt="" coords="6835,159,6984,185"/>
+<area shape="poly" id="edge40_Node000006_Node000041" title=" " alt="" coords="4350,90,4843,91,5558,98,5934,105,6288,115,6593,130,6823,149,6865,157,6864,162,6822,155,6592,135,6288,121,5934,110,5558,103,4843,96,4350,95"/>
+<area shape="rect" id="Node000042" href="$classRgbdSensor__nws__ros2.html" title="RgbdSensor_nws_ros2: A Network grabber for kinect&#45;like devices." alt="" coords="7008,159,7165,185"/>
+<area shape="poly" id="edge41_Node000006_Node000042" title=" " alt="" coords="4350,90,4871,90,5637,97,6041,104,6421,115,6749,130,6996,149,7040,157,7039,162,6996,155,6748,135,6421,120,6041,109,5637,102,4871,96,4350,95"/>
+<area shape="rect" id="Node000043" href="$classRgbdSensor__nws__yarp.html" title="rgbdSensor_nws_yarp: A Network grabber for kinect&#45;like devices. This device will produce two streams ..." alt="" coords="7189,159,7347,185"/>
+<area shape="poly" id="edge42_Node000006_Node000043" title=" " alt="" coords="4350,90,4902,89,5720,95,6153,102,6560,113,6912,129,7178,149,7222,157,7221,162,7177,155,6912,134,6560,118,6153,108,5720,100,4902,95,4350,95"/>
+<area shape="rect" id="Node000044" href="$classRgbdToPointCloudSensor__nws__ros2.html" title="rgbdToPointCloudSensor_nws_ros2: A Network grabber for kinect&#45;like devices." alt="" coords="7371,152,7544,192"/>
+<area shape="poly" id="edge43_Node000006_Node000044" title=" " alt="" coords="4350,90,4932,90,5803,96,6265,103,6700,114,7075,129,7359,149,7371,151,7370,156,7358,155,7075,134,6700,119,6264,108,5803,101,4932,95,4350,95"/>
+<area shape="rect" id="Node000045" href="$classSerialPort__nws__yarp.html" title="serialPort_nws_yarp: Export a serial sensor." alt="" coords="7568,159,7712,185"/>
+<area shape="poly" id="edge44_Node000006_Node000045" title=" " alt="" coords="4350,91,5025,96,6026,107,6991,124,7347,136,7556,149,7597,157,7596,162,7556,155,7346,141,6991,130,6026,112,5025,101,4349,96"/>
+<area shape="rect" id="Node000046" href="$classSpeechSynthesizer__nws__yarp.html" title="SpeechSynthesizer_nws_yarp: A wrapper for a plugin able to perform speech synthesis." alt="" coords="7736,159,7941,185"/>
+<area shape="poly" id="edge45_Node000006_Node000046" title=" " alt="" coords="4350,90,4992,90,5969,96,6489,104,6980,114,7404,129,7724,149,7779,157,7778,162,7724,155,7404,135,6980,120,6489,109,5969,102,4992,95,4350,95"/>
+<area shape="rect" id="Node000047" href="$classSpeechTranscription__nws__yarp.html" title="SpeechTranscription_nws_yarp: A wrapper for a plugin able to perform speech transcription." alt="" coords="7965,152,8107,192"/>
+<area shape="poly" id="edge46_Node000006_Node000047" title=" " alt="" coords="4350,90,5097,94,6224,104,7314,122,7716,134,7954,149,7965,151,7965,156,7953,155,7716,140,7314,127,6224,110,5097,100,4350,96"/>
+<area shape="rect" id="Node000048" href="$classnavigation2D__nws__yarp.html" title=" " alt="" coords="8131,159,8299,185"/>
+<area shape="poly" id="edge47_Node000006_Node000048" title=" " alt="" coords="4350,90,5126,95,6305,106,7448,124,7870,135,8119,149,8166,157,8165,162,8118,155,7870,141,7448,129,6305,111,5126,101,4350,96"/>
+</map>
