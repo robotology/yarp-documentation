@@ -1,0 +1,51 @@
+<map id="yarp::os::IConfig" name="yarp::os::IConfig">
+<area shape="rect" id="node1" title="An object that can be configured." alt="" coords="5,1219,132,1245"/>
+<area shape="rect" id="node2" href="$classyarp_1_1dev_1_1DeviceDriver.html" title="Interface implemented by all device drivers." alt="" coords="180,1219,355,1245"/>
+<area shape="rect" id="node3" href="$classFakeLaser.html" title="FakeLaser sensor device for testing purposes and reference for IRangefinder2D devices." alt="" coords="481,5,567,32"/>
+<area shape="rect" id="node4" href="$classLaserFromDepth.html" title=" " alt="" coords="459,56,589,83"/>
+<area shape="rect" id="node5" href="$classlaserHokuyo.html" title=" " alt="" coords="473,107,575,133"/>
+<area shape="rect" id="node6" href="$classRpLidar.html" title=" " alt="" coords="489,157,559,184"/>
+<area shape="rect" id="node7" href="$classRpLidar2.html" title=" " alt="" coords="485,208,563,235"/>
+<area shape="rect" id="node8" href="$classSerialServoBoard.html" title=" " alt="" coords="457,259,591,285"/>
+<area shape="rect" id="node9" href="$classStubDriver.html" title=" " alt="" coords="479,309,569,336"/>
+<area shape="rect" id="node10" href="$classyarp_1_1dev_1_1AnalogSensorClient.html" title="Device that reads an AnalogSensor (using the IAnalogSensor interface) from the YARP network." alt="" coords="415,360,633,387"/>
+<area shape="rect" id="node11" href="$classyarp_1_1dev_1_1AnalogWrapper.html" title="Device that expose an AnalogSensor (using the IAnalogSensor interface) on the YARP or ROS network." alt="" coords="429,411,619,437"/>
+<area shape="rect" id="node12" href="$classyarp_1_1dev_1_1BatteryClient.html" title="The client side of any IBattery capable device." alt="" coords="436,461,612,488"/>
+<area shape="rect" id="node13" href="$classyarp_1_1dev_1_1BatteryWrapper.html" title=" " alt="" coords="427,512,621,539"/>
+<area shape="rect" id="node14" href="$classyarp_1_1dev_1_1BoschIMU.html" title=" " alt="" coords="447,563,601,589"/>
+<area shape="rect" id="node15" href="$classyarp_1_1dev_1_1ControlBoardRemapper.html" title=" " alt="" coords="403,613,645,640"/>
+<area shape="rect" id="node16" href="$classyarp_1_1dev_1_1ControlBoardWrapper.html" title=" " alt="" coords="409,664,639,691"/>
+<area shape="rect" id="node17" href="$classyarp_1_1dev_1_1DeprecatedDeviceDriver.html" title="Interface implemented by deprecated device drivers." alt="" coords="419,715,629,757"/>
+<area shape="rect" id="node18" href="$classyarp_1_1dev_1_1depthCameraDriver.html" title=" " alt="" coords="415,781,633,808"/>
+<area shape="rect" id="node19" href="$classyarp_1_1dev_1_1DeviceGroup.html" title="Lets you make a bunch of devices as a group." alt="" coords="437,832,611,859"/>
+<area shape="rect" id="node20" href="$classyarp_1_1dev_1_1DevicePipe.html" title="Tries to connect the output of one device to the input of another." alt="" coords="443,883,605,909"/>
+<area shape="rect" id="node21" href="$classyarp_1_1dev_1_1DynamixelAX12FtdiDriver.html" title=" " alt="" coords="427,934,621,975"/>
+<area shape="rect" id="node22" href="$classyarp_1_1dev_1_1FakeAnalogSensor.html" title="Fake analog sensor device for testing purpose and reference for new analog devices." alt="" coords="420,1000,628,1027"/>
+<area shape="rect" id="node23" href="$classyarp_1_1dev_1_1FakeBot.html" title=" " alt="" coords="453,1051,595,1077"/>
+<area shape="rect" id="node24" href="$classyarp_1_1dev_1_1fakeDepthCameraDriver.html" title=" " alt="" coords="420,1102,628,1143"/>
+<area shape="rect" id="node25" href="$classyarp_1_1dev_1_1fakeIMU.html" title="fakeIMU : fake device implementing the device interface typically implemented by an Inertial Measurem..." alt="" coords="452,1168,596,1195"/>
+<area shape="rect" id="node26" href="$classyarp_1_1dev_1_1FakeMotionControl.html" title=" " alt="" coords="419,1219,629,1245"/>
+<area shape="rect" id="node27" href="$classyarp_1_1dev_1_1FfmpegGrabber.html" title="An image frame grabber device using ffmpeg to capture images from AVI files." alt="" coords="428,1269,620,1296"/>
+<area shape="rect" id="node28" href="$classyarp_1_1dev_1_1FfmpegWriter.html" title="Uses ffmpeg to write images/sounds to movie files (AVI, MOV, ...)." alt="" coords="434,1320,614,1347"/>
+<area shape="rect" id="node29" href="$classyarp_1_1dev_1_1FrameTransformClient.html" title="The client side of any IBattery capable device." alt="" coords="426,1371,622,1413"/>
+<area shape="rect" id="node30" href="$classyarp_1_1dev_1_1FrameTransformServer.html" title=" " alt="" coords="426,1437,622,1478"/>
+<area shape="rect" id="node31" href="$classyarp_1_1dev_1_1JoypadControlClient.html" title=" " alt="" coords="433,1502,615,1543"/>
+<area shape="rect" id="node32" href="$classyarp_1_1dev_1_1JoypadControlServer.html" title=" " alt="" coords="433,1567,615,1609"/>
+<area shape="rect" id="node33" href="$classyarp_1_1dev_1_1Localization2DClient.html" title=" " alt="" coords="436,1633,612,1674"/>
+<area shape="rect" id="node34" href="$classyarp_1_1dev_1_1Map2DClient.html" title=" " alt="" coords="437,1699,611,1725"/>
+<area shape="rect" id="node35" href="$classyarp_1_1dev_1_1Map2DServer.html" title=" " alt="" coords="435,1749,613,1776"/>
+<area shape="rect" id="node36" href="$classyarp_1_1dev_1_1MultipleAnalogSensorsClient.html" title="multipleanalogsensorsclient: The client side of a device exposing MultipleAnalogSensors interfaces." alt="" coords="430,1801,618,1842"/>
+<area shape="rect" id="node37" href="$classyarp_1_1dev_1_1MultipleAnalogSensorsRemapper.html" title="multipleanalogsensorsremapper : device that takes a list of sensor from multiple analog sensors devic..." alt="" coords="430,1866,618,1907"/>
+<area shape="rect" id="node38" href="$classyarp_1_1dev_1_1MultipleAnalogSensorsServer.html" title="The server side of the MultipleAnalogSensorsClient, useful to expose device implementing MultipleAnal..." alt="" coords="430,1931,618,1973"/>
+<area shape="rect" id="node39" href="$classyarp_1_1dev_1_1Navigation2DClient.html" title=" " alt="" coords="415,1997,633,2024"/>
+<area shape="rect" id="node40" href="$classyarp_1_1dev_1_1OpenCVGrabber.html" title="An image frame grabber device using OpenCV to capture images from cameras and AVI files." alt="" coords="427,2048,621,2075"/>
+<area shape="rect" id="node41" href="$classyarp_1_1dev_1_1OVRHeadset.html" title=" " alt="" coords="438,2099,610,2125"/>
+<area shape="rect" id="node42" href="$classyarp_1_1dev_1_1PolyDriver.html" title="A container for a device driver." alt="" coords="445,2149,603,2176"/>
+<area shape="rect" id="node43" href="$classyarp_1_1dev_1_1PortAudioDeviceDriver.html" title=" " alt="" coords="425,2201,623,2242"/>
+<area shape="rect" id="node44" href="$classyarp_1_1dev_1_1Rangefinder2DClient.html" title="The client side of any ILaserRangefinder2D capable device." alt="" coords="412,2267,636,2293"/>
+<area shape="rect" id="node45" href="$classyarp_1_1dev_1_1Rangefinder2DWrapper.html" title=" " alt="" coords="403,2317,645,2344"/>
+<area shape="rect" id="node46" href="$classyarp_1_1dev_1_1realsense2Driver.html" title=" " alt="" coords="423,2368,625,2395"/>
+<area shape="rect" id="node47" href="$classyarp_1_1dev_1_1RemoteControlBoard.html" title="The client side of the control board, connects to a remote controlboard using the YARP network." alt="" coords="430,2419,618,2461"/>
+<area shape="rect" id="node48" href="$classyarp_1_1dev_1_1RemoteFrameGrabber.html" title=" " alt="" coords="407,2485,641,2512"/>
+<area shape="rect" id="node49" href="$classyarp_1_1dev_1_1RGBDSensorClient.html" title=" " alt="" coords="419,2536,629,2563"/>
+</map>
