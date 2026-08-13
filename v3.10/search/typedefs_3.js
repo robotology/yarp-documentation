@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['def_5fvocab_5fpixel_5fbgr_0',['Def_VOCAB_PIXEL_BGR',['../Image_8copyPixels_8cpp.html#a789bb3bd1b43c10613bb372001e7e103',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fbgra_1',['Def_VOCAB_PIXEL_BGRA',['../Image_8copyPixels_8cpp.html#a5e8f6965e9b1d448da099963c99bde8a',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fhsv_2',['Def_VOCAB_PIXEL_HSV',['../Image_8copyPixels_8cpp.html#aa6d803bae238bca1db4afff786e5a426',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fhsv_5ffloat_3',['Def_VOCAB_PIXEL_HSV_FLOAT',['../Image_8copyPixels_8cpp.html#a669b443c65d0d305714f9cad999428dd',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fint_4',['Def_VOCAB_PIXEL_INT',['../Image_8copyPixels_8cpp.html#a55c15a065b07e4baff2c5f1af58c4889',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fmono_5',['Def_VOCAB_PIXEL_MONO',['../Image_8copyPixels_8cpp.html#a907c77180ed0f53e63fd6ca8f76929cf',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fmono16_6',['Def_VOCAB_PIXEL_MONO16',['../Image_8copyPixels_8cpp.html#ab7bd169fc4abd813f7f76f7ae0e117d3',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fmono_5ffloat_7',['Def_VOCAB_PIXEL_MONO_FLOAT',['../Image_8copyPixels_8cpp.html#a25f333ae874d6ec60a3748c12cccc1ff',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5fmono_5fsigned_8',['Def_VOCAB_PIXEL_MONO_SIGNED',['../Image_8copyPixels_8cpp.html#ae100368ca9866fb821d589840b115f54',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5frgb_9',['Def_VOCAB_PIXEL_RGB',['../Image_8copyPixels_8cpp.html#a2a7fb961a262403c5db01ac1f196429d',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5frgb_5ffloat_10',['Def_VOCAB_PIXEL_RGB_FLOAT',['../Image_8copyPixels_8cpp.html#a2615a594e66c8e467e24901d41d2c675',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5frgb_5fint_11',['Def_VOCAB_PIXEL_RGB_INT',['../Image_8copyPixels_8cpp.html#aff0fa6aa4ca10973c3641531ec35be41',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5frgb_5fsigned_12',['Def_VOCAB_PIXEL_RGB_SIGNED',['../Image_8copyPixels_8cpp.html#a80920ef151ad929f5ef1802eddcde9e6',1,'Image.copyPixels.cpp']]],
+  ['def_5fvocab_5fpixel_5frgba_13',['Def_VOCAB_PIXEL_RGBA',['../Image_8copyPixels_8cpp.html#a6cc7d4b0f19ac50d117cafd493793f30',1,'Image.copyPixels.cpp']]],
+  ['depthimage_14',['depthimage',['../RGBDRosConversionUtils_8h.html#a01235861c6fe2e239d1ab3d92a2b3d2c',1,'DepthImage:&#160;RGBDRosConversionUtils.h'],['../Ros2RGBDConversionUtils_8h.html#a01235861c6fe2e239d1ab3d92a2b3d2c',1,'DepthImage:&#160;Ros2RGBDConversionUtils.h'],['../RGBDSensorFromRosTopic_8h.html#aa9ce62351630789b7b0c9a5f5090bca3',1,'depthImage:&#160;RGBDSensorFromRosTopic.h'],['../group__dev__impl__nwc__ros2.html#gaa9ce62351630789b7b0c9a5f5090bca3',1,'depthImage:&#160;RgbdSensor_nwc_ros2.h']]],
+  ['device_15',['Device',['../namespaceyarp_1_1robotinterface_1_1experimental.html#a8ed28be806bc931373b567a980af8168',1,'yarp::robotinterface::experimental']]],
+  ['devicelist_16',['devicelist',['../namespaceyarp_1_1robotinterface_1_1experimental.html#ae209308885ce9b1cd98af4a5930394c6',1,'yarp::robotinterface::experimental::DeviceList'],['../namespaceyarp_1_1robotinterface.html#a9408586600997183976ae8d48032148e',1,'yarp::robotinterface::DeviceList']]],
+  ['difference_5ftype_17',['difference_type',['../structyarp_1_1dev_1_1FrameTransformContainer_1_1Iterator.html#a34d3e5f6c5da0612ac9066276e3020fa',1,'yarp::dev::FrameTransformContainer::Iterator']]]
+];
