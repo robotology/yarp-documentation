@@ -1,0 +1,6 @@
+var libYARP__dev_2src_2yarp_2dev_2all_8h =
+[
+    [ "YARP_INCLUDING_DEPRECATED_HEADER_YARP_DEV_DATASOURCE_H_ON_PURPOSE", "libYARP__dev_2src_2yarp_2dev_2all_8h.html#a7877ea71ddb4e6f7710bd4a9a824a481", null ],
+    [ "YARP_INCLUDING_DEPRECATED_HEADER_YARP_DEV_FRAMEGRABBER_H_ON_PURPOSE", "libYARP__dev_2src_2yarp_2dev_2all_8h.html#af3d982896b177bce6807fb013e0dbfd6", null ],
+    [ "YARP_INCLUDING_DEPRECATED_HEADER_YARP_DEV_FRAMEGRABBERRGB_H_ON_PURPOSE", "libYARP__dev_2src_2yarp_2dev_2all_8h.html#aa933592ddad90191f18b455c29c1f339", null ]
+];
