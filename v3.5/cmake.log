@@ -1,0 +1,823 @@
+CMake Deprecation Warning at CMakeLists.txt:9 (cmake_policy):
+  The OLD behavior for policy CMP0078 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:14 (cmake_policy):
+  The OLD behavior for policy CMP0086 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found YCM: /usr/share/cmake/YCM (found version "0.13.0")
+-- YARP Version: 3.5.1 (3.5.1)
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of float
+-- Check size of float - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Performing Test CXX_HAS_WALL
+-- Performing Test CXX_HAS_WALL - Success
+-- Performing Test CXX_HAS_WEXTRA
+-- Performing Test CXX_HAS_WEXTRA - Success
+-- Performing Test CXX_HAS_WSIGN_COMPARE
+-- Performing Test CXX_HAS_WSIGN_COMPARE - Success
+-- Performing Test CXX_HAS_WPOINTER_ARITH
+-- Performing Test CXX_HAS_WPOINTER_ARITH - Success
+-- Performing Test CXX_HAS_WINIT_SELF
+-- Performing Test CXX_HAS_WINIT_SELF - Success
+-- Performing Test CXX_HAS_WNON_VIRTUAL_DTOR
+-- Performing Test CXX_HAS_WNON_VIRTUAL_DTOR - Success
+-- Performing Test CXX_HAS_WCAST_ALIGN
+-- Performing Test CXX_HAS_WCAST_ALIGN - Success
+-- Performing Test CXX_HAS_WUNUSED
+-- Performing Test CXX_HAS_WUNUSED - Success
+-- Performing Test CXX_HAS_WUNUSED_BUT_SET_VARIABLE
+-- Performing Test CXX_HAS_WUNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test CXX_HAS_WVLA
+-- Performing Test CXX_HAS_WVLA - Success
+-- Performing Test CXX_HAS_WMISSING_INCLUDE_DIRS
+-- Performing Test CXX_HAS_WMISSING_INCLUDE_DIRS - Success
+-- Performing Test CXX_HAS_WLOGICAL_OP
+-- Performing Test CXX_HAS_WLOGICAL_OP - Success
+-- Performing Test CXX_HAS_WREORDER
+-- Performing Test CXX_HAS_WREORDER - Success
+-- Performing Test CXX_HAS_WSIZEOF_POINTER_MEMACCESS
+-- Performing Test CXX_HAS_WSIZEOF_POINTER_MEMACCESS - Success
+-- Performing Test CXX_HAS_WOVERLOADED_VIRTUAL
+-- Performing Test CXX_HAS_WOVERLOADED_VIRTUAL - Success
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_UNDEFINED_COMPARE
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_UNDEFINED_COMPARE - Failed
+-- Performing Test CXX_HAS_WMISMATCHED_NEW_DELETE
+-- Performing Test CXX_HAS_WMISMATCHED_NEW_DELETE - Failed
+-- Performing Test CXX_HAS_WPARENTHESES_EQUALITY
+-- Performing Test CXX_HAS_WPARENTHESES_EQUALITY - Failed
+-- Performing Test CXX_HAS_WUNDEF
+-- Performing Test CXX_HAS_WUNDEF - Success
+-- Performing Test CXX_HAS_WREDUNDANT_DECLS
+-- Performing Test CXX_HAS_WREDUNDANT_DECLS - Success
+-- Performing Test CXX_HAS_WUNKNOWN_PRAGMAS
+-- Performing Test CXX_HAS_WUNKNOWN_PRAGMAS - Success
+-- Performing Test CXX_HAS_WUNUSED_RESULT
+-- Performing Test CXX_HAS_WUNUSED_RESULT - Success
+-- Performing Test CXX_HAS_WC__17_COMPAT
+-- Performing Test CXX_HAS_WC__17_COMPAT - Success
+-- Performing Test CXX_HAS_WC__2A_COMPAT
+-- Performing Test CXX_HAS_WC__2A_COMPAT - Failed
+-- Performing Test CXX_HAS_WHEADER_GUARD
+-- Performing Test CXX_HAS_WHEADER_GUARD - Failed
+-- Performing Test CXX_HAS_WIGNORED_ATTRIBUTES
+-- Performing Test CXX_HAS_WIGNORED_ATTRIBUTES - Success
+-- Performing Test CXX_HAS_WNEWLINE_EOF
+-- Performing Test CXX_HAS_WNEWLINE_EOF - Failed
+-- Performing Test CXX_HAS_WDANGLING_ELSE
+-- Performing Test CXX_HAS_WDANGLING_ELSE - Success
+-- Performing Test CXX_HAS_WGCC_COMPAT
+-- Performing Test CXX_HAS_WGCC_COMPAT - Failed
+-- Performing Test CXX_HAS_WMICROSOFT_EXISTS
+-- Performing Test CXX_HAS_WMICROSOFT_EXISTS - Failed
+-- Performing Test CXX_HAS_WSTATIC_INLINE_EXPLICIT_INSTANTIATION
+-- Performing Test CXX_HAS_WSTATIC_INLINE_EXPLICIT_INSTANTIATION - Failed
+-- Performing Test CXX_HAS_WMISLEADING_INDENTATION
+-- Performing Test CXX_HAS_WMISLEADING_INDENTATION - Success
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_COMPARE
+-- Performing Test CXX_HAS_WTAUTOLOGICAL_COMPARE - Success
+-- Performing Test CXX_HAS_WINCONSISTENT_MISSING_OVERRIDE
+-- Performing Test CXX_HAS_WINCONSISTENT_MISSING_OVERRIDE - Failed
+-- Performing Test CXX_HAS_WSUGGEST_OVERRIDE
+-- Performing Test CXX_HAS_WSUGGEST_OVERRIDE - Success
+-- Performing Test CXX_HAS_WMAYBE_UNINITIALIZED
+-- Performing Test CXX_HAS_WMAYBE_UNINITIALIZED - Success
+-- Performing Test CXX_HAS_WNULL_CONVERSION
+-- Performing Test CXX_HAS_WNULL_CONVERSION - Failed
+-- Performing Test CXX_HAS_WNO_UNUSED_PARAMETER
+-- Performing Test CXX_HAS_WNO_UNUSED_PARAMETER - Success
+-- Performing Test CXX_HAS_WCONVERSION
+-- Performing Test CXX_HAS_WCONVERSION - Success
+-- Performing Test CXX_HAS_WCAST_QUAL
+-- Performing Test CXX_HAS_WCAST_QUAL - Success
+-- Performing Test CXX_HAS_WSIGN_CONVERSION
+-- Performing Test CXX_HAS_WSIGN_CONVERSION - Success
+-- Performing Test CXX_HAS_WOLD_STYLE_CAST
+-- Performing Test CXX_HAS_WOLD_STYLE_CAST - Success
+-- Performing Test CXX_HAS_WINLINE
+-- Performing Test CXX_HAS_WINLINE - Success
+-- Performing Test CXX_HAS_WFLOAT_EQUAL
+-- Performing Test CXX_HAS_WFLOAT_EQUAL - Success
+-- Performing Test CXX_HAS_WDEPRECATED_DECLARATIONS
+-- Performing Test CXX_HAS_WDEPRECATED_DECLARATIONS - Success
+-- Performing Test CXX_HAS_WFORMAT
+-- Performing Test CXX_HAS_WFORMAT - Success
+-- Performing Test CXX_HAS_WFORMAT_2
+-- Performing Test CXX_HAS_WFORMAT_2 - Success
+-- Performing Test CXX_HAS_WFORMAT_SECURITY
+-- Performing Test CXX_HAS_WFORMAT_SECURITY - Success
+-- Performing Test CXX_HAS_WFORMAT_Y2K
+-- Performing Test CXX_HAS_WFORMAT_Y2K - Success
+-- Performing Test CXX_HAS_WFORMAT_NONLITERAL
+-- Performing Test CXX_HAS_WFORMAT_NONLITERAL - Success
+-- Performing Test CXX_HAS_FSTACK_PROTECTOR
+-- Performing Test CXX_HAS_FSTACK_PROTECTOR - Success
+-- Performing Test CXX_HAS_WL__ZRELRO
+-- Performing Test CXX_HAS_WL__ZRELRO - Success
+-- Performing Test CXX_HAS_WL__ZNOW
+-- Performing Test CXX_HAS_WL__ZNOW - Success
+-- Performing Test CXX_HAS_FPIE
+-- Performing Test CXX_HAS_FPIE - Success
+-- Performing Test CXX_HAS_STD_CXX11
+-- Performing Test CXX_HAS_STD_CXX11 - Success
+-- Performing Test CXX_HAS_STD_CXX0X
+-- Performing Test CXX_HAS_STD_CXX0X - Success
+-- Performing Test CXX_HAS_STD_CXX14
+-- Performing Test CXX_HAS_STD_CXX14 - Success
+-- Performing Test CXX_HAS_STD_CXX1Y
+-- Performing Test CXX_HAS_STD_CXX1Y - Success
+-- Performing Test CXX_HAS_STD_CXX17
+-- Performing Test CXX_HAS_STD_CXX17 - Success
+-- Performing Test CXX_HAS_STD_CXX1Z
+-- Performing Test CXX_HAS_STD_CXX1Z - Success
+-- Performing Test CXX_HAS_WERROR
+-- Performing Test CXX_HAS_WERROR - Success
+-- Performing Test CXX_HAS_WFATAL_ERROR
+-- Performing Test CXX_HAS_WFATAL_ERROR - Success
+-- Looking for include file execinfo.h
+-- Looking for include file execinfo.h - found
+-- Looking for include file sys/wait.h
+-- Looking for include file sys/wait.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/prctl.h
+-- Looking for include file sys/prctl.h - found
+-- Looking for include file csignal
+-- Looking for include file csignal - not found
+-- Looking for include file signal.h
+-- Looking for include file signal.h - found
+-- Looking for include file sys/signal.h
+-- Looking for include file sys/signal.h - found
+-- Looking for include file netdb.h
+-- Looking for include file netdb.h - found
+-- Looking for include file dlfcn.h
+-- Looking for include file dlfcn.h - found
+-- Looking for include file ifaddrs.h
+-- Looking for include file ifaddrs.h - found
+-- Setting build type to 'Release' as none was specified.
+-- Using:
+--   CMake: 3.22.1 (/usr/bin/cmake)
+--   C Compiler: GNU 9.3.0 (/usr/bin/cc)
+--   CXX Compiler: GNU 9.3.0 (/usr/bin/c++)
+-- Build type: Release
+-- CMake modules directory: /home/runner/work/yarp-documentation/yarp-documentation/yarp/cmake;/usr/share/YCM/modules;/usr/share/YCM/find-modules;/usr/share/YCM/build-modules;/usr/share/YCM/style-modules;/usr/share/YCM/cmake-next/Modules;/usr/share/YCM/3rdparty;/usr/share/YCM/deprecated
+-- Performing Test ACE_COMPILES_WITHOUT_INLINE_RELEASE
+-- Performing Test ACE_COMPILES_WITHOUT_INLINE_RELEASE - Success
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking GNUCXX version 3/4 to determine  OpenCV /opt/net/ path
+-- - DBG OPENCV_INCLUDE_DIR_CVCAM=OPENCV_INCLUDE_DIR_CVCAM-NOTFOUND
+-- - DBG OPENCV_INCLUDE_DIR_CVCAM=OPENCV_INCLUDE_DIR_CVCAM-NOTFOUND
+-- OPENCV_LIBRARY not found turning off OPENCV_FOUND
+-- OPENCV_CVAUX_LIBRARY not found turning off OPENCV_FOUND
+-- OPENCV library or headers not found. Please search manually or set env. variable OPENCV_ROOT to guide search.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Doxygen: /usr/local/bin/doxygen (found version "1.9.1 (ef9b20ac7f8a8621fcfc299f8bd0b80422390f4b)") found components: doxygen dot 
+-- Found GObject: /usr/include/glib-2.0  
+-- Found GStreamer: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so (Required is at least version "1.4") 
+-- Found GSTREAMER_APP_LIBRARY: /usr/lib/x86_64-linux-gnu/libgstapp-1.0.so
+-- Found GSTREAMER_APP_INCLUDE_DIR: /usr/include/gstreamer-1.0
+-- Libraries found:
+--  [x] YCM (>= 0.13.0): found 0.13.0 (/usr/share/cmake/YCM) (CMAKE_DISABLE_FIND_PACKAGE_YCM)
+--  [x] ACE (>= 6.0.0): found 6.4.5 (/usr/lib/libACE.so) (CMAKE_DISABLE_FIND_PACKAGE_ACE)
+--  [x] RobotTestingFramework (>= 2): found 2.0.1 (/usr/lib/x86_64-linux-gnu/cmake/RobotTestingFramework) (CMAKE_DISABLE_FIND_PACKAGE_RobotTestingFramework)
+--  [x] SQLite: found 3.31.1 (/usr/lib/x86_64-linux-gnu/libsqlite3.so) (CMAKE_DISABLE_FIND_PACKAGE_SQLite)
+--  [x] Eigen3: found (/usr/include/eigen3) (CMAKE_DISABLE_FIND_PACKAGE_Eigen3)
+--  [x] TinyXML (>= 2.6): found 2.6.2 (/usr/lib/x86_64-linux-gnu/libtinyxml.so) (CMAKE_DISABLE_FIND_PACKAGE_TinyXML)
+--  [x] xmlrpcpp: compiling (customized version)
+--  [x] hmac: compiling (not searched)
+--  [x] Qt5 (>= 5.4): found 5.12.8 (/usr/lib/x86_64-linux-gnu/cmake/Qt5) (CMAKE_DISABLE_FIND_PACKAGE_Qt5)
+--  [x] QCustomPlot: found (/usr/lib/x86_64-linux-gnu/libqcustomplot.so) (CMAKE_DISABLE_FIND_PACKAGE_QCustomPlot)
+--  [x] Graphviz: found (/usr/lib/x86_64-linux-gnu/libgvc.so) (CMAKE_DISABLE_FIND_PACKAGE_Graphviz)
+--  [x] QGVCore: compiling (customized version)
+--  [x] Libedit: found 3.1 (/usr/lib/x86_64-linux-gnu/libedit.so) (CMAKE_DISABLE_FIND_PACKAGE_Libedit)
+--  [x] SWIG (>= 3.0.12): found 4.0.1 (/usr/share/swig4.0) (CMAKE_DISABLE_FIND_PACKAGE_SWIG)
+--  [x] OpenCV (>= 3): found 4.2.0 (/usr/lib/x86_64-linux-gnu/cmake/opencv4) (CMAKE_DISABLE_FIND_PACKAGE_OpenCV)
+--  [ ] PCL: not found
+--  [ ] Lua: not found
+--  [x] OpenGL: found (/usr/lib/x86_64-linux-gnu/libOpenGL.so) (CMAKE_DISABLE_FIND_PACKAGE_OpenGL)
+--  [x] Libdc1394 (>= 2.0): found 2.2.5 (/usr/lib/x86_64-linux-gnu/libdc1394.so) (CMAKE_DISABLE_FIND_PACKAGE_Libdc1394)
+--  [x] JPEG: found 80 (/usr/lib/x86_64-linux-gnu/libjpeg.so) (CMAKE_DISABLE_FIND_PACKAGE_JPEG)
+--  [x] PNG: found (/usr/lib/x86_64-linux-gnu/libpng.so) (CMAKE_DISABLE_FIND_PACKAGE_PNG)
+--  [x] MPI: found (/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so) (CMAKE_DISABLE_FIND_PACKAGE_MPI)
+--  [ ] FTDI: not found
+--  [x] FFMPEG: found 4.2.4-1ubuntu0.1 (/usr/lib/x86_64-linux-gnu/libavcodec.so) (CMAKE_DISABLE_FIND_PACKAGE_FFMPEG)
+--  [ ] SDL: not found
+--  [x] PortAudio: found 19 (/usr/lib/x86_64-linux-gnu/libportaudio.so) (CMAKE_DISABLE_FIND_PACKAGE_PortAudio)
+--  [ ] ZFP (>= 0.5.1): not found
+--  [ ] OpenNI2: not found
+--  [x] GLIB2: found (/usr/lib/x86_64-linux-gnu/libglib-2.0.so) (CMAKE_DISABLE_FIND_PACKAGE_GLIB2)
+--  [x] GObject: found (/usr/include/glib-2.0) (CMAKE_DISABLE_FIND_PACKAGE_GObject)
+--  [x] GStreamer (>= 1.4): found (/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so) (CMAKE_DISABLE_FIND_PACKAGE_GStreamer)
+--  [x] GStreamerPluginsBase (>= 1.4): found (CMAKE_DISABLE_FIND_PACKAGE_GStreamerPluginsBase)
+--  [x] BISON (>= 2.5): found 3.5.1 (CMAKE_DISABLE_FIND_PACKAGE_BISON)
+--  [x] FLEX: found 2.6.4 (CMAKE_DISABLE_FIND_PACKAGE_FLEX)
+--  [ ] I2C: not found
+--  [x] Libv4l2: found 1.18.0 (/usr/lib/x86_64-linux-gnu/libv4l2.so) (CMAKE_DISABLE_FIND_PACKAGE_Libv4l2)
+--  [x] Libv4lconvert: found 1.18.0 (/usr/lib/x86_64-linux-gnu/libv4lconvert.so) (CMAKE_DISABLE_FIND_PACKAGE_Libv4lconvert)
+--  [ ] Fuse: not found
+--  [x] ZLIB: found (/usr/lib/x86_64-linux-gnu/libz.so) (CMAKE_DISABLE_FIND_PACKAGE_ZLIB)
+-- Enabled features:
+--  [x] Build shared libraries (BUILD_SHARED_LIBS)
+--  [ ] Disable ACE library (SKIP_ACE)
+--  [ ] Filter out deprecated declarations from YARP API (YARP_NO_DEPRECATED)
+--  [ ]   Do not warn when using YARP deprecated declarations (YARP_NO_DEPRECATED_WARNINGS)
+--  [x] Compile YARP_math library (YARP_COMPILE_libYARP_math)
+--  [x] Compile executables (YARP_COMPILE_EXECUTABLES)
+--  [x]   Compile yarprobotinterface (YARP_COMPILE_yarprobotinterface)
+--  [x]   Compile YARP Module Manager (console) (YARP_COMPILE_yarpmanager-console)
+--  [x]   Compile yarpdatadumper (YARP_COMPILE_yarpdatadumper)
+--  [x]     yarpdatadumper video support (YARP_COMPILE_yarpdatadumper AND YARP_HAS_OpenCV)
+--  [x]   Compile GUIs (YARP_COMPILE_GUIS)
+--  [x]     Compile yarpview (YARP_COMPILE_yarpview)
+--  [x]     Compile yarpmanager (YARP_COMPILE_yarpmanager)
+--  [x]     Compile yarplogger (YARP_COMPILE_yarplogger)
+--  [x]     Compile yarpscope (YARP_COMPILE_yarpscope)
+--  [x]     Compile yarpdataplayer (YARP_COMPILE_yarpdataplayer)
+--  [x]       yarpdataplayer video support (YARP_COMPILE_yarpdataplayer AND YARP_HAS_OpenCV)
+--  [x]     Compile yarpmotorgui (YARP_COMPILE_yarpmotorgui)
+--  [x]     Compile yarplaserscannergui (YARP_COMPILE_yarplaserscannergui)
+--  [x]     Compile yarpbatterygui (YARP_COMPILE_yarpbatterygui)
+--  [x]     Compile yarpviz (YARP_COMPILE_yarpviz)
+--  [x] Compile Robot Testing Framework addons (YARP_COMPILE_RobotTestingFramework_ADDONS)
+--  [ ] Compile Unmaintained components (YARP_COMPILE_UNMAINTAINED)
+--  [ ] Compile YARP examples (YARP_COMPILE_EXAMPLES)
+--  [ ] Compile and enable YARP tests (YARP_COMPILE_TESTS)
+--  [ ]   Disable tests that fail randomly due to race conditions (YARP_DISABLE_FAILING_TESTS)
+--  [ ]   Enable broken tests (YARP_ENABLE_BROKEN_TESTS)
+--  [ ]   Run integration tests (YARP_ENABLE_INTEGRATION_TESTS)
+--  [ ]   Compile examples as unit tests (YARP_ENABLE_EXAMPLES_AS_TESTS)
+--  [ ]   Run YARP tests under Valgrind (YARP_VALGRIND_TESTS)
+CMake Warning (dev) at src/libYARP_conf/src/CMakeLists.txt:73 (include):
+  Policy CMP0120 is not set: The WriteCompilerDetectionHeader module is
+  removed.  Run "cmake --help-policy CMP0120" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/WriteCompilerDetectionHeader.cmake:380 (message):
+  The WriteCompilerDetectionHeader module will be removed by policy CMP0120.
+  Projects should be ported away from the module, perhaps by bundling a copy
+  of the generated header or using a third-party alternative.
+Call Stack (most recent call first):
+  src/libYARP_conf/src/CMakeLists.txt:73 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x] Plugin library: yarpcar (YARP_COMPILE_CARRIER_PLUGINS)
+--  [x]   Plugin: yarpcar_shmem (ENABLE_yarpcar_shmem)
+--  [ ]   Plugin: yarpcar_human (ENABLE_yarpcar_human)
+--  [ ]   Plugin: yarpcar_mpi (ENABLE_yarpcar_mpi)
+--  [ ]   Plugin: yarpcar_mpibcast (ENABLE_yarpcar_mpibcast)
+--  [x]   Plugin: yarpcar_xmlrpc (ENABLE_yarpcar_xmlrpc)
+--  [x]   Plugin: yarpcar_tcpros (ENABLE_yarpcar_tcpros)
+--  [x]   Plugin: yarpcar_rossrv (ENABLE_yarpcar_rossrv)
+--  [ ]   Plugin: yarpcar_mjpeg (ENABLE_yarpcar_mjpeg)
+--  [x]   Plugin: yarpcar_bayer (ENABLE_yarpcar_bayer)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/carriers/priority_carrier/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpcar_priority (ENABLE_yarpcar_priority)
+--  [x]   Plugin: yarpcar_portmonitor (ENABLE_yarpcar_portmonitor)
+--  [ ]   Plugin: yarpcar_h264 (ENABLE_yarpcar_h264)
+--  [x]   Plugin: yarpcar_unix_stream (ENABLE_yarpcar_unix_stream)
+--  [ ]   Plugin: yarpcar_websocket (ENABLE_yarpcar_websocket)
+--  [x] Plugin library: yarppm (YARP_COMPILE_PORTMONITOR_PLUGINS)
+--  [ ]   Plugin: yarppm_depthimage_compression_zfp (dependencies unsatisfied: "YARP_HAS_ZFP") (ENABLE_yarppm_depthimage_compression_zfp)
+--  [ ]   Plugin: yarppm_depthimage_compression_zlib (ENABLE_yarppm_depthimage_compression_zlib)
+--  [ ]   Plugin: yarppm_depthimage_to_mono (ENABLE_yarppm_depthimage_to_mono)
+--  [ ]   Plugin: yarppm_depthimage_to_rgb (ENABLE_yarppm_depthimage_to_rgb)
+--  [ ]   Plugin: yarppm_image_compression_ffmpeg (ENABLE_yarppm_image_compression_ffmpeg)
+--  [ ]   Plugin: yarppm_segmentationimage_to_rgb (ENABLE_yarppm_segmentationimage_to_rgb)
+--  [ ]   Plugin: yarppm_sound_compression_mp3 (ENABLE_yarppm_sound_compression_mp3)
+--  [x] Plugin library: yarpmod (YARP_COMPILE_DEVICE_PLUGINS)
+--  [x]   Plugin: yarpmod_AudioPlayerWrapper (ENABLE_yarpmod_AudioPlayerWrapper)
+--  [x]   Plugin: yarpmod_AudioRecorderWrapper (ENABLE_yarpmod_AudioRecorderWrapper)
+--  [x]   Plugin: yarpmod_audioFromFileDevice (ENABLE_yarpmod_audioFromFileDevice)
+--  [x]   Plugin: yarpmod_audioToFileDevice (ENABLE_yarpmod_audioToFileDevice)
+--  [ ]   Plugin: yarpmod_depthCamera (dependencies unsatisfied: "YARP_HAS_OpenNI2") (ENABLE_yarpmod_depthCamera)
+--  [ ]   Plugin: yarpmod_fakeDepthCamera (ENABLE_yarpmod_fakeDepthCamera)
+--  [ ]   Plugin: yarpmod_fakebot (ENABLE_yarpmod_fakebot)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/fakeMotionControl/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_fakeMotionControl (ENABLE_yarpmod_fakeMotionControl)
+--  [ ]   Plugin: yarpmod_fakeAnalogSensor (ENABLE_yarpmod_fakeAnalogSensor)
+--  [ ]   Plugin: yarpmod_fakeBattery (ENABLE_yarpmod_fakeBattery)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/fakeIMU/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_fakeIMU (ENABLE_yarpmod_fakeIMU)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformClient/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformClient (ENABLE_yarpmod_frameTransformClient)
+ARG_TYPE = OBJECT
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformGet/CMakeLists.txt:5 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformGet_nws_yarp (ENABLE_yarpmod_frameTransformGet_nws_yarp)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformGet/CMakeLists.txt:53 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformGet_nwc_yarp (ENABLE_yarpmod_frameTransformGet_nwc_yarp)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformGet/CMakeLists.txt:101 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformGet_nwc_ros (ENABLE_yarpmod_frameTransformGet_nwc_ros)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformGet/CMakeLists.txt:155 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformGetMultiplexer (ENABLE_yarpmod_frameTransformGetMultiplexer)
+ARG_TYPE = OBJECT
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformServer/CMakeLists.txt:13 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformServer (ENABLE_yarpmod_frameTransformServer)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformSet/CMakeLists.txt:5 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformSet_nws_yarp (ENABLE_yarpmod_frameTransformSet_nws_yarp)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformSet/CMakeLists.txt:55 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformSet_nwc_yarp (ENABLE_yarpmod_frameTransformSet_nwc_yarp)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformSet/CMakeLists.txt:105 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformSet_nwc_ros (ENABLE_yarpmod_frameTransformSet_nwc_ros)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformSet/CMakeLists.txt:159 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformSetMultiplexer (ENABLE_yarpmod_frameTransformSetMultiplexer)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/frameTransformStorage/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_frameTransformStorage (ENABLE_yarpmod_frameTransformStorage)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/transformClient/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_transformClient (ENABLE_yarpmod_transformClient)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/transformServer/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_transformServer (ENABLE_yarpmod_transformServer)
+--  [ ]   Plugin: yarpmod_SerialServoBoard (ENABLE_yarpmod_SerialServoBoard)
+--  [ ]   Plugin: yarpmod_ffmpeg_grabber (ENABLE_yarpmod_ffmpeg_grabber)
+--  [ ]   Plugin: yarpmod_ffmpeg_writer (ENABLE_yarpmod_ffmpeg_writer)
+--  [ ]   Plugin: yarpmod_opencv_grabber (ENABLE_yarpmod_opencv_grabber)
+--  [ ]   Plugin: yarpmod_serialport (ENABLE_yarpmod_serialport)
+--  [ ]   Plugin: yarpmod_portaudioPlayer (ENABLE_yarpmod_portaudioPlayer)
+--  [ ]   Plugin: yarpmod_portaudioRecorder (ENABLE_yarpmod_portaudioRecorder)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/imuBosch_BNO055/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_imuBosch_BNO055 (dependencies unsatisfied: "YARP_HAS_I2C") (ENABLE_yarpmod_imuBosch_BNO055)
+--  [ ]   Plugin: yarpmod_dynamixelAX12Ftdi (dependencies unsatisfied: "YARP_HAS_FTDI") (ENABLE_yarpmod_dynamixelAX12Ftdi)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/fakeLaser/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_fakeLaser (ENABLE_yarpmod_fakeLaser)
+--  [ ]   Plugin: yarpmod_fakeMicrophone (ENABLE_yarpmod_fakeMicrophone)
+--  [ ]   Plugin: yarpmod_fakeSpeaker (ENABLE_yarpmod_fakeSpeaker)
+--  [ ]   Plugin: yarpmod_laserFromDepth (ENABLE_yarpmod_laserFromDepth)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/laserFromPointCloud/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_laserFromPointCloud (ENABLE_yarpmod_laserFromPointCloud)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/laserFromExternalPort/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_laserFromExternalPort (ENABLE_yarpmod_laserFromExternalPort)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/laserFromRosTopic/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_laserFromRosTopic (ENABLE_yarpmod_laserFromRosTopic)
+--  [ ]   Plugin: yarpmod_rpLidar (ENABLE_yarpmod_rpLidar)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/rpLidar2/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_rpLidar2 (ENABLE_yarpmod_rpLidar2)
+--  [ ]   Plugin: yarpmod_laserHokuyo (ENABLE_yarpmod_laserHokuyo)
+--  [x]   Plugin: yarpmod_fakeFrameGrabber (ENABLE_yarpmod_fakeFrameGrabber)
+--  [ ]   Plugin: yarpmod_test_grabber (ENABLE_yarpmod_test_grabber)
+--  [ ]   Plugin: yarpmod_SDLJoypad (dependencies unsatisfied: "YARP_HAS_SDL") (ENABLE_yarpmod_SDLJoypad)
+--  [x]   Plugin: yarpmod_batteryClient (ENABLE_yarpmod_batteryClient)
+--  [x]   Plugin: yarpmod_batteryWrapper (ENABLE_yarpmod_batteryWrapper)
+--  [ ]   Plugin: yarpmod_upowerBattery (ENABLE_yarpmod_upowerBattery)
+--  [x]   Plugin: yarpmod_Rangefinder2DWrapper (ENABLE_yarpmod_Rangefinder2DWrapper)
+--  [x]   Plugin: yarpmod_rangefinder2D_nws_yarp (ENABLE_yarpmod_rangefinder2D_nws_yarp)
+--  [x]   Plugin: yarpmod_rangefinder2D_nws_ros (ENABLE_yarpmod_rangefinder2D_nws_ros)
+--  [x]   Plugin: yarpmod_multipleanalogsensorsserver (ENABLE_yarpmod_multipleanalogsensorsserver)
+--  [x]   Plugin: yarpmod_multipleanalogsensorsclient (ENABLE_yarpmod_multipleanalogsensorsclient)
+--  [x]   Plugin: yarpmod_multipleanalogsensorsremapper (ENABLE_yarpmod_multipleanalogsensorsremapper)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/multipleAnalogSensorsRosPublishers/CMakeLists.txt:5 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_IMURosPublisher (ENABLE_yarpmod_IMURosPublisher)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/multipleAnalogSensorsRosPublishers/CMakeLists.txt:57 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_WrenchStampedRosPublisher (ENABLE_yarpmod_WrenchStampedRosPublisher)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/multipleAnalogSensorsRosPublishers/CMakeLists.txt:108 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_TemperatureRosPublisher (ENABLE_yarpmod_TemperatureRosPublisher)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/multipleAnalogSensorsRosPublishers/CMakeLists.txt:159 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_PoseStampedRosPublisher (ENABLE_yarpmod_PoseStampedRosPublisher)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/multipleAnalogSensorsRosPublishers/CMakeLists.txt:212 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_MagneticFieldRosPublisher (ENABLE_yarpmod_MagneticFieldRosPublisher)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/localization2DClient/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_localization2DClient (ENABLE_yarpmod_localization2DClient)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/localization2DServer/CMakeLists.txt:5 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_localization2DServer (ENABLE_yarpmod_localization2DServer)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/localization2DServer/CMakeLists.txt:53 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_localization2D_nws_yarp (ENABLE_yarpmod_localization2D_nws_yarp)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/localization2DServer/CMakeLists.txt:101 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_localization2D_nws_ros (ENABLE_yarpmod_localization2D_nws_ros)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/map2DClient/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_map2DClient (ENABLE_yarpmod_map2DClient)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/map2DServer/CMakeLists.txt:5 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_map2DServer (ENABLE_yarpmod_map2DServer)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/map2DServer/CMakeLists.txt:54 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_map2D_nws_yarp (ENABLE_yarpmod_map2D_nws_yarp)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/map2DServer/CMakeLists.txt:105 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_map2D_nws_ros (ENABLE_yarpmod_map2D_nws_ros)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/map2DStorage/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_map2DStorage (ENABLE_yarpmod_map2DStorage)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/navigation2DClient/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_navigation2DClient (ENABLE_yarpmod_navigation2DClient)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/navigation2DServer/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_navigation2DServer (ENABLE_yarpmod_navigation2DServer)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/Rangefinder2DClient/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [x]   Plugin: yarpmod_Rangefinder2DClient (ENABLE_yarpmod_Rangefinder2DClient)
+--  [ ]   Plugin: yarpmod_usbCamera (ENABLE_yarpmod_usbCamera)
+--  [ ]   Plugin: yarpmod_usbCameraRaw (ENABLE_yarpmod_usbCameraRaw)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/fakeLocalizerDevice/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_fakeLocalizer (ENABLE_yarpmod_fakeLocalizer)
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake:84 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  cmake/YarpPlugin.cmake:346 (cmake_dependent_option)
+  src/devices/fakeNavigationDevice/CMakeLists.txt:4 (yarp_prepare_plugin)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--  [ ]   Plugin: yarpmod_fakeNavigation (ENABLE_yarpmod_fakeNavigation)
+--  [x]   Plugin: yarpmod_group (ENABLE_yarpmod_group)
+--  [x]   Plugin: yarpmod_pipe (ENABLE_yarpmod_pipe)
+--  [x]   Plugin: yarpmod_serial (ENABLE_yarpmod_serial)
+--  [x]   Plugin: yarpmod_remote_grabber (ENABLE_yarpmod_remote_grabber)
+--  [x]   Plugin: yarpmod_frameGrabber_nwc_yarp (ENABLE_yarpmod_frameGrabber_nwc_yarp)
+--  [x]   Plugin: yarpmod_remote_controlboard (ENABLE_yarpmod_remote_controlboard)
+--  [x]   Plugin: yarpmod_analogsensorclient (ENABLE_yarpmod_analogsensorclient)
+--  [x]   Plugin: yarpmod_analogServer (ENABLE_yarpmod_analogServer)
+--  [x]   Plugin: yarpmod_virtualAnalogServer (ENABLE_yarpmod_virtualAnalogServer)
+--  [x]   Plugin: yarpmod_RGBDSensorClient (ENABLE_yarpmod_RGBDSensorClient)
+--  [x]   Plugin: yarpmod_inertial (ENABLE_yarpmod_inertial)
+--  [x]   Plugin: yarpmod_RGBDSensorWrapper (ENABLE_yarpmod_RGBDSensorWrapper)
+--  [x]   Plugin: yarpmod_rgbdSensor_nws_yarp (ENABLE_yarpmod_rgbdSensor_nws_yarp)
+--  [x]   Plugin: yarpmod_rgbdSensor_nws_ros (ENABLE_yarpmod_rgbdSensor_nws_ros)
+--  [x]   Plugin: yarpmod_rgbdToPointCloudSensor_nws_ros (ENABLE_yarpmod_rgbdToPointCloudSensor_nws_ros)
+--  [ ]   Plugin: yarpmod_RGBDSensorFromRosTopic (ENABLE_yarpmod_RGBDSensorFromRosTopic)
+--  [x]   Plugin: yarpmod_controlboardwrapper2 (ENABLE_yarpmod_controlboardwrapper2)
+--  [x]   Plugin: yarpmod_controlBoard_nws_yarp (ENABLE_yarpmod_controlBoard_nws_yarp)
+--  [x]   Plugin: yarpmod_controlBoard_nws_ros (ENABLE_yarpmod_controlBoard_nws_ros)
+--  [x]   Plugin: yarpmod_controlboardremapper (ENABLE_yarpmod_controlboardremapper)
+--  [x]   Plugin: yarpmod_remotecontrolboardremapper (ENABLE_yarpmod_remotecontrolboardremapper)
+--  [x]   Plugin: yarpmod_robotDescriptionClient (ENABLE_yarpmod_robotDescriptionClient)
+--  [x]   Plugin: yarpmod_robotDescriptionServer (ENABLE_yarpmod_robotDescriptionServer)
+--  [x]   Plugin: yarpmod_grabberDual (ENABLE_yarpmod_grabberDual)
+--  [x]   Plugin: yarpmod_frameGrabber_nws_yarp (ENABLE_yarpmod_frameGrabber_nws_yarp)
+--  [x]   Plugin: yarpmod_frameGrabber_nws_ros (ENABLE_yarpmod_frameGrabber_nws_ros)
+--  [x]   Plugin: yarpmod_JoypadControlClient (ENABLE_yarpmod_JoypadControlClient)
+--  [x]   Plugin: yarpmod_JoypadControlServer (ENABLE_yarpmod_JoypadControlServer)
+--  [x]   Plugin: yarpmod_frameGrabberCropper (ENABLE_yarpmod_frameGrabberCropper)
+--  [ ]   Plugin: yarpmod_portaudio (ENABLE_yarpmod_portaudio)
+--  [ ]   Plugin: yarpmod_ServerSoundGrabber (ENABLE_yarpmod_ServerSoundGrabber)
+--  [ ]   Plugin: yarpmod_grabber (ENABLE_yarpmod_grabber)
+--  [ ]   Plugin: yarpmod_fakeMotor (ENABLE_yarpmod_fakeMotor)
+--  [ ]   Plugin: yarpmod_test_motor (ENABLE_yarpmod_test_motor)
+--  [ ] Bindings (YARP_COMPILE_BINDINGS)
+--  [ ]   Java bindings (CREATE_JAVA)
+--  [ ]   Python bindings (CREATE_PYTHON)
+--  [ ]   Perl bindings (CREATE_PERL)
+--  [ ]   CSharp bindings (CREATE_CSHARP)
+--  [ ]   TCL bindings (CREATE_TCL)
+--  [ ]   Ruby bindings (CREATE_RUBY)
+--  [ ]   Lua bindings (CREATE_LUA)
+--  [ ]   Octave bindings (CREATE_OCTAVE)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/runner/work/yarp-documentation/yarp-documentation/yarp-v3.5-build

@@ -1,0 +1,22 @@
+<map id="yarp::os::AbstractCarrier" name="yarp::os::AbstractCarrier">
+<area shape="rect" id="node1" title="A starter class for implementing simple carriers." alt="" coords="480,155,660,181"/>
+<area shape="rect" id="node4" href="$classMpiCarrier.html" title="Abstract base carrier for managing port communication via MPI." alt="" coords="55,229,146,256"/>
+<area shape="rect" id="node7" href="$classShmemCarrier.html" title="Communicating between two ports via shared memory." alt="" coords="171,229,287,256"/>
+<area shape="rect" id="node8" href="$classUnixSocketCarrier.html" title="Communicating between two ports(IPC) via Unix Socket." alt="" coords="311,229,450,256"/>
+<area shape="rect" id="node9" href="$classyarp_1_1os_1_1ModifyingCarrier.html" title="A starter class for implementing simple modifying carriers." alt="" coords="475,229,665,256"/>
+<area shape="rect" id="node13" href="$classyarp_1_1os_1_1impl_1_1LocalCarrier.html" title="A carrier for communicating locally within a process." alt="" coords="690,229,887,256"/>
+<area shape="rect" id="node14" href="$classyarp_1_1os_1_1impl_1_1TcpCarrier.html" title="Communicating between two ports via TCP." alt="" coords="911,229,1095,256"/>
+<area shape="rect" id="node19" href="$classyarp_1_1os_1_1impl_1_1UdpCarrier.html" title="Communicating between two ports via UDP." alt="" coords="1339,229,1529,256"/>
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1Carrier.html" title="A base class for connection types (tcp, mcast, shmem, ...) which are called carriers in YARP." alt="" coords="507,80,633,107"/>
+<area shape="rect" id="node3" href="$classyarp_1_1os_1_1Connection.html" title="A controller for an individual connection." alt="" coords="493,5,647,32"/>
+<area shape="rect" id="node5" href="$classMpiBcastCarrier.html" title="Carrier for port communicating via MPI broadcast." alt="" coords="5,304,132,331"/>
+<area shape="rect" id="node6" href="$classMpiP2PCarrier.html" title="Carrier for port communicating via MPI point&#45;to&#45;point send/receive." alt="" coords="157,304,271,331"/>
+<area shape="rect" id="node10" href="$classBayerCarrier.html" title="Decode bayer images and serve them as regular rgb." alt="" coords="326,304,430,331"/>
+<area shape="rect" id="node11" href="$classPortMonitor.html" title="Allow to monitor and modify port data from Lua script Under development." alt="" coords="454,304,553,331"/>
+<area shape="rect" id="node12" href="$classPriorityCarrier.html" title="Allow priority&#45;based message selection." alt="" coords="577,304,691,331"/>
+<area shape="rect" id="node15" href="$classWebSocketCarrier.html" title=" " alt="" coords="715,304,852,331"/>
+<area shape="rect" id="node16" href="$classyarp_1_1os_1_1impl_1_1HttpCarrier.html" title="Communicating via http." alt="" coords="876,304,1067,331"/>
+<area shape="rect" id="node17" href="$classyarp_1_1os_1_1impl_1_1NameserCarrier.html" title="Communicating between two ports via a variant plain&#45;text protocol originally designed for the yarp na..." alt="" coords="1091,304,1313,331"/>
+<area shape="rect" id="node18" href="$classyarp_1_1os_1_1impl_1_1TextCarrier.html" title="Communicating between two ports via a plain&#45;text protocol." alt="" coords="1337,304,1528,331"/>
+<area shape="rect" id="node20" href="$classyarp_1_1os_1_1impl_1_1McastCarrier.html" title="Communicating between two ports via MCAST." alt="" coords="1553,304,1755,331"/>
+</map>
