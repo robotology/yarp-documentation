@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['service_5fport_19701',['SERVICE_PORT',['../namespaceyarp_1_1manager.html#a2a258df14366136378c2aedcad4793f8af02cfb407dd1de082d4dd49c62456282',1,'yarp::manager']]],
+  ['showall_19702',['ShowAll',['../classyarp_1_1os_1_1ResourceFinderOptions.html#a63957fdaafd3be9ad6ddbfd1aaf22379ae72a5517bbd21cd25c7072218ead404f',1,'yarp::os::ResourceFinderOptions']]],
+  ['showdirectories_19703',['ShowDirectories',['../classyarp_1_1os_1_1ResourceFinderOptions.html#a63957fdaafd3be9ad6ddbfd1aaf22379a9c78033b5709a8327b8a1be40994f0da',1,'yarp::os::ResourceFinderOptions']]],
+  ['showerrors_19704',['ShowErrors',['../classyarp_1_1os_1_1ResourceFinderOptions.html#a63957fdaafd3be9ad6ddbfd1aaf22379ac61580203e58a86af0da8ba1eba59ae5',1,'yarp::os::ResourceFinderOptions']]],
+  ['showfromflags_19705',['ShowFromFlags',['../classyarp_1_1os_1_1ResourceFinderOptions.html#a63957fdaafd3be9ad6ddbfd1aaf22379a70c4d37b0de043bece8cc012e0f5c95f',1,'yarp::os::ResourceFinderOptions']]],
+  ['shownone_19706',['ShowNone',['../classyarp_1_1os_1_1ResourceFinderOptions.html#a63957fdaafd3be9ad6ddbfd1aaf22379ac4ea90fe16ba5d48049b3b386a8aa023',1,'yarp::os::ResourceFinderOptions']]],
+  ['sixaxisforcetorquesensors_19707',['SixAxisForceTorqueSensors',['../MultipleAnalogSensorsRemapper_8h.html#a8058cac7fe432b590f5fd4f2596f3182add26632e6102ef26837abffa7140766e',1,'MultipleAnalogSensorsRemapper.h']]],
+  ['skinpatches_19708',['SkinPatches',['../MultipleAnalogSensorsRemapper_8h.html#a8058cac7fe432b590f5fd4f2596f3182a78e1e24fcf09e5409bbab3f0bd494e1d',1,'MultipleAnalogSensorsRemapper.h']]],
+  ['standard_5fuvc_19709',['STANDARD_UVC',['../V4L__camera_8h.html#a981ad4215da813a58b928c703ac4cacda78c0d1b59eb75cc76daf62a03e1a43f3',1,'V4L_camera.h']]],
+  ['status_5ffactory_5fnot_5ffound_19710',['STATUS_FACTORY_NOT_FOUND',['../classyarp_1_1os_1_1SharedLibraryFactory.html#ae2f3b9e2c8e4c62e8c3fe1cb830d9d49a9d30d6fffd848e15caec375165074390',1,'yarp::os::SharedLibraryFactory']]],
+  ['status_5ffactory_5fnot_5ffunctional_19711',['STATUS_FACTORY_NOT_FUNCTIONAL',['../classyarp_1_1os_1_1SharedLibraryFactory.html#ae2f3b9e2c8e4c62e8c3fe1cb830d9d49a16c31d9e67b1b77deeb68dcff4bfcb79',1,'yarp::os::SharedLibraryFactory']]],
+  ['status_5flibrary_5fnot_5ffound_19712',['STATUS_LIBRARY_NOT_FOUND',['../classyarp_1_1os_1_1SharedLibraryFactory.html#ae2f3b9e2c8e4c62e8c3fe1cb830d9d49afb553d89fa6c6b007a4036f492fec383',1,'yarp::os::SharedLibraryFactory']]],
+  ['status_5flibrary_5fnot_5floaded_19713',['STATUS_LIBRARY_NOT_LOADED',['../classyarp_1_1os_1_1SharedLibraryFactory.html#ae2f3b9e2c8e4c62e8c3fe1cb830d9d49af6060f2e190755cbd1e323945259d465',1,'yarp::os::SharedLibraryFactory']]],
+  ['status_5fnone_19714',['STATUS_NONE',['../classyarp_1_1os_1_1SharedLibraryFactory.html#ae2f3b9e2c8e4c62e8c3fe1cb830d9d49a6973b61c1a771228ff69ca3d178fb3d2',1,'yarp::os::SharedLibraryFactory']]],
+  ['status_5fok_19715',['STATUS_OK',['../classyarp_1_1os_1_1SharedLibraryFactory.html#ae2f3b9e2c8e4c62e8c3fe1cb830d9d49a5719d8eba1dce7cfe9f6cc356950624b',1,'yarp::os::SharedLibraryFactory']]],
+  ['stream_5fport_19716',['STREAM_PORT',['../namespaceyarp_1_1manager.html#a2a258df14366136378c2aedcad4793f8aab359040da340d2ef2ebe1bf2dabe6d9',1,'yarp::manager']]],
+  ['stunknown_19717',['STUNKNOWN',['../namespaceyarp_1_1manager.html#a3c9db774f5183af5a8c4d4af0e1ea845a4f52c5c7f8ed1bccbd26d22051047758',1,'yarp::manager']]],
+  ['suspended_19718',['SUSPENDED',['../namespaceyarp_1_1manager.html#a3c9db774f5183af5a8c4d4af0e1ea845a5da7cc9f4993b0f7e1278337215be93c',1,'yarp::manager']]],
+  ['sysadmin_19719',['Sysadmin',['../classyarp_1_1os_1_1ResourceFinderOptions.html#ac225c58c5c6b01194e9982b426d382eca85172aec4bca4bbba5f9bb359bb0f54f',1,'yarp::os::ResourceFinderOptions']]]
+];
