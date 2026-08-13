@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['raw_20githubusercontent_20com_20robotology_20yarp_20master_20doc_20images_20yarp_20robot_2024_20png_20alt_20yarp_20logo_20title_20yarp_20device_20rplidar_0',['yarp-device-rplidar &lt;img src=&quot;https://raw.githubusercontent.com/robotology/yarp/master/doc/images/yarp-robot-24.png&quot; alt=&quot;YARP logo&quot; title=&quot;yarp-device-rplidar&quot;/&gt;',['../md_opt-modules_2yarp-device-rplidar_2README.html',1,'']]],
+  ['readme_1',['readme',['../md_opt-modules_2yarp-devices-ros2_2README.html',1,'README'],['../md_opt-modules_2yarp-devices-llm_2README.html',1,'README'],['../md_opt-modules_2yarp-device-template_2README.html',1,'README'],['../md_opt-modules_2yarp-device-speechTranscription-whisper_2README.html',1,'README'],['../md_opt-modules_2yarp-device-realsense2_2README.html',1,'README'],['../md_opt-modules_2yarp-device-pylon_2README.html',1,'README'],['../md_opt-modules_2yarp-device-ovrheadset_2README.html',1,'README']]],
+  ['remotely_2',['Thrift IDL in YARP: editing structures remotely',['../thrift_editor.html',1,'idl_thrift']]],
+  ['representation_20format_3',['Standard data representation format',['../data_rep.html',1,'first_steps']]],
+  ['resourcefinder_4',['How to install files for the ResourceFinder',['../yarp_resource_finder_installation.html',1,'yarp_resource_finder_tutorials']]],
+  ['resourcefinder_20class_20advanced_5',['The ResourceFinder Class (advanced)',['../yarp_resource_finder_advanced.html',1,'yarp_resource_finder_tutorials']]],
+  ['resourcefinder_20class_20basic_6',['The ResourceFinder Class (basic)',['../yarp_resource_finder_basic.html',1,'yarp_resource_finder_tutorials']]],
+  ['resourcefinder_20specification_7',['The ResourceFinder Specification',['../resource_finder_spec.html',1,'yarp_resource_finder_tutorials']]],
+  ['resourcefinder_20tutorials_20and_20specification_8',['ResourceFinder Tutorials and Specification',['../yarp_resource_finder_tutorials.html',1,'yarp_config_files']]],
+  ['rfmodule_20class_9',['The RFModule Class',['../yarp_rfmodule_tutorial.html',1,'first_steps']]],
+  ['robot_2024_20png_20alt_20yarp_20logo_20title_20yarp_20device_20rplidar_10',['yarp-device-rplidar &lt;img src=&quot;https://raw.githubusercontent.com/robotology/yarp/master/doc/images/yarp-robot-24.png&quot; alt=&quot;YARP logo&quot; title=&quot;yarp-device-rplidar&quot;/&gt;',['../md_opt-modules_2yarp-device-rplidar_2README.html',1,'']]],
+  ['robot_20testing_20framework_20and_20plugins_11',['Robot Testing Framework (and plugins)',['../robottestingframework_plugins.html',1,'']]],
+  ['robotology_20yarp_20master_20doc_20images_20yarp_20robot_2024_20png_20alt_20yarp_20logo_20title_20yarp_20device_20rplidar_12',['yarp-device-rplidar &lt;img src=&quot;https://raw.githubusercontent.com/robotology/yarp/master/doc/images/yarp-robot-24.png&quot; alt=&quot;YARP logo&quot; title=&quot;yarp-device-rplidar&quot;/&gt;',['../md_opt-modules_2yarp-device-rplidar_2README.html',1,'']]],
+  ['robots_3a_20the_20yarp_20approach_13',['Software for Humanoid Robots: The YARP Approach',['../note_yarp_philosophy.html',1,'Introduction']]],
+  ['ros_14',['ros',['../yarp_with_ros_configure.html',1,'Configure YARP to use ROS'],['../idls.html',1,'Using IDLs in Yarp (and also ROS)'],['../yarp_with_ros.html',1,'Using YARP with ROS']]],
+  ['ros_20message_20types_15',['ROS message types',['../idl_rosmsg.html',1,'idls']]],
+  ['ros_20parameter_20server_16',['Talking to the ROS parameter server',['../yarp_with_ros_parameters.html',1,'yarp_with_ros']]],
+  ['ros_20services_17',['Use YARP to talk to ROS services',['../yarp_with_ros_services.html',1,'yarp_with_ros']]],
+  ['ros_20topics_18',['Writing code to talk to ROS topics',['../yarp_with_ros_writing_code_topics.html',1,'yarp_with_ros']]],
+  ['ros_20types_20in_20yarp_3a_20sending_20data_20to_20ros_19',['ROS Types in YARP: sending data to ROS',['../rostypes_tutorial_continued.html',1,'yarp_with_ros_writing_code_topics']]],
+  ['ros_20types_20in_20yarp_3a_20writing_20a_20portable_20',['ROS Types in YARP: writing a portable',['../rostypes_tutorial_portable.html',1,'yarp_with_ros_writing_code_topics']]],
+  ['ros_20with_20existing_20yarp_20programs_21',['Use ROS with existing YARP programs',['../yarp_with_ros_existing_yarp_ports.html',1,'yarp_with_ros']]],
+  ['rpc_20ports_22',['Specialized RPC ports',['../rpc_ports.html',1,'yarp_ports_documentation']]],
+  ['rplidar_20img_20src_20https_3a_20raw_20githubusercontent_20com_20robotology_20yarp_20master_20doc_20images_20yarp_20robot_2024_20png_20alt_20yarp_20logo_20title_20yarp_20device_20rplidar_23',['yarp-device-rplidar &lt;img src=&quot;https://raw.githubusercontent.com/robotology/yarp/master/doc/images/yarp-robot-24.png&quot; alt=&quot;YARP logo&quot; title=&quot;yarp-device-rplidar&quot;/&gt;',['../md_opt-modules_2yarp-device-rplidar_2README.html',1,'']]],
+  ['ruby_20c_20and_20other_20languages_24',['Using YARP from python, java, ruby, C#, and other languages',['../yarp_swig.html',1,'']]]
+];
