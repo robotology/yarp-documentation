@@ -1,0 +1,99 @@
+<map id="yarp::os::PortWriter" name="yarp::os::PortWriter">
+<area shape="rect" id="Node000001" title="Interface implemented by all objects that can write themselves to the network, such as Bottle objects..." alt="" coords="5211,5,5349,31"/>
+<area shape="rect" id="Node000002" href="$classyarp_1_1os_1_1Portable.html" title="This is a base class for objects that can be both read from and be written to the YARP network." alt="" coords="5057,86,5183,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="5246,39,5144,88,5142,84,5243,34"/>
+<area shape="rect" id="Node001999" href="$classyarp_1_1os_1_1SizedWriter.html" title="Minimal requirements for an efficient Writer." alt="" coords="5207,86,5353,111"/>
+<area shape="poly" id="edge47_Node000001_Node001999" title=" " alt="" coords="5283,44,5283,86,5277,86,5277,44"/>
+<area shape="rect" id="Node002001" href="$classyarp_1_1os_1_1impl_1_1ConnectionRecorder.html" title="A helper for recording entire message/reply transactions." alt="" coords="5377,79,5559,119"/>
+<area shape="poly" id="edge48_Node000001_Node002001" title=" " alt="" coords="5321,33,5424,76,5422,81,5319,38"/>
+<area shape="rect" id="Node000003" href="$classyarp_1_1math_1_1Vec2D.html" title=" " alt="" coords="5,167,149,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="5043,103,4103,105,2571,114,1773,123,1054,134,492,150,293,159,162,169,150,171,149,166,161,164,293,154,492,144,1054,129,1773,117,2571,109,4103,100,5043,97"/>
+<area shape="rect" id="Node000004" href="$classControlBoardMsgs__abortCalibrationRPC__helper.html" title=" " alt="" coords="173,167,416,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="5044,102,4233,102,2894,108,2167,116,1476,128,878,145,631,157,428,169,417,170,416,165,428,164,631,151,878,140,1476,123,2167,110,2894,103,4233,97,5044,97"/>
+<area shape="rect" id="Node000005" href="$classControlBoardMsgs__abortParkRPC__helper.html" title=" " alt="" coords="440,167,640,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="5043,103,4187,109,2810,122,1452,142,948,155,652,169,640,171,640,165,652,164,948,150,1452,137,2810,117,4187,104,5043,98"/>
+<area shape="rect" id="Node000006" href="$classControlBoardMsgs__calibrateAxisWithParamsRPC__helper.html" title=" " alt="" coords="664,167,859,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="5043,103,4225,109,2916,123,1629,143,1152,155,871,169,859,171,859,165,870,164,1151,150,1628,137,2916,117,4225,104,5043,98"/>
+<area shape="rect" id="Node000007" href="$classControlBoardMsgs__calibrateRobotRPC__helper.html" title=" " alt="" coords="883,167,1077,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="5044,102,4335,101,3188,107,2568,115,1981,127,1472,145,1262,156,1090,169,1078,171,1077,165,1089,164,1262,151,1472,139,1980,121,2568,109,3188,102,4335,96,5044,97"/>
+<area shape="rect" id="Node000008" href="$classControlBoardMsgs__calibrateSingleJointRPC__helper.html" title=" " alt="" coords="1101,167,1296,207"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="5043,102,4369,102,3286,109,2701,116,2148,129,1668,146,1471,157,1308,169,1297,171,1296,165,1308,164,1470,151,1668,141,2147,123,2701,111,3286,103,4369,97,5043,97"/>
+<area shape="rect" id="Node000009" href="$classControlBoardMsgs__calibrateWholePartRPC__helper.html" title=" " alt="" coords="1320,167,1515,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="5044,103,4403,103,3384,110,2835,118,2315,130,1865,147,1527,169,1515,171,1515,165,1526,164,1865,142,2315,125,2835,113,3384,105,4403,98,5044,97"/>
+<area shape="rect" id="Node000010" href="$classControlBoardMsgs__calibrationDoneRPC__helper.html" title=" " alt="" coords="1539,167,1747,207"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="5044,103,4441,105,3488,114,2977,122,2493,134,2074,149,1759,169,1747,171,1747,165,1758,164,2074,144,2493,128,2977,117,3488,108,4441,100,5044,97"/>
+<area shape="rect" id="Node000011" href="$classControlBoardMsgs__checkMotionDoneAllRPC__helper.html" title=" " alt="" coords="1771,167,1992,207"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="5043,103,4479,107,3599,117,2681,137,2295,151,2004,169,1993,170,1992,165,2004,164,2294,146,2680,131,3598,111,4479,101,5043,98"/>
+<area shape="rect" id="Node000012" href="$classControlBoardMsgs__checkMotionDoneGroupRPC__helper.html" title=" " alt="" coords="2016,167,2237,207"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="5044,103,4519,108,3710,119,2869,139,2516,152,2250,169,2238,170,2237,165,2249,164,2515,147,2869,133,3710,113,4519,102,5044,98"/>
+<area shape="rect" id="Node000013" href="$classControlBoardMsgs__checkMotionDoneOneRPC__helper.html" title=" " alt="" coords="2261,167,2483,207"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="5044,103,4559,109,3821,121,3057,140,2737,154,2495,169,2483,170,2483,165,2494,164,2736,148,3057,135,3821,115,4559,103,5044,98"/>
+<area shape="rect" id="Node000014" href="$classControlBoardMsgs__disableAmpRPC__helper.html" title=" " alt="" coords="2507,167,2691,207"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="5044,103,4593,108,3915,119,3216,139,2924,153,2703,169,2691,171,2691,165,2702,164,2923,147,3216,134,3915,114,4593,103,5043,98"/>
+<area shape="rect" id="Node000015" href="$classControlBoardMsgs__disablePidRPC__helper.html" title=" " alt="" coords="2715,167,2899,207"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="5044,103,4627,109,4010,121,3376,141,3111,154,2911,169,2899,171,2899,165,2910,164,3111,149,3376,135,4010,116,4627,104,5043,98"/>
+<area shape="rect" id="Node000016" href="$classControlBoardMsgs__enableAmpRPC__helper.html" title=" " alt="" coords="2923,167,3136,207"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="5044,102,4740,102,4273,109,4002,117,3718,129,3430,146,3148,169,3137,171,3136,165,3148,164,3430,141,3717,124,4002,111,4273,103,4740,96,5044,97"/>
+<area shape="rect" id="Node000017" href="$classControlBoardMsgs__enablePidRPC__helper.html" title=" " alt="" coords="3160,167,3363,207"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="5044,102,4770,103,4359,111,3873,131,3621,148,3375,169,3363,171,3363,165,3374,164,3621,142,3872,126,4359,106,4770,98,5044,97"/>
+<area shape="rect" id="Node000018" href="$classControlBoardMsgs__getAmpStatusAllRPC__helper.html" title=" " alt="" coords="3387,167,3616,207"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="5043,103,4805,107,4456,118,4046,138,3628,169,3616,171,3616,165,3628,164,4046,132,4456,113,4805,102,5043,98"/>
+<area shape="rect" id="Node000019" href="$classControlBoardMsgs__getAmpStatusOneRPC__helper.html" title=" " alt="" coords="3640,167,3869,207"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="5044,104,4555,122,4221,141,3882,169,3870,171,3869,165,3881,164,4221,136,4554,117,5044,99"/>
+<area shape="rect" id="Node000020" href="$classControlBoardMsgs__getAutoBrakeEnabledRPC__helper.html" title=" " alt="" coords="3893,167,4083,207"/>
+<area shape="poly" id="edge19_Node000002_Node000020" title=" " alt="" coords="5043,105,4637,123,4368,142,4095,169,4083,171,4082,166,4094,164,4367,137,4637,118,5043,99"/>
+<area shape="rect" id="Node000021" href="$classControlBoardMsgs__getAvailableControlModesRPC__helper.html" title=" " alt="" coords="4107,167,4325,207"/>
+<area shape="poly" id="edge20_Node000002_Node000021" title=" " alt="" coords="5044,107,4735,130,4537,148,4338,169,4326,171,4325,165,4337,164,4537,143,4734,125,5043,102"/>
+<area shape="rect" id="Node000022" href="$classControlBoardMsgs__getAvailablePidsRPC__helper.html" title=" " alt="" coords="4349,167,4568,207"/>
+<area shape="poly" id="edge21_Node000002_Node000022" title=" " alt="" coords="5044,111,4580,169,4569,171,4568,166,4580,164,5043,106"/>
+<area shape="rect" id="Node000023" href="$classControlBoardMsgs__getAxesRPC__helper.html" title=" " alt="" coords="4592,167,4781,207"/>
+<area shape="poly" id="edge22_Node000002_Node000023" title=" " alt="" coords="5049,117,4782,169,4781,164,5048,111"/>
+<area shape="rect" id="Node000024" href="$classControlBoardMsgs__getAxisNameRPC__helper.html" title=" " alt="" coords="4805,167,4992,207"/>
+<area shape="poly" id="edge23_Node000002_Node000024" title=" " alt="" coords="5078,119,4948,169,4947,164,5076,114"/>
+<area shape="rect" id="Node000025" href="$classControlBoardMsgs__getCurrentAllRPC__helper.html" title=" " alt="" coords="5016,167,5224,207"/>
+<area shape="poly" id="edge24_Node000002_Node000025" title=" " alt="" coords="5123,125,5123,166,5117,166,5117,125"/>
+<area shape="rect" id="Node000026" href="$classControlBoardMsgs__getCurrentImpedanceLimitRPC__helper.html" title=" " alt="" coords="5248,167,5456,207"/>
+<area shape="poly" id="edge25_Node000002_Node000026" title=" " alt="" coords="5165,114,5302,164,5300,169,5163,119"/>
+<area shape="rect" id="Node000027" href="$classControlBoardMsgs__getCurrentOneRPC__helper.html" title=" " alt="" coords="5480,167,5688,207"/>
+<area shape="poly" id="edge26_Node000002_Node000027" title=" " alt="" coords="5177,112,5195,116,5480,166,5479,171,5194,121,5176,117"/>
+<area shape="rect" id="Node000028" href="$classControlBoardMsgs__getCurrentRangeAllRPC__helper.html" title=" " alt="" coords="5712,167,5920,207"/>
+<area shape="poly" id="edge27_Node000002_Node000028" title=" " alt="" coords="5174,112,5195,116,5336,136,5447,144,5558,150,5700,164,5712,166,5711,171,5700,169,5558,155,5447,149,5336,141,5194,121,5173,117"/>
+<area shape="rect" id="Node000029" href="$classControlBoardMsgs__getCurrentRangeOneRPC__helper.html" title=" " alt="" coords="5944,167,6152,207"/>
+<area shape="poly" id="edge28_Node000002_Node000029" title=" " alt="" coords="5174,112,5195,116,5306,131,5401,140,5563,145,5725,148,5820,153,5932,164,5944,165,5943,171,5932,169,5820,159,5725,153,5563,151,5401,145,5306,136,5194,121,5173,117"/>
+<area shape="rect" id="Node000030" href="$classControlBoardMsgs__getDeviceInterfacesRPC__helper.html" title=" " alt="" coords="6176,167,6381,207"/>
+<area shape="poly" id="edge29_Node000002_Node000030" title=" " alt="" coords="5173,112,5195,116,5341,134,5466,144,5576,147,5678,147,5892,146,6017,152,6164,164,6176,165,6175,171,6164,169,6017,157,5892,152,5678,152,5576,152,5466,149,5341,140,5194,121,5172,117"/>
+<area shape="rect" id="Node000031" href="$classControlBoardMsgs__getDutyCycleAllRPC__helper.html" title=" " alt="" coords="6405,167,6595,207"/>
+<area shape="poly" id="edge30_Node000002_Node000031" title=" " alt="" coords="5173,112,5195,116,5376,137,5530,147,5666,150,5793,147,5920,144,6057,143,6211,149,6394,164,6406,165,6405,171,6393,169,6211,154,6057,149,5920,149,5793,152,5666,155,5530,153,5376,143,5194,121,5172,117"/>
+<area shape="rect" id="Node000032" href="$classControlBoardMsgs__getDutyCycleOneRPC__helper.html" title=" " alt="" coords="6619,167,6808,207"/>
+<area shape="poly" id="edge31_Node000002_Node000032" title=" " alt="" coords="5173,112,5195,116,5408,140,5590,151,5750,152,5900,148,6049,143,6210,141,6392,147,6607,164,6619,165,6618,171,6606,169,6392,152,6210,147,6049,149,5900,154,5750,158,5590,157,5408,146,5194,121,5172,117"/>
+<area shape="rect" id="Node000033" href="$classControlBoardMsgs__getEncoderAccelerationAllRPC__helper.html" title=" " alt="" coords="6832,167,7043,207"/>
+<area shape="poly" id="edge32_Node000002_Node000033" title=" " alt="" coords="5173,112,5195,116,5441,144,5650,156,5834,157,6006,152,6178,145,6363,142,6573,147,6820,164,6832,165,6832,171,6820,169,6573,152,6363,147,6178,151,6006,157,5834,162,5649,161,5440,149,5194,121,5172,117"/>
+<area shape="rect" id="Node000034" href="$classControlBoardMsgs__getEncoderAccelerationOneRPC__helper.html" title=" " alt="" coords="7067,167,7277,207"/>
+<area shape="poly" id="edge33_Node000002_Node000034" title=" " alt="" coords="5173,112,5195,116,5476,147,5715,160,5926,160,6123,153,6320,145,6532,140,6772,145,7055,164,7067,165,7066,171,7054,169,6772,150,6532,146,6320,150,6123,159,5926,166,5715,165,5476,152,5194,121,5172,117"/>
+<area shape="rect" id="Node000035" href="$classControlBoardMsgs__getEncoderAllRPC__helper.html" title=" " alt="" coords="7301,167,7512,207"/>
+<area shape="poly" id="edge34_Node000002_Node000035" title=" " alt="" coords="5172,112,5195,116,5398,134,5651,144,5938,147,6241,148,6831,148,7085,152,7290,164,7301,165,7301,171,7289,169,7085,158,6831,153,6241,153,5938,153,5651,149,5398,140,5194,121,5171,117"/>
+<area shape="rect" id="Node000036" href="$classControlBoardMsgs__getEncoderOneRPC__helper.html" title=" " alt="" coords="7536,167,7747,207"/>
+<area shape="poly" id="edge35_Node000002_Node000036" title=" " alt="" coords="5172,112,5195,116,5300,127,5421,136,5703,146,6021,149,6358,148,7015,147,7297,152,7524,164,7536,165,7536,171,7524,169,7297,157,7015,152,6358,154,6021,154,5703,151,5421,141,5299,133,5194,121,5171,117"/>
+<area shape="rect" id="Node000037" href="$classControlBoardMsgs__getEncoderSpeedAllRPC__helper.html" title=" " alt="" coords="7771,167,7981,207"/>
+<area shape="poly" id="edge36_Node000002_Node000037" title=" " alt="" coords="5172,112,5195,116,5311,128,5444,138,5754,148,6105,151,6476,149,7198,146,7509,151,7759,164,7771,165,7770,171,7758,169,7509,156,7198,151,6476,155,6105,156,5754,153,5444,143,5310,134,5194,121,5171,117"/>
+<area shape="rect" id="Node000038" href="$classControlBoardMsgs__getEncoderSpeedOneRPC__helper.html" title=" " alt="" coords="8005,167,8216,207"/>
+<area shape="poly" id="edge37_Node000002_Node000038" title=" " alt="" coords="5172,112,5195,116,5321,129,5467,139,5805,150,6188,153,6593,150,7381,145,7721,150,7867,155,7994,164,8005,165,8005,170,7993,169,7866,161,7720,155,7381,150,6593,155,6188,158,5805,155,5466,145,5321,135,5194,121,5171,117"/>
+<area shape="rect" id="Node000039" href="$classControlBoardMsgs__getEncoderTimedAllRPC__helper.html" title=" " alt="" coords="8240,167,8451,207"/>
+<area shape="poly" id="edge38_Node000002_Node000039" title=" " alt="" coords="5172,112,5195,116,5332,130,5490,141,5856,152,6271,154,6710,151,7565,144,7932,149,8091,155,8228,164,8240,165,8240,170,8228,169,8090,160,7932,154,7565,150,6710,156,6271,160,5856,158,5489,146,5331,136,5194,121,5171,117"/>
+<area shape="rect" id="Node000040" href="$classControlBoardMsgs__getEncoderTimedOneRPC__helper.html" title=" " alt="" coords="8475,167,8685,207"/>
+<area shape="poly" id="edge39_Node000002_Node000040" title=" " alt="" coords="5172,112,5195,116,5342,131,5512,142,5907,154,6354,156,6827,152,7301,146,7748,143,8144,148,8315,154,8463,164,8475,165,8474,170,8462,169,8314,160,8144,153,7748,149,7301,151,6827,157,6354,161,5907,160,5512,148,5342,137,5194,121,5171,117"/>
+<area shape="rect" id="Node000041" href="$classControlBoardMsgs__getGearboxRatioRPC__helper.html" title=" " alt="" coords="8709,167,8923,207"/>
+<area shape="poly" id="edge40_Node000002_Node000041" title=" " alt="" coords="5172,112,5195,116,5353,132,5535,144,5738,152,5959,157,6438,158,6945,153,7452,146,7931,143,8356,147,8539,154,8698,164,8709,165,8708,170,8697,169,8539,159,8356,152,7931,148,7452,152,6945,158,6438,163,5959,162,5738,157,5535,150,5352,138,5194,121,5171,117"/>
+<area shape="rect" id="Node000042" href="$classControlBoardMsgs__getImpedanceOffsetRPC__helper.html" title=" " alt="" coords="8947,167,9179,207"/>
+<area shape="poly" id="edge41_Node000002_Node000042" title=" " alt="" coords="5172,112,5195,116,5364,133,5558,146,5775,154,6010,159,6522,161,7063,156,7604,148,8117,144,8570,148,8765,154,8935,164,8947,165,8946,170,8934,169,8765,159,8570,153,8117,149,7605,154,7063,161,6522,166,6010,165,5775,160,5558,151,5363,139,5194,121,5171,117"/>
+<area shape="rect" id="Node000043" href="$classControlBoardMsgs__getImpedanceRPC__helper.html" title=" " alt="" coords="9203,167,9435,207"/>
+<area shape="poly" id="edge42_Node000002_Node000043" title=" " alt="" coords="5172,112,5195,116,5375,135,5583,148,5815,157,6066,162,6613,163,7191,157,7769,148,8317,143,8801,147,9010,153,9191,164,9203,165,9202,170,9190,169,9009,159,8801,152,8317,148,7770,154,7191,162,6613,168,6066,167,5815,162,5583,153,5375,140,5194,121,5171,117"/>
+<area shape="rect" id="Node000044" href="$classControlBoardMsgs__getInteractionModeOneRPC__helper.html" title=" " alt="" coords="9459,167,9688,207"/>
+<area shape="poly" id="edge43_Node000002_Node000044" title=" " alt="" coords="5172,112,5195,116,5315,126,5493,134,5991,144,6622,148,7320,149,8649,149,9148,154,9447,164,9459,165,9458,170,9447,169,9148,159,8649,155,7320,154,6622,153,5990,149,5493,139,5314,131,5194,121,5171,117"/>
+<area shape="rect" id="Node000045" href="$classControlBoardMsgs__getInteractionModesAllRPC__helper.html" title=" " alt="" coords="9712,167,9941,207"/>
+<area shape="poly" id="edge44_Node000002_Node000045" title=" " alt="" coords="5172,112,5195,116,5322,127,5510,135,6038,145,6707,149,7446,149,8855,149,9384,153,9573,158,9700,164,9712,165,9712,170,9700,169,9573,163,9383,159,8855,154,7446,155,6707,154,6038,150,5510,140,5321,132,5194,121,5171,117"/>
+<area shape="rect" id="Node000046" href="$classControlBoardMsgs__getInteractionModesGroupRPC__helper.html" title=" " alt="" coords="9965,167,10195,207"/>
+<area shape="poly" id="edge45_Node000002_Node000046" title=" " alt="" coords="5172,112,5195,116,5329,127,5528,136,6085,146,6792,150,7573,150,9061,149,9619,153,9819,157,9954,164,9965,165,9965,170,9953,169,9819,163,9619,158,9061,154,7573,155,6792,155,6085,151,5528,141,5329,132,5194,121,5171,117"/>
+<area shape="rect" id="Node000047" href="$classControlBoardMsgs__getJointTypeRPC__helper.html" title=" " alt="" coords="10219,167,10408,207"/>
+<area shape="poly" id="edge46_Node000002_Node000047" title=" " alt="" coords="5172,112,5195,116,5336,128,5546,136,6133,146,6877,149,7700,147,9267,145,9855,150,10065,156,10207,164,10219,165,10218,171,10206,169,10065,161,9855,156,9267,150,7700,153,6877,154,6133,152,5546,142,5336,133,5194,121,5171,117"/>
+</map>

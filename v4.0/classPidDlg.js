@@ -1,0 +1,27 @@
+var classPidDlg =
+[
+    [ "PidDlg", "classPidDlg.html#adabb8be744b7a91dbdfc4fd78bf03688", null ],
+    [ "~PidDlg", "classPidDlg.html#a17be6aad5f9fa8c02e53c593bb65e900", null ],
+    [ "dumpRemoteVariables", "classPidDlg.html#ac7b7fdb66c6c633ecb9010e76acb855e", null ],
+    [ "initCurrentPID", "classPidDlg.html#aa937182e022a0e196d19a332e224337f", null ],
+    [ "initMixedPID", "classPidDlg.html#aa14923f9b78df82e0525b920ff3fde2f", null ],
+    [ "initMotorParams", "classPidDlg.html#ac688db4f188d4d01786b5001f83ddfa1", null ],
+    [ "initPositionDirectPID", "classPidDlg.html#abb6eeaa502888c98b18c893031ae5fa6", null ],
+    [ "initPositionPID", "classPidDlg.html#afe2c88f617a9155ce6a751fc4836a39c", null ],
+    [ "initPWM", "classPidDlg.html#ad21edc3f3838f1d221425b0f9d419112", null ],
+    [ "initRemoteVariables", "classPidDlg.html#ab4998a2ea064acecf08e43bf727b83a5", null ],
+    [ "initStiffness", "classPidDlg.html#ab412fbcbe2402653eee214a080cd9de7", null ],
+    [ "initTorqueOffset", "classPidDlg.html#a76a10d1537d8e8abd805e0d281805a34", null ],
+    [ "initTorquePID", "classPidDlg.html#a11e8e27f3a1be6d7781566a9359a05f0", null ],
+    [ "initVelocityDirectPID", "classPidDlg.html#a390b05fd6597f3891221ea82691e05c6", null ],
+    [ "initVelocityPID", "classPidDlg.html#ad8b7d958840d24d1ed77d387bba32972", null ],
+    [ "refreshPids", "classPidDlg.html#a294fed83f1922ec3d28d275f4ec2503d", null ],
+    [ "sendCurrent", "classPidDlg.html#a82b07b7bbc4b8b7274a4bc6428fa5262", null ],
+    [ "sendForceOffset", "classPidDlg.html#a0c08ce6b3193f14e49e921df679f74e2", null ],
+    [ "sendMotorParameters", "classPidDlg.html#abcf888a71c04c883f42bba5b876ed1b5", null ],
+    [ "sendPid", "classPidDlg.html#ae7fd9a9d9428626e7cc0bd212fa37429", null ],
+    [ "sendPWM", "classPidDlg.html#a41082a9a62ef4341770d45bc7f462049", null ],
+    [ "sendSingleRemoteVariable", "classPidDlg.html#a3b2461575428caa9613c4d501c08cb65", null ],
+    [ "sendStiffness", "classPidDlg.html#aa1971c920a1eb9cabf59512f8e804a1a", null ],
+    [ "updateAllRemoteVariables", "classPidDlg.html#a43249cc9ad0f421b91a8224a10185476", null ]
+];
