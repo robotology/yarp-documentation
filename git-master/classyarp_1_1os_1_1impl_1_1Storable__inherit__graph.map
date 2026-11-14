@@ -1,0 +1,37 @@
+<map id="yarp::os::impl::Storable" name="yarp::os::impl::Storable">
+<area shape="rect" id="Node000001" title="A single item in a Bottle." alt="" coords="1139,225,1301,251"/>
+<area shape="rect" id="Node000007" href="$classyarp_1_1os_1_1impl_1_1StoreBlob.html" title="A binary blob item." alt="" coords="5,299,179,324"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1125,246,718,265,456,281,191,301,179,302,179,297,190,296,456,276,718,260,1125,240"/>
+<area shape="rect" id="Node000008" href="$classyarp_1_1os_1_1impl_1_1StoreFloat32.html" title="A 32&#45;bit floating point number item." alt="" coords="203,299,395,324"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1125,248,807,270,407,301,395,302,395,297,406,296,806,264,1125,243"/>
+<area shape="rect" id="Node000009" href="$classyarp_1_1os_1_1impl_1_1StoreFloat64.html" title="A 64&#45;bit floating point number item." alt="" coords="419,299,611,324"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1125,251,623,301,612,302,611,297,622,296,1125,246"/>
+<area shape="rect" id="Node000010" href="$classyarp_1_1os_1_1impl_1_1StoreInt16.html" title="A 16&#45;bit integer item." alt="" coords="635,299,811,324"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1127,255,803,301,802,296,1126,250"/>
+<area shape="rect" id="Node000011" href="$classyarp_1_1os_1_1impl_1_1StoreInt32.html" title="A 32&#45;bit integer item." alt="" coords="835,299,1011,324"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1160,256,971,301,970,296,1158,251"/>
+<area shape="rect" id="Node000012" href="$classyarp_1_1os_1_1impl_1_1StoreInt64.html" title="A 64&#45;bit integer item." alt="" coords="1035,299,1211,324"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1195,261,1140,301,1137,296,1192,257"/>
+<area shape="rect" id="Node000013" href="$classyarp_1_1os_1_1impl_1_1StoreInt8.html" title="A 8&#45;bit integer item." alt="" coords="1235,299,1403,324"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1248,256,1304,296,1301,301,1245,261"/>
+<area shape="rect" id="Node000014" href="$classyarp_1_1os_1_1impl_1_1StoreList.html" title="A nested list of items." alt="" coords="1427,299,1592,324"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1280,251,1463,296,1462,301,1279,257"/>
+<area shape="rect" id="Node000015" href="$classyarp_1_1os_1_1impl_1_1StoreNull.html" title="An empty item." alt="" coords="1616,299,1784,324"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1311,250,1623,296,1622,301,1310,255"/>
+<area shape="rect" id="Node000016" href="$classyarp_1_1os_1_1impl_1_1StoreString.html" title="A string item." alt="" coords="1808,299,1989,324"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1315,246,1796,296,1808,297,1808,303,1796,301,1315,252"/>
+<area shape="rect" id="Node000017" href="$classyarp_1_1os_1_1impl_1_1StoreVocab32.html" title="A 32 bit vocabulary item." alt="" coords="2013,299,2211,324"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1315,243,1621,265,2002,296,2013,297,2013,302,2001,301,1620,270,1315,248"/>
+<area shape="rect" id="Node000018" href="$classyarp_1_1os_1_1impl_1_1StoreVocab64.html" title="A 64 bit vocabulary item." alt="" coords="2235,299,2432,324"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="1316,241,1711,262,2223,296,2235,297,2234,302,2222,301,1711,267,1315,246"/>
+<area shape="rect" id="Node000002" href="$classyarp_1_1os_1_1Value.html" title="A single value (typically within a Bottle)." alt="" coords="1165,152,1275,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1223,191,1223,225,1217,225,1217,191"/>
+<area shape="rect" id="Node000003" href="$classyarp_1_1os_1_1Portable.html" title="This is a base class for objects that can be both read from and be written to the YARP network." alt="" coords="1079,79,1204,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1166,111,1209,150,1205,154,1162,115"/>
+<area shape="rect" id="Node000004" href="$classyarp_1_1os_1_1PortReader.html" title="Interface implemented by all objects that can read themselves from the network, such as Bottle object..." alt="" coords="987,5,1131,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1084,38,1130,76,1126,80,1081,42"/>
+<area shape="rect" id="Node000005" href="$classyarp_1_1os_1_1PortWriter.html" title="Interface implemented by all objects that can write themselves to the network, such as Bottle objects..." alt="" coords="1155,5,1293,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1202,42,1157,80,1153,76,1199,38"/>
+<area shape="rect" id="Node000006" href="$classyarp_1_1os_1_1Searchable.html" title="A base class for nested structures that can be searched." alt="" coords="1228,79,1372,104"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1279,115,1235,154,1231,150,1275,111"/>
+</map>

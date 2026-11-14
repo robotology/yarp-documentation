@@ -1,0 +1,28 @@
+var classyarp_1_1dev_1_1ImplementVelocityControl =
+[
+    [ "ImplementVelocityControl", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a24f9c1dafade7f84ac4df61c3af36780", null ],
+    [ "~ImplementVelocityControl", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a4032245ad6d61f2d5f953f2093f96f48", null ],
+    [ "getAxes", "classyarp_1_1dev_1_1ImplementVelocityControl.html#abe8894f7b709b8e50d9a6c8deb5c6004", null ],
+    [ "getTargetVelocities", "classyarp_1_1dev_1_1ImplementVelocityControl.html#ac2a558125ee76c617008ad26be546b5e", null ],
+    [ "getTargetVelocities", "classyarp_1_1dev_1_1ImplementVelocityControl.html#ac967ebd7364f9fd78cc8f2cc690388a4", null ],
+    [ "getTargetVelocity", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a0a9f182f3c47cb54f207b2eff6312e74", null ],
+    [ "getTrajAcceleration", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a5dc6ca633775bab2cc45125f1689cd96", null ],
+    [ "getTrajAccelerations", "classyarp_1_1dev_1_1ImplementVelocityControl.html#ac749e983690b08a1447087fc4651caf8", null ],
+    [ "getTrajAccelerations", "classyarp_1_1dev_1_1ImplementVelocityControl.html#af5bae12151d1ee18a3232682fb55cca1", null ],
+    [ "initialize", "classyarp_1_1dev_1_1ImplementVelocityControl.html#aaa064df23fe95e1f4a60e99b76f1bd9f", null ],
+    [ "setTrajAcceleration", "classyarp_1_1dev_1_1ImplementVelocityControl.html#ade4f4103c272c22f0fa26da2f2af718f", null ],
+    [ "setTrajAccelerations", "classyarp_1_1dev_1_1ImplementVelocityControl.html#aeb87b69813207c453025c1a440ceeaf3", null ],
+    [ "setTrajAccelerations", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a52695b8f2cdc761f2e0b3ae5c0325fc8", null ],
+    [ "stop", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a379dda42b1246cf549b3d8f7bc4141f6", null ],
+    [ "stop", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a7dfb15e5328cf46904794f501d12cf4b", null ],
+    [ "stop", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a58837d8dd10fe85cff643aac49f714c5", null ],
+    [ "uninitialize", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a654978b212b43e8c4e19d3b22ec0d07e", null ],
+    [ "velocityMove", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a80462ce6e7db55b472b40065f25de7ff", null ],
+    [ "velocityMove", "classyarp_1_1dev_1_1ImplementVelocityControl.html#add9a8e24ea99ae5e04c32a48d717c2b7", null ],
+    [ "velocityMove", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a6a7c15a8d915402bdc6d34cdb7b01e2c", null ],
+    [ "m_buffer_doubles", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a2bd61a9f04ef1b5c4bf0240dfab8ba1a", null ],
+    [ "m_buffer_ints", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a3f866ff364058f9d9ba9a0c868a55573", null ],
+    [ "m_helper", "classyarp_1_1dev_1_1ImplementVelocityControl.html#a71305461e3ec31168d84bca2b7c29431", null ],
+    [ "m_imp_mutex", "classyarp_1_1dev_1_1ImplementVelocityControl.html#aedfca0cbde7fa7449deeca2fb49f4cb7", null ],
+    [ "m_iraw", "classyarp_1_1dev_1_1ImplementVelocityControl.html#addedcb9d0f3385bb1a047478d170db70", null ]
+];

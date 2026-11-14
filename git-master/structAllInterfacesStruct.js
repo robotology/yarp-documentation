@@ -1,0 +1,26 @@
+var structAllInterfacesStruct =
+[
+    [ "iAmplifierControl", "structAllInterfacesStruct.html#a455656d177b766d46c0e96975b4196e6", null ],
+    [ "iAxisInfo", "structAllInterfacesStruct.html#abbeb21a4a7b5f4df69404fb4b9f90d3e", null ],
+    [ "iControlCalibration", "structAllInterfacesStruct.html#ae608901177ad70a18f1590cc39ab40ff", null ],
+    [ "iControlLimits", "structAllInterfacesStruct.html#abbea8f409e25064c0f2dcd14c3476473", null ],
+    [ "iControlMode", "structAllInterfacesStruct.html#a0d061482c0af8edbe158ed3032ca2962", null ],
+    [ "iCurrentControl", "structAllInterfacesStruct.html#ac8efc5e804e056cac9e4f863c20a06e0", null ],
+    [ "iEncodersTimed", "structAllInterfacesStruct.html#aaa45d6efe31f679f8f2fc3a1e041fcad", null ],
+    [ "iImpedanceControl", "structAllInterfacesStruct.html#a6c70f0516f7635b83686ed6938abc329", null ],
+    [ "iInteractionMode", "structAllInterfacesStruct.html#a9352ffa2eed5e349fa0985424d4288eb", null ],
+    [ "iJointBrake", "structAllInterfacesStruct.html#a061d48a4b52f6349a653e8d38e1aee32", null ],
+    [ "iJointFault", "structAllInterfacesStruct.html#a16ec5752ca1500826c4853b9b4c1b605", null ],
+    [ "iMotor", "structAllInterfacesStruct.html#af2f6dea11a91da1caf65e6bc1d20dcdd", null ],
+    [ "iMotorEncoders", "structAllInterfacesStruct.html#ae4abb6e91e1ca9c8bca88cca36e0390e", null ],
+    [ "iPidControl", "structAllInterfacesStruct.html#a2f4c163f09dd2d4fc01377b3dd85c00f", null ],
+    [ "iPositionControl", "structAllInterfacesStruct.html#af7a9f5347c22b33cd58788cead969832", null ],
+    [ "iPositionDirect", "structAllInterfacesStruct.html#abd3be8ba53eeb9cc34b72ee0fe368826", null ],
+    [ "iPreciselyTimed", "structAllInterfacesStruct.html#ad9d49e97e77305b4b0f94ec893916e58", null ],
+    [ "iPWMControl", "structAllInterfacesStruct.html#a6742300c24185f7670e1fd700081d541", null ],
+    [ "iRemoteCalibrator", "structAllInterfacesStruct.html#a0721002e9b4f6bc50bce4a3364a9aecc", null ],
+    [ "iRemoteVariables", "structAllInterfacesStruct.html#ab812f6ae8dcaf32345c90034443542a8", null ],
+    [ "iTorqueControl", "structAllInterfacesStruct.html#a60fa7951977a513303f451a0a7802767", null ],
+    [ "iVelocityControl", "structAllInterfacesStruct.html#a7acaf7e3bb517503b32201ff6fccc66a", null ],
+    [ "iVelocityDirect", "structAllInterfacesStruct.html#a71c4bebc9086719235c0f9eb1e17aff2", null ]
+];
