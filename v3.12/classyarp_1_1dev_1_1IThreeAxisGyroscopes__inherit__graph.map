@@ -1,0 +1,17 @@
+<map id="yarp::dev::IThreeAxisGyroscopes" name="yarp::dev::IThreeAxisGyroscopes">
+<area shape="rect" id="Node000001" title="Device interface to one or multiple three axis gyroscopes." alt="" coords="313,5,537,31"/>
+<area shape="rect" id="Node000002" href="$classBoschIMU.html" title="imuBosch_BNO055: This device will connect to the proper analogServer and read the data broadcasted ma..." alt="" coords="5,79,83,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="344,36,95,81,83,84,82,79,94,76,343,30"/>
+<area shape="rect" id="Node000003" href="$classFakeIMU.html" title="fakeIMU : fake device implementing the device interface typically implemented by an Inertial Measurem..." alt="" coords="107,79,173,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="367,36,186,81,174,84,173,79,185,76,366,31"/>
+<area shape="rect" id="Node000004" href="$classImu__nwc__ros2.html" title="IMU_nwc_ros2: This wrapper connects to a device and publishes a ROS topic of type sensor_msgs::Imu." alt="" coords="197,79,301,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="385,38,279,81,277,76,383,33"/>
+<area shape="rect" id="Node000005" href="$classMultipleAnalogSensorsClient.html" title="multipleanalogsensorsclient: The client side of a device exposing MultipleAnalogSensors interfaces." alt="" coords="325,79,525,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="428,44,428,79,423,79,423,44"/>
+<area shape="rect" id="Node000006" href="$classMultipleAnalogSensorsRemapper.html" title="multipleanalogsensorsremapper : device that takes a list of sensors from multiple analog sensors devi..." alt="" coords="549,79,779,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="478,32,626,76,625,81,476,37"/>
+<area shape="rect" id="Node000007" href="$classrealsense2Tracking.html" title=" " alt="" coords="803,79,939,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="511,30,803,77,802,82,510,35"/>
+<area shape="rect" id="Node000008" href="$classrealsense2withIMUDriver.html" title=" " alt="" coords="963,79,1139,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="540,30,951,76,963,77,962,83,950,81,539,35"/>
+</map>
