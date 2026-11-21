@@ -1,0 +1,26 @@
+var classWhisperSpeechTranscription__ParamsParser =
+[
+    [ "parser_version_type", "structWhisperSpeechTranscription__ParamsParser_1_1parser__version__type.html", "structWhisperSpeechTranscription__ParamsParser_1_1parser__version__type" ],
+    [ "WhisperSpeechTranscription_ParamsParser", "classWhisperSpeechTranscription__ParamsParser.html#ac549c20428ba2cb28c1cefd3524009fa", null ],
+    [ "~WhisperSpeechTranscription_ParamsParser", "classWhisperSpeechTranscription__ParamsParser.html#ad3b1913d7b9528ff72b9aa4afeb1fed7", null ],
+    [ "getConfiguration", "classWhisperSpeechTranscription__ParamsParser.html#a918c60978068006badee095de1af3c75", null ],
+    [ "getDeviceClassName", "classWhisperSpeechTranscription__ParamsParser.html#a9c8b11efa88dc58934e09f49acd8311d", null ],
+    [ "getDeviceName", "classWhisperSpeechTranscription__ParamsParser.html#aae944ff42d6fe66943138255e7ce487d", null ],
+    [ "getDocumentationOfDeviceParams", "classWhisperSpeechTranscription__ParamsParser.html#ab0328b091e367173134bd9fb79bdca4c", null ],
+    [ "getListOfParams", "classWhisperSpeechTranscription__ParamsParser.html#ae094f25d2364c5ade851ea503f543e34", null ],
+    [ "getParamValue", "classWhisperSpeechTranscription__ParamsParser.html#a0e8334b0640d2eebc7bd8585d8972174", null ],
+    [ "parseParams", "classWhisperSpeechTranscription__ParamsParser.html#a63fa7d2a9d8b98314fea5e205fb9d68f", null ],
+    [ "m_device_classname", "classWhisperSpeechTranscription__ParamsParser.html#a2be5959f1f55d32b71c2cf778ee9a0f5", null ],
+    [ "m_device_name", "classWhisperSpeechTranscription__ParamsParser.html#ae7d20299d69db2240f8007df21d40a95", null ],
+    [ "m_language", "classWhisperSpeechTranscription__ParamsParser.html#afd9d74780201d57b8222447c5e2dd6d1", null ],
+    [ "m_language_defaultValue", "classWhisperSpeechTranscription__ParamsParser.html#aebcb1e7f14bebfb7fc6bdf4974c09f10", null ],
+    [ "m_model_context", "classWhisperSpeechTranscription__ParamsParser.html#a01be2d62f86f1ccb3500decbed14e950", null ],
+    [ "m_model_context_defaultValue", "classWhisperSpeechTranscription__ParamsParser.html#a8507fa78e4db46febaf559383bea0a4f", null ],
+    [ "m_model_name", "classWhisperSpeechTranscription__ParamsParser.html#ab86f75cd0c057396209310e37daf6301", null ],
+    [ "m_model_name_defaultValue", "classWhisperSpeechTranscription__ParamsParser.html#a212edf8ab2b60506afc5e876107c2cfc", null ],
+    [ "m_parser_is_strict", "classWhisperSpeechTranscription__ParamsParser.html#ae9281154c178c3cb1eb43bd6c053bb76", null ],
+    [ "m_parser_version", "classWhisperSpeechTranscription__ParamsParser.html#a67c5583ba4eaf9e3b1e7ec11d5aea587", null ],
+    [ "m_provided_configuration", "classWhisperSpeechTranscription__ParamsParser.html#a320a00df966948e654122574d8d848ad", null ],
+    [ "m_remove_symbols", "classWhisperSpeechTranscription__ParamsParser.html#a1dc7315766b8164930150c63f3ff069d", null ],
+    [ "m_remove_symbols_defaultValue", "classWhisperSpeechTranscription__ParamsParser.html#a9fad25c11c8bbc74c3a6ad6e901df829", null ]
+];
