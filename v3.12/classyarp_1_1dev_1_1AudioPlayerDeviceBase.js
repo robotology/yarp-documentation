@@ -1,0 +1,27 @@
+var classyarp_1_1dev_1_1AudioPlayerDeviceBase =
+[
+    [ "~AudioPlayerDeviceBase", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a744bd46670020c5d13276a285233c68f", null ],
+    [ "appendSound", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a9d488282b7d5df6e62c6cfad45d4f66d", null ],
+    [ "configureDeviceAndStart", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a21b14645562f2e4d3303fb5632320b35", null ],
+    [ "configurePlayerAudioDevice", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#ad960d6f184be656884ffb7df51623240", null ],
+    [ "getPlaybackAudioBufferCurrentSize", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a5318cc3f2c3481bbda25827803739fc1", null ],
+    [ "getPlaybackAudioBufferMaxSize", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a10f44a2be9bc86d770f29b4df3880dd6", null ],
+    [ "immediateSound", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a174676a058ccc03fdad42521b184c411", null ],
+    [ "interruptDeviceAndClose", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#ae883cb6fc5508f12a671e46d69770b71", null ],
+    [ "isPlaying", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a5b09101922cb5c9c9b8f1bbe025d00c3", null ],
+    [ "renderSound", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a4be41023378701af446dae4705875620", null ],
+    [ "resetPlaybackAudioBuffer", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a7823b575191cc064197f7546d68a6162", null ],
+    [ "setSWGain", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#ac02b064295759ed671bd388aa45467aa", null ],
+    [ "startPlayback", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#ae9fbc0e5e05c590d62a079bffb87f436", null ],
+    [ "stopPlayback", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a4e3a19d5b162add14fbd3db17943f066", null ],
+    [ "waitUntilPlaybackStreamIsComplete", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a6267b37093211e2c78fe929a27dc9a85", null ],
+    [ "m_audiobase_debug", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a30db6c0fc2c1b6f5c7ce0e6914faf373", null ],
+    [ "m_audioplayer_cfg", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#aebe7cd511e672792afb4cb704d33d894", null ],
+    [ "m_enable_buffer_autoclear", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a49f7e41cfb98c91885bbee78e5e81f48", null ],
+    [ "m_hw_gain", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a22d3bce134ebf44731f3a0327f6f49c2", null ],
+    [ "m_mutex", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a604d34a7f3be2b9c9ccdb2945314e348", null ],
+    [ "m_outputBuffer", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#ab3a8edb97cc5bd6bb68d944031afbde6", null ],
+    [ "m_playback_enabled", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a79a01565c04bc467408cb87f739f1ed7", null ],
+    [ "m_renderMode", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#aa08d28314e661d3c6b967aec220f4536", null ],
+    [ "m_sw_gain", "classyarp_1_1dev_1_1AudioPlayerDeviceBase.html#a0668737dca5b9fcf3d92b90f546f87b1", null ]
+];
