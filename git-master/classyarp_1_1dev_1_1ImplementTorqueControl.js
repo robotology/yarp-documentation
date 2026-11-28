@@ -1,0 +1,25 @@
+var classyarp_1_1dev_1_1ImplementTorqueControl =
+[
+    [ "ImplementTorqueControl", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a8986655f31382e58d3262a8577b1343a", null ],
+    [ "~ImplementTorqueControl", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a754cd58f838e03eb85adf82157585c4e", null ],
+    [ "getAxes", "classyarp_1_1dev_1_1ImplementTorqueControl.html#aa903033e02920651ed430e0953c3e503", null ],
+    [ "getMotorTorqueParams", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a3b237972440a9b8bf6daeedfc0623606", null ],
+    [ "getRefTorque", "classyarp_1_1dev_1_1ImplementTorqueControl.html#abe06d1760a3dd4a63ca671763a99a8a7", null ],
+    [ "getRefTorques", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a4494b677562eef6d37bd2eac839571d1", null ],
+    [ "getTorque", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a82a905d90fea2809edcbee2f12f8a6d0", null ],
+    [ "getTorqueRange", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a4ace3d00f2228c31820b7edc0dd259c0", null ],
+    [ "getTorqueRanges", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a441e6d5f7f50098968e5a0c58f204981", null ],
+    [ "getTorques", "classyarp_1_1dev_1_1ImplementTorqueControl.html#ad11987a73083bf858f42f24972ff631c", null ],
+    [ "initialize", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a69691b99f8289c1d6dd02cf7f03bbf9d", null ],
+    [ "setMotorTorqueParams", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a4007c5cf4ab0b6d3e978d5ca90d8e6a7", null ],
+    [ "setRefTorque", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a26823cae3f6cba6f401b58e80eb5c65c", null ],
+    [ "setRefTorques", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a27baafb16269eadad3ebf1985043db73", null ],
+    [ "setRefTorques", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a3fa43906a7fd91fc8b3a82c14abe656f", null ],
+    [ "uninitialize", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a91ef75d8fa8260f905acef2ef1170f77", null ],
+    [ "m_buffer_doubles", "classyarp_1_1dev_1_1ImplementTorqueControl.html#af5b37810e94c322dbee75af139c518f6", null ],
+    [ "m_buffer_doubles2", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a7789a1e46cc5e3f8163a34e0da3552f0", null ],
+    [ "m_buffer_ints", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a4b6885423e4fa8447b9d240a695386e6", null ],
+    [ "m_helper", "classyarp_1_1dev_1_1ImplementTorqueControl.html#aef8b4a89ff468a3eb8bd4fb5b9efdcab", null ],
+    [ "m_imp_mutex", "classyarp_1_1dev_1_1ImplementTorqueControl.html#ac90b3e760bc40c4ae2d612d7bf711222", null ],
+    [ "m_iraw", "classyarp_1_1dev_1_1ImplementTorqueControl.html#a72be6e7706a44c8f5ca058f76ace7986", null ]
+];
